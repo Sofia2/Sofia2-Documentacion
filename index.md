@@ -1,13 +1,25 @@
 Sofia2 Documentación
 ========================
 
-The main documentation for the site is organized into a couple sections:
+La documentación se encuentra clasificada por niveles:
 
+* :ref:`basic-docs`
 * :ref:`user-docs`
+
+.. _basic-docs:
+.. toctree::
+   :maxdepth: 1
+   :caption: Básico
 
 
 .. _user-docs:
-
 .. toctree::
    :maxdepth: 2
-   :caption: User Documentation
+   :caption: Usuario
+
+
+
+Básico.
+Usuario.
+
+Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro Blog.
