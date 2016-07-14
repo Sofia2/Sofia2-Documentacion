@@ -11,7 +11,7 @@ CONTENIDO
 
 * [**Smart Space**](#smart-space)
 
-* [**SIB (Semantic Information Broker)**](#_Toc406415395)
+* [**SIB (Semantic Information Broker)**](#sib-(semantic-information-broker))
 
 * [**KP (Knowledge Processor)**](#_Toc406415396)
 
