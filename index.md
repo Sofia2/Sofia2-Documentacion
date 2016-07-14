@@ -27,7 +27,7 @@ Se proporciona una serie de manuales tanto a nivel de usuario como a nivel de de
 
 Demostradores
 =============
-* [Visor geográfico] (http://sofia2.com/Examples/Geographics.html)
+* [** Visor geográfico **](http://sofia2.com/Examples/Geographics.html)
 * Demo Twitter Streaming
 * Demo API Streaming de Twitter
 * Dashboard Smart Health
@@ -41,9 +41,9 @@ Demostradores
 
 Vídeos
 ======
-* [Tutorial Sofia2 Dataflow] (https://www.youtube.com/watch?v=USTCkqPMtNA)
-* [Tutorial Subir Ficheros a Hadoop] (https://www.youtube.com/watch?v=77108c-djW8)
-* [Tutorial Crawling Web] (https://www.youtube.com/watch?v=-7xdSveDhk4)
+* [Tutorial Sofia2 Dataflow](https://www.youtube.com/watch?v=USTCkqPMtNA)
+* [Tutorial Subir Ficheros a Hadoop](https://www.youtube.com/watch?v=77108c-djW8)
+* [Tutorial Crawling Web](https://www.youtube.com/watch?v=-7xdSveDhk4)
 
 
 
