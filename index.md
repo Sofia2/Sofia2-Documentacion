@@ -10,7 +10,7 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 
 Casos de Uso
 ============
-* [** Smart Cities **] (https://www.youtube.com/watch?v=tNIKZo12UrU)
+* [** Smart Cities **](https://www.youtube.com/watch?v=tNIKZo12UrU)
 * Smart Energy
 * Smart Home
 * Smart Health
