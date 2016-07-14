@@ -3,8 +3,8 @@ Sofia2 Documentación
 
 La documentación se encuentra clasificada por niveles:
 
-* [**Documentación Básica. **] (#documentacion-basica)
-* [** Documentación para Usuarios. **] (#documentacion-para-usuarios)
+* [Documentación Básica]. (#documentacion-basica)
+* [Documentación para Usuarios]. (#documentacion-para-usuarios)
 * Documentación para Desarrolladores.
 * Documentación para Desarrolladores Avanzados.
 
