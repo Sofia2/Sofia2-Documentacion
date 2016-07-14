@@ -7,17 +7,17 @@ CONTENIDO
 
 * [**Qué es Sofia2**](#qué-es-sofia2)
 
-[**4** **Conceptos de la Plataforma Sofia2**](#_Toc406415393)
+* [**Conceptos de la Plataforma Sofia2**](#_Toc406415393)
 
-[**4.1** **Smart Space**](#_Toc406415394)
+* [**Smart Space**](#_Toc406415394)
 
-[**4.2** **SIB (Semantic Information Broker)**](#_Toc406415395)
+* [**SIB (Semantic Information Broker)**](#_Toc406415395)
 
-[**4.3** **KP (Knowledge Processor)**](#_Toc406415396)
+* [**KP (Knowledge Processor)**](#_Toc406415396)
 
-[**4.4** **SSAP (Smart Space Access Protocol)**](#_Toc406415397)
+* [**SSAP (Smart Space Access Protocol)**](#_Toc406415397)
 
-[**4.5** **Ontologías**](#ontologías)
+* [**Ontologías**](#ontologías)
 
 
 
