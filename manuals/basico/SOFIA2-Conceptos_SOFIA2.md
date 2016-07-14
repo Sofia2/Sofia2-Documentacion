@@ -9,7 +9,7 @@ CONTENIDO
 
 * [**Conceptos de la Plataforma Sofia2**](#conceptos-de-la-plataforma-sofia2)
 
-* [**Smart Space**](#_Toc406415394)
+* [**Smart Space**](#smart-space)
 
 * [**SIB (Semantic Information Broker)**](#_Toc406415395)
 
@@ -86,8 +86,9 @@ La Plataforma **Sofia2** se conceptualiza con estos 4 conceptos:
 
 ![](./media/image7.png)
 
-<span id="_Toc347241018" class="anchor"><span id="_Toc364090345" class="anchor"><span id="_Toc369542992" class="anchor"><span id="_Toc406415394" class="anchor"></span></span></span></span>Smart Space
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Smart Space
+===========
 
 -   Es el entorno virtual donde diferentes aplicaciones interoperan para ofrecer una funcionalidad compleja.
 
