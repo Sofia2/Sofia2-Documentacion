@@ -3,8 +3,7 @@ Sofia2 Documentación
 
 La documentación se encuentra clasificada por niveles:
 
-* [Documentación Básica]. (#documentacion-basica)
-* [**Qué es Sofia2**](#qué-es-sofia2)
+* [**Documentación Básica**](#documentacion-basica))
 * [Documentación para Usuarios]. (#documentacion-para-usuarios)
 * Documentación para Desarrolladores.
 * Documentación para Desarrolladores Avanzados.
