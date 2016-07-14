@@ -8,6 +8,37 @@ Es multilenguaje y multiprotocolo, permitiendo así la interconexión de disposi
 
 Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de extensión que permite su integración con cualquier tipo de dispositivo.
 
+Casos de Uso
+============
+* Smart Cities
+* Smart Energy
+* Smart Home
+* Smart Health
+
+Manuales
+========
+Se proporciona una serie de manuales tanto a nivel de usuario como a nivel de desarrollador que permiten comprender los conceptos de la plataforma Sofia2 y desarrollar/interactuar con ella.
+
+
+Demostradores
+=============
+* Visor geográfico
+* Demo Twitter Streaming
+* Demo API Streaming de Twitter
+* Dashboard Smart Health
+* Dashboard Smart Retail
+* Gasolineras España
+* Visor Opendata
+* Smart Home
+* iViewer Capas Sofia2
+* Dashboard Est. Metereológica
+* Demostrador de Control de Paso con Beacons
+
+Vídeos
+======
+* [Tutorial Sofia2 Dataflow] (https://www.youtube.com/watch?v=USTCkqPMtNA)
+* [Tutorial Subir Ficheros a Hadoop] (https://www.youtube.com/watch?v=77108c-djW8)
+
 
 
 
