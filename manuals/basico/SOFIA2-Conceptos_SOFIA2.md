@@ -7,7 +7,7 @@ CONTENIDO
 
 * [**Qué es Sofia2**](#qué-es-sofia2)
 
-* [**Conceptos de la Plataforma Sofia2**](#_Toc406415393)
+* [**Conceptos de la Plataforma Sofia2**](#Conceptos-de-la-Plataforma-Sofia2)
 
 * [**Smart Space**](#_Toc406415394)
 
@@ -70,8 +70,9 @@ Sofia2 se ha enfocado en estas áreas:
 
 -   Interfaces REST para poder conectar de forma simple desde smartphones, dispositivos, aplicaciones RIA,…
 
-<span id="_Toc369542991" class="anchor"><span id="_Toc406415393" class="anchor"></span></span>Conceptos de la Plataforma Sofia2
-===============================================================================================================================
+
+Conceptos de la Plataforma Sofia2
+=================================
 
 La Plataforma **Sofia2** se conceptualiza con estos 4 conceptos:
 
@@ -83,7 +84,7 @@ La Plataforma **Sofia2** se conceptualiza con estos 4 conceptos:
 
 -   **SSAP**
 
-![](./media/image7.png){width="5.815277777777778in" height="1.9541666666666666in"}
+![](./media/image7.png)
 
 <span id="_Toc347241018" class="anchor"><span id="_Toc364090345" class="anchor"><span id="_Toc369542992" class="anchor"><span id="_Toc406415394" class="anchor"></span></span></span></span>Smart Space
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
