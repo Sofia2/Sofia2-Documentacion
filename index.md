@@ -9,17 +9,17 @@ La documentación se encuentra clasificada por niveles:
 .. _basic-docs:
 .. toctree::
    :maxdepth: 1
-   :caption: Básico
-
+   :caption: Documentación Básica.
+   SOFIA2-Conceptos_SOFIA2
 
 .. _user-docs:
 .. toctree::
-   :maxdepth: 2
-   :caption: Usuario
+   :maxdepth: 1
+   :caption: Documentación de Usuario
 
 
 
-Básico.
+Documentación Básica:
 
 * Welcome Pack Sofia2.
 * Presentación Sofia2.
@@ -29,10 +29,11 @@ Básico.
 * TCO Sofia2 como Backend.
 
 
-Usuario.
+Documentación de Usuario.
 
 * Consola Web Configuración.
 * Modelado de Ontologías.
 * Gobierno de Ontologías.
 
-Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro Blog.
+Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro Blog_.
+.. _Blog: https://about.sofia2.com/
