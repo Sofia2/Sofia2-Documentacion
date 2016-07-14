@@ -98,8 +98,9 @@ Smart Space
 
 -   Los Smart Spaces pueden comunicarse entre ellos estableciendo relaciones de confianza.
 
-<span id="_Toc347241015" class="anchor"><span id="_Toc364090342" class="anchor"><span id="_Toc368391241" class="anchor"><span id="_Toc406415395" class="anchor"></span></span></span></span>SIB (Semantic Information Broker) 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SIB (Semantic Information Broker) 
+=================================
 
 -   Es el núcleo de la Plataforma.
 
