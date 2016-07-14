@@ -18,7 +18,7 @@ CONTENIDO
 
 * [**KP (Knowledge Processor)**](#kp-knowledge-processor)
 
-* [**SSAP (Smart Space Access Protocol)**](#smart-space-access-protocol)
+* [**SSAP (Smart Space Access Protocol)**](#ssap-smart-space-access-protocol)
 
 * [**Ontologías**](#ontologías)
 
