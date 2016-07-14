@@ -35,5 +35,4 @@ Documentación de Usuario.
 * Modelado de Ontologías.
 * Gobierno de Ontologías.
 
-Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro Blog_.
-.. _Blog: https://about.sofia2.com/
+Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro [Blog](https://about.sofia2.com/).
