@@ -141,8 +141,9 @@ Smart Space
 
 -   SIB extensible a través de plugins.
 
-<span id="_Toc347241016" class="anchor"><span id="_Toc364090343" class="anchor"><span id="_Toc368391242" class="anchor"><span id="_Toc406415396" class="anchor"></span></span></span></span>KP (Knowledge Processor)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+KP (Knowledge Processor)
+========================
 
 -   Es cada una de las aplicaciones que interopera en el Smart Space a través del SIB.
 
@@ -160,8 +161,9 @@ Smart Space
 
 -   En SOFIA^2^ se propone el envío de mensajes SSAP en JSON que son más ligeros y adecuados a dispositivos embebidos.
 
-<span id="_Toc347241017" class="anchor"><span id="_Toc364090344" class="anchor"><span id="_Toc368391243" class="anchor"><span id="_Toc406415397" class="anchor"></span></span></span></span>SSAP (Smart Space Access Protocol)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SSAP (Smart Space Access Protocol)
+==================================
 
 -   Es el lenguaje de mensajería estándar para comunicar entre los SIBs y los KPs.
 
@@ -201,16 +203,17 @@ Smart Space
 
     -   Notificar cambios desde el SIB a suscriptores
 
+
 Ontologías
-----------
+==========
 
 Las **ontologías** son descripciones semánticas de un conjunto de clases, representan las entidades de mi sistema.
 
 En Sofia2, estas ontologías están representadas en formato JSON-Schema, por ejemplo, una ontología que usa KP que representa a un sensor de temperatura sería la siguiente:
 
-"SensorTemperatura": {![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+"SensorTemperatura": {![](./media/image8.png)
 
-      "coordenadaGps": {![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+      "coordenadaGps": {![](./media/image8.png)
 
         "altitud": 0,
 
