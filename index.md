@@ -1,9 +1,9 @@
 
   ![](./manuals/basico/media/image2.png)   
+  Sofia2 Documentación
   -------------------------------------------------------------------------------------- -- --
   
-Sofia2 Documentación
-========================
+
 
 La documentación se encuentra clasificada por niveles:
 
