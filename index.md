@@ -1,6 +1,6 @@
 
   ![](./manuals/basico/media/image2.png)   
-  Sofia2 Documentación
+  <h1 ALIGN=CENTER>Sofia2 Documentación</h1>
   -------------------------------------------------------------------------------------- -- --
   
 
@@ -21,7 +21,7 @@ Documentación Básica.
 * Welcome Pack Sofia2.
 * Presentación Sofia2.
 * Soluciones Sofia2.
-* [Conceptos Sofia2.] (manuals/basico/SOFIA2-Conceptos_SOFIA2.md)
+* [Conceptos Sofia2]. (manuals/basico/SOFIA2-Conceptos_SOFIA2.md)
 * Seguridad Sofia2.
 * TCO Sofia2 como Backend.
 
