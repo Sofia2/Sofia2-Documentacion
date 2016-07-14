@@ -1,5 +1,5 @@
 
-  ![](./images/logo_sofia2_grande.png)   
+  ![](../images/logo_sofia2_grande.png)   
   <h1 ALIGN=CENTER>Guías Sofia2</h1>
   -------------------------------------------------------------------------------------- -- --
   
