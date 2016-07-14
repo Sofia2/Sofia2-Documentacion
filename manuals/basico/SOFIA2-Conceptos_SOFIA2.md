@@ -7,7 +7,7 @@ CONTENIDO
 
 * [**Qué es Sofia2**](#qué-es-sofia2)
 
-* [**Conceptos de la Plataforma Sofia2**](#Conceptos-de-la-Plataforma-Sofia2)
+* [**Conceptos de la Plataforma Sofia2**](#conceptos-de-la-plataforma-sofia2)
 
 * [**Smart Space**](#_Toc406415394)
 
