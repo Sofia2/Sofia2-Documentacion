@@ -49,7 +49,7 @@ Su propósito es lograr la interoperabilidad entre diferentes aplicaciones que c
 
 Tras el proyecto Artemis Indra ha seguido evolucionando el proyecto SOFIA original creando una plataforma enfocada a su uso empresarial: **Sofia2**
 
-![](./media/image6.png){width="3.7847222222222223in" height="1.1381944444444445in"} ![](./media/image2.png){width="2.092361111111111in" height="0.9694444444444444in"}
+![](./media/image6.png){width="3.7847222222222223in" height="1.1381944444444445in"} 
 
 Sofia2 se ha enfocado en estas áreas:
 
