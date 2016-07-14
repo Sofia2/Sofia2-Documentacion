@@ -1,6 +1,8 @@
-  -------------------------------------------------------------------------------------- -- --
+
   ![](./media/image2.png)   
-  <h3>Conceptos de Sofia2</h3>
+  Conceptos de Sofia2
+  =========
+  
   -------------------------------------------------------------------------------------- -- --
 
 CONTENIDO
@@ -12,11 +14,11 @@ CONTENIDO
 
 * [**Smart Space**](#smart-space)
 
-* [**SIB (Semantic Information Broker)**](#sib)
+* [**SIB (Semantic Information Broker)**](#sib-semantic-information-broker)
 
-* [**KP (Knowledge Processor)**](#_Toc406415396)
+* [**KP (Knowledge Processor)**](#kp-knowledge-processor)
 
-* [**SSAP (Smart Space Access Protocol)**](#_Toc406415397)
+* [**SSAP (Smart Space Access Protocol)**](#smart-space-access-protocol)
 
 * [**Ontologías**](#ontologías)
 
