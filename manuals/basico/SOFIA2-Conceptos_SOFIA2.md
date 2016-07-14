@@ -386,15 +386,15 @@ El esquema JSON que cumple la ontología SensorTemperatura indicada en el ejempl
 
 Cuando una ontología es guardada en la BDTR, la plataforma le añade meta información relativa al contexto de uso de dicha ontología, esta información la vemos marcada en amarillo en el siguiente ejemplo
 
-{![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+{![](./media/image8.png)
 
-    "\_id": {![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+    "\_id": {![](./media/image8.png)
 
       "\$oid": "51e3dbd465701fd8e0f69828"
 
     },
 
-    "contextData": {![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+    "contextData": {![](./media/image8.png)
 
       "session\_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
 
@@ -408,9 +408,9 @@ Cuando una ontología es guardada en la BDTR, la plataforma le añade meta infor
 
     },
 
-    "SensorTemperatura": {![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+    "SensorTemperatura": {![](./media/image8.png)
 
-      "coordenadaGps": {![](./media/image8.png){width="0.2923611111111111in" height="0.1076388888888889in"}
+      "coordenadaGps": {![](./media/image8.png)
 
         "altitud": 0,
 
