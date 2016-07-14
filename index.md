@@ -24,7 +24,7 @@ Documentación Básica:
 * Welcome Pack Sofia2.
 * Presentación Sofia2.
 * Soluciones Sofia2.
-* Conceptos Sofia2.
+* Conceptos Sofia2 (#SOFIA2-Conceptos_SOFIA2).
 * Seguridad Sofia2.
 * TCO Sofia2 como Backend.
 
