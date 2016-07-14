@@ -37,10 +37,19 @@ Documentación para Usuarios.
 Documentación para Desarrolladores.
 ===================================
 
+* Primeros Pasos Sofia2
+* Cómo desarrollar en Sofia2
+* APIS y librerías Sofia2
+* Desarrollo de un cliente
+
 
 Documentación para Desarrolladores Avanzados.
 =============================================
-
+* Creación Reglas Script
+* Motor CEP RI Sofia2
+* Cliente Sofia2 Arq. Kp-Modelo
+* KP gestionado (KP/APP Modelo)
+* Guía CEP Paso a Paso
 
 
 
