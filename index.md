@@ -13,10 +13,10 @@ Casos de Uso
 * [** Smart Cities **](https://www.youtube.com/watch?v=tNIKZo12UrU)
 * Smart Energy
 * Smart Home
-* Smart Health
+* [Smart Health](https://www.youtube.com/watch?v=u_V0UJuMCgY)
 * Smart Banking
 * Smart T&T
-* Smart Retail
+* [Smart Retail](https://www.youtube.com/watch?v=eScv5Qq6EOM)
 * Smart Tourism
 
 Manuales
@@ -41,9 +41,24 @@ Demostradores
 
 Vídeos
 ======
-* [** Tutorial Sofia2 Dataflow **](https://www.youtube.com/watch?v=USTCkqPMtNA)
+* [Tutorial Sofia2 Dataflow](https://www.youtube.com/watch?v=USTCkqPMtNA)
 * [Tutorial Subir Ficheros a Hadoop](https://www.youtube.com/watch?v=77108c-djW8)
 * [Tutorial Crawling Web](https://www.youtube.com/watch?v=-7xdSveDhk4)
+* [Tutorial de Notebook en lenguaje Hive](https://www.youtube.com/watch?v=Cqcp2PR2EZQ)
+* [Tutorial de Notebook en lenguaje Spark](https://www.youtube.com/watch?v=EnQP6kaQ-Jo)
+* [Tutorial consultas SQL Excel con conexión a DataLink](https://www.youtube.com/watch?v=8t7UbqFldKw)
+* [Tutorial Monitorización Sofia2](https://www.youtube.com/watch?v=SmaCB6NaXlk)
+* [Tutorial Ejecución Script temporizados](https://www.youtube.com/watch?v=KvcdqYi0hsI)
+* [Scripting Rules Debugging](https://www.youtube.com/watch?v=a14j9B_ch_8)
+* [Tutotorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
+* [Tutorial Contenedor de KPs](https://www.youtube.com/watch?v=76HhOYXLlh0)
+* [Tutorial Generación de Informes](https://www.youtube.com/watch?v=5BP0AcCakPc)
+* [Automatic HTML5 Client Generation Sofia2](https://www.youtube.com/watch?v=XMKTwgDiqgw)
+* [Twitter Real time Monitoring](https://www.youtube.com/watch?v=nPUllvzeDkI)
+* [Gestión de Conexiones](https://www.youtube.com/watch?v=p1CWXdZpphc)
+* [Búsqueda Facebook, carga y consulta de información](https://www.youtube.com/watch?v=odXRs6sV5zc)
+* [Tutorial de Creación de Ontologías](https://www.youtube.com/watch?v=3b81xpNeKAE)
+* [Tutorial de Uso del CRUD para la inserción de información](https://www.youtube.com/watch?v=COylWWeXtX8)
 
 
 
