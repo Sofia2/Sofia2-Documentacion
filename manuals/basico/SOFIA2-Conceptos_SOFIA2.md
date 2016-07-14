@@ -5,7 +5,7 @@
 CONTENIDO
 =========
 
-[**3** **Qué es Sofia2**](#qué-es-sofia2)
+* [**Qué es Sofia2**](#qué-es-sofia2)
 
 [**4** **Conceptos de la Plataforma Sofia2**](#_Toc406415393)
 
