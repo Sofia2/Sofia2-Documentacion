@@ -108,7 +108,7 @@ SIB (Semantic Information Broker)
 
 -   En él se reflejan todos los conceptos existentes en el dominio (reflejados en las ontologías) y su estado actual (instancias particulares de ontologías).
 
--   En SOFIA^2^ se propone el uso de JSON para el intercambio de información (SSAP) y para la definición de las ontologías.
+-   En SOFIA<sup>2</sup> se propone el uso de JSON para el intercambio de información (SSAP) y para la definición de las ontologías.
 
 > {"body":
 >
