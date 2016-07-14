@@ -1,6 +1,6 @@
 
   ![](./media/image2.png)   
-  <h1>Conceptos de Sofia2</h1>
+  <h1 ALIGN=CENTER>Conceptos de Sofia2</h1>
   
   -------------------------------------------------------------------------------------- -- --
 
