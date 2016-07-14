@@ -3,8 +3,8 @@
 
 La documentación se encuentra clasificada por niveles:
 
-* :ref:`basic-docs`
-* :ref:`user-docs`
+* Documentación Básica :ref:`basic-docs`
+* Documentación de Usuario :ref:`user-docs`
 
 .. _basic-docs:
 .. toctree::
