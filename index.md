@@ -10,15 +10,20 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 
 Casos de Uso
 ============
-* Smart Cities
+* [Smart Cities] (https://www.youtube.com/watch?v=tNIKZo12UrU)
 * Smart Energy
 * Smart Home
 * Smart Health
+* Smart Banking
+* Smart T&T
+* Smart Retail
+* Smart Tourism
 
 Manuales
 ========
 Se proporciona una serie de manuales tanto a nivel de usuario como a nivel de desarrollador que permiten comprender los conceptos de la plataforma Sofia2 y desarrollar/interactuar con ella.
 
+[Más información](#manuals/index.rmd)
 
 Demostradores
 =============
@@ -38,6 +43,7 @@ Vídeos
 ======
 * [Tutorial Sofia2 Dataflow] (https://www.youtube.com/watch?v=USTCkqPMtNA)
 * [Tutorial Subir Ficheros a Hadoop] (https://www.youtube.com/watch?v=77108c-djW8)
+* [Tutorial Crawling Web] (https://www.youtube.com/watch?v=-7xdSveDhk4)
 
 
 
