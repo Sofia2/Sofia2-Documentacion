@@ -1,5 +1,5 @@
 
-  ![](./media/image2.png)   
+   ![](../../images/logo_sofia2_grande.png)    
   <h1 ALIGN=CENTER>Conceptos de Sofia2</h1>
   
   -------------------------------------------------------------------------------------- -- --
