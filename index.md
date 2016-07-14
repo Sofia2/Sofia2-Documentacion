@@ -1,5 +1,5 @@
 
-  ![](./media/image2.png)   
+  ![](./manuals/basico/media/image2.png)   
   -------------------------------------------------------------------------------------- -- --
   
 Sofia2 Documentación
