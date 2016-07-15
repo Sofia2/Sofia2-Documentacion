@@ -1,5 +1,5 @@
 
-[Más información](prueba.rst)
+[Más información](/prueba.rst)
 
 
    ![](../../images/logo_sofia2_grande.png)    
