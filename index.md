@@ -69,7 +69,10 @@ Vídeos
 * [Automatic HTML5 Client Generation Sofia2](https://www.youtube.com/watch?v=XMKTwgDiqgw)
 * [Twitter Real time Monitoring](https://www.youtube.com/watch?v=nPUllvzeDkI)
 * [Gestión de Conexiones](https://www.youtube.com/watch?v=p1CWXdZpphc)
-* [Búsqueda en Facebook, carga y consulta de información](https://www.youtube.com/watch?v=odXRs6sV5zc)
+* [Búsqueda en Facebook, carga en Ontología y consulta de información](https://www.youtube.com/watch?v=odXRs6sV5zc)
+* [Búsqueda en Twitter, carga en Ontología y consulta de información](https://www.youtube.com/watch?v=Njqq82LDqu8)
+* [Tutorial Creación y lanzamiento de datos sobre un Widget](https://www.youtube.com/watch?v=wvnM0wCuybY)
+
 
 
 
