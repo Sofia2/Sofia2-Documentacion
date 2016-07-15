@@ -1,6 +1,10 @@
 
   ![](./images/logo_sofia2_grande.png)   
   -------------------------------------------------------------------------------------- -- --
+`Internal and External links`_
+.. _begin: /manuals/basico/SOFIA2-Conceptos_SOFIA2.rst
+
+.. _a link: /manuals/basico/SOFIA2-Conceptos_SOFIA2.rst
 
 doc:`/manuals/basico/SOFIA2-Conceptos_SOFIA2.rst`
 
