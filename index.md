@@ -8,6 +8,8 @@ Es multilenguaje y multiprotocolo, permitiendo así la interconexión de disposi
 
 Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de extensión que permite su integración con cualquier tipo de dispositivo.
 
+[Ver vídeo de Presentación](https://www.youtube.com/watch?v=kvhLLfpnKBU)
+
 Casos de Uso
 ============
 * [Smart Cities](https://www.youtube.com/watch?v=tNIKZo12UrU)
