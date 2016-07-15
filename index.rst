@@ -118,7 +118,7 @@ Prueba código Python
 }}}
 
 Javascript
-   .. sourcecode:: js
+  .. sourcecode:: js
 
       {
           "objects": [
