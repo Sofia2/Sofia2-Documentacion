@@ -389,7 +389,18 @@ El esquema JSON que cumple la ontología SensorTemperatura indicada en el ejempl
 
     }
 
-Cuando una ontología es guardada en la BDTR, la plataforma le añade meta información relativa al contexto de uso de dicha ontología, esta información la vemos marcada en amarillo en el siguiente ejemplo
+Cuando una ontología es guardada en la BDTR, la plataforma le añade meta información relativa al contexto de uso de dicha ontología, esta información la vemos marcada en amarillo en el siguiente ejemplo:
+
+.. code-block:: json 
+  {
+        "key": "value",
+        "key2": "value2",
+        ...
+    }
+
+
+    
+
 
 {![](./media/image8.png)
 
