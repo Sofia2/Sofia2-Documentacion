@@ -10,7 +10,7 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 
 Casos de Uso
 ============
-* [** Smart Cities **](https://www.youtube.com/watch?v=tNIKZo12UrU)
+* [Smart Cities](https://www.youtube.com/watch?v=tNIKZo12UrU)
 * Smart Energy
 * Smart Home
 * [Smart Health](https://www.youtube.com/watch?v=u_V0UJuMCgY)
@@ -41,6 +41,11 @@ Demostradores
 
 Vídeos
 ======
+* [Registro en Sofia2 y Paso a Rol Colaborador](https://www.youtube.com/watch?v=FANpboIdKOM)
+* [Tutotorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
+* [Tutorial de Creación de Ontologías](https://www.youtube.com/watch?v=3b81xpNeKAE)
+* [Tutorial de Uso del CRUD para la inserción de información](https://www.youtube.com/watch?v=COylWWeXtX8)
+* [Carga de datos desde Excel y generación de una ontología Sofia2](https://www.youtube.com/watch?v=YFbvYxNAqMo)
 * [Tutorial Sofia2 Dataflow](https://www.youtube.com/watch?v=USTCkqPMtNA)
 * [Tutorial Subir Ficheros a Hadoop](https://www.youtube.com/watch?v=77108c-djW8)
 * [Tutorial Crawling Web](https://www.youtube.com/watch?v=-7xdSveDhk4)
@@ -50,15 +55,12 @@ Vídeos
 * [Tutorial Monitorización Sofia2](https://www.youtube.com/watch?v=SmaCB6NaXlk)
 * [Tutorial Ejecución Script temporizados](https://www.youtube.com/watch?v=KvcdqYi0hsI)
 * [Scripting Rules Debugging](https://www.youtube.com/watch?v=a14j9B_ch_8)
-* [Tutotorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
 * [Tutorial Contenedor de KPs](https://www.youtube.com/watch?v=76HhOYXLlh0)
 * [Tutorial Generación de Informes](https://www.youtube.com/watch?v=5BP0AcCakPc)
 * [Automatic HTML5 Client Generation Sofia2](https://www.youtube.com/watch?v=XMKTwgDiqgw)
 * [Twitter Real time Monitoring](https://www.youtube.com/watch?v=nPUllvzeDkI)
 * [Gestión de Conexiones](https://www.youtube.com/watch?v=p1CWXdZpphc)
-* [Búsqueda Facebook, carga y consulta de información](https://www.youtube.com/watch?v=odXRs6sV5zc)
-* [Tutorial de Creación de Ontologías](https://www.youtube.com/watch?v=3b81xpNeKAE)
-* [Tutorial de Uso del CRUD para la inserción de información](https://www.youtube.com/watch?v=COylWWeXtX8)
+* [Búsqueda en Facebook, carga y consulta de información](https://www.youtube.com/watch?v=odXRs6sV5zc)
 
 
 
