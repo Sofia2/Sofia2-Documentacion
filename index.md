@@ -27,17 +27,17 @@ Se proporciona una serie de manuales tanto a nivel de usuario como a nivel de de
 
 Demostradores
 =============
-* [** Visor geográfico **](http://sofia2.com/Examples/Geographics.html)
-* Demo Twitter Streaming
-* Demo API Streaming de Twitter
-* Dashboard Smart Health
-* Dashboard Smart Retail
-* Gasolineras España
-* Visor Opendata
-* Smart Home
-* iViewer Capas Sofia2
-* Dashboard Est. Metereológica
-* Demostrador de Control de Paso con Beacons
+* [Visor geográfico](http://sofia2.com/Examples/Geographics.html)
+* [Demo Twitter Streaming](http://sofia2.com/Kp_TwitterReglaLexico/)
+* [Demo API Streaming de Twitter](http://sofia2.com/TwitterStreamingTags/)
+* [Dashboard Smart Health](http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html)
+* [Dashboard Smart Retail](http://sofia2.com/demos/smartRetail/Dashboard/index.html)
+* [Gasolineras de España](http://sofia2.com/demos/gasolineras/feedGasolineraSimple.html)
+* [Visor Opendata](http://sofia2.com/console/gestionontologias/search.html?lang=es)
+* [Smart Home](http://sofia2.com/demos/watorimetro/index.html)
+* [iViewer Capas Sofia2](http://ieli.cloudapp.net/ivsofia/)
+* [Dashboard Estación Metereológica](http://sofia2.com/console/login)
+* [Demostrador de Control de Paso con Beacons](http://sofia2.com/Examples/Control_pass.html)
 
 Vídeos
 ======
