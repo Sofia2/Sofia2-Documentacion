@@ -128,3 +128,12 @@ Javascript
   ...
   ]
   }
+  
+  
+  Otra prueba
+  | { `key`_ “value”,
+| `key2`_ “value2”
+| }
+
+.. _key: 
+.. _key2: 
