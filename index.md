@@ -15,6 +15,7 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 Casos de Uso
 ============
 * [Smart Cities](https://www.youtube.com/watch?v=tNIKZo12UrU)
+[Plataforma Smart Coruña en acción](https://www.youtube.com/watch?v=9G4ivBegc2E)
 * Smart Energy
 * Smart Home
 * [Smart Health](https://www.youtube.com/watch?v=u_V0UJuMCgY)
