@@ -50,7 +50,7 @@ Vídeos
 * [Tutorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
 * [Tutorial de Creación de Ontologías](https://www.youtube.com/watch?v=3b81xpNeKAE)
 * [Creación de una Ontología](https://www.youtube.com/watch?v=Up9JUADIETY)
-* [Tutorial de Creación KP y generar token](https://www.youtube.com/watch?v=qWFWM1v6Wo0)
+* [Tutorial de Creación KP y generación de token de autenticación](https://www.youtube.com/watch?v=qWFWM1v6Wo0)
 * [CRUD: Create, Read, Update y Delete operaciones en Ontologías](https://www.youtube.com/watch?v=QRR0h3hWFmM)
 * [Tutorial de Uso del CRUD para la inserción de información](https://www.youtube.com/watch?v=COylWWeXtX8)
 * [Carga de datos desde Excel y generación de una ontología Sofia2](https://www.youtube.com/watch?v=YFbvYxNAqMo)
