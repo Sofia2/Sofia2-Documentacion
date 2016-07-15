@@ -10,6 +10,8 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 
 [Ver vídeo de Presentación](https://www.youtube.com/watch?v=kvhLLfpnKBU)
 
+[Sofia2 como Smart Platform](https://www.youtube.com/watch?v=BWZPfR0EfmY) 
+
 Casos de Uso
 ============
 * [Smart Cities](https://www.youtube.com/watch?v=tNIKZo12UrU)
