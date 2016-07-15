@@ -54,6 +54,7 @@ Vídeos
 * [CRUD: Create, Read, Update y Delete operaciones en Ontologías](https://www.youtube.com/watch?v=QRR0h3hWFmM)
 * [Tutorial de Uso del CRUD para la inserción de información](https://www.youtube.com/watch?v=COylWWeXtX8)
 * [Carga de datos desde Excel y generación de una ontología Sofia2](https://www.youtube.com/watch?v=YFbvYxNAqMo)
+* [Inserción de información en lenguaje Nativo desde la Consola de Sofia2](https://www.youtube.com/watch?v=UNwAeXXpRqY)
 * [Tutorial Sofia2 Dataflow](https://www.youtube.com/watch?v=USTCkqPMtNA)
 * [Tutorial Subir Ficheros a Hadoop](https://www.youtube.com/watch?v=77108c-djW8)
 * [Tutorial Crawling Web](https://www.youtube.com/watch?v=-7xdSveDhk4)
@@ -61,6 +62,7 @@ Vídeos
 * [Tutorial de Notebook en lenguaje Spark](https://www.youtube.com/watch?v=EnQP6kaQ-Jo)
 * [Tutorial consultas SQL Excel con conexión a DataLink](https://www.youtube.com/watch?v=8t7UbqFldKw)
 * [Tutorial Monitorización Sofia2](https://www.youtube.com/watch?v=SmaCB6NaXlk)
+* [Reglas Sofia2: Deteccion Ausencia de Eventos](https://www.youtube.com/watch?v=aLbR29sUiaU)
 * [Tutorial Ejecución Script temporizados](https://www.youtube.com/watch?v=KvcdqYi0hsI)
 * [Scripting Rules Debugging](https://www.youtube.com/watch?v=a14j9B_ch_8)
 * [Tutorial Contenedor de KPs](https://www.youtube.com/watch?v=76HhOYXLlh0)
@@ -71,6 +73,9 @@ Vídeos
 * [Búsqueda en Facebook, carga en Ontología y consulta de información](https://www.youtube.com/watch?v=odXRs6sV5zc)
 * [Búsqueda en Twitter, carga en Ontología y consulta de información](https://www.youtube.com/watch?v=Njqq82LDqu8)
 * [Tutorial Creación y lanzamiento de datos sobre un Widget](https://www.youtube.com/watch?v=wvnM0wCuybY)
+* [Tutorial Creacion de Gadgets](https://www.youtube.com/watch?v=od3nTHRObYM)
+* [Tutorial Creacion Gadget Tabla e Interaccion otros Gadgets](https://www.youtube.com/watch?v=up4z9qplJC0)
+* [Tutorial Creacion de un Dashboard](https://www.youtube.com/watch?v=WIQOM98qHEU)
 
 
 
