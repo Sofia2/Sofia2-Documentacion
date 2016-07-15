@@ -77,6 +77,7 @@ Vídeos
 * [Tutorial Creacion de Gadgets](https://www.youtube.com/watch?v=od3nTHRObYM)
 * [Tutorial Creacion Gadget Tabla e Interaccion otros Gadgets](https://www.youtube.com/watch?v=up4z9qplJC0)
 * [Tutorial Creacion de un Dashboard](https://www.youtube.com/watch?v=WIQOM98qHEU)
+* [Nuevos Dashboards](https://www.youtube.com/watch?v=NPOnyUox77w)
 
 
 
