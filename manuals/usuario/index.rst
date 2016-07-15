@@ -12,9 +12,8 @@ Prueba código Python
 
 .. code-block:: python
 
-   class Test:
+ class Test:
 
-       def TestFunction(self):
-           pass
+ pass
 
 }}}
