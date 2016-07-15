@@ -97,7 +97,7 @@ Prueba código json
 
 
 Prueba código json2
-.. sourcecode:: json
+  .. sourcecode:: json
 
  {  "key": "value", 
     "key2": "value2"
@@ -120,11 +120,11 @@ Prueba código Python
 Javascript
   .. sourcecode:: js
 
-      {
-          "objects": [
-              "http//django-fab-deploy.readthedocs.io/en/latest/...", 
-              "http//dimagi-deployment-tools.readthedocs.io/en/...", 
-              "http//openblock.readthedocs.io/en/latest/install/base_install.html#virtualenv", 
-              ...
-          ]
-      }
+  {
+  "objects": [
+  "http//django-fab-deploy.readthedocs.io/en/latest/...", 
+  "http//dimagi-deployment-tools.readthedocs.io/en/...", 
+  "http//openblock.readthedocs.io/en/latest/install/base_install.html#virtualenv", 
+  ...
+  ]
+  }
