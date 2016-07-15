@@ -48,6 +48,7 @@ Demostradores
 Vídeos
 ======
 * [Registro en Sofia2 y Paso a Rol Colaborador](https://www.youtube.com/watch?v=FANpboIdKOM)
+* [Primeros pasos en Sofia2](https://www.youtube.com/watch?v=0XVuSz7lwBw)
 * [Tutorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
 * [Tutorial de Creación de Ontologías](https://www.youtube.com/watch?v=3b81xpNeKAE)
 * [Creación de una Ontología](https://www.youtube.com/watch?v=Up9JUADIETY)
