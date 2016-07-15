@@ -29,6 +29,7 @@ Demostradores
 =============
 * [Visor geográfico](http://sofia2.com/Examples/Geographics.html)
 * [Demo Twitter Streaming](http://sofia2.com/Kp_TwitterReglaLexico/)
+  [Ver vídeo Demo Twitter Streaming(https://www.youtube.com/watch?v=6eTy6kjYuCg)
 * [Demo API Streaming de Twitter](http://sofia2.com/TwitterStreamingTags/)
 * [Dashboard Smart Health](http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html)
 * [Dashboard Smart Retail](http://sofia2.com/demos/smartRetail/Dashboard/index.html)
@@ -42,8 +43,11 @@ Demostradores
 Vídeos
 ======
 * [Registro en Sofia2 y Paso a Rol Colaborador](https://www.youtube.com/watch?v=FANpboIdKOM)
-* [Tutotorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
+* [Tutorial de Modelado visual de Ontologías](https://www.youtube.com/watch?v=MR2ZuDOHS2g)
 * [Tutorial de Creación de Ontologías](https://www.youtube.com/watch?v=3b81xpNeKAE)
+* [Creación de una Ontología](https://www.youtube.com/watch?v=Up9JUADIETY)
+* [Tutorial de Creación KP y generar token](https://www.youtube.com/watch?v=qWFWM1v6Wo0)
+* [CRUD: Create, Read, Update y Delete operaciones en Ontologías](https://www.youtube.com/watch?v=QRR0h3hWFmM)
 * [Tutorial de Uso del CRUD para la inserción de información](https://www.youtube.com/watch?v=COylWWeXtX8)
 * [Carga de datos desde Excel y generación de una ontología Sofia2](https://www.youtube.com/watch?v=YFbvYxNAqMo)
 * [Tutorial Sofia2 Dataflow](https://www.youtube.com/watch?v=USTCkqPMtNA)
