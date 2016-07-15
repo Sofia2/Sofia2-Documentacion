@@ -108,3 +108,15 @@ Prueba código Python
  pass
 
 }}}
+
+Javascript
+   .. sourcecode:: js
+
+      {
+          "objects": [
+              "http//django-fab-deploy.readthedocs.io/en/latest/...", 
+              "http//dimagi-deployment-tools.readthedocs.io/en/...", 
+              "http//openblock.readthedocs.io/en/latest/install/base_install.html#virtualenv", 
+              ...
+          ]
+      }
