@@ -89,10 +89,12 @@ Vídeos
 
 
 Prueba código json
+ {{{
+#!rst
 .. code-block:: json
- { "key": "value", "key2": "value2"
- }
 
+ { "key": "value", "key2": "value2"}
+}}}
 
 Prueba código Python
  
