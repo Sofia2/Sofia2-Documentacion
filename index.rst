@@ -1,16 +1,11 @@
 
   ![](./images/logo_sofia2_grande.png)   
   -------------------------------------------------------------------------------------- -- --
-`Internal and External links`_
-.. _begin: /manuals/basico/SOFIA2-Conceptos_SOFIA2.rst
 
 
-`Docs for this project </manuals/basico/SOFIA2-Conceptos_SOFIA2.rst>`_
 
+`Sofia2 Conceptos </manuals/basico/SOFIA2-Conceptos_SOFIA2.rst>`_
 
-.. _a link: /manuals/basico/SOFIA2-Conceptos_SOFIA2.rst
-
-doc:`/manuals/basico/SOFIA2-Conceptos_SOFIA2.rst`
 
 Sofia2 es un middleware que permite la interoperabilidad de múltiples sistemas y dispositivos, ofreciendo una plataforma semántica que permite poner información del mundo real a disposición de aplicaciones inteligentes (Internet of Things).
 
