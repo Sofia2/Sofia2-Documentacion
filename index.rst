@@ -4,6 +4,10 @@
 `Internal and External links`_
 .. _begin: /manuals/basico/SOFIA2-Conceptos_SOFIA2.rst
 
+
+`Docs for this project </manuals/basico/SOFIA2-Conceptos_SOFIA2.rst>`_
+
+
 .. _a link: /manuals/basico/SOFIA2-Conceptos_SOFIA2.rst
 
 doc:`/manuals/basico/SOFIA2-Conceptos_SOFIA2.rst`
