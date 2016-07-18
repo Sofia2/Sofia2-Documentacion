@@ -20,7 +20,7 @@ Puede encontrar más noticias, información, ayuda y tutoriales sobre la Platafo
 .. _basica-docs:
 
 .. toctree::
- :maxdepth: 2
+   :maxdepth: 2
 :caption: Documentación Basica
  manuals/basico/SOFIA2-Conceptos_SOFIA2
  
