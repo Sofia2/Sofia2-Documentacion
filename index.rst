@@ -19,6 +19,10 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    :maxdepth: 2
    :caption: Visión Global de Sofia2
 
+   caracteristicas
+   arquitectura_global
+   conceptos
+   tecnologias
 
 .. toctree::
    :maxdepth: 2
