@@ -18,20 +18,20 @@ La información se encuentra organizada en las siguientes secciones:
 :maxdepth: 2
 :caption: Introducción a Sofia2
 
-definicion
-origenyevolucion
-ambitos
-casosdeuso
+definicion.rst
+origenyevolucion.rst
+ambitos.rst
+casosdeuso.rst
 
 
 .. _manuales:
 .. toctree::
 :maxdepth: 2
 :caption: Manuales
-manuals/basico
-manuals/usuario
-manuals/desarollador
-manuals/desarollador_avanzado
+manuals/basico.rst
+manuals/usuario.rst
+manuals/desarollador.rst
+manuals/desarollador_avanzado.rst
 
 
 
@@ -39,6 +39,6 @@ manuals/desarollador_avanzado
 .. toctree::
 :maxdepth: 2
 :caption: Recursos
-demos
-videostutoriales
-blog
+demos.rst
+videostutoriales.rst
+blog.rst
