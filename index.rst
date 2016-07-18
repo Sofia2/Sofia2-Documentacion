@@ -15,6 +15,18 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    ambitos
    casosdeuso
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Visión Global de Sofia2
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Sofia2 en detalle
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Instalación Sofia2
 
 .. toctree::
    :maxdepth: 2
