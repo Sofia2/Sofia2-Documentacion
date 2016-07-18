@@ -14,22 +14,22 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 
 Casos de Uso
 ============
-* [Smart Cities](https://www.youtube.com/watch?v=tNIKZo12UrU):
-[Plataforma Smart Coruña en acción](https://www.youtube.com/watch?v=9G4ivBegc2E)
+* `Smart Cities <https://www.youtube.com/watch?v=tNIKZo12UrU>`_:
+`Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
 * Smart Energy
 * Smart Home
-* [Smart Health](https://www.youtube.com/watch?v=u_V0UJuMCgY)
+* `Smart Health <https://www.youtube.com/watch?v=u_V0UJuMCgY>`_
 * Smart Banking
 * Smart T&T
-* [Smart Retail](https://www.youtube.com/watch?v=eScv5Qq6EOM)
+* `Smart Retail <https://www.youtube.com/watch?v=eScv5Qq6EOM>`_
 * Smart Tourism
-* [Smart Distribution](https://www.youtube.com/watch?v=6VwCThRnJOs)
+* `Smart Distribution] <https://www.youtube.com/watch?v=6VwCThRnJOs>`_
 
 Manuales
 ========
 Se proporciona una serie de manuales tanto a nivel de usuario como a nivel de desarrollador que permiten comprender los conceptos de la plataforma Sofia2 y desarrollar/interactuar con ella.
 
-[Más información](manuals/index.md)
+`Más información <manuals/index.md>`_
 
 Demostradores
 =============
@@ -79,61 +79,3 @@ Vídeos
 * [Tutorial Creacion Gadget Tabla e Interaccion otros Gadgets](https://www.youtube.com/watch?v=up4z9qplJC0)
 * [Tutorial Creacion de un Dashboard](https://www.youtube.com/watch?v=WIQOM98qHEU)
 * [Nuevos Dashboards](https://www.youtube.com/watch?v=NPOnyUox77w)
-
-
-
-
-
-
-
-
-
-Prueba código json
-.. code-block:: json
-
- { "key": "value", 
- "key2": "value2"
- }
-
-
-Prueba código json2
-  .. sourcecode:: json
-
- {  "key": "value", 
-    "key2": "value2"
- }
-
-
-Prueba código Python
- 
- {{{
-#!rst
-
-.. code-block:: python
-
- class Test:
-
- pass
-
-}}}
-
-Javascript
-  .. sourcecode:: js
-
-  {
-  "objects": [
-  "http//django-fab-deploy.readthedocs.io/en/latest/...", 
-  "http//dimagi-deployment-tools.readthedocs.io/en/...", 
-  "http//openblock.readthedocs.io/en/latest/install/base_install.html#virtualenv", 
-  ...
-  ]
-  }
-  
-  
-  Otra prueba
-  | { `key`_ “value”,
-| `key2`_ “value2”
-| }
-
-.. _key: 
-.. _key2: 
