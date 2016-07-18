@@ -27,6 +27,7 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
 .. toctree::
    :maxdepth: 2
    :caption: Sofia2 en detalle
+   
    arquitectura_detallada
    despliegue
    seguridad
