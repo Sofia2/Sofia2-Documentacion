@@ -1,6 +1,11 @@
 Documentación para Usuarios.
 ===========================
 
-* Consola Web Configuración.
-* Modelado de Ontologías.
-* Gobierno de Ontologías.
+Consola Web de Configuración.
+-----------------------------
+
+Modelado de Ontologías.
+-------------------------
+
+Gobierno de Ontologías.
+-----------------------
