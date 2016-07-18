@@ -1,0 +1,8 @@
+BDC
+===
+
+Requisitos Previos
+------------------
+
+Instalación
+-----------
