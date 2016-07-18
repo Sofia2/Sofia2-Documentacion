@@ -17,9 +17,13 @@ Contenido:
 :caption: Introducción a Sofia2
 
 definicion.rst
+
 origenyevolucion.rst
+
 ambitos.rst
+
 casosdeuso.rst
+
 
 
 .. toctree::
