@@ -6,20 +6,12 @@ import sys
 from recommonmark.parser import CommonMarkParser
 
 sys.path.insert(0, os.path.abspath('..'))
-os.environ.setdefault("DJANGO_SETTINGS_MODULE")
-
-from django.conf import settings
-
-import django
-django.setup()
-
 
 sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
-    'sphinxcontrib.httpdomain',
-    'djangodocs',
+    'sphinxcontrib.httpdomain'
 ]
 templates_path = ['_templates']
 
