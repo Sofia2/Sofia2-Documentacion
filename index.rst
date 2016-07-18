@@ -13,17 +13,17 @@ Contenido:
 :caption: Introducción a Sofia2
 
 definicion.rst
-origenyevolucion
-ambitos
+origenyevolucion.rst
+ambitos.rst
 casosdeuso.rst
 
 .. toctree::
 :maxdepth: 2
 :caption: Manuales
-manuals/basico
-manuals/usuario
-manuals/desarollador
-manuals/desarollador_avanzado
+manuals/basico.rst
+manuals/usuario.rst
+manuals/desarollador.rst
+manuals/desarollador_avanzado.rst
 
 
 .. toctree::
