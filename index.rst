@@ -41,7 +41,7 @@ manuals/desarollador_avanzado
 
 .. toctree::
 :maxdepth: 2
-:caption: Manuales
+:caption: Recursos
 demos
 videostutoriales
 blog
