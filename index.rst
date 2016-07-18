@@ -13,7 +13,8 @@ Contenido:
 
 
 .. toctree::
-:maxdepth: 2
+   :maxdepth: 2
+
 :caption: Introducción a Sofia2
 
 definicion.rst
@@ -27,7 +28,7 @@ casosdeuso.rst
 
 
 .. toctree::
-:maxdepth: 2
+   :maxdepth: 2
 
 :caption: Manuales
 
@@ -43,7 +44,7 @@ manuals/desarollador_avanzado.rst
 
 
 .. toctree::
-:maxdepth: 2
+   :maxdepth: 2
 
 :caption: Recursos
 
