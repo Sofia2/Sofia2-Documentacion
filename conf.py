@@ -22,7 +22,7 @@ exclude_patterns = ['_build']
 pygments_style = 'sphinx'
 
 # This doesn't exist since we aren't shipping any static files ourselves.
-html_static_path = ['_static']
+#html_static_path = ['_static']
 
 htmlhelp_basename = 'Sofia2'
 
