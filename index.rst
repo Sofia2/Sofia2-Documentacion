@@ -10,7 +10,9 @@ Contenido:
 ----------
 .. toctree::
 :maxdepth: 2
+
 :caption: Recursos
+
 demos.rst
 videostutoriales.rst
 blog.rst
