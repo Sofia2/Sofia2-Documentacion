@@ -37,6 +37,14 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    :maxdepth: 2
    :caption: Instalación Sofia2
 
+   arquitectura_referencia
+   bdh
+   bdc
+   bdtr
+   consola
+   sib
+   script
+
 .. toctree::
    :maxdepth: 2
    :caption: Manuales
