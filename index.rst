@@ -15,13 +15,13 @@ Contenido:
 
 :caption: Introducción a Sofia2
 
-definicion.rst
+definicion
 
-origenyevolucion.rst
+origenyevolucion
 
-ambitos.rst
+ambitos
 
-casosdeuso.rst
+casosdeuso
 
 
 
@@ -30,13 +30,13 @@ casosdeuso.rst
 
 :caption: Manuales
 
-manuals/basico.rst
+manuals/basico
 
-manuals/usuario.rst
+manuals/usuario
 
-manuals/desarollador.rst
+manuals/desarollador
 
-manuals/desarollador_avanzado.rst
+manuals/desarollador_avanzado
 
 
 
