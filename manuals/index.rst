@@ -7,24 +7,21 @@
 
 La documentación se encuentra clasificada por niveles:
 
-* [**Documentación Básica**](#documentacion-basica)
-* [**Documentación para Usuarios**](#documentacion-para-usuarios)
+* :ref:`basica-docs`
+* :ref:`usurio-docs`
 * Documentación para Desarrolladores.
 * Documentación para Desarrolladores Avanzados.
 
 Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro `Blog <https://about.sofia2.com/>`_.
 
 
-Documentación Básica.
-=====================
+.. _basica-docs:
 
-* Welcome Pack Sofia2.
-* Presentación Sofia2.
-* Soluciones Sofia2.
-* [**Conceptos Sofia2**](manuals/basico/SOFIA2-Conceptos_SOFIA2.md)
-* Seguridad Sofia2.
-* TCO Sofia2 como Backend.
-
+.. toctree::
+ :maxdepth: 2
+:caption: Documentación Basica
+ manuals/basico/SOFIA2-Conceptos_SOFIA2
+ 
 
 Documentación para Usuarios.
 ===========================
