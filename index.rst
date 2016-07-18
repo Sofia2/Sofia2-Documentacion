@@ -7,6 +7,7 @@ Bienvenido a Sofia2
 Aquí podrá encontrar toda la información y documentación necesaria sobre la plataforma Sofia2.
 
 Contenido:
+----------
 
 .. toctree::
 :maxdepth: 2
