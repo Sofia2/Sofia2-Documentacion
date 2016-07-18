@@ -37,11 +37,6 @@ manuals/desarollador_avanzado
 .. toctree::
    :maxdepth: 2
    :caption: Recursos
-
-demos
-videostutoriales
-blog
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   demos.rst
+   videostutoriales
+   blog
