@@ -34,7 +34,8 @@ intersphinx_mapping = {
     'sphinx': ('http://sphinx.readthedocs.io/en/latest/', None),
 }
 # This doesn't exist since we aren't shipping any static files ourselves.
-#html_static_path = ['_static']
+html_static_path = ['_static']
+
 htmlhelp_basename = 'Sofia2'
 latex_documents = [
   ('index', 'test.tex', u'Sofia2',
@@ -45,10 +46,6 @@ man_pages = [
      [u'Indra'], 1)
 ]
 
-exclude_patterns = [
-    # 'api' # needed for ``make gettext`` to not die.
-]
-
 language = 'en'
 
 locale_dirs = [
@@ -56,9 +53,3 @@ locale_dirs = [
 ]
 gettext_compact = False
 
-
-on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
-if not on_rtd:  # only import and set the theme if we're building docs locally
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
