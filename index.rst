@@ -23,7 +23,7 @@ Casos de Uso
 * Smart T&T
 * `Smart Retail <https://www.youtube.com/watch?v=eScv5Qq6EOM>`_
 * Smart Tourism
-* `Smart Distribution] <https://www.youtube.com/watch?v=6VwCThRnJOs>`_
+* `Smart Distribution <https://www.youtube.com/watch?v=6VwCThRnJOs>`_
 
 Manuales
 ========
