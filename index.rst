@@ -6,14 +6,9 @@ Bienvenido a Sofia2
 ========================
 Aquí podrá encontrar toda la información y documentación necesaria sobre la plataforma Sofia2.
 
-Contenido:
-----------
-
-
 .. toctree::
    :maxdepth: 2
-
-:caption: Introducción a Sofia2
+   :caption: Introducción a Sofia2
 
 definicion
 
@@ -27,8 +22,7 @@ casosdeuso
 
 .. toctree::
    :maxdepth: 2
-
-:caption: Manuales
+   :caption: Manuales
 
 manuals/basico
 
@@ -47,3 +41,7 @@ manuals/desarollador_avanzado
 demos
 videostutoriales
 blog
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
