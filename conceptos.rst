@@ -2,20 +2,6 @@
  :align:   center
  
 
-
-`**4** **Conceptos de la Plataforma Sofia2** 6 <#_Toc406415393>`__
-
-`**4.1** **Smart Space** 6 <#_Toc406415394>`__
-
-`**4.2** **SIB (Semantic Information Broker)** 6 <#_Toc406415395>`__
-
-`**4.3** **KP (Knowledge Processor)** 7 <#_Toc406415396>`__
-
-`**4.4** **SSAP (Smart Space Access Protocol)** 7 <#_Toc406415397>`__
-
-`**4.5** **Ontologías** 8 <#ontologías>`__
-
-
 Conceptos de la Plataforma Sofia2
 =================================
 
