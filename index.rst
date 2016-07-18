@@ -3,7 +3,6 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
-
 Bienvenido a Sofia2
 ========================
 Aquí podrá encontrar toda la información y documentación necesaria sobre la plataforma Sofia2.
@@ -39,7 +38,6 @@ manuals/usuario.rst
 manuals/desarollador.rst
 
 manuals/desarollador_avanzado.rst
-
 
 
 
