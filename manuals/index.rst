@@ -1,3 +1,5 @@
+.. _mas-info-manuales:
+
 .. figure::  ./images/logo_sofia2_grande.png
  :align:   center
   <h1 ALIGN=CENTER>Guías Sofia2</h1>
