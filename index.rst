@@ -6,26 +6,16 @@ Bienvenido a Sofia2
 ========================
 Aquí podrá encontrar toda la información y documentación necesaria sobre la plataforma Sofia2.
 
-La información se encuentra organizada en las siguientes secciones:
-
-* :ref:`introduccion`
-* :ref:`manuales`
-* :ref:`recursos`
-
-
-.. _introduccion:
+Contenido:
 
 .. toctree::
 :maxdepth: 2
 :caption: Introducción a Sofia2
 
-definicion
+definicion.rst
 origenyevolucion
 ambitos
-casosdeuso
-
-
-.. _manuales:
+casosdeuso.rst
 
 .. toctree::
 :maxdepth: 2
@@ -36,12 +26,9 @@ manuals/desarollador
 manuals/desarollador_avanzado
 
 
-
-.. _recursos:
-
 .. toctree::
 :maxdepth: 2
 :caption: Recursos
-demos
-videostutoriales
-blog
+demos.rst
+videostutoriales.rst
+blog.rst
