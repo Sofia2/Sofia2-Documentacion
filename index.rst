@@ -10,27 +10,20 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    :maxdepth: 2
    :caption: Introducción a Sofia2
 
-definicion
-
-origenyevolucion
-
-ambitos
-
-casosdeuso
-
+   definicion
+   origenyevolucion
+   ambitos
+   casosdeuso
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Manuales
 
-manuals/basico
-
-manuals/usuario
-
-manuals/desarollador
-
-manuals/desarollador_avanzado
+   manuals/basico
+   manuals/usuario
+   manuals/desarollador
+   manuals/desarollador_avanzado
 
 
 
@@ -38,6 +31,6 @@ manuals/desarollador_avanzado
    :maxdepth: 2
    :caption: Recursos
 
-   demos.rst
+   demos
    videostutoriales
    blog
