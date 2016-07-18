@@ -48,5 +48,7 @@ manuals/desarollador_avanzado.rst
 :caption: Recursos
 
 demos.rst
+
 videostutoriales.rst
+
 blog.rst
