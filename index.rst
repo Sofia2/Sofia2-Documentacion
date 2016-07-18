@@ -14,7 +14,6 @@ La información se encuentra organizada en las siguientes secciones:
 
 
 .. _introduccion:
-
 .. toctree::
 :maxdepth: 2
 :caption: Introducción a Sofia2
@@ -26,7 +25,6 @@ casosdeuso
 
 
 .. _manuales:
-
 .. toctree::
 :maxdepth: 2
 :caption: Manuales
@@ -38,7 +36,6 @@ manuals/desarollador_avanzado
 
 
 .. _recursos:
-
 .. toctree::
 :maxdepth: 2
 :caption: Recursos
