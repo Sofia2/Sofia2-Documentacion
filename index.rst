@@ -28,11 +28,17 @@ casosdeuso.rst
 
 .. toctree::
 :maxdepth: 2
+
 :caption: Manuales
+
 manuals/basico.rst
+
 manuals/usuario.rst
+
 manuals/desarollador.rst
+
 manuals/desarollador_avanzado.rst
+
 
 
 
