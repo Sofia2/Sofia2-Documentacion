@@ -8,9 +8,9 @@ Es multilenguaje y multiprotocolo, permitiendo así la interconexión de disposi
 
 Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de extensión que permite su integración con cualquier tipo de dispositivo.
 
-`Ver vídeo de Presentación]<https://www.youtube.com/watch?v=kvhLLfpnKBU>`_
+`Ver vídeo de Presentación<https://www.youtube.com/watch?v=kvhLLfpnKBU>`_
 
-[Sofia2 como Smart Platform](https://www.youtube.com/watch?v=BWZPfR0EfmY) 
+`Sofia2 como Smart Platform`<https://www.youtube.com/watch?v=BWZPfR0EfmY>`_
 
 Casos de Uso
 ============
