@@ -12,7 +12,7 @@ La documentación se encuentra clasificada por niveles:
 * Documentación para Desarrolladores.
 * Documentación para Desarrolladores Avanzados.
 
-Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro [Blog](https://about.sofia2.com/).
+Puede encontrar más noticias, información, ayuda y tutoriales sobre la Plataforma en nuestro `Blog <https://about.sofia2.com/>`_.
 
 
 Documentación Básica.
