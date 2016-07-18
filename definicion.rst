@@ -1,11 +1,7 @@
 Qué es Sofia2
 =============
 
-Sofia2 surge de un proyecto I+D europeo denominado SOFIA.
-
-SOFIA es el acrónimo de **SMART OBJECTS FOR INTELLIGENT APPLICATIONS** y es una plataforma que surge como de un proyecto de I +D Artemis de tres años finalizado en Marzo de 2012, en el que participan 19 partners de cuatro países de la UE, entre los cuales están Nokia, Philips, Fiat, Acciona e Indra.
-
-SOFIA es una Arquitectura middleware que permite la interoperabilidad de múltiples sistemas y dispositivos. Permite poner información real a disposición de aplicaciones inteligentes (**Internet of Things**).
+SOFIA2 es una Arquitectura middleware que permite la interoperabilidad de múltiples sistemas y dispositivos. Permite poner información real a disposición de aplicaciones inteligentes (**Internet of Things**).
 
 SOFIA es:
 
