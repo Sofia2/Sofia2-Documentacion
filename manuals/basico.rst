@@ -1,6 +1,5 @@
-Manuales Básicos
-================
-
+Documentación Básica
+===================
 
 * Welcome Pack Sofia2.
 * Presentación Sofia2.
