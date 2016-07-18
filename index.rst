@@ -14,15 +14,14 @@ Multiplataforma y multidispositivo, a través de su SDK, API's y mecanismos de e
 
 Casos de Uso
 ============
-* `Smart Cities <https://www.youtube.com/watch?v=tNIKZo12UrU>`_:
-`Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
-* Smart Energy
-* Smart Home
+* `Smart Cities <https://www.youtube.com/watch?v=tNIKZo12UrU>`_: `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
+* Smart Energy.
+* Smart Home.
 * `Smart Health <https://www.youtube.com/watch?v=u_V0UJuMCgY>`_
-* Smart Banking
-* Smart T&T
+* Smart Banking.
+* Smart T&T.
 * `Smart Retail <https://www.youtube.com/watch?v=eScv5Qq6EOM>`_
-* Smart Tourism
+* Smart Tourism-
 * `Smart Distribution <https://www.youtube.com/watch?v=6VwCThRnJOs>`_
 
 Manuales
@@ -33,8 +32,8 @@ Se proporciona una serie de manuales tanto a nivel de usuario como a nivel de de
 
 Demostradores
 =============
-* [Visor geográfico](http://sofia2.com/Examples/Geographics.html)
-* [Demo Twitter Streaming](http://sofia2.com/Kp_TwitterReglaLexico/): [Ver vídeo Demo](https://www.youtube.com/watch?v=6eTy6kjYuCg)
+* `Visor geográfico <http://sofia2.com/Examples/Geographics.html>`_
+* `Demo Twitter Streaming <http://sofia2.com/Kp_TwitterReglaLexico/>`_: `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 * [Demo API Streaming de Twitter](http://sofia2.com/TwitterStreamingTags/)
 * [Dashboard Smart Health](http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html)
 * [Dashboard Smart Retail](http://sofia2.com/demos/smartRetail/Dashboard/index.html)
