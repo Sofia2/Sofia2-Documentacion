@@ -37,6 +37,7 @@ manuals/desarollador_avanzado
 .. toctree::
    :maxdepth: 2
    :caption: Recursos
-   demos
+
+   demos.rst
    videostutoriales
    blog
