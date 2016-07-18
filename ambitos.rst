@@ -1,0 +1,2 @@
+Ámbitos de aplicación
+=====================
