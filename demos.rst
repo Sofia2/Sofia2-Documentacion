@@ -1,7 +1,15 @@
 Demostradores
 =============
 
+Visor Geográfico
+----------------
+
 * `Visor geográfico <http://sofia2.com/Examples/Geographics.html>`_
+
+
+Demo Twitter Streaming
+----------------------
+
 * `Demo Twitter Streaming <http://sofia2.com/Kp_TwitterReglaLexico/>`_: `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 * `Demo API Streaming de Twitter <http://sofia2.com/TwitterStreamingTags/>`_
 * `Dashboard Smart Health <http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html>`_
