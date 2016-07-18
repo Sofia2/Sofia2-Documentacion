@@ -23,10 +23,6 @@ INDICE
 
 `**1** **INDICE** 2 <#indice>`__
 
-`**2** **Introducción** 3 <#introducción>`__
-
-`**2.1** **Objetivos y alcance del presente documento** 3 <#objetivos-y-alcance-del-presente-documento>`__
-
 `**3** **Qué es Sofia2** 4 <#qué-es-sofia2>`__
 
 `**4** **Conceptos de la Plataforma Sofia2** 6 <#_Toc406415393>`__
@@ -41,13 +37,7 @@ INDICE
 
 `**4.5** **Ontologías** 8 <#ontologías>`__
 
-Introducción
-============
 
-Objetivos y alcance del presente documento
-------------------------------------------
-
-El presente documento describe los conceptos básicos de la plataforma Sofia2.
 
 Qué es Sofia2
 =============
