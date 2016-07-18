@@ -1,5 +1,5 @@
 Vídeos Tutoriales
-================
+=================
 
 * `Registro en Sofia2 y Paso a Rol Colaborador <https://www.youtube.com/watch?v=FANpboIdKOM>`_
 * `Primeros pasos en Sofia2 <https://www.youtube.com/watch?v=0XVuSz7lwBw>`_
