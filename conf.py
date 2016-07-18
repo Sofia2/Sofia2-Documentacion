@@ -25,8 +25,9 @@ pygments_style = 'sphinx'
 html_static_path = ['_static']
 
 htmlhelp_basename = 'Sofia2'
+
 latex_documents = [
-  ('index', 'test.tex', u'Sofia2',
+  ('index', 'Sofia2.tex', u'Sofia2',
    u'Indra', 'manual'),
 ]
 man_pages = [
@@ -34,6 +35,4 @@ man_pages = [
      [u'Indra'], 1)
 ]
 #language = 'en'
-
-
 
