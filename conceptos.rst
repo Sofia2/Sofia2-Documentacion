@@ -19,8 +19,6 @@
 +-------------+----+----+
 
 
-`**3** **Qué es Sofia2** 4 <#qué-es-sofia2>`__
-
 `**4** **Conceptos de la Plataforma Sofia2** 6 <#_Toc406415393>`__
 
 `**4.1** **Smart Space** 6 <#_Toc406415394>`__
@@ -33,56 +31,6 @@
 
 `**4.5** **Ontologías** 8 <#ontologías>`__
 
-
-
-Qué es Sofia2
-=============
-
-Sofia2 surge de un proyecto I+D europeo denominado SOFIA.
-
-SOFIA es el acrónimo de **SMART OBJECTS FOR INTELLIGENT APPLICATIONS** y es una plataforma que surge como de un proyecto de I +D Artemis de tres años finalizado en Marzo de 2012, en el que participan 19 partners de cuatro países de la UE, entre los cuales están Nokia, Philips, Fiat, Acciona e Indra.
-
-SOFIA es una Arquitectura middleware que permite la interoperabilidad de múltiples sistemas y dispositivos. Permite poner información real a disposición de aplicaciones inteligentes (**Internet of Things**).
-
-SOFIA es:
-
--  Open-source
-
--  Multiplataforma: disponible para Windows, Android, Linux, iOS,…
-
--  Multilenguaje: con portings a Java, Javascript, C++, Arduino
-
--  Agnóstica de las comunicaciones: con implementaciones TCP, MQTT, HTTP (REST y WebServices), Ajax Push,…
-
-Su propósito es lograr la interoperabilidad entre diferentes aplicaciones que comparten **conceptos semánticos.**.
-
-Tras el proyecto Artemis Indra ha seguido evolucionando el proyecto SOFIA original creando una plataforma enfocada a su uso empresarial: **Sofia2**
-
-|image2| |image3|
-
-Sofia2 se ha enfocado en estas áreas:
-
--  **Adaptación al mundo empresarial**: funcionamiento en Alta Disponibilidad, con centros de datos distribuidos,…
-
--  Se ha simplificado el trabajo con la plataforma, especialmente en estas áreas:
-
-   -  Desarrollo de las ontologías (pasando a ser ligeras)
-
-   -  Lenguaje de consultas.
-
-   -  Protocolo SSAP: con una implementación JSON además de la estándar XML.
-
--  Interfaces Big Data (Hadoop) para almacenamiento de grandes volúmenes de datos y datawarehouse.
-
--  Capacidades integración con Backends con protocolos estándares como Web Services,…
-
--  Concepto de plugins para ampliar el SIB
-
--  Almacenamiento y Consultas GIS integradas
-
--  Inclusión de mecanismos de seguridad plugeables.
-
--  Interfaces REST para poder conectar de forma simple desde smartphones, dispositivos, aplicaciones RIA,…
 
 Conceptos de la Plataforma Sofia2
 =================================
