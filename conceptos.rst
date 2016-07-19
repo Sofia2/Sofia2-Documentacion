@@ -39,7 +39,6 @@ SIB (Semantic Information Broker)
 
 -  En SOFIA\ :sup:`2` se propone el uso de JSON para el intercambio de información (SSAP) y para la definición de las ontologías.
 
-.. code-block:: json
     {"body":
 
     "{"query":"{SensorHumedad.medida:{$gt:18}}"}",
@@ -139,6 +138,12 @@ Las **ontologías** son descripciones semánticas de un conjunto de clases, repr
 
 En Sofia2, estas ontologías están representadas en formato JSON-Schema, por ejemplo, una ontología que usa KP que representa a un sensor de temperatura sería la siguiente:
 
+.. code-block:: json
+ {  "key": "value", 
+    "key2": "value2"
+ }
+ 
+ 
 "SensorTemperatura": {|image5|
 
       "coordenadaGps": {|image6|
