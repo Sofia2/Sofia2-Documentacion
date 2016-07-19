@@ -12,7 +12,13 @@ SOFIA es el acrónimo de **SMART OBJECTS FOR INTELLIGENT APPLICATIONS** y es una
 Tras el proyecto Artemis Indra ha seguido evolucionando el proyecto SOFIA original creando una plataforma enfocada a su uso empresarial: **Sofia2**
 
 
-.. figure::  ./manuals/basico/media/image6.png   
-   :align: left  
-.. figure::  ./manuals/basico/media/image2.png
-   :align: right
+.. |logo1| figure:: ./manuals/basico/media/image6.png    
+   :scale: 100%
+   :align: middle
+.. |logo2| figure:: ./manuals/basico/media/image2.png
+   :scale: 50%
+   :align: top
+
++---------+---------+
+| |logo1| | |logo2| |
++---------+---------+
