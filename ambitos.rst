@@ -28,22 +28,56 @@ Smart Energy.
 
 SOFIA2 como Plataforma para dispositivos domiciliarios.
 
+* Recoge información de dispositivos domóticos.
+
+* Almacena, procesa y toma decisiones sobre grandes volúmenes de información.
+
+* Gestión de los dispositivos domóticos.
+
+* Soporta servicios adicionales sobre la plataforma domiciliaria.
+
+
 Smart Health.
 ---------------
 
 SOFIA2 como Plataforma de Interoperabilidad entre Sistemas.
+
+* Desplegable en dispositivos para salud domiciliaria.
+
+* Funcionamiento como Bus de comunicación entre Sistemas de Salud.
+
+* Gestión centralizada de las reglas, variables,...
+
+* Almacenamiento de información histórica.
+
 
 Industria 4.0.
 ---------------
 
 Productos, procesos y modelos de negocio preparados para la Cuarta Revolución Industrial.
 
+
 Smart Retails.
 ---------------
+SOFIA2 en la optimización de modelos comerciales de tiendas.
 
-Productos, procesos y modelos de negocio preparados para la Cuarta Revolución Industrial.
+* Gestión Smart de un supermercado permitiendo conocer el número de visitantes, analítica online de productos más solicitados,...
+
+* Gateway en cualquier máquina vending o TPV permitiendo aplicar analítica para mejora de ventas.
+
+* Gestión del SW.
+
 
 Smart Banking.
 ---------------
 
 SOFIA2 encaja como Solución Transversal en Banca.
+
+* Plataforma para el mobile payment e integración con otras empresas.
+
+* Plataforma CEP para detección de fraude.
+
+* Plataforma de gestión de logs: recepción centralizada, almacenamiento, explotación.
+
+
+`Soluciones Sofia2 (Pdf) <http://sofia2.com/docs/Sofia2-Soluciones.pdf>`_
