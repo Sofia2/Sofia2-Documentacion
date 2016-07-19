@@ -37,13 +37,16 @@ API Arduino
 API .NET
 --------
 
+KP Modelo
+---------
+
 :download:`KP Modelo<http://sofia2.org/sdk/SOFIA2_KP_MODELO.zip>` 
 
 
 
 
 
-Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistemas operativos:
+"Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistemas operativos:"
 
 SOFIA2 SDK (Windows)
 -------------------
