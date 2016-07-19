@@ -36,6 +36,8 @@ Cuadro de mando en el que asociado a cada paciente tenemos un wearable tipo puls
 
 `Ver sitio <http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html>`_
 
+|ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=u_V0UJuMCgY>`_
+
 
 Dashboard Smart Retail
 ----------------------
