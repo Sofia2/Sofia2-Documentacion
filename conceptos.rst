@@ -382,7 +382,7 @@ Como vemos en el contextData aparece la clave de sesión que ha establecido el K
 .. |image5| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image6| image:: ./manuals/media/image8.png
+.. |image6| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
 .. |image7| image:: ./manuals/basico/media/image8.png
