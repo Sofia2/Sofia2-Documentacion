@@ -376,27 +376,27 @@ Como vemos en el contextData aparece la clave de sesión que ha establecido el K
 .. |image3| image:: ./media/image2.png
    :width: 2.09236in
    :height: 0.96944in
-.. |image4| image:: ./media/image7.png
+.. |image4| image:: ./manuals/media/image7.png
    :width: 5.81528in
    :height: 1.95417in
-.. |image5| image:: ./media/image8.png
+.. |image5| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image6| image:: ./media/image8.png
+.. |image6| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image7| image:: ./media/image8.png
+.. |image7| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image8| image:: ./media/image8.png
+.. |image8| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image9| image:: ./media/image8.png
+.. |image9| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image10| image:: ./media/image8.png
+.. |image10| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image11| image:: ./media/image8.png
+.. |image11| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
