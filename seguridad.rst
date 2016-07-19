@@ -13,7 +13,7 @@ La capa de seguridad es aplicada en diferentes niveles: autenticación, autoriza
 
 * Autenticación de los clientes de la Plataforma en la comunicación con esta a través de diversos mecanismos: usuario+ password, token, certificado.
 
-Autorización en el acceso a los datos, permitiendo controlar a grano fino (por ejemplo quien puede insertar qué información y quien puede consultar qué información).
+* Autorización en el acceso a los datos, permitiendo controlar a grano fino (por ejemplo quien puede insertar qué información y quien puede consultar qué información).
 
 * Capacidad de configurar y extender cada uno de los conceptos mencionados a través de los mecanismos de extensión de la plataforma. 
 
