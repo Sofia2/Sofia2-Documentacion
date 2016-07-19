@@ -62,7 +62,8 @@ SOFIA2 SDK (Linux)
 
 
 
-.. |descargar-mini| image:: images/mini-download.png
-.. |descargar-windows| image:: images/downloads-windows.png
-.. |descargar-linux| image:: images/downloads-linuc.png
+.. |descargar-mini| image:: ./images/mini-download.png
+.. |descargar-windows| image:: ./images/downloads-windows.png
+.. |descargar-linux| image:: ./images/downloads-linux.png
+.. |descargar-mac| image:: ./images/downloads-apple.png
 
