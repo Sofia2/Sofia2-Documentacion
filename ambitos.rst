@@ -56,6 +56,18 @@ Industria 4.0.
 
 Productos, procesos y modelos de negocio preparados para la Cuarta Revolución Industrial.
 
+* Información enriquecida de equipos y procesos sobre dispositivos móviles, superponiendo información virtual sobre elementos del mundo real.
+
+* Integración de múltiples dispositivos y sensores de manera inteligente.
+
+* Algoritmos avanzados de mantenimiento predictivo, optimización de inventarios o gestión de rutas, para habilitar una óptima gestión de recursos.
+
+* Funcionalidades de integración y colaboración en procesos logísticos, compras o facturación entre compañías.
+
+* Funcionalidades de eficiencia energética para monitorizar y controlar el consumo energético de edificios e instalaciones industriales.
+
+* Proyectos avanzados de I+D+i en curso para la fabricación de drones y vehículos autoguiados para entornos industriales. 
+
 
 Smart Retails.
 ---------------
