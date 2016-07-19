@@ -18,12 +18,6 @@ SOFIA es:
 
 Su propósito es lograr la interoperabilidad entre diferentes aplicaciones que comparten **conceptos semánticos.**.
 
-Tras el proyecto Artemis Indra ha seguido evolucionando el proyecto SOFIA original creando una plataforma enfocada a su uso empresarial: **Sofia2**
-
-
-.. figure::  ./manuals/basico/media/image6.png
-.. figure::  ./manuals/basico/media/image2.png
-
 
 Sofia2 se ha enfocado en estas áreas:
 
