@@ -59,4 +59,4 @@ Ejemplo de Dashboard creado vía Gadgets de la Plataforma. Requiere un usuario e
 
 Demostrador de Control de Paso con Beacons
 ------------------------------------------
-* `Demostrador de Control de Paso con Beacons <http://sofia2.com/Examples/Control_pass.html>`_
+`Ver sitio <http://sofia2.com/Examples/Control_pass.html>`_
