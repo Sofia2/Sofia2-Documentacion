@@ -11,11 +11,17 @@ Smart Cities.
 
 Sofia2 como cerebro de OS de la ciudad.
 * Recolección de datos de los sensores y dispositivos de la ciudad.
+
 * Integrado con resto de sistemas de la ciudad.
+
 * Evaluación de Reglas y Motor CEP para toma de decisiones en la ciudad.
+
 * Suscripción a eventos, alarmas,...
+
 * Soporte multidispositivo.
+
 * `Sofia2 como cerebro de la ciudad (Pdf) <http://sofia2.com/docs/Sofia2%20como%20cerebro%20de%20la%20ciudad%20(abril%202015).pdf>`_
+
 
 Smart Energy.
 ---------------
