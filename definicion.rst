@@ -47,6 +47,7 @@ Sofia2 se ha enfocado en estas áreas:
 -  Interfaces REST para poder conectar de forma simple desde smartphones, dispositivos, aplicaciones RIA,…
 
 
+
 `Ver vídeo de Presentación <https://www.youtube.com/watch?v=kvhLLfpnKBU>`_
 
 `Sofia2 como Smart Platform <https://www.youtube.com/watch?v=BWZPfR0EfmY>`_
