@@ -20,7 +20,7 @@ Muestra las capacidades de la Plataforma para recibir en tiempo real informació
 
 `Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
 
-`Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
+|ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 
 
 Demo API Streaming Twitter 
@@ -105,6 +105,10 @@ Smart Drive
 Demostrador Pay As You Drive(PAYD) Gracias al equipo de Vodafone y Oysta tenemos operativa una primera versión de este demostrador que incluye un enfoque social y de gamificación con el objetivo de reducir el número de siniestros y el precio del seguro
 
 `Ver sitio <http://sofia2.com/web/smartdrive/login.html>`_
+
+
+
+.. |ver-video| image:: ./images//youtube.png
 
 
 
