@@ -49,6 +49,6 @@ Sofia2 se ha enfocado en estas áreas:
 
 Sofia2 como Smart Platform
 
-.. image:: ./images//logo_sofia2_grande.png
+.. image:: ./images//youtube.png
    :target: https://www.youtube.com/watch?v=BWZPfR0EfmY
 
