@@ -46,7 +46,8 @@ KP Modelo
 
 
 
-"Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistemas operativos:"
+
+Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistemas operativos:
 
 SOFIA2 SDK (Windows)
 -------------------
