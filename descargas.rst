@@ -50,7 +50,7 @@ Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistem
 
 SOFIA2 SDK (Windows)
 -------------------
-|descargar-windows| `Descargar SOFIA2 SDK (Windows) <http://sofia2.org/sdk/SOFIA2_SDK_WIN.zip>`_
+|descargar-windows|_ `Descargar SOFIA2 SDK (Windows) <http://sofia2.org/sdk/SOFIA2_SDK_WIN.zip>`_
 
 SOFIA2 SDK (Mac)
 ----------------
@@ -58,12 +58,14 @@ SOFIA2 SDK (Mac)
 
 SOFIA2 SDK (Linux)
 ------------------
-|descargar-linux| `Descargar SOFIA2 SDK (Linux) <http://sofia2.org/sdk/sofia2_sdk_linux.tar>`_
+|descargar-linux|_ `Descargar SOFIA2 SDK (Linux) <http://sofia2.org/sdk/sofia2_sdk_linux.tar>`_
 
 
 
 .. |descargar-mini| image:: ./images/mini-download.png
 .. |descargar-windows| image:: ./images/downloads-windows.png
+.. _descargar-windows: http://sofia2.org/sdk/SOFIA2_SDK_WIN.zip
 .. |descargar-linux| image:: ./images/downloads-linux.png
+.. _descargar-linux: http://sofia2.org/sdk/sofia2_sdk_linux.tar
 .. |descargar-mac| image:: ./images/downloads-apple.png
 .. _descargar-mac: http://sofia2.org/sdk/SOFIA2_SDK_2.9_MAC.zip
