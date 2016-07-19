@@ -14,5 +14,6 @@ Tras el proyecto Artemis Indra ha seguido evolucionando el proyecto SOFIA origin
 
 .. figure::  ./manuals/basico/media/image6.png   
    :scale: 90 %
-   :align: right
+   :align: left
 .. figure::  ./manuals/basico/media/image2.png
+   :align: right
