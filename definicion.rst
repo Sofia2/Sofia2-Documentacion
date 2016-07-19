@@ -28,7 +28,7 @@ Sofia2 se ha enfocado en estas áreas:
 
 -  Se ha simplificado el trabajo con la plataforma, especialmente en estas áreas:
 
-   -  Desarrollo de las ontologías (pasando a ser ligeras)
+   -  Desarrollo de las ontologías (pasando a ser ligeras).
 
    -  Lenguaje de consultas.
 
@@ -38,10 +38,16 @@ Sofia2 se ha enfocado en estas áreas:
 
 -  Capacidades integración con Backends con protocolos estándares como Web Services,…
 
--  Concepto de plugins para ampliar el SIB
+-  Concepto de plugins para ampliar el SIB.
 
--  Almacenamiento y Consultas GIS integradas
+-  Almacenamiento y Consultas GIS integradas.
 
 -  Inclusión de mecanismos de seguridad plugeables.
 
 -  Interfaces REST para poder conectar de forma simple desde smartphones, dispositivos, aplicaciones RIA,…
+
+
+`Ver vídeo de Presentación <https://www.youtube.com/watch?v=kvhLLfpnKBU>`_
+
+`Sofia2 como Smart Platform <https://www.youtube.com/watch?v=BWZPfR0EfmY>`_
+
