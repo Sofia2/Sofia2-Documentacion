@@ -360,7 +360,7 @@ Cuando una ontología es guardada en la BDTR, la plataforma le añade meta infor
 
     }
 
-  },
+  }
 
 Como vemos en el contextData aparece la clave de sesión que ha establecido el KP con SIB, el identificador del usuario que usa el KP, el identificador del KP, el identificador de la instancia del KP conectada y una marca de tiempo en la que se insertó la información.
 
@@ -376,7 +376,7 @@ Como vemos en el contextData aparece la clave de sesión que ha establecido el K
 .. |image3| image:: ./media/basico/image2.png
    :width: 2.09236in
    :height: 0.96944in
-.. |image4| image:: ./manuals/basico/media/image7.png
+.. |image4| figure:: ./manuals/basico/media/image7.png
    :width: 5.81528in
    :height: 1.95417in
    :align:   center
