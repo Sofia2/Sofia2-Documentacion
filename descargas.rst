@@ -37,7 +37,7 @@ API Arduino
 API .NET
 --------
 
-:download:`KP Modelo <http://sofia2.org/sdk/SOFIA2_KP_MODELO.zip>` 
+:download:`KP Modelo<http://sofia2.org/sdk/SOFIA2_KP_MODELO.zip>` 
 
 
 
