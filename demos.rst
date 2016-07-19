@@ -48,8 +48,9 @@ iViewer Capas Sofia2
 
 Dashboard Estación Metereológica
 --------------------------------
+Ejemplo de Dashboard creado vía Gadgets de la Plataforma. Requiere un usuario en Sofia2 CloudLab para poder visualizarlo.
 
-* `Dashboard Estación Metereológica <http://sofia2.com/console/login>`_
+`Ver sitio <http://sofia2.com/console/login>`_
 
 
 Demostrador de Control de Paso con Beacons
