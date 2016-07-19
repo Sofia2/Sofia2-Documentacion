@@ -39,6 +39,7 @@ SIB (Semantic Information Broker)
 
 -  En SOFIA\ :sup:`2` se propone el uso de JSON para el intercambio de información (SSAP) y para la definición de las ontologías.
 
+.. code-block:: json
     {"body":
 
     "{"query":"{SensorHumedad.medida:{$gt:18}}"}",
