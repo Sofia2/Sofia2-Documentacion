@@ -45,6 +45,8 @@ Ejemplo de panel de mando de todas las tiendas físicas de una empresa dedicada 
 
 `Ver sitio <http://sofia2.com/demos/smartRetail/Dashboard/index.html>`_
 
+|ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=eScv5Qq6EOM>`_
+
 
 Gasolineras de España
 ---------------------
@@ -100,6 +102,8 @@ Smart Distribution
 SmartDistribution es un proyecto en cesium.js que muestra las paginas html desde los enlaces del GIS de cesium.js
 
 `Ver sitio <http://sofia2.com/web/smartdistribution/InfoCliente.html>`_
+
+|ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=6VwCThRnJOs>`_
 
 
 Smart Drive
