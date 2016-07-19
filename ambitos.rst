@@ -4,5 +4,5 @@
 Ámbitos de aplicación
 =====================
 
+Internet of Things se posiciona transversalmente cruzando distintos sectores y negocios. La plataforma Sofia2 ofrece soluciones en todos los ámbitos.
 
-`Soluciones Sofia2 (Pdf) <http://sofia2-publicwb.cloudapp.net/es/casos_de_uso>`_
