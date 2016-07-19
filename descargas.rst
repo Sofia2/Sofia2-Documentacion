@@ -39,9 +39,11 @@ API .NET
 
 KP Modelo
 ---------
+http://sofia2.org/sdk/SOFIA2_KP_MODELO.zip
 
 
-Además facilita al desarrollador un entorno de de desarrollo (SDK) bajo varios sistemas operativos:
+
+Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistemas operativos:
 
 SOFIA2 SDK (Windows)
 -------------------
