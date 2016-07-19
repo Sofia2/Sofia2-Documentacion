@@ -45,7 +45,7 @@ Gasolineras de España
 Ejemplo en el que se representa en un mapa información sobre las gasolineras de España y los precios de combustibles actualizados diariamente, permite buscar por diversos criterios e identifica las gasolineras más caras y más baratas.
 
 `Ver sitio <http://sofia2.com/demos/gasolineras/feedGasolineraSimple.html>`_
-`Versión Developers http://sofia2.com/demos/gasolineras/feedGasolinera.html`_
+`Versión Developers <http://sofia2.com/demos/gasolineras/feedGasolinera.html`_
 
 Visor Opendata
 --------------
