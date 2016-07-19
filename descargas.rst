@@ -54,7 +54,7 @@ SOFIA2 SDK (Windows)
 
 SOFIA2 SDK (Mac)
 ----------------
-|descargar-mac| Descargar
+|descargar-mac| `Descargar <sofia2.org/sdk/SOFIA2_SDK_2.9_MAC.zip>`_
 
 SOFIA2 SDK (Linux)
 ------------------
