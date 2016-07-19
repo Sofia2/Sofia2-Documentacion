@@ -49,7 +49,6 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    :maxdepth: 2
    :caption: Manuales
 
-   manuals/index
    manuals/basico
    manuals/usuario
    manuals/desarollador
