@@ -33,9 +33,12 @@ API C
 
 API Arduino
 -----------
+|descargar-mini| `Descargar <http://sofia2.org/apis/SOFIA2_API_ARDUINO/SOFIA2_API_ARDUINO.zip>`_
+
 
 API .NET
 --------
+|descargar-mini| `Descargar <http://sofia2.org/apis/SOFIA2_API_NET/SOFIA2_APINET.zip>`_
 
 KP Modelo
 ---------
