@@ -4,7 +4,9 @@
 Qué es Sofia2
 =============
 
-SOFIA2 es una Arquitectura middleware que permite la interoperabilidad de múltiples sistemas y dispositivos. Permite poner información real a disposición de aplicaciones inteligentes (**Internet of Things**).
+Es una Plataforma IoT & Big Data pensada para facilitar y acelerar la construcción de nuevos sistemas y soluciones digitales y así lograr la transformación y disrupción de los negocios.
+
+Permite poner información real a disposición de aplicaciones inteligentes (**Internet of Things**).
 
 SOFIA es:
 
