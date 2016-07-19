@@ -47,6 +47,12 @@ Sofia2 se ha enfocado en estas áreas:
 
 
 
+
+Sofia2 (FEEP Enablement IoT Platform) forma parte de la Plataforma FEEP Enablement Platform de Indra/Minsait (http://www.minsait.com/es/what-we-do/feep-enablement-platform )
+
+
+
+
 |ver-video| `Sofia2 como Smart Platform. <https://www.youtube.com/watch?v=BWZPfR0EfmY>`_
 
 
