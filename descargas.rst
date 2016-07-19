@@ -39,7 +39,7 @@ API .NET
 
 KP Modelo
 ---------
-|descargar-mini| `<http://sofia2.org/sdk/SOFIA2_KP_MODELO.zip>` 
+`|descargar-mini| <http://sofia2.org/sdk/SOFIA2_KP_MODELO.zip>`_
 
 
 
@@ -65,6 +65,6 @@ SOFIA2 SDK (Linux)
 .. |descargar-mini| image:: ./images/mini-download.png
 .. |descargar-windows| image:: ./images/downloads-windows.png
 .. |descargar-linux| figure:: ./images/downloads-linux.png
- :align:  middle
+   :align:  middle
 .. |descargar-mac| image:: ./images/downloads-apple.png
 
