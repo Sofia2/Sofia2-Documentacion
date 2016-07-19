@@ -18,7 +18,8 @@ Demo Twitter Streaming
 ----------------------
 Muestra las capacidades de la Plataforma para recibir en tiempo real información de Twitter a la vez que su representación una vez almacenado en la plataforma.
 
-`Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_: `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
+`Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
+`Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 
 
 Demo API Streaming Twitter 
@@ -26,6 +27,7 @@ Demo API Streaming Twitter
 Utilizando los Gadgets de la Plataforma se ha realizado un nuevo demostrador de las capacidades de integración de Sofia2 con RRSS, en este caso Twitter. El demostrador permite recibir en tiempo real información de Twitter y visualizar esta información de diversas formas: nube de palabras y diferentes gráficas.
 
 `Ver sitio <http://sofia2.com/TwitterStreamingTags/>`_
+
 
 Dashboard Smart Health
 ----------------------
@@ -40,12 +42,13 @@ Ejemplo de panel de mando de todas las tiendas físicas de una empresa dedicada 
 
 `Ver sitio <http://sofia2.com/demos/smartRetail/Dashboard/index.html>`_
 
+
 Gasolineras de España
 ---------------------
 Ejemplo en el que se representa en un mapa información sobre las gasolineras de España y los precios de combustibles actualizados diariamente, permite buscar por diversos criterios e identifica las gasolineras más caras y más baratas.
 
 `Ver sitio <http://sofia2.com/demos/gasolineras/feedGasolineraSimple.html>`_
-`Versión Developers <http://sofia2.com/demos/gasolineras/feedGasolinera.html`_
+`Versión Developers <http://sofia2.com/demos/gasolineras/feedGasolinera.html>`_
 
 Visor Opendata
 --------------
