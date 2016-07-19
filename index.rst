@@ -64,3 +64,4 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    videostutoriales
    blog
    twitter
+   descargas
