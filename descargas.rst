@@ -58,7 +58,11 @@ SOFIA2 SDK (Mac)
 
 SOFIA2 SDK (Linux)
 ------------------
-`Descargar <http://sofia2.org/sdk/sofia2_sdk_linux.tar>`_
+|descargar-linux| `Descargar <http://sofia2.org/sdk/sofia2_sdk_linux.tar>`_
 
 
+
+.. |descargar-mini| image:: images/mini-download.png
+.. |descargar-windows| image:: images/downloads-windows.png
+.. |descargar-linux| image:: images/downloads-linuc.png
 
