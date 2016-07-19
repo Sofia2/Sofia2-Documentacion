@@ -364,39 +364,39 @@ Cuando una ontología es guardada en la BDTR, la plataforma le añade meta infor
 
 Como vemos en el contextData aparece la clave de sesión que ha establecido el KP con SIB, el identificador del usuario que usa el KP, el identificador del KP, el identificador de la instancia del KP conectada y una marca de tiempo en la que se insertó la información.
 
-.. |image0| image:: ./media/image2.png
+.. |image0| image:: ./media/basico/image2.png
    :width: 2.15417in
    :height: 0.98472in
-.. |image1| image:: ./media/image3.png
+.. |image1| image:: ./media/basico/image3.png
    :width: 1.40764in
    :height: 0.45556in
-.. |image2| image:: ./media/image6.png
+.. |image2| image:: ./media/basico/image6.png
    :width: 3.78472in
    :height: 1.13819in
-.. |image3| image:: ./media/image2.png
+.. |image3| image:: ./media/basico/image2.png
    :width: 2.09236in
    :height: 0.96944in
-.. |image4| image:: ./manuals/media/image7.png
+.. |image4| image:: ./manuals/basico/media/image7.png
    :width: 5.81528in
    :height: 1.95417in
-.. |image5| image:: ./manuals/media/image8.png
+.. |image5| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
 .. |image6| image:: ./manuals/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image7| image:: ./manuals/media/image8.png
+.. |image7| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image8| image:: ./manuals/media/image8.png
+.. |image8| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image9| image:: ./manuals/media/image8.png
+.. |image9| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image10| image:: ./manuals/media/image8.png
+.. |image10| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
-.. |image11| image:: ./manuals/media/image8.png
+.. |image11| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
