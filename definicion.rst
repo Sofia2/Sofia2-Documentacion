@@ -23,6 +23,7 @@ Sofia2 (FEEP Enablement IoT Platform) forma parte de la Plataforma `FEEP Enablem
 
 .. |ver-video| image:: ./images/youtube.png
    :target: https://www.youtube.com/watch?v=BWZPfR0EfmY
-.. |cerebro| figure:: ./images/Cerebro-Sofia2.png
+
+.. |cerebro| image:: ./images/Cerebro-Sofia2.png
  :align:   center
 
