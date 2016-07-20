@@ -8,8 +8,9 @@ Internet of Things se posiciona transversalmente cruzando distintos sectores y n
 
 Smart Cities.
 ---------------
+Aportamos soluciones Smart City que sitúan al ciudadano en el centro de actuación pública y de gobierno.
 
-Sofia2 como cerebro de OS de la ciudad.
+Sofia2 como cerebro de OS de la ciudad:
 
 * Recolección de datos de los sensores y dispositivos de la ciudad.
 
@@ -29,8 +30,9 @@ Sofia2 como cerebro de OS de la ciudad.
 
 Smart Energy.
 ---------------
+Aportamos soluciones Smart Energy para la gestión eficiente de los procesos de generación, distribución y comercialización.
 
-SOFIA2 como Plataforma para dispositivos domiciliarios.
+SOFIA2 como Plataforma para dispositivos domiciliarios:
 
 * Recoge información de dispositivos domóticos.
 
@@ -43,8 +45,9 @@ SOFIA2 como Plataforma para dispositivos domiciliarios.
 
 Smart Health.
 ---------------
+Aportamos soluciones Smart Health para un modelo de Salud sostenible, que prioriza la atención y la prevención de enfermedades.
 
-SOFIA2 como Plataforma de Interoperabilidad entre Sistemas.
+SOFIA2 como Plataforma de Interoperabilidad entre Sistemas:
 
 * Desplegable en dispositivos para salud domiciliaria.
 
@@ -75,7 +78,9 @@ Productos, procesos y modelos de negocio preparados para la Cuarta Revolución I
 
 Smart Retails.
 ---------------
-SOFIA2 en la optimización de modelos comerciales de tiendas.
+Aportamos soluciones Smart Retail que conectan a las marcas con clientes, mejoran procesos logísticos, maximizan la adquisición ….
+
+SOFIA2 en la optimización de modelos comerciales de tiendas:
 
 * Gestión Smart de un supermercado permitiendo conocer el número de visitantes, analítica online de productos más solicitados,...
 
@@ -86,8 +91,9 @@ SOFIA2 en la optimización de modelos comerciales de tiendas.
 
 Smart Banking.
 ---------------
+Soluciones Smart Banking para desarrollar Banca Digital y liderar procesos de transformación de la información.
 
-SOFIA2 encaja como Solución Transversal en Banca.
+SOFIA2 encaja como Solución Transversal en Banca:
 
 * Plataforma para el mobile payment e integración con otras empresas.
 
