@@ -80,7 +80,17 @@ Smart Health: SISENS - Hospitalización Experimental Hospital 2050
 -----------------------------------------------------------------
 El Proyecto de Hospitalización Experimental Hospital 2050, SISENS, desarrollado por Televés e Indra para el Servizo Galego de Saúde (SERGAS) consiste en un “concentrador inteligente”, desarrollado y fabricado por Televés, conectado de manera ininterrumpida a SOFIA2.
 
-SOFIA2 actúa como una plataforma centralizadora que recoge y analiza en tiempo real toda la información proveniente de los dispositivos implantados en el hospital, independientemente de sus características o fabricantes.
+SOFIA2 actúa como una plataforma centralizadora que recoge y analiza en tiempo real toda la información proveniente de los dispositivos implantados en el hospital, independientemente de sus características o fabricantes:
+
+* Captación de información desde diversos dispositivos:pulsiómetro,electrocardiograma,tensiómetro,termómetro, báscula, glucómetro, coaguiómetro,body composit,peak flow monitor, cardiovascular, strength,independent,medication monitor...
+
+* Monitorización de constantes vitales en remoto,evitando desplazamientos de médicos y pacientes con enfermedades crónicas/ hospitalización domiciliaria.
+
+* Canal bidireccional de comunicación con el paciente, con calendario, alarmas, recordatorios, buenas prácticas a través de dispositivos móviles y Smart TVs.
+
+* Sofia2 como Plataforma de recepción de señales biométricas con reglas y alarmas en base a valores anómalos informando a médicos y/o pacientes de situaciones de riesgo.
+
+* Almacenamiento y procesado de información masiva, habilitando el análisis Big Data de la información biométrica de los pacientes del Sergas en futuros estudios.
 
 
 
