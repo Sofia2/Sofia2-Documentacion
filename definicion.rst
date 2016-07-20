@@ -13,8 +13,8 @@ Su propósito es lograr la interoperabilidad entre diferentes aplicaciones que c
 Sofia2 (FEEP Enablement IoT Platform) forma parte de la Plataforma `FEEP Enablement Platform de Indra/Minsait <http://www.minsait.com/es/what-we-do/feep-enablement-platform>`_
 
 
-|cerebro|
-
+.. figure::  ./images/Cerebro-Sofia2.png
+ :align:   center
 
 
 
@@ -23,7 +23,4 @@ Sofia2 (FEEP Enablement IoT Platform) forma parte de la Plataforma `FEEP Enablem
 
 .. |ver-video| image:: ./images/youtube.png
    :target: https://www.youtube.com/watch?v=BWZPfR0EfmY
-
-.. |cerebro| image:: ./images/Cerebro-Sofia2.png
- :align:   center
 
