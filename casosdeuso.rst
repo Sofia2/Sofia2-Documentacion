@@ -4,9 +4,23 @@
 Casos de Uso
 ============
 
-Smart Cities: Plataforma Smart Coruña
+Smart Cities: Coruña Smart City
 --------------------------------------
+Coruña Smart City es el proyecto de ciudad inteligente liderado por el Ayuntamiento de A Coruña y desarrollado en colaboración con Sofia2 (Minsait by Indra).
 
+Coruña Smart City ofrece una nueva forma de acceder a la información de la ciudad.
+
+Los ciudadanos pueden a través de canales electrónicos (ordenadores, teléfonos móviles), realizar tramitaciones administrativas o consultar informaciones útiles sobre la ciudad y sus servicios e intervenir en plataformas de participación.
+
+
+.. figure::  ./images/indra-coruna-smart-city.jpg
+ :align:   center
+
+
+Sofia2 es capaz de aportar beneficios en cuatro ámbitos principales: la gestión de la ciudad, la personalización de los servicios para el ciudadano, la sostenibilidad y competitividad de la ciudad y la disponibilidad de información centralizada en un único sistema de control.
+
+
+`Acceder al portal <https://smart.coruna.es/>`_
 |ver-video| `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
 
 
