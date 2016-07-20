@@ -4,14 +4,14 @@
 Casos de Uso
 ============
 
-`Smart Cities: Plataforma Smart Coruña
+Smart Cities: Plataforma Smart Coruña
 --------------------------------------
 
 `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
 
 
-* Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
------------------------------------------------------------------------
+Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
+--------------------------------------------------------------------
 
 * Sofia2 como Plataforma de adquisición de datos y control de los dispositivos ubicados en el domicilio del cliente.
 
@@ -31,12 +31,3 @@ Casos de Uso
 
 * Funcionalidades específicas para particulares, PYMEs y Grandes Empresas.
 
-
-
-
-* `Smart Health <https://www.youtube.com/watch?v=u_V0UJuMCgY>`_
-* Smart Banking.
-* Smart T&T.
-* `Smart Retail <https://www.youtube.com/watch?v=eScv5Qq6EOM>`_
-* Smart Tourism.
-* `Smart Distribution <https://www.youtube.com/watch?v=6VwCThRnJOs>`_
