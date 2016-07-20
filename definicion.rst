@@ -25,35 +25,6 @@ SOFIA es:
 Su propósito es lograr la interoperabilidad entre diferentes aplicaciones que comparten **conceptos semánticos.**.
 
 
-Sofia2 se ha enfocado en estas áreas:
-
--  **Adaptación al mundo empresarial**: funcionamiento en Alta Disponibilidad, con centros de datos distribuidos,…
-
--  Se ha simplificado el trabajo con la plataforma, especialmente en estas áreas:
-
-   -  Desarrollo de las ontologías (pasando a ser ligeras).
-
-   -  Lenguaje de consultas.
-
-   -  Protocolo SSAP: con una implementación JSON además de la estándar XML.
-
--  Interfaces Big Data (Hadoop) para almacenamiento de grandes volúmenes de datos y datawarehouse.
-
--  Capacidades integración con Backends con protocolos estándares como Web Services,…
-
--  Concepto de plugins para ampliar el SIB.
-
--  Almacenamiento y Consultas GIS integradas.
-
--  Inclusión de mecanismos de seguridad plugeables.
-
--  Interfaces REST para poder conectar de forma simple desde smartphones, dispositivos, aplicaciones RIA,…
-
-
-
-
-
-
 
 |ver-video| `Sofia2 como Smart Platform. <https://www.youtube.com/watch?v=BWZPfR0EfmY>`_
 
