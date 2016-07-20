@@ -15,6 +15,8 @@ Descargue de nuestro repositorio aquellas librerías y recursos que necesite par
 
 API Java
 --------
+APIs Java para el desarrollo de plugins de extensión para Sofia2-Core para poder ampliar las capacidades de la plataforma, pudiendo también realizar las adaptaciones necesarias para su interactuación con otros sistemas.
+
 |descargar-mini| `Descargar <http://sofia2.org/apis/SOFIA2_API_JAVA/SOFIA2_API_JAVA.zip>`_
 
 API Javascript
