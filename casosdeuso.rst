@@ -5,7 +5,7 @@ Casos de Uso
 ============
 
 Smart Cities: Coruña Smart City
---------------------------------------
+-------------------------------
 Coruña Smart City es el proyecto de ciudad inteligente liderado por el Ayuntamiento de A Coruña y desarrollado en colaboración con Sofia2 (Minsait by Indra).
 
 Coruña Smart City ofrece una nueva forma de acceder a la información de la ciudad.
