@@ -54,7 +54,7 @@ Ejemplo en el que se representa en un mapa información sobre las gasolineras de
 
 |external-link|   `Ver sitio <http://sofia2.com/demos/gasolineras/feedGasolineraSimple.html>`_
 
-`Versión Developers <http://sofia2.com/demos/gasolineras/feedGasolinera.html>`_
+|external-link|   `Versión Developers <http://sofia2.com/demos/gasolineras/feedGasolinera.html>`_
 
 Visor Opendata
 --------------
