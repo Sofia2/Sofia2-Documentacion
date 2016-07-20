@@ -10,8 +10,6 @@ Para ello la plataforma provee un set de herramientas para desarrolladores que f
 
 La plataforma Sofia2 ofrece diferentes APIs y un SDK que permite su integración con cualquier tipo de dispositivo.
 
-Sofia2 es Multiplataforma y multidispositivo, por lo tanto disponibiliza un conjunto de APIs diferentes.
-
 Descargue de nuestro repositorio aquellas librerías y recursos que necesite para el uso de nuestros productos:
 
 
