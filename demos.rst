@@ -11,14 +11,14 @@ Visor Geográfico
 ----------------
 Representación de diferente información en diversos mapas, desde situación de autobuses en diversas ciudades en tiempo real, a información sensórica o representación de tuits sobre un tema concreto.
 
-|external-link| `  Ver sitio <http://sofia2.com/Examples/Geographics.html>`_
+|external-link|   `Ver sitio <http://sofia2.com/Examples/Geographics.html>`_
 
 
 Demo Twitter Streaming
 ----------------------
 Muestra las capacidades de la Plataforma para recibir en tiempo real información de Twitter a la vez que su representación una vez almacenado en la plataforma.
 
-|external-link| `  Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
+|external-link|   `Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
 
 |ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 
