@@ -61,6 +61,13 @@ Smart Health: ZURICH - APLICACIÓN WEARABLES A SEGUROS
 
 
 
+Smart Health: SISENS - Hospitalización Experimental Hospital 2050
+-----------------------------------------------------------------
+El Proyecto de Hospitalización Experimental Hospital 2050, SISENS, desarrollado por Televés e Indra para el Servizo Galego de Saúde (SERGAS) consiste en un “concentrador inteligente”, desarrollado y fabricado por Televés, conectado de manera ininterrumpida a SOFIA2.
+
+ SOFIA2 actúa como una plataforma centralizadora que recoge y analiza en tiempo real toda la información proveniente de los dispositivos implantados en el hospital, independientemente de sus características o fabricantes.
+
+
 
 .. |ver-video| image:: ./images//youtube.png
    :target: <https://www.youtube.com/watch?v=9G4ivBegc2E>
