@@ -2,6 +2,7 @@ Técnologías de Referencia
 =========================
 
 * Java como Plataforma de desarrollo de módulos de proceso:
+
   * Spring y su ecosistema como tecnología de soporte.
   * Despliegue estándar JEE independiente de AppServer
   
