@@ -15,6 +15,35 @@ Tras el proyecto Artemis Indra ha seguido evolucionando el proyecto SOFIA origin
 |image6| |image2|
 
 
+Sofia2 se ha enfocado en estas áreas:
+
+-  **Adaptación al mundo empresarial**: funcionamiento en Alta Disponibilidad, con centros de datos distribuidos,…
+
+-  Se ha simplificado el trabajo con la plataforma, especialmente en estas áreas:
+
+   -  Desarrollo de las ontologías (pasando a ser ligeras).
+
+   -  Lenguaje de consultas.
+
+   -  Protocolo SSAP: con una implementación JSON además de la estándar XML.
+
+-  Interfaces Big Data (Hadoop) para almacenamiento de grandes volúmenes de datos y datawarehouse.
+
+-  Capacidades integración con Backends con protocolos estándares como Web Services,…
+
+-  Concepto de plugins para ampliar el SIB.
+
+-  Almacenamiento y Consultas GIS integradas.
+
+-  Inclusión de mecanismos de seguridad plugeables.
+
+-  Interfaces REST para poder conectar de forma simple desde smartphones, dispositivos, aplicaciones RIA,…
+
+
+
+
+
+
 .. |image6| image:: ./manuals/basico/media/image6.png    
    :width: 3.78472in
    :height: 1.13819in
