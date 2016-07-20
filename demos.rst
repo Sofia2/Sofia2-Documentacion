@@ -113,6 +113,13 @@ Demostrador Pay As You Drive(PAYD) Gracias al equipo de Vodafone y Oysta tenemos
 |external-link|   `Ver sitio <http://sofia2.com/web/smartdrive/login.html>`_
 
 
+Telepizza
+---------
+Demo para realizar el seguimiento de Pedidos.
+
+|external-link|   `Ver sitio http://sofia2.com/web/demotelepizza/cliente.html`_
+
+
 
 .. |ver-video| image:: ./images/youtube.png
 .. |external-link| image:: ./images/external-link.png
