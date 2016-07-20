@@ -4,7 +4,8 @@
 
 Características Generales
 =================================
-
+.. figure::  ./images/capacidades-Sofia2.JPG
+ :align:   center
  
 Características IoT
 -------------------
