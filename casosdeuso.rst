@@ -7,7 +7,7 @@ Casos de Uso
 Smart Cities: Plataforma Smart Coruña
 --------------------------------------
 
- |ver-video| `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
+|ver-video| `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
 
 
 Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
