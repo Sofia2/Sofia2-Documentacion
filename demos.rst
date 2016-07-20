@@ -18,7 +18,7 @@ Demo Twitter Streaming
 ----------------------
 Muestra las capacidades de la Plataforma para recibir en tiempo real información de Twitter a la vez que su representación una vez almacenado en la plataforma.
 
-|external-link| `  `Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
+|external-link| `  Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
 
 |ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 
@@ -43,7 +43,7 @@ Dashboard Smart Retail
 ----------------------
 Ejemplo de panel de mando de todas las tiendas físicas de una empresa dedicada a la venta de ropa y en la que para cada tienda se pueden saber visitas, zonas más visitadas, ropa más probada y comprada,…y todo en tiempo real.
 
-`Ver sitio <http://sofia2.com/demos/smartRetail/Dashboard/index.html>`_
+|external-link| `  Ver sitio <http://sofia2.com/demos/smartRetail/Dashboard/index.html>`_
 
 |ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=eScv5Qq6EOM>`_
 
