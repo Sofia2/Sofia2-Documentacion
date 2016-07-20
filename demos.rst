@@ -11,14 +11,14 @@ Visor Geográfico
 ----------------
 Representación de diferente información en diversos mapas, desde situación de autobuses en diversas ciudades en tiempo real, a información sensórica o representación de tuits sobre un tema concreto.
 
-|external-link| `Ver sitio <http://sofia2.com/Examples/Geographics.html>`_
+|external-link| `  Ver sitio <http://sofia2.com/Examples/Geographics.html>`_
 
 
 Demo Twitter Streaming
 ----------------------
 Muestra las capacidades de la Plataforma para recibir en tiempo real información de Twitter a la vez que su representación una vez almacenado en la plataforma.
 
-`Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
+|external-link| `  `Ver sitio <http://sofia2.com/Kp_TwitterReglaLexico/>`_
 
 |ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=6eTy6kjYuCg>`_
 
@@ -27,14 +27,14 @@ Demo API Streaming Twitter
 --------------------------
 Utilizando los Gadgets de la Plataforma se ha realizado un nuevo demostrador de las capacidades de integración de Sofia2 con RRSS, en este caso Twitter. El demostrador permite recibir en tiempo real información de Twitter y visualizar esta información de diversas formas: nube de palabras y diferentes gráficas.
 
-`Ver sitio <http://sofia2.com/TwitterStreamingTags/>`_
+|external-link| `  Ver sitio <http://sofia2.com/TwitterStreamingTags/>`_
 
 
 Dashboard Smart Health
 ----------------------
 Cuadro de mando en el que asociado a cada paciente tenemos un wearable tipo pulsera capaz de medir información sobre pasos andados, sueño, oximetría,... Información que se cruza con histórica del paciente.
 
-`Ver sitio <http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html>`_
+|external-link| `  Ver sitio <http://sofia2.com/demos/smarthealth/pages/dashboard_phillip.html>`_
 
 |ver-video| `Ver vídeo Demo <https://www.youtube.com/watch?v=u_V0UJuMCgY>`_
 
