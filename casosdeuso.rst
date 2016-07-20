@@ -36,5 +36,31 @@ Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
  :align:   center
  
 
+Smart Health: ZURICH - APLICACIÓN WEARABLES A SEGUROS
+-----------------------------------------------------
+
+* **Adquisición de datos en tiempo reaL de la pulsera de actividad** (pasos diarios, calorías, tomas de tensión…) y alta de constantes en la web.
+
+* **Cálculo online de indicadores: ranking usuario.**
+
+* **Dashboard** para cliente y para usuario de negocio que ve información agregada.
+
+* Agregación de información de diversas fuentes.
+
+* Incorporación de **información de Redes Sociales**.
+
+* **Aplicación móvil**.
+
+* Dashboards personalizados por usuario y dashboards.
+
+* **Almacenamiento y procesado de información masiva**, habilitando el análisis Big Data de la información.
+
+
+.. figure::  ./images/Zurith-smart-health.png
+ :align:   center
+
+
+
+
 .. |ver-video| image:: ./images//youtube.png
    :target: <https://www.youtube.com/watch?v=9G4ivBegc2E>
