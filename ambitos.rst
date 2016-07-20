@@ -10,6 +10,7 @@ Smart Cities.
 ---------------
 
 Sofia2 como cerebro de OS de la ciudad.
+
 * Recolección de datos de los sensores y dispositivos de la ciudad.
 
 * Integrado con resto de sistemas de la ciudad.
