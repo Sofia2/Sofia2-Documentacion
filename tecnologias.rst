@@ -1,12 +1,12 @@
 Técnologías de Referencia
 =========================
 
-* Java como Plataforma de desarrollo de módulos de proceso:
+* **Java** como Plataforma de desarrollo de módulos de proceso:
 
-  * Spring y su ecosistema como tecnología de soporte.
-  * Despliegue estándar JEE independiente de AppServer
+  * **Spring y su ecosistema** como tecnología de soporte.
+  * **Despliegue estándar JEE** independiente de AppServer
   
-* Datagrid (Hazelcast) para comunicación entre módulos y HA.
+* **Datagrid (Hazelcast)** para comunicación entre módulos y HA.
 
 * Motor CEP (Siddhi CEP) para reglas sobre grandes volúmenes de eventos en los que interviene el tiempo.
 
