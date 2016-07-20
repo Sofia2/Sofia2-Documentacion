@@ -76,7 +76,7 @@ Smart Health: ZURICH - APLICACIÓN WEARABLES A SEGUROS
 
 
 
-Smart Health: SERVIZO GALEGO DE SAÚDE HOGAR DIGITAL ASISTENCIAL
+Smart Health: SERVIZO GALEGO DE SAÚDE - HOGAR DIGITAL ASISTENCIAL
 ---------------------------------------------------------------
 El Proyecto de Hospitalización Experimental Hospital 2050, SISENS, desarrollado por Televés e Indra para el Servizo Galego de Saúde (SERGAS) consiste en un “concentrador inteligente”, desarrollado y fabricado por Televés, conectado de manera ininterrumpida a SOFIA2.
 
