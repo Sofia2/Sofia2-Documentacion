@@ -21,6 +21,7 @@ Sofia2 es capaz de aportar beneficios en cuatro ámbitos principales: la gestió
 
 
 `Acceder al portal <https://smart.coruna.es/>`_
+
 |ver-video| `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
 
 
