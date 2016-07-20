@@ -28,6 +28,11 @@ Smart Space
 
 -  Los Smart Spaces pueden comunicarse entre ellos estableciendo relaciones de confianza.
 
+
+.. figure::  ./images/SmartSpace.png
+ :align:   center
+ 
+
 SIB (Semantic Information Broker) 
 ----------------------------------
 
