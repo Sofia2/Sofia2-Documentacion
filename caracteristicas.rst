@@ -11,7 +11,7 @@ Características IoT
 
 FEEP IoT Platform Sofia2, es un Middleware y repositorio que permite la interoperabilidad en tiempo real entre sistemas, redes sociales, dispositivos y sensores:
  
- * Ontologías y visión semática para garantizar independencia de protocolos. Permitiendo la representación del mundo físico en el mundo digital.
+* Ontologías y visión semática para garantizar independencia de protocolos. Permitiendo la representación del mundo físico en el mundo digital.
 
 * Conectores de comunicación para diversos clientes y protocolos de comunicación ligeros (REST, WebSockets, MQTT, WS, JMS, AMQP…).
 
