@@ -24,6 +24,9 @@ Sofia2 como cerebro de OS de la ciudad.
 |descargar-mini| `Sofia2 como cerebro de la ciudad (Pdf) <http://sofia2.com/docs/Sofia2%20como%20cerebro%20de%20la%20ciudad%20(abril%202015).pdf>`_
 
 
+`SmartCity: Un modelo de mobilidad sostenible para las ciudades del futuro <https://www.youtube.com/watch?v=tNIKZo12UrU>`_
+
+
 Smart Energy.
 ---------------
 
