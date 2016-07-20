@@ -117,7 +117,7 @@ Telepizza
 ---------
 Demo para realizar el seguimiento de Pedidos.
 
-|external-link|   `Ver sitio http://sofia2.com/web/demotelepizza/cliente.html`_
+|external-link|   `Ver sitio <http://sofia2.com/web/demotelepizza/cliente.html>`_
 
 
 
