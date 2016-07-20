@@ -20,7 +20,7 @@ Los ciudadanos pueden a través de canales electrónicos (ordenadores, teléfono
 Sofia2 es capaz de aportar beneficios en cuatro ámbitos principales: la gestión de la ciudad, la personalización de los servicios para el ciudadano, la sostenibilidad y competitividad de la ciudad y la disponibilidad de información centralizada en un único sistema de control.
 
 
-`Acceder al portal <https://smart.coruna.es/>`_
+|external-link| `Acceder al portal <https://smart.coruna.es/>`_
 
 |ver-video| `Plataforma Smart Coruña en acción <https://www.youtube.com/watch?v=9G4ivBegc2E>`_
 
@@ -86,3 +86,4 @@ SOFIA2 actúa como una plataforma centralizadora que recoge y analiza en tiempo 
 
 .. |ver-video| image:: ./images//youtube.png
    :target: <https://www.youtube.com/watch?v=9G4ivBegc2E>
+.. |external-link| image:: ./images/external-link.png
