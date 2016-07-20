@@ -6,12 +6,12 @@ Características Generales
 =================================
 
  
+Características IoT
+-------------------
 
- Características IoT
- -------------------
- FEEP IoT Platform Sofia2, es un Middleware y repositorio que permite la interoperabilidad en tiempo real entre sistemas, redes sociales, dispositivos y sensores:
+FEEP IoT Platform Sofia2, es un Middleware y repositorio que permite la interoperabilidad en tiempo real entre sistemas, redes sociales, dispositivos y sensores:
  
-* Ontologías y visión semática para garantizar independencia de protocolos. Permitiendo la representación del mundo físico en el mundo digital.
+ * Ontologías y visión semática para garantizar independencia de protocolos. Permitiendo la representación del mundo físico en el mundo digital.
 
 * Conectores de comunicación para diversos clientes y protocolos de comunicación ligeros (REST, WebSockets, MQTT, WS, JMS, AMQP…).
 
@@ -37,9 +37,10 @@ Características Generales
 
  
  
- Características Big Data & Analytic
- -----------------------------------
- FEEP Big Data Platform Sofia2, permite la integración con fuentes de datos de forma visual y asistida y ofrece capacidades de analítica y Machine Learning que permite cargar datasets, lanzar algoritmos, crear modelos y publicarlos:
+Características Big Data & Analytic
+-----------------------------------
+
+FEEP Big Data Platform Sofia2, permite la integración con fuentes de datos de forma visual y asistida y ofrece capacidades de analítica y Machine Learning que permite cargar datasets, lanzar algoritmos, crear modelos y publicarlos:
  
 
 * Data flow, notebooks analytics y machine learning.
