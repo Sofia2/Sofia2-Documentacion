@@ -93,4 +93,7 @@ SOFIA2 encaja como Solución Transversal en Banca.
 * Plataforma de gestión de logs: recepción centralizada, almacenamiento, explotación.
 
 
-`Soluciones Sofia2 (Pdf) <http://sofia2.com/docs/Sofia2-Soluciones.pdf>`_
+|descargar-mini| `Soluciones Sofia2 (Pdf) <http://sofia2.com/docs/Sofia2-Soluciones.pdf>`_
+
+
+.. |descargar-mini| image:: ./images/mini-download.png
