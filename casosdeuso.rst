@@ -13,10 +13,6 @@ Smart Cities: Plataforma Smart Coruña
 Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
 --------------------------------------------------------------------
 
-.. figure::  ./images/Endesa-smart-home.png
- :align:   center
-
-
 * **Sofia2 como Plataforma de adquisición de datos y control** de los dispositivos ubicados en el domicilio del cliente.
 
 * Plataforma como core de  **eficiencia energética**.
@@ -36,6 +32,9 @@ Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
 * Funcionalidades específicas para particulares, PYMEs y Grandes Empresas.
 
 
+.. figure::  ./images/Endesa-smart-home.png
+ :align:   center
+ 
 
 .. |ver-video| image:: ./images//youtube.png
    :target: <https://www.youtube.com/watch?v=9G4ivBegc2E>
