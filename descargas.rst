@@ -3,6 +3,11 @@
  
 Descargas
 =========
+
+La Plataforma disponibiliza las herramientas necesarias para poder desarrollar servicios, aplicaciones, extensiones o personalizaciones sobre la Plataforma. 
+
+Para ello la plataforma provee un set de herramientas para desarrolladores que facilitará y promoverá el trabajo con la plataforma.
+
 La plataforma Sofia2 ofrece diferentes APIs y un SDK que permite su integración con cualquier tipo de dispositivo.
 
 Sofia2 es Multiplataforma y multidispositivo, por lo tanto disponibiliza un conjunto de APIs diferentes.
@@ -55,9 +60,7 @@ KP Modelo
 
 
 
-
-
-Además facilita al desarrollador un entorno de trabajo (SDK) bajo varios sistemas operativos:
+Además facilita al desarrollador un IDE personalizado basado en Eclipse para el desarrollo simplificado de integraciones sobre la Plataforma:
 
 SOFIA2 SDK (Windows)
 -------------------
