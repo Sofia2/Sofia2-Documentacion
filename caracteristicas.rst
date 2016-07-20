@@ -20,6 +20,7 @@ Características Generales
 * Procesamiento en tiempo real de la información intercambiada.
 
 * Auditoría de la actividad de integración.
+
 * Configuración de reglas sencillas y complejas ejecutadas en tiempo real.
 
 * Gestión y configuración integrado en Sofia2 Control Panel (HTML5).
