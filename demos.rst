@@ -11,7 +11,7 @@ Visor Geográfico
 ----------------
 Representación de diferente información en diversos mapas, desde situación de autobuses en diversas ciudades en tiempo real, a información sensórica o representación de tuits sobre un tema concreto.
 
-`Ver sitio <http://sofia2.com/Examples/Geographics.html>`_
+|external-link| `Ver sitio <http://sofia2.com/Examples/Geographics.html>`_
 
 
 Demo Twitter Streaming
@@ -114,7 +114,8 @@ Demostrador Pay As You Drive(PAYD) Gracias al equipo de Vodafone y Oysta tenemos
 
 
 
-.. |ver-video| image:: ./images//youtube.png
+.. |ver-video| image:: ./images/youtube.png
+.. |external-link| image:: ./images/external-link.png
 
 
 
