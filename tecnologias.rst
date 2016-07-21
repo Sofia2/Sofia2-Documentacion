@@ -1,4 +1,7 @@
-Técnologías de Referencia
+.. figure::  ./images/logo_sofia2_grande.png
+ :align:   center
+ 
+Tecnologías de Referencia
 =========================
 
 * **Java** como Plataforma de desarrollo de módulos de proceso:
@@ -6,6 +9,8 @@ Técnologías de Referencia
   * **Spring y su ecosistema** como tecnología de soporte.
   * **Despliegue estándar JEE** independiente de AppServer.
   
+  
+  .. figure::  ./images/logo_java.png    .. figure::  ./images/logo-spring.jpg
   
   
 * **Datagrid (Hazelcast)** para comunicación entre módulos y HA.
