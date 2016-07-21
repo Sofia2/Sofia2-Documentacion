@@ -57,6 +57,6 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. |logoimpala| image:: ./images/logo-cloudera.png
 .. |logogroovy| image:: ./images/logo-groovy.png
 .. |logor| image:: ./images/logo-r.png
-.. |logophyton| image:: ./images/logo-python.png
+.. |logophyton| image:: ./images/logo-python.jpg
 
 
