@@ -16,7 +16,7 @@ Módulos IoT
 
 * **SDKs**: La plataforma provee un set de herramientas para desarrolladores que facilita el desarrollo de clientes de (emisores y receptores de información) en diferentes lenguajes, y sobre una variedad de protocolos disponibles:
     - Lenguajes: Java, Javascript, Android, IOS, Python, Node.js, Arduino, C, .NET…
- 
+    
     - Protocolos: MQTT, MQTTS, REST, Websockets, WS…
 
 
