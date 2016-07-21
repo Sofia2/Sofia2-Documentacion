@@ -47,6 +47,6 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. figure::  ./images/logo-springxd.png
 
 
-.. |logojava| figure::  ./images/logo-java.png           
-.. |logospring| figure::  ./images/logo-spring.jpg
+.. |logojava| image::  ./images/logo-java.png           
+.. |logospring| image::  ./images/logo-spring.jpg
 
