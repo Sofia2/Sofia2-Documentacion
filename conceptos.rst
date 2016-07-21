@@ -15,7 +15,11 @@ La Plataforma **Sofia2** se conceptualiza con estos 4 conceptos:
 
 -  **SSAP**
 
-|image4|
+
+.. figure::  ./manuals/basico/media/image7.png
+   :width: 5.81528in
+   :height: 1.95417in
+   :align:   center
 
 Smart Space
 -----------
@@ -381,9 +385,6 @@ Como vemos en el contextData aparece la clave de sesión que ha establecido el K
 .. |image3| image:: ./media/basico/image2.png
    :width: 2.09236in
    :height: 0.96944in
-.. |image4| image:: ./manuals/basico/media/image7.png
-   :width: 5.81528in
-   :height: 1.95417in
 .. |image5| image:: ./manuals/basico/media/image8.png
    :width: 0.29236in
    :height: 0.10764in
