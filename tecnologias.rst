@@ -9,7 +9,8 @@ Tecnologías de Referencia
   * **Spring y su ecosistema** como tecnología de soporte.
   * **Despliegue estándar JEE** independiente de AppServer.
   
-.. figure::  ./images/logo_java.png    .. figure::  ./images/logo-spring.jpg
+.. figure::  ./images/logo_java.png    
+.. figure::  ./images/logo-spring.jpg
   
   
 * **Datagrid (Hazelcast)** para comunicación entre módulos y HA.
