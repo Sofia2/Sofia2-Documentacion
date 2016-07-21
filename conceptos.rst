@@ -21,6 +21,7 @@ La Plataforma **Sofia2** se conceptualiza con estos 4 conceptos:
    :height: 1.95417in
    :align:   center
 
+|
 Smart Space
 -----------
 
@@ -36,7 +37,7 @@ Smart Space
 .. figure::  ./images/SmartSpace.png
  :align:   center
  
-
+|
 SIB (Semantic Information Broker) 
 ----------------------------------
 
@@ -79,7 +80,7 @@ SIB (Semantic Information Broker)
    -  Otros como Bluetooth, Zigbee,..
 
 -  SIB extensible a través de plugins.
-
+|
 KP (Knowledge Processor)
 ------------------------
 
@@ -98,7 +99,7 @@ KP (Knowledge Processor)
    -  **Prosumer**: KP que inserta y recupera información del SIB indistintamente
 
 -  En SOFIA\ :sup:`2` se propone el envío de mensajes SSAP en JSON que son más ligeros y adecuados a dispositivos embebidos.
-
+|
 SSAP (Smart Space Access Protocol)
 ----------------------------------
 
@@ -139,7 +140,7 @@ SSAP (Smart Space Access Protocol)
    -  **CONFIG:** permite al KP solicitar la configuración asociada a su instancia.
 
    -  Notificar cambios desde el SIB a suscriptores
-
+|
 Ontologías
 ----------
 
