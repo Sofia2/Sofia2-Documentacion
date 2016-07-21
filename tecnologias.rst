@@ -46,10 +46,9 @@ Tecnologías de Referencia
 |
 Con la modularidad de la solución se pueden llegar a sustituir o reemplazar algunas piezas si existe la necesidad. Por ejemplo BDH sobre Mongo, BDTR sobre Oracle,…
 
-.. figure::  ./images/logo-apache.png
-.. figure::  ./images/logo-apachedrill.png
-.. figure::  ./images/logo-scala.jpg
-.. figure::  ./images/logo-zeppelin.png
+                                             |logoapache| |logoapachedrill| |logoescala| |logozeppeling|
+
+
 
 
 .. |logojava| image::  ./images/logo-java.png           
@@ -66,6 +65,10 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. |logojavascripts| image::  ./images/logo-javascripts.png
 .. |logojquery| image::  ./images/logojquery.png
 .. |logothymeleaf| image::  ./images/logo_thymeleaf.png
+.. |logoapache| image::  ./images/logo-apache.png
+.. |logoapachedrill| image:: ./images/logo-apachedrill.png
+.. |logoscala| image::  ./images/logo-scala.jpg
+.. |logozeppelin| image::  ./images/logo-zeppelin.png
 
 
 
