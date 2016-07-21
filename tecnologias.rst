@@ -8,7 +8,7 @@ Tecnologías de Referencia
 
   * **Spring y su ecosistema** como tecnología de soporte.
   * **Despliegue estándar JEE** independiente de AppServer.
-                                           |logojava| |logospring|
+                                           |logojava| |logospring| |logospringxd|
   
   
 * **Datagrid (Hazelcast)** para comunicación entre módulos y HA.
@@ -43,9 +43,10 @@ Tecnologías de Referencia
 Con la modularidad de la solución se pueden llegar a sustituir o reemplazar algunas piezas si existe la necesidad. Por ejemplo BDH sobre Mongo, BDTR sobre Oracle,…
 
 .. figure::  ./images/logo-apache.png
-.. figure::  ./images/logo-springxd.png
+
 
 
 .. |logojava| image::  ./images/logo-java.png           
 .. |logospring| image::  ./images/logo-spring.jpg
+.. |logospringxd| image::  ./images/logo-springxd.png
 
