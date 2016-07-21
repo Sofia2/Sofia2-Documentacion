@@ -4,4 +4,8 @@
 Así trabaja Sofia2
 ==================
 
-.. figure::  ./images/flujoTrabajo.png
+|flujo|
+
+
+.. |flujo| image:: ./images/flujoTrabajo.png
+   [height=1323 width=595]
