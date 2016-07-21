@@ -23,6 +23,7 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    arquitectura_global
    conceptos
    tecnologias
+   ComoTrabaja
 
 .. toctree::
    :maxdepth: 2
