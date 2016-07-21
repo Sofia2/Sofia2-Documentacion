@@ -33,6 +33,7 @@ Tecnologías de Referencia
   * **Impala** como motor de consultas online distribuido.
 
 .. figure::  ./images/logo-hadoop.jpg
+.. figure::  ./images/logo-hive.jpg
 
 * **MQTT/WebSockets/REST/WS/…** como protocolos de comunicación con la plataforma.
 
