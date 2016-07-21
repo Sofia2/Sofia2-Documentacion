@@ -49,7 +49,27 @@ Smart Energy / Smart Home: ENDESA - PLATAFORMA MULTISERVICIOS ÍTACA.
 
 .. figure::  ./images/Endesa-smart-home.png
  :align:   center
- 
+
+
+Smart Energy para empresas: SGE ENDESA 
+--------------------------------------
+* **Sofia2 como Plataforma de adquisición de datos y control** de los dataloggers ubicados en grandes empresas.
+
+* Integración de **dispositivos de diversos fabricantes** como Carlo Gavazzi, Satel, Circutor y Telecon que realizan mediciones de energías, potencias, caudales de agua, consumo de gas… 
+
+* Comercialización por parte de ENDESA a grandes empresas como Carrefour, Banco Popular…
+
+* **Generación de Alarmas** personalizadas con posibilidad de adaptarlas a la curva horaria de consumo.
+
+* **Visualización y control del consumo**.
+
+* **Programación de horarios** sobre los dispositivos.
+
+* **Almacenamiento y tratamiento de elevados volúmenes de datos** con ejecución de algoritmos de recomendaciones.
+
+* **Posibilidad de crear fórmulas** sobre las variables físicas en tiempo real por ejemplo para  conocer los ratios de producción frente al consumo de energía
+
+
 
 Smart Health: ZURICH - APLICACIÓN WEARABLES A SEGUROS
 -----------------------------------------------------
