@@ -14,13 +14,18 @@ Módulos IoT
 -----------
 Éstos son los módulos necesarios para dar soporte a sistemas IoT:
 
-* **SDKs**: La plataforma provee un set de herramientas para desarrolladores.
+* **SDKs**: La plataforma provee un set de herramientas para desarrolladores que facilita el desarrollo de clientes de (emisores y receptores de información) en diferentes lenguajes, y sobre una variedad de protocolos disponibles:
+ o	Lenguajes: Java, Javascript, Android, IOS, Python, Node.js, Arduino, C, .NET…
+ o	Protocolos: MQTT, MQTTS, REST, Websockets, WS…
 
-* **Sofia2 Control Panel**: La Plataforma ofrece una completa web de administración/configuración que permite gestionar todos los conceptos que maneja la Plataforma.
 
-* **IoT Gateway**: capa de abstracción del protocolo de comunicación, que implementa el protocolo SSAP (Smart Space Access Protocol), sobre diferentes protocolos (MQTT, MQTTS, Websockets, WS, REST).
+* **Sofia2 Control Panel**: La Plataforma ofrece una completa web de administración/configuración que permite gestionar todos los conceptos que maneja la Plataforma. El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la BDC (Base Datos Configuración) del Sofia2-Repository. Esta consola es accesible para los diferentes roles de la Plataforma, permitiendo operar de una u otra forma en función de este rol.
 
-* **Semantic Broker**: módulo de la Plataforma que recibe, procesa y almacena toda la información de las aplicaciones, sensores y dispositivos conectados, actuando como Bus de Interoperabilidad.
+* **IoT Gateway**: capa de abstracción del protocolo de comunicación, que implementa el protocolo SSAP (Smart Space Access Protocol), sobre diferentes protocolos (MQTT, MQTTS, Websockets, WS, REST) y facilita la incorporación de nuevos protocolos gracias al despliegue de nuevos Plugins. De esta manera, la información gestionada por las subsiguientes capas de la plataforma es completamente agnóstica del protocolo tecnológico usado para el envío del dato, dando lugar a su gestión desde un punto de vista semántico.
+
+* **Semantic Broker**: módulo de la Plataforma que recibe, procesa y almacena toda la información de las aplicaciones, sensores y dispositivos conectados, actuando como Bus de Interoperabilidad. Esta capa validará la corrección sintáctica y semántica del dato recibido gracias a la definición previa de la estructura del dato esperado (ontología), identificando de qué dato trata, y aplicando la seguridad correspondiente al mismo. 
+ Mediante el despliegue de plugins se podrá ampliar o adaptar la funcionalidad por defecto de este componente de una manera sencilla.
+
 
 * **Process**: módulo que incluye 2 motores para la definición de reglas a aplicar sobre la información que entra en la Plataforma: el motor de Reglas (Sofia2-Rules) y el motor CEP (Sofia2-CEP).
 
