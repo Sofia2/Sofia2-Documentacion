@@ -4,12 +4,12 @@
 Tecnologías de Referencia
 =========================
 
-* |logojava| como Plataforma de desarrollo de módulos de proceso:
+* |logojava|  como Plataforma de desarrollo de módulos de proceso:
 
-  * **Spring y su ecosistema** como tecnología de soporte.
+  * **|logospring| y su ecosistema** como tecnología de soporte.
   * **Despliegue estándar JEE** independiente de AppServer.
   
-                                           |logospring| |logospringxd|
+                                            |logospringxd|
  
 
 * **Motor CEP (Siddhi CEP)** para reglas sobre grandes volúmenes de eventos en los que interviene el tiempo.
