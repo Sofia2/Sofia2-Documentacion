@@ -40,6 +40,7 @@ Tecnologías de Referencia
 * **Spring MVC + Thymeleaf + jQuery** como framework Web para el desarrollo de la consola web
 
 .. figure::  ./images/logo-javascripts.png
+.. figure::  ./images/logo-jquery.png
 
 Con la modularidad de la solución se pueden llegar a sustituir o reemplazar algunas piezas si existe la necesidad. Por ejemplo BDH sobre Mongo, BDTR sobre Oracle,…
 
