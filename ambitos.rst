@@ -6,6 +6,11 @@
 
 Internet of Things se posiciona transversalmente cruzando distintos sectores y negocios. La plataforma Sofia2 ofrece soluciones en todos los ámbitos.
 
+.. figure::  ./images/soluciones-negocio.png
+ :align:   center
+ 
+ |
+
 Smart Cities.
 ---------------
 Aportamos soluciones Smart City que sitúan al ciudadano en el centro de actuación pública y de gobierno.
