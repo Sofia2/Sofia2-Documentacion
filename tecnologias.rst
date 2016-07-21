@@ -9,8 +9,8 @@ Tecnologías de Referencia
   * **Spring y su ecosistema** como tecnología de soporte.
   * **Despliegue estándar JEE** independiente de AppServer.
   
-                                            |logospring| |logospringxd|
-  
+                                           |logospring| |logospringxd|
+ 
 
 * **Motor CEP (Siddhi CEP)** para reglas sobre grandes volúmenes de eventos en los que interviene el tiempo.
 
