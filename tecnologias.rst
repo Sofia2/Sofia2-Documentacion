@@ -31,7 +31,9 @@ Tecnologías de Referencia
 
   * **Hive** como datawarehouse.
   * **Impala** como motor de consultas online distribuido.
-  
+
+.. figure::  ./images/logo-hadoop.jpg
+
 * **MQTT/WebSockets/REST/WS/…** como protocolos de comunicación con la plataforma.
 
 * **Spring MVC + Thymeleaf + jQuery** como framework Web para el desarrollo de la consola web
