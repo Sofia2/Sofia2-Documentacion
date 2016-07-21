@@ -12,7 +12,7 @@ Tecnologías de Referencia
   
   * **Despliegue estándar JEE** independiente de AppServer.
 
-
+| 
 
 * **Motor CEP (Siddhi CEP)** para reglas sobre grandes volúmenes de eventos en los que interviene el tiempo.
 
