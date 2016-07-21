@@ -10,6 +10,7 @@ Tecnologías de Referencia
   * **Despliegue estándar JEE** independiente de AppServer.
   
 .. figure::  ./images/logo_java.png    
+
 .. figure::  ./images/logo-spring.jpg
   
   
