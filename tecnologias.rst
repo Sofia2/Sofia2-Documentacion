@@ -21,7 +21,11 @@ Tecnologías de Referencia
 
 * **Hazelcast** como DataGrid soporte HA SIBs.
 
+.. figure::  ./images/logo-hazelcast.png 
+
 * **MongoDB** como RealTime DB por su almacenamiento JSON, escalabilidad,…
+
+.. figure::  ./images/logo-mongodb.png 
 
 * **Hadoop** como Historical DB, los datos que ya no son del tiempo real se pasan automáticamente según configuración a este repositorio:
 
