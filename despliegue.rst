@@ -6,6 +6,6 @@ Despliegue
 
 La plataforma está preparada para su despliegue según la conveniencia del proyecto o cliente, soportando: 
 
-.. figure::  ./images/despliegue.png
+.. figure::  ./images/despliegue.JPG
  :align:   center
 
