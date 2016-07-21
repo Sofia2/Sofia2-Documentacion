@@ -19,6 +19,9 @@ Tecnologías de Referencia
 
 * **Motor Scripting (Groovy, R y Phyton)** que permite definir reglas ante llegada de mensajes , soportando creación de nuevas operaciones (alarmas, notificaciones,…).
 
+
+|logogroovy||logor||logophyton|
+
 * |logohazelcast| como DataGrid para soporte y comunicación entre módulos y HA SIBs.  
 
 
@@ -52,5 +55,8 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. |logohadoop| image::  ./images/logo-hadoop.jpg
 .. |logohive| image::  ./images/logo-hive.jpg
 .. |logoimpala| image:: ./images/logo-cloudera.png
+.. |logogroovy| image:: ./images/logo-groovy.png
+.. |logor| image:: ./images/logo-r.png
+.. |logophyton| image:: ./images/logo-python.png
 
 
