@@ -36,6 +36,7 @@ Tecnologías de Referencia
 
 .. figure::  ./images/logo-hadoop.jpg
 .. figure::  ./images/logo-hive.jpg
+.. figure:: ./images/logo-cloudera.png
 
 * **MQTT/WebSockets/REST/WS/…** como protocolos de comunicación con la plataforma.
 
