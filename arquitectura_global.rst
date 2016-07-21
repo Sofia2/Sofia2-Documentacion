@@ -24,9 +24,13 @@ Módulos IoT
 
 * **Process**: módulo que incluye 2 motores para la definición de reglas a aplicar sobre la información que entra en la Plataforma: el motor de Reglas (Sofia2-Rules) y el motor CEP (Sofia2-CEP).
 
-* **Sofia2 Storage**: módulo de almacenamiento de la información de la plataforma.
+* **Sofia2 Storage**: módulo de almacenamiento de la información de la plataforma.. Se compone de 3 repositorios:
+ •	Base de Datos Tiempo Real (BDTR) 
+ •	Base de datos Histórica (BDH)
+ •	Area de Staging (HDFS) 
 
-* **Sofia2 API Manager**: permite publicar la información gestionada por la plataforma como APIs REST y disponibilizar Servicios REST externos a la Plataforma.
+
+* **Sofia2 API Manager**: permite publicar la información gestionada por la plataforma como APIs REST y a su vez permite la búsqueda de estas APIs, la suscripción por parte de clientes y la gestión del versionado y ciclo de vida de cada una de ellas. Además este API Manager permite disponibilizar Servicios REST externos a la Plataforma, lo que permite ofrecer un punto único de acceso a APIS internas y externas de la Plataforma.
 
 * **Holystic Viewer**: módulo de visualización avanzada de la Plataforma, que soporta diferentes motores. Se trata de un sistema integral de visualización avanzada e interactiva que permite una gestión de información geolocalizada asociándola a un entorno de visualización tridimensional y multimedia. Sus capacidades de visualización avanzada resultan un plus de interés a la creación de cuadros interactivos.
 
