@@ -6,7 +6,7 @@ Tecnologías de Referencia
 
 * |logojava|  como Plataforma de desarrollo de módulos de proceso:
 
-  * |logospring| y su ecosistema** como tecnología de soporte.
+  * |logospring| **y su ecosistema** como tecnología de soporte.
   
   * **Despliegue estándar JEE** independiente de AppServer.
   
