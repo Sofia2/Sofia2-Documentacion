@@ -20,8 +20,8 @@ Tecnologías de Referencia
   
 
 * **MongoDB** como RealTime DB por su almacenamiento JSON, escalabilidad,…
-
-.. figure::  ./images/logo-mongodb.png 
+                                           |logomongodb|
+  
 
 * **Hadoop** como Historical DB, los datos que ya no son del tiempo real se pasan automáticamente según configuración a este repositorio:
 
@@ -47,5 +47,7 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. |logojava| image::  ./images/logo-java.png           
 .. |logospring| image::  ./images/logo-spring.jpg
 .. |logospringxd| image::  ./images/logo-springxd.png
-.. |logohazelcast|  ./images/logo-hazelcast.png 
+.. |logohazelcast|  ./images/logo-hazelcast.png
+.. |logomongodb|  ./images/logo-mongodb.png 
+
 
