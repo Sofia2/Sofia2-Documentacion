@@ -11,4 +11,3 @@ Así trabaja Sofia2
 
 
 .. |flujo| image:: ./images/flujoTrabajo.png
-   [height=595 width=1323]
