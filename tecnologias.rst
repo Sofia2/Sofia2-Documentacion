@@ -16,7 +16,7 @@ Tecnologías de Referencia
 * **Motor Scripting (Groovy, R y Phyton)** que permite definir reglas ante llegada de mensajes , soportando creación de nuevas operaciones (alarmas, notificaciones,…).
 
 * **Hazelcast** como DataGrid para soporte y comunicación entre módulos y HA SIBs.
-                                          |logohazelcast|
+                                         |logohazelcast|
   
 
 * **MongoDB** como RealTime DB por su almacenamiento JSON, escalabilidad,…
