@@ -69,5 +69,5 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. |logoapachedrill| image:: ./images/logo-apachedrill.png
 .. |logoscala| image::  ./images/logo-scala.jpg
 .. |logozeppelin| image::  ./images/logo-zeppelin.png
-.. |logospark| image::  ./images/logo-zeppelin.png
+.. |logospark| image::  ./images/logo-spark.png
 
