@@ -28,7 +28,7 @@ Módulos IoT
 
 * **Sofia2 API Manager**: permite publicar la información gestionada por la plataforma como APIs REST y disponibilizar Servicios REST externos a la Plataforma.
 
-* **Holystic Viewer**: módulo de visualización avanzada de la Plataforma, que soporta diferentes motores. 
+* **Holystic Viewer**: módulo de visualización avanzada de la Plataforma, que soporta diferentes motores. Se trata de un sistema integral de visualización avanzada e interactiva que permite una gestión de información geolocalizada asociándola a un entorno de visualización tridimensional y multimedia. Sus capacidades de visualización avanzada resultan un plus de interés a la creación de cuadros interactivos.
 
 
 Módulos Big Data
