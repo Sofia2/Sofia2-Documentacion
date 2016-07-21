@@ -11,5 +11,5 @@ Así trabaja Sofia2
 
 
 .. |flujo| image:: ./images/flujoTrabajo.png
-   :height:1323
-   :width:595
+   :height:595
+   :width:1323
