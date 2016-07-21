@@ -8,10 +8,10 @@ Tecnologías de Referencia
 
   * |logospring| **y su ecosistema** como tecnología de soporte.
   
-  * **Despliegue estándar JEE** independiente de AppServer.
+  * |logospringxd| para la ingesta de datos, analítica en tiempo real, procesamiento batch y exportación de datos.
   
-                                            |logospringxd|
- 
+  * **Despliegue estándar JEE** independiente de AppServer.
+
 
 * **Motor CEP (Siddhi CEP)** para reglas sobre grandes volúmenes de eventos en los que interviene el tiempo.
 
