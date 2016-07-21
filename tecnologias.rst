@@ -9,7 +9,7 @@ Tecnologías de Referencia
   * **Spring y su ecosistema** como tecnología de soporte.
   * **Despliegue estándar JEE** independiente de AppServer.
   
-.. figure::  ./images/logo_java.png    
+.. figure::  ./images/logo-java.png    
 
 .. figure::  ./images/logo-spring.jpg
   
