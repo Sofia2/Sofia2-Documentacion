@@ -77,7 +77,7 @@ Smart Health: ZURICH - APLICACIÓN WEARABLES A SEGUROS
 
 
 Smart Health: SERVIZO GALEGO DE SAÚDE - HOGAR DIGITAL ASISTENCIAL
----------------------------------------------------------------
+-----------------------------------------------------------------
 El Proyecto de Hospitalización Experimental Hospital 2050, SISENS, desarrollado por Televés e Indra para el Servizo Galego de Saúde (SERGAS) consiste en un “concentrador inteligente”, desarrollado y fabricado por Televés, conectado de manera ininterrumpida a SOFIA2.
 
 SOFIA2 actúa como una plataforma centralizadora que recoge y analiza en tiempo real toda la información proveniente de los dispositivos implantados en el hospital, independientemente de sus características o fabricantes:
@@ -91,6 +91,9 @@ SOFIA2 actúa como una plataforma centralizadora que recoge y analiza en tiempo 
 * Sofia2 como Plataforma de recepción de señales biométricas con reglas y alarmas en base a valores anómalos informando a médicos y/o pacientes de situaciones de riesgo.
 
 * Almacenamiento y procesado de información masiva, habilitando el análisis Big Data de la información biométrica de los pacientes del Sergas en futuros estudios.
+
+.. figure::  ./images/Sergas-smart-health.png
+ :align:   center
 
 
 
