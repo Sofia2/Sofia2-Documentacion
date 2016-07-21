@@ -19,7 +19,7 @@ Tecnologías de Referencia
 
 * **Motor CEP (Siddhi CEP)** para reglas sobre grandes volúmenes de eventos en los que interviene el tiempo.
 
-* **Motor Scripting (Groovy)** que permite definir reglas ante llegada de mensajes , soportando creación de nuevas operaciones (alarmas, notificaciones,…).
+* **Motor Scripting (Groovy, R y Phyton)** que permite definir reglas ante llegada de mensajes , soportando creación de nuevas operaciones (alarmas, notificaciones,…).
 
 * **Hazelcast** como DataGrid soporte HA SIBs.
 
