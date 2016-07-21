@@ -24,7 +24,7 @@ Tecnologías de Referencia
 * |logohadoop| como Historical DB, los datos que ya no son del tiempo real se pasan automáticamente según configuración a este repositorio:
 
   * |logohive| como datawarehouse.
-  * |impala| como motor de consultas online distribuido.
+  * |logoimpala| como motor de consultas online distribuido.
 
 
 
