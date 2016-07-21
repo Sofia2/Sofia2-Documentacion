@@ -29,7 +29,7 @@ Módulos IoT
 
 * **Process**: módulo que incluye 2 motores para la definición de reglas a aplicar sobre la información que entra en la Plataforma: el motor de Reglas (Sofia2-Rules) y el motor CEP (Sofia2-CEP).
 
-* **Sofia2 Storage**: módulo de almacenamiento de la información de la plataforma.Se compone de 3 repositorios:
+* **Sofia2 Storage**: módulo de almacenamiento de la información de la plataforma. Se compone de 3 repositorios:
     -	Base de Datos Tiempo Real (BDTR) 
     -	Base de datos Histórica (BDH)
     -	Area de Staging (HDFS) 
