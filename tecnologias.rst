@@ -47,7 +47,7 @@ Con la modularidad de la solución se pueden llegar a sustituir o reemplazar alg
 .. |logojava| image::  ./images/logo-java.png           
 .. |logospring| image::  ./images/logo-spring.jpg
 .. |logospringxd| image::  ./images/logo-springxd.png
-.. |logohazelcast|  ./images/logo-hazelcast.png
-.. |logomongodb|  ./images/logo-mongodb.png 
+.. |logohazelcast| image:: ./images/logo-hazelcast.png
+.. |logomongodb| image:: ./images/logo-mongodb.png 
 
 
