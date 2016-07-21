@@ -18,11 +18,8 @@ Tecnologías de Referencia
 * |logohazelcast| como DataGrid para soporte y comunicación entre módulos y HA SIBs.  
 
 
+* |logomongodb| como RealTime DB por su almacenamiento JSON, escalabilidad,…
 
-* **MongoDB** como RealTime DB por su almacenamiento JSON, escalabilidad,…
-
-                                           |logomongodb|
-  
 
 * **Hadoop** como Historical DB, los datos que ya no son del tiempo real se pasan automáticamente según configuración a este repositorio:
 
