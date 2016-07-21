@@ -11,6 +11,7 @@ Tecnologías de Referencia
   
 .. figure::  ./images/logo-java.png           
 .. figure::  ./images/logo-spring.jpg
+.. figure::  ./images/logo-apache.jpg
   
   
 * **Datagrid (Hazelcast)** para comunicación entre módulos y HA.
