@@ -31,6 +31,7 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    
    arquitectura_detallada
    despliegue
+   versiones
    seguridad
    escalabilidad
 
