@@ -17,7 +17,6 @@ Tecnologías de Referencia
 
 * **Hazelcast** como DataGrid para soporte y comunicación entre módulos y HA SIBs.
                                          |logohazelcast|
-  
 
 * **MongoDB** como RealTime DB por su almacenamiento JSON, escalabilidad,…
                                            |logomongodb|
