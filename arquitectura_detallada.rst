@@ -217,12 +217,31 @@ La composición del proceso ETL (Extracción, Transformación y Carga o Load), s
  :align:   center
 
 
-En tiempo de ejecución, Se pueden configurar reglas para capturar y visualizar datos de un pipeline en ejecución. Además es posible consultar las estadísticas de ejecución de cualquier pipeline en tiempo real, los datos procesados y el historial del pipeline,
+En tiempo de ejecución, se pueden configurar reglas para capturar y visualizar datos de un pipeline en ejecución. Además es posible consultar las estadísticas de ejecución de cualquier pipeline en tiempo real, los datos procesados y el historial del pipeline,
 
 .. figure::  ./images/dataflow2.png
  :align:   center
 
+
 La configuración de alertas y thresholds de normalidad posibilitan la ejecución de acciones automáticas como la comunicación de estos eventos y la visualización del detalle.
+
+Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las siguientes capacidades por cada fase del proceso:
+
+* **Extracción**: Disponen de 18 los orígenes de datos integrados , entre los que se encuentran como orígenes disponibles: Sofia2 (que permite seleccionar la ontología, campos, query…), Excel, AmazonS3, HadoopFS, Kafka…
+
+* **Transformación**: Se podrán concatenar sucesivas transformaciones y actuaciones sobre los datos hasta conseguir el proceso completo. Para ello se cuenta con 20 posibles tareas:
+
+ * Evaluador de Expresiones: Realiza comprobaciones y calculos que puede escribir campos nuevos o existentes.
+ *	Acciones sobre campos: Diferentes acciones disponibles sobre los campos como: Converter, Merger, Masker, Hasher, Remover, Renamer….
+ *	Parseadores de JSON, XML y logs: Parsea información válida según los diferentes tipos de formato de logs, y esquemas XML y JSON.
+ * Selector de Flujo: Para seleccionar la siguiente actividad a ejecutar sobre el conjunto de datos, en función de condiciones de ejecución.
+ *	Evaluadores en distintos lenguajes: Diferentes lenguajes disponibles para la codificación de acciones específicas sobre los datos (Python, Javascript, Jython…)
+ * Otros componentes como el duplicador de Registro o el reemplazador de valores
+
+*  **Carga**: Se disponen de más de veinte posibles destinos, a incorporar en el proceso mediante Drag&drop desde la barra de tareas. De ellos podemos destacar el componente Sofia2 (que permite seleccionar la ontología, campos y otros parámetros adicionales), AmazonS3, Cassandra, Hadoop, Kafka, Flume….
+
+ 
+Este módulo incluye herramientas de monitorización tanto para agilizar el desarrollo como para hacer seguimiento de la ejecución del proceso una vez activado y publicado.
 
 
 |
