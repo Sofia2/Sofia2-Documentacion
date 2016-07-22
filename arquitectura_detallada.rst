@@ -229,17 +229,21 @@ Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las sigui
 
 * **Extracción**: Disponen de 18 los orígenes de datos integrados , entre los que se encuentran como orígenes disponibles: Sofia2 (que permite seleccionar la ontología, campos, query…), Excel, AmazonS3, HadoopFS, Kafka…
 
+.. figure::  ./images/ExtracionOrigenDatosDataFlow.JPG
+ :align:   center
+
+
 * **Transformación**: Se podrán concatenar sucesivas transformaciones y actuaciones sobre los datos hasta conseguir el proceso completo. Para ello se cuenta con 20 posibles tareas:
 
- * Evaluador de Expresiones: Realiza comprobaciones y calculos que puede escribir campos nuevos o existentes.
- *	Acciones sobre campos: Diferentes acciones disponibles sobre los campos como: Converter, Merger, Masker, Hasher, Remover, Renamer….
- *	Parseadores de JSON, XML y logs: Parsea información válida según los diferentes tipos de formato de logs, y esquemas XML y JSON.
- * Selector de Flujo: Para seleccionar la siguiente actividad a ejecutar sobre el conjunto de datos, en función de condiciones de ejecución.
+ * **Evaluador de Expresiones**: Realiza comprobaciones y calculos que puede escribir campos nuevos o existentes.
+ *	**Acciones sobre campos**: Diferentes acciones disponibles sobre los campos como: Converter, Merger, Masker, Hasher, Remover, Renamer….
+ *	**Parseadores de JSON, XML y logs**: Parsea información válida según los diferentes tipos de formato de logs, y esquemas XML y JSON.
+ * **Selector de Flujo**: Para seleccionar la siguiente actividad a ejecutar sobre el conjunto de datos, en función de condiciones de ejecución.
  
   .. figure::  ./images/SelectorFlujoDataflow.png
  :align:   center
  
- *	Evaluadores en distintos lenguajes: Diferentes lenguajes disponibles para la codificación de acciones específicas sobre los datos (Python, Javascript, Jython…)
+ *	**Evaluadores en distintos lenguajes**: Diferentes lenguajes disponibles para la codificación de acciones específicas sobre los datos (Python, Javascript, Jython…)
  * Otros componentes como el duplicador de Registro o el reemplazador de valores
 
 *  **Carga**: Se disponen de más de veinte posibles destinos, a incorporar en el proceso mediante Drag&drop desde la barra de tareas. De ellos podemos destacar el componente Sofia2 (que permite seleccionar la ontología, campos y otros parámetros adicionales), AmazonS3, Cassandra, Hadoop, Kafka, Flume….
