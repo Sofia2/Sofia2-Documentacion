@@ -216,7 +216,8 @@ La composición del proceso ETL (Extracción, Transformación y Carga o Load), s
 
 .. figure::  ./images/dataflow1.png
  :align:   center
-
+ 
+|
 **Monitorización**:
 En tiempo de ejecución, se pueden configurar reglas para capturar y visualizar datos de un pipeline en ejecución. 
 Además es posible consultar las estadísticas de ejecución de cualquier pipeline en tiempo real, los datos procesados y el historial del pipeline.
