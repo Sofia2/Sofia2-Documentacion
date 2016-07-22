@@ -272,7 +272,7 @@ Sofia2 ML
 ---------
 El modulo Machine Learning de la Plataforma permite aplicar y modelar de forma sencilla diversas técnicas de aprendizaje, entre las cuales podemos destacar las siguientes:
 
-* Regression: Técnicas para estimar relaciones entre variables y determinar la importancia relativa de éstas en la predicción de nuevos valores.
+* **Regression**: Técnicas para estimar relaciones entre variables y determinar la importancia relativa de éstas en la predicción de nuevos valores.
 * **Clustering**: Técnicas para segmentar los datos en grupos similares.
 * **Classification**: Técnicas para identificar la pertenencia de un elemento a un grupo determinado.
 * **Recommendation / Prediction**: Técnicas para predecir el valor o preferencia de una entidad nueva basado en históricos de preferencias o comportamientos.
