@@ -43,6 +43,8 @@ A través de esta capacidad será posible la integración con la gestión de per
 * **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
 
 * Visualizaciones: 
+* Informes:
+
 
 
 
