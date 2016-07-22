@@ -86,6 +86,8 @@ Las Reglas se desarrollan haciendo uso de una biblioteca de APIS que permiten in
 |
 Sofia2 Storage
 --------------
+Modulo de almacenamiento de la información de la plataforma.
+
 Con el objetivo de garantizar que, para cada momento del ciclo de vida de la información, ésta se gestiona de la menor manera, la plataforma plantea el uso de tres repositorios distintos que se complementan y comunican componiendo una solución de almacenamiento completa:
 
 .. figure::  ./images/Sofia2Storage.JPG
