@@ -6,12 +6,20 @@ Versiones de la Plataforma
 
 A nivel comercial manejamos 3 versiones de la Plataforma, **Base Edition, IoT Edition y Advanced Analytics Edition**, que se posicionan así:
 
-.. figure::  ./images/comparativaVersiones.JPG
- :align:   center
+
  
  
  Base Edition
  ------------
+ 
+Incluye los siguientes módulos:
+
+* IoT Gateway con conectores MQTT, HTTP REST, WebSockets, 
+* Semantic Broker
+* Process con Rules en Python, R y Groovy, CEP y Planner
+* Real Time Database (RTDB) sobre MongoDB
+* Sofia2 Control Panel incluyendo Dashboards y Reports
+
  
  IoT Edition
  -----------
