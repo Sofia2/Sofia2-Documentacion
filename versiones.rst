@@ -8,9 +8,8 @@ A nivel comercial manejamos 3 versiones de la Plataforma, **Base Edition, IoT Ed
 
 
  
- 
- Base Edition
- ------------
+Base Edition
+------------
  
 Incluye los siguientes módulos:
 
@@ -21,9 +20,9 @@ Incluye los siguientes módulos:
 * Sofia2 Control Panel incluyendo Dashboards y Reports
 
  
- IoT Edition
- -----------
+IoT Edition
+-----------
  
  
- Advanced Analytics Edition
- --------------------------
+Advanced Analytics Edition
+--------------------------
