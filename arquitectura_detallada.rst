@@ -9,8 +9,9 @@ A continuación vamos a describir los módulos que componen la Plataforma sobre 
 
 Módulos IoT:
 
-SDKs
+SDK
 ----
+IDE personalizado basado en Eclipse para el desarrollo simplificado de integraciones sobre la Plataforma.
 
 
 Sofia2 Control Panel
