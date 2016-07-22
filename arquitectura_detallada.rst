@@ -190,6 +190,11 @@ Podemos destacar las siguientes capacidades de este repositorio:
 API Manager
 -----------
 Este módulo permite acceder a la información recolectada y gestionada por la Plataforma.
+
+.. figure::  ./images/APIManager1.png
+ :align:   center
+
+
 Para ello, publica la información gestionada por la plataforma como APIs REST. Esto permite poner toda información a disposición y uso directo de los distintos stakeholders involucrados en el desarrollo de la actividad diaria sin necesidad de conocer las APIs y protocolos de la Plataforma.
 
 Este módulo también permite disponibilizar Servicios REST externos a la Plataforma, lo que permite ofrecer un punto único de acceso a APIS internas y externas de la Plataforma.
