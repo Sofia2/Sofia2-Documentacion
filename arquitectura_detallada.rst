@@ -29,11 +29,15 @@ Provee a los usuarios (en función de los privilegios de su rol) funcionalidades
 * **Herramienta de consulta sobre la BDTR y BDH**: permite acceder a los datos insertados en la plataforma a través de un motor de queries integrado.
 Esta interfaz posibilita lanzar queries en lenguaje SQL. Asimismo será posible el filtrado de los resultados (ej. por operador, identificador del jugador, tipo de juego, intervalo de fechas) mediante cláusulas where de SQL.
 El hecho de poder ejecutar sentencias SQL permitirá la actualización y borrado manual de registros a aquellos roles capacitados para tal fin.
+
 * **Monitorización de procesos**: a través de la consola web es posible llevar el control sobre la planificación de procesos (como por ej. la carga de ficheros, el paso de datos a la BDH, etc.), permitiendo además su monitorización en tiempo real.
 Esto posibilitará la monitorización del estado y funcionamiento de las cargas, cuánto han tardado, si ha habido algún error en ellas y cuál ha sido la naturaleza del mismo.
+
 * **Gestión de usuarios y roles**: asignación de roles a usuarios, asignación de permisos sobre información almacenada en la plataforma.
 A través de esta capacidad será posible la integración con la gestión de perfiles centralizada usada en el Sistema.
+
 * **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
+
 * Visualizaciones: 
 
 
