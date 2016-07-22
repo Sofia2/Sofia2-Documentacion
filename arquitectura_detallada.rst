@@ -121,12 +121,12 @@ Gracias a Kudu e Impala se facilita el acceso en tiempo Real para la analítica 
 
 Podemos destacar las siguientes **capacidades** de este repositorio:
 
-* Acceso ágil a la información.
-* Herramienta de consulta SQL integrada en el panel de control Sofia2 incluso si la base de datos es NO-SQL.
-* Origen de datos para Analítica de Datos en Tiempo Real.
-* Integración con el motor de Reglas, Machine Learning y capas de integración.
-* Escalabilidad horizontal.
-* Control sintáctico de la información insertada de acuerdo a las ontologías definidas.
+* **Acceso ágil** a la información.
+* **Herramienta de consulta SQL** integrada en el panel de control Sofia2 incluso si la base de datos es NO-SQL.
+* **Origen de datos para Analítica** de Datos en Tiempo Real.
+* **Integración** con el motor de Reglas, Machine Learning y capas de integración.
+* **Escalabilidad** horizontal.
+* **Control sintáctico** de la información insertada de acuerdo a las ontologías definidas.
 
 |
 Base de Datos Histórica (BDH).
@@ -139,12 +139,12 @@ La implementación  de este repositorio está basada en Hadoop  como repositorio
 
 Como **características** más importantes de este repositorio podemos destacar las siguientes:
 
-* Almacenamiento temporal de información heterogénea.
-* Herramienta de consulta SQL integrada en el panel de control Sofia2.
-* Origen de datos para Analítica de Datos Históricos
-* Integración con el motor de Reglas, Machine Learning  y capas de integración.
-* Escalabilidad horizontal.
-* Actúa como el corazón del Data Lake de la plataforma, almacenando información heterogénea con capacidad de procesamiento	
+* **Almacenamiento temporal** de información heterogénea.
+* **Herramienta de consulta SQL** integrada en el panel de control Sofia2.
+* **Origen de datos para Analítica** de Datos Históricos
+* **Integración** con el motor de Reglas, Machine Learning  y capas de integración.
+* **Escalabilidad** horizontal.
+* Actúa como el corazón del **Data Lake** de la plataforma, almacenando información heterogénea con capacidad de procesamiento	
 
 
 |
