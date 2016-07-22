@@ -21,6 +21,10 @@ Incluye los siguientes módulos:
 * Real Time Database (RTDB) sobre MongoDB.
 * Sofia2 Control Panel incluyendo Dashboards y Reports.
 
+
+.. figure::  ./images/baseEdition.JPG
+ :align:   center
+
 |  
 IoT Edition
 -----------
