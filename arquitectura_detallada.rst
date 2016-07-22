@@ -108,7 +108,7 @@ En función del patrón de accesos a la información de tiempo real, se puede im
 
 Gracias a Kudu e Impala se facilita el acceso en tiempo Real para la analítica de datos.
 
-Podemos destacar las siguientes capacidades de este repositorio:
+Podemos destacar las siguientes **capacidades** de este repositorio:
 
 * Acceso ágil a la información.
 * Herramienta de consulta SQL integrada en el panel de control Sofia2 incluso si la base de datos es NO-SQL.
@@ -126,7 +126,7 @@ La información almacenada estará disponible como origen de datos para los dist
 
 La implementación  de este repositorio está basada en Hadoop  como repositorio, Hive como solución Datawarehouse y SparkSQL para facilitar el acceso homogéneo a los datos.
 
-Como características más importantes de este repositorio podemos destacar las siguientes:
+Como **características** más importantes de este repositorio podemos destacar las siguientes:
 
 * Almacenamiento temporal de información heterogénea.
 * Herramienta de consulta SQL integrada en el panel de control Sofia2.
