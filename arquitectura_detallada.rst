@@ -24,6 +24,10 @@ Toda la interacción con la Plataforma Sofia2 puede realizarse desde el Sofia2 C
 
 El panel de control es una herramienta que, mediante interfaces normalizadas, permite una representación estructurada de la información y un diseño de operación destinado a sacar el máximo rendimiento de los usuarios del sistema, facilitando el aprendizaje y reduciendo el tiempo de respuesta.
 
+.. figure::  ./images/ConsolaWeb1.JPG
+ :align:   center
+
+
 Provee a los usuarios (en función de los privilegios de su rol) funcionalidades como estas:
 
 * **Herramienta de consulta sobre la BDTR y BDH**: permite acceder a los datos insertados en la plataforma a través de un motor de queries integrado.
