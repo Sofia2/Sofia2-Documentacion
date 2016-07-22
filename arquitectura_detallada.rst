@@ -50,7 +50,7 @@ Se compone de los dos módulos siguientes:
 
  |
 Motor de Reglas (Sofia2-Rules)
--------------------------------
+------------------------------
  El módulo Sofia2-Rules permite ampliar el funcionamiento de la Plataforma permitiendo definir reglas que se ejecutan ante ciertas condiciones (inserción de un nuevo dato o cada cierto tiempo). 
  
 Estas reglas dan la capacidad de definir, en base a Scripting, acciones que ejecuta la Plataforma. Gracias a ellas se pueden gestionar y tratar los datos de la plataforma. 
@@ -94,6 +94,46 @@ Con el objetivo de garantizar que, para cada momento del ciclo de vida de la inf
 .. figure::  ./images/Sofia2Storage.JPG
  :align:   center
  
+Base de Datos Tiempo Real (BDTR)
+--------------------------------
+
+Almacena la información recibida en tiempo real, como instancias de ontologías, siendo, por lo tanto el primer repositorio en el que se almacena la información recibida de:
+
+* sensores y dispositivos integrados con la plataforma en un contexto IoT típico. 
+*	Redes Sociales, en los casos en que la escucha de twitter, Facebook, Instagram… es un dato más en el universo de los datos configurados.
+*	Cualquier otra fuente cuya información sea requerida y/o reportada frecuentemente.
+Esta información se valida automáticamente, garantizando corrección de la estructura según la definición previa de las ontologías (entidades o conceptos de negocio). 
+
+Por cada ontología se puede configurar una ventana de tiempo a partir de la cual la información ya no se considera ‘información en tiempo real’, de tal manera que será migrada automáticamente al repositorio de información histórica.
+
+En función del patrón de accesos a la información de tiempo real, se puede implementar este módulo con tecnologías diferentes, que aseguren el acceso ágil a la misma (MongoDB, Hbase, BD relacionales…).
+
+Gracias a Kudu e Impala se facilita el acceso en tiempo Real para la analítica de datos.
+
+Podemos destacar las siguientes capacidades de este repositorio:
+* Acceso ágil a la información.
+* Herramienta de consulta SQL integrada en el panel de control Sofia2 incluso si la base de datos es NO-SQL.
+* Origen de datos para Analítica de Datos en Tiempo Real.
+* Integración con el motor de Reglas, Machine Learning y capas de integración.
+* Escalabilidad horizontal.
+* Control sintáctico de la información insertada de acuerdo a las ontologías definidas.
+
+|
+Base de Datos Histórica (BDH).
+------------------------------
+Almacena la información histórica para su posterior explotación analítica.
+
+La información almacenada estará disponible como origen de datos para los distintos módulos de la plataforma: Integración, Machine Learning, API Manager…
+
+La implementación  de este repositorio está basada en Hadoop  como repositorio, Hive como solución Datawarehouse y SparkSQL para facilitar el acceso homogéneo a los datos.
+
+Como características más importantes de este repositorio podemos destacar las siguientes:
+* Almacenamiento temporal de información heterogénea.
+* Herramienta de consulta SQL integrada en el panel de control Sofia2.
+* Origen de datos para Analítica de Datos Históricos
+* Integración con el motor de Reglas, Machine Learning  y capas de integración.
+* Escalabilidad horizontal.
+* Actúa como el corazón del Data Lake de la plataforma, almacenando información heterogénea con capacidad de procesamiento	
 
 
 |
