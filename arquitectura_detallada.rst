@@ -270,6 +270,22 @@ Sofia2 Notebooks
 |
 Sofia2 ML
 ---------
+El modulo Machine Learning de la Plataforma permite aplicar y modelar de forma sencilla diversas técnicas de aprendizaje, entre las cuales podemos destacar las siguientes:
+
+* Regression: Técnicas para estimar relaciones entre variables y determinar la importancia relativa de éstas en la predicción de nuevos valores.
+* **Clustering**: Técnicas para segmentar los datos en grupos similares.
+* **Classification**: Técnicas para identificar la pertenencia de un elemento a un grupo determinado.
+* **Recommendation / Prediction**: Técnicas para predecir el valor o preferencia de una entidad nueva basado en históricos de preferencias o comportamientos.
+
+A través del intérprete Sofia2 permite: 
+
+* Almacenar los modelos creados en la plataforma. A partir de esto será posible gestionarlos desde la consola web, desde  la que también podremos invocarlos en base a parámetros y darles permisos.
+* **Publicar** Scripts Sofia2Models  que disponen de métodos para recuperar el **modelo**, guardarlo, invocarlo, evaluar su calidad..
+* Generar APIs REST que permitan evaluar sets de datos de entrada a través de los modelos generados. Esto facilita su invocación a través de mecanismos estándar que cuentan además con la seguridad integrada de la plataforma.
+* Permite **definir flujos de trabajo visualmente**, de modo que únicamente sea necesario introducir los parámetros de configuración y datos de entrada para definir procesos analíticos.
+* **Carga** de ficheros locales.
+* **Parseo** de datos en diversos formatos (ARFF, XLS, XLSX, CSV, SVMLight).
+* **Algoritmos**: K-means, Generalized Linear Model, Distributed RF, Naïve Bayes, Principal Component Analysis, Gradient Boosting Machine y Deep Learning.
 
 |
 Sofia2 DataLink
