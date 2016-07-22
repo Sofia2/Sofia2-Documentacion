@@ -16,9 +16,26 @@ IDE personalizado basado en Eclipse para el desarrollo simplificado de integraci
 
 Sofia2 Control Panel
 --------------------
-La Plataforma ofrece una **completa web de administración/configuración** que permite gestionar todos los conceptos que maneja la Plataforma. 
+La Plataforma ofrece una **completa web de administración/configuración** desarrollada con tecnología HTML5 que permite gestionar todos los conceptos que maneja la Plataforma. 
 
 El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la BDC (Base Datos Configuración) del Sofia2-Repository.
+
+Toda la interacción con la Plataforma Sofia2 puede realizarse desde el Sofia2 Control Panel. 
+
+El panel de control es una herramienta que, mediante interfaces normalizadas, permite una representación estructurada de la información y un diseño de operación destinado a sacar el máximo rendimiento de los usuarios del sistema, facilitando el aprendizaje y reduciendo el tiempo de respuesta.
+
+Provee a los usuarios (en función de los privilegios de su rol) funcionalidades como estas:
+
+* **Herramienta de consulta sobre la BDTR y BDH**: permite acceder a los datos insertados en la plataforma a través de un motor de queries integrado.
+Esta interfaz posibilita lanzar queries en lenguaje SQL. Asimismo será posible el filtrado de los resultados (ej. por operador, identificador del jugador, tipo de juego, intervalo de fechas) mediante cláusulas where de SQL.
+El hecho de poder ejecutar sentencias SQL permitirá la actualización y borrado manual de registros a aquellos roles capacitados para tal fin.
+* **Monitorización de procesos**: a través de la consola web es posible llevar el control sobre la planificación de procesos (como por ej. la carga de ficheros, el paso de datos a la BDH, etc.), permitiendo además su monitorización en tiempo real.
+Esto posibilitará la monitorización del estado y funcionamiento de las cargas, cuánto han tardado, si ha habido algún error en ellas y cuál ha sido la naturaleza del mismo.
+* **Gestión de usuarios y roles**: asignación de roles a usuarios, asignación de permisos sobre información almacenada en la plataforma.
+A través de esta capacidad será posible la integración con la gestión de perfiles centralizada usada en el Sistema.
+* **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
+* Visualizaciones: 
+
 
 
 |
