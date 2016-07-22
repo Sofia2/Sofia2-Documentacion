@@ -15,7 +15,9 @@ SDKs
 
 Sofia2 Control Panel
 --------------------
-La Plataforma ofrece una **completa web de administración/configuración** que permite gestionar todos los conceptos que maneja la Plataforma. El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la BDC (Base Datos Configuración) del Sofia2-Repository
+La Plataforma ofrece una **completa web de administración/configuración** que permite gestionar todos los conceptos que maneja la Plataforma. 
+
+El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la BDC (Base Datos Configuración) del Sofia2-Repository.
 
 
 |
