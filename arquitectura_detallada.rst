@@ -75,6 +75,21 @@ Módulos Big Data:
 |
 Sofia2 DataFlow
 ---------------
+Permite hacer ingesta masiva de datos desde multitud de fuentes, transformaciones simples online sobre la información y ruteado hacia otro destino (módulo IoT Flow, BDTR, BDH,…). Es posible añadir plugins a la plataforma para incorporar nuevas fuentes, transformaciones y destinos.
+
+La composición del proceso ETL (Extracción, Transformación y Carga o Load), se realiza mediante el drag&drop  de las tareas disponibles en la barra de herramientas.
+
+.. figure::  ./images/dataflow1.png
+ :align:   center
+
+
+En tiempo de ejecución, Se pueden configurar reglas para capturar y visualizar datos de un pipeline en ejecución. Además es posible consultar las estadísticas de ejecución de cualquier pipeline en tiempo real, los datos procesados y el historial del pipeline,
+
+.. figure::  ./images/dataflow2.png
+ :align:   center
+
+La configuración de alertas y thresholds de normalidad posibilitan la ejecución de acciones automáticas como la comunicación de estos eventos y la visualización del detalle.
+
 
 |
 Sofia2 Notebooks
