@@ -35,3 +35,7 @@ Además de los módulos de la versión Base incluye:
 | 
 Advanced Analytics Edition
 --------------------------
+Esta versión añade a las capacidades para negocios IoT, capacidades analíticas Big Data que pueden complementar y ampliar el ámbito Internet of Things hacia el Analytics of Things.
+
+Incluye todos los módulos de la plataforma.
+
