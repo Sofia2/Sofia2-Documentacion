@@ -51,7 +51,7 @@ Se compone de los dos módulos siguientes:
  |
 Motor de Reglas (Sofia2-Rules)
 ------------------------------
- El módulo Sofia2-Rules permite ampliar el funcionamiento de la Plataforma permitiendo definir reglas que se ejecutan ante ciertas condiciones (inserción de un nuevo dato o cada cierto tiempo). 
+El módulo Sofia2-Rules permite ampliar el funcionamiento de la Plataforma permitiendo definir reglas que se ejecutan ante ciertas condiciones (inserción de un nuevo dato o cada cierto tiempo). 
  
 Estas reglas dan la capacidad de definir, en base a Scripting, acciones que ejecuta la Plataforma. Gracias a ellas se pueden gestionar y tratar los datos de la plataforma. 
 
@@ -77,8 +77,6 @@ La ejecución de cada uno de los Script se realiza de forma independiente de la 
 
 Las Reglas se desarrollan haciendo uso de una biblioteca de APIS que permiten interactuar con los diferentes elementos de la plataforma (p.e. ontologías, BDTR) y con elementos externos a ella (p.e. envío de correos, redes sociales). Estas APIS son extensibles por el administrador de forma sencilla, estando disponibles out-of-the-box librerías para gestión de conexiones HTTP, JMS, LOGS, mail, BDTR, ejecución de Scripts, SSAP, Twitter, entre otras.
 
-
- 
  |
 Motor CEP (Sofia2-CEP)
 -----------------------
@@ -111,6 +109,7 @@ En función del patrón de accesos a la información de tiempo real, se puede im
 Gracias a Kudu e Impala se facilita el acceso en tiempo Real para la analítica de datos.
 
 Podemos destacar las siguientes capacidades de este repositorio:
+
 * Acceso ágil a la información.
 * Herramienta de consulta SQL integrada en el panel de control Sofia2 incluso si la base de datos es NO-SQL.
 * Origen de datos para Analítica de Datos en Tiempo Real.
@@ -128,6 +127,7 @@ La información almacenada estará disponible como origen de datos para los dist
 La implementación  de este repositorio está basada en Hadoop  como repositorio, Hive como solución Datawarehouse y SparkSQL para facilitar el acceso homogéneo a los datos.
 
 Como características más importantes de este repositorio podemos destacar las siguientes:
+
 * Almacenamiento temporal de información heterogénea.
 * Herramienta de consulta SQL integrada en el panel de control Sofia2.
 * Origen de datos para Analítica de Datos Históricos
