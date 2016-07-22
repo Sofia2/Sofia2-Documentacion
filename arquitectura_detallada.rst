@@ -227,6 +227,11 @@ La configuración de alertas y thresholds de normalidad posibilitan la ejecució
 
 Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las siguientes capacidades por cada fase del proceso:
 
+
+ .. figure::  ./images/CargaDataFlow.png
+ :align:   center
+ 
+
 * **Extracción**: Disponen de 18 los orígenes de datos integrados , entre los que se encuentran como orígenes disponibles: Sofia2 (que permite seleccionar la ontología, campos, query…), Excel, AmazonS3, HadoopFS, Kafka…
 
 .. figure::  ./images/ExtracionOrigenDatosDataFlow.JPG
@@ -248,9 +253,10 @@ Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las sigui
 
 *  **Carga**: Se disponen de más de veinte posibles destinos, a incorporar en el proceso mediante Drag&drop desde la barra de tareas. De ellos podemos destacar el componente Sofia2 (que permite seleccionar la ontología, campos y otros parámetros adicionales), AmazonS3, Cassandra, Hadoop, Kafka, Flume….
 
- .. figure::  ./images/CargaDataFlow.png
+ .. figure::  ./images/CargaDestinoDatosDataFlow.JPG
  :align:   center
- 
+
+
 Este módulo incluye herramientas de monitorización tanto para agilizar el desarrollo como para hacer seguimiento de la ejecución del proceso una vez activado y publicado.
 
 
