@@ -35,6 +35,8 @@ Además de los módulos de la versión Base incluye:
 * Sofia2 Holystic Viewer.
 * Sofia2 Notebooks con soporte Spark, R y HIVE.
 
+.. figure::  ./images/IOTEdition.JPG
+ :align:   center
  
 | 
 Advanced Analytics Edition
