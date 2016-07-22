@@ -188,7 +188,20 @@ Sus principales **capacidades** son:
 |
 Holystic Viewer
 ---------------
- 
+Este módulo forma parte del ecosistema de la Plataforma, es desarrollado por una empresa partner de Indra y puede adquirirse o no junto a la plataforma. 
+
+Sofia2-HolisticViewer es el módulo de visualización avanzada de la Plataforma, se trata de un sistema integral de visualización avanzada e interactiva que permite una gestión de información geolocalizada asociándola a un entorno de visualización tridimensional y multimedia:
+
+.. figure::  ./images/HolysticViewer1.png
+ :align:   center
+
+
+Proporciona geovisualización en tiempo real sobre el terreno
+
+.. figure::  ./images/HolysticViewer2.png
+ :align:   center
+
+
 | 
 | 
 Módulos Big Data:
