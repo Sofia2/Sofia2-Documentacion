@@ -146,6 +146,23 @@ Como **características** más importantes de este repositorio podemos destacar 
 * **Escalabilidad** horizontal.
 * Actúa como el corazón del **Data Lake** de la plataforma, almacenando información heterogénea con capacidad de procesamiento	
 
+Repositorio Staging
+-------------------
+**Almacena información** en diferentes estados (estructurada, semi-estructurada y no estructurada) **temporalmente**, para facilitar procesos complejos de transformación, ingestión y exposición de datos que requieran la persistencia temporal de estados intermedios del proceso.
+
+Este repositorio se implementa sobre **HDFS**, cuya arquitectura basada en ficheros de texto y nodos de procesamiento paralelo, proporcionan la flexibilidad y escalado horizontal necesarios.
+
+
+.. figure::  ./images/HDFS.jpg
+ :align:   center
+
+Podemos destacar las siguientes capacidades de este repositorio:
+
+* **Almacenamiento temporal** de información heterogénea.
+* **Usado para dar soporte a procesos analíticos** y de transformación de dato complejos.
+* **Integración** con el motor de Reglas y Machine Learning.
+* **Escalabilidad** horizontal.
+
 
 |
 API Manager
