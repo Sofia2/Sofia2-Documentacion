@@ -217,17 +217,18 @@ La composición del proceso ETL (Extracción, Transformación y Carga o Load), s
 .. figure::  ./images/dataflow1.png
  :align:   center
 
-
-En tiempo de ejecución, se pueden configurar reglas para capturar y visualizar datos de un pipeline en ejecución. Además es posible consultar las estadísticas de ejecución de cualquier pipeline en tiempo real, los datos procesados y el historial del pipeline,
+**Monitorización**:
+En tiempo de ejecución, se pueden configurar reglas para capturar y visualizar datos de un pipeline en ejecución. 
+Además es posible consultar las estadísticas de ejecución de cualquier pipeline en tiempo real, los datos procesados y el historial del pipeline.
 
 .. figure::  ./images/dataflow2.png
  :align:   center
 
-
+**Alertas**:
 La configuración de alertas y thresholds de normalidad posibilitan la ejecución de acciones automáticas como la comunicación de estos eventos y la visualización del detalle.
 
-Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las siguientes capacidades por cada fase del proceso:
 
+Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las siguientes capacidades por cada fase del proceso:
 
  .. figure::  ./images/CargaDataFlow.png
  :align:   center
