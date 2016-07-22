@@ -87,10 +87,21 @@ Sofia2 Storage
 --------------
 Modulo de almacenamiento de la información de la plataforma.
 
-Con el objetivo de garantizar que, para cada momento del ciclo de vida de la información, ésta se gestiona de la menor manera, la plataforma plantea el uso de tres repositorios distintos que se complementan y comunican componiendo una solución de almacenamiento completa:
+Con el objetivo de garantizar que, para cada momento del **ciclo de vida de la información**, ésta se gestiona de la menor manera, la plataforma plantea el uso de tres repositorios distintos que se complementan y comunican componiendo una solución de almacenamiento completa:
 
 .. figure::  ./images/Sofia2Storage.JPG
  :align:   center
+ 
+ Este módulo nos ofrece las siguientes **Capacidades**:
+ 
+ * Un repositorio adecuado para cada momento en el **ciclo de vida de la información**.
+ * Optimización de tiempos de acceso a la información.
+ * **Soporte a diferentes tecnologías** en función del patrón de accesos, altas y consultas de cada repositorio.
+ * **Escalabilidad horizontal** de todos los repositorios.
+ * Los repositiorios están integrados entre sí y con las demás capas de la plataforma.
+ * Soportan estándares y bases de datos  **SQL y NO-SQL**.
+
+
  
 Base de Datos Tiempo Real (BDTR)
 --------------------------------
