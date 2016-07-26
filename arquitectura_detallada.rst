@@ -61,6 +61,7 @@ que pueden unirse para generar un completo Dashboard,  bien sobre la informació
 .. figure::  ./images/DashboardsCompleto.png
  :align:   center
 
+
 Por lo tanto las capacidades que nos ofrecen los son las siguientes:
 
 * **Biblioteca** para la configuración de **Gadgets**.
@@ -68,6 +69,7 @@ Por lo tanto las capacidades que nos ofrecen los son las siguientes:
 * **Gestión** (Creación/modificación/eliminación) de Gadgets y Dashboards desde la misma interfaz **centralizada** de administración.
 * **Integración** con los repositorios de información y con fuentes externas.
 * **Exportación** de la información en distintos formatos (xls, csv, html)
+
 
 
 
