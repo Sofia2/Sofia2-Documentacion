@@ -21,7 +21,7 @@ Sofia2 Control Panel
 --------------------
 La Plataforma ofrece una **completa web de administración/configuración** desarrollada con tecnología HTML5 que permite gestionar todos los conceptos que maneja la Plataforma. 
 
-El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la BDC (Base Datos Configuración) del Sofia2-Repository.
+El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la **BDC** (Base Datos Configuración) del Sofia2-Repository.
 
 Toda la interacción con la Plataforma Sofia2 puede realizarse desde el Sofia2 Control Panel. 
 
@@ -45,8 +45,11 @@ A través de esta capacidad será posible la integración con la gestión de per
 
 * **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
 
-* Visualizaciones: 
-* **Informes**: 
+* Visualizaciones: La Plataforma permite acceder a la información gestionada por ella a través de cualquiera de sus APIs (por ejemplo API Javascript para desarrollo de Webs), a través del API Manager vía Interfaces REST y a través de conexión ODBC y JDBC. Además de esto ofrece 3 módulos que resuelven out-of-the-box las necesidades de visualización:
+
+  * **Dashboards**:
+  * **Sinópticos**:
+  * **Informes**: 
 
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
