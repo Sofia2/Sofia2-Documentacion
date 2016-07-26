@@ -60,6 +60,10 @@ El hecho de poder ejecutar sentencias SQL permitirá la actualización y borrado
 * **Monitorización de procesos**: a través de la consola web es posible llevar el control sobre la planificación de procesos (como por ej. la carga de ficheros, el paso de datos a la BDH, etc.), permitiendo además su monitorización en tiempo real.
 Esto posibilitará la monitorización del estado y funcionamiento de las cargas, cuánto han tardado, si ha habido algún error en ellas y cuál ha sido la naturaleza del mismo.
 
+.. figure::  ./images/MonitorizacionProcesos.JPG
+ :align:   center
+ 
+
 * **Gestión de usuarios y roles**: asignación de roles a usuarios, asignación de permisos sobre información almacenada en la plataforma.
 A través de esta capacidad será posible la integración con la gestión de perfiles centralizada usada en el Sistema.
 
