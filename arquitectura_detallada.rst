@@ -121,14 +121,14 @@ Con el objetivo de garantizar que, para cada momento del **ciclo de vida de la i
 .. figure::  ./images/Sofia2Storage.JPG
  :align:   center
  
- Este módulo nos ofrece las siguientes **Capacidades**:
+Este módulo nos ofrece las siguientes **Capacidades**:
  
- * Un repositorio adecuado para cada momento en el **ciclo de vida de la información**.
- * Optimización de tiempos de acceso a la información.
- * **Soporte a diferentes tecnologías** en función del patrón de accesos, altas y consultas de cada repositorio.
- * **Escalabilidad horizontal** de todos los repositorios.
- * Los repositiorios están integrados entre sí y con las demás capas de la plataforma.
- * Soportan estándares y bases de datos  **SQL y NO-SQL**.
+* Un repositorio adecuado para cada momento en el **ciclo de vida de la información**.
+* Optimización de tiempos de acceso a la información.
+* **Soporte a diferentes tecnologías** en función del patrón de accesos, altas y consultas de cada repositorio.
+* **Escalabilidad horizontal** de todos los repositorios.
+* Los repositiorios están integrados entre sí y con las demás capas de la plataforma.
+* Soportan estándares y bases de datos  **SQL y NO-SQL**.
 
 
  
