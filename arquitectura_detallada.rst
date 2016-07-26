@@ -78,6 +78,8 @@ Este módulo (en desarrollo) permite desde el Panel de Control crear visualmente
 
 .. figure::  ./images/Sinopticos.png
  :align:   center
+ 
+ 
 
 |
   * **Informes**:
