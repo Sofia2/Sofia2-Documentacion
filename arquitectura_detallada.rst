@@ -46,10 +46,42 @@ A través de esta capacidad será posible la integración con la gestión de per
 * **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
 
 * Visualizaciones: 
-* Informes:
+* **Informes**: 
+
+Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
+
+Permite:
+* Diseñar Informes de forma flexible desde el editor de informes visual integrado en Sofia2-SDK
+* Acceder a BDTR y BDH
+* Cargar informes en la Plataforma a través de la Consola Web de la Plataforma
+* Visualizar Informes en formato HTML integrados en la Consola
+* Generar informes en formatos HTML, PDF, Word, Excel,…
+* Guardar informes generados, catalogarlos y darles permisos de visualización.
+
+La implementación de referencia de este módulo se basa en la librería open-source Jasper Reports, que permite diseñar informes de manera flexible y personalizable:
+
+.. figure::  ./images/Informes1.jpg
+ :align:   center
+
+Desde Sofia2 Control Panel  y dependiendo del perfil del usuario se habilitarán las opciones a las que se tenga acceso.
+
+.. figure::  ./images/Informes2.jpg
+ :align:   center
+
+Con el perfil de Administrador se pueden crear/modificar/eliminar informes y asignar permisos de consulta a otros usuarios. La opción Autorización Informes no estará disponible para usuarios con rol Usuario.
+
+.. figure::  ./images/Informes3.jpg
+ :align:   center
+
+Sólo el propietario (o usuarios administradores) podrá consultar, editar y eliminar sus informes. Los informes generados se almacenarán y se pueden crear grupos de usuarios de consulta a dichos informes.
+
+.. figure::  ./images/Informes4.jpg
+ :align:   center
+
+El usuario, desde la interfaz de gestión puede visualizar sus propios informes y sobre los tenga permiso. En caso de que se trate de un informe parametrizado, tras pulsar sobre la generación de uno de los tipos de informes, se solicitará mediante un diálogo los parámetros necesarios para su ejecución. Una vez introducidos, se presentará por pantalla el resultado.
 
 
-
+Los informes se podrán visualizar en HTML o PDF y exportar los informes a formato PDF, a una hoja de cálculo de Excel o a un documento Word. 
 
 |
 Semantic Broker (SIB)
