@@ -212,7 +212,7 @@ Sus principales **capacidades** son:
 
 * Exposición de entidades (ontologías) como APIS REST. Desde la consola de administración es posible exponer como API REST cualquier entidad (ontología) , indicando los métodos a exponer para su consulta y tratamiento. 
 * **Simplicidad en el acceso a la información de la plataforma** a través de APIs REST lo que permite que esta se pueda consumir sin conocer los detalles técnicos de la Plataforma.
-* Portal integrado en el Panel de Control que permite la búsqueda, suscripción e invocación de las APIs.
+* **Portal integrado en el Panel de Control** que permite la búsqueda, suscripción e invocación de las APIs.
 
 .. figure::  ./images/SuscripciónAPI.jpg
  :align:   center
