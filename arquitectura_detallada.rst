@@ -81,11 +81,11 @@ Por lo tanto permite la **monitorización y actuación** en **tiempo real** sobr
 
 .. figure::  ./images/Sinopticos.png
  :align:   center
- 
-
-
 |
- * **Informes**:
+
+
+
+  * **Informes**:
 
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
