@@ -74,11 +74,12 @@ Por lo tanto las capacidades que nos ofrecen los son las siguientes:
 
 
   * **Sinópticos**:
-Este módulo (en desarrollo) permite desde el Panel de Control crear visualmente sinópticos tipo SCADA que reaccionan a los eventos (ontologías) generados en la Plataforma permitiendo crear completos cuadros de mando operacionales:
+Este módulo permite desde el Panel de Control crear visualmente sinópticos tipo SCADA que reaccionan a los eventos (ontologías) generados en la Plataforma permitiendo crear completos cuadros de mando operacionales
+
+ Por lo tanto permite la monitorización y actuación en tiempo real sobre procesos industriales para los que se proporcionan las herramientas de diseño de Sinópticos, reglas, alertas y tags
 
 .. figure::  ./images/Sinopticos.png
  :align:   center
- 
  
 
 |
