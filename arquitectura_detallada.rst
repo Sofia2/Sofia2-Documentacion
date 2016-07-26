@@ -13,6 +13,7 @@ Módulos IoT:
 SDK
 ----
 IDE personalizado basado en Eclipse para el desarrollo simplificado de integraciones sobre la Plataforma.
+
 `Descargar <http://sofia2.com/desarrollador.html#descargas>`_
 
 
