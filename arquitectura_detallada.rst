@@ -80,7 +80,7 @@ Este módulo (en desarrollo) permite desde el Panel de Control crear visualmente
  :align:   center
 
 |
- * **Informes**: 
+  * **Informes**:
 
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
