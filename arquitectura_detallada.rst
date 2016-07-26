@@ -317,13 +317,20 @@ SparkSQL:
  :align:   center
 
 HIVE:
+
 .. figure::  ./images/Notebooks-Hive.jpg
  :align:   center
 
 
 Python:
 
+.. figure::  ./images/Notebooks-Python.jpg
+ :align:   center
+
 R:
+.. figure::  ./images/Notebooks-R.jpg
+ :align:   center
+
 
 Cada Notebook se compone de párrafos, que pueden tener diferentes lenguajes, pudiendo ejecutar individualmente los párrafos y visualizando la salida de los mismos, así como el estado de la ejecución. 
 
