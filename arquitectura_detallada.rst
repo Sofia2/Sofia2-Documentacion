@@ -324,7 +324,7 @@ Sofia2 DataLink
 ---------------
 Actúa de interfaz con productos de analítica, ofreciendo  conectores estándar JDBC, ODBC y REST y una capa de abstracción que permite operar a través de SQL independientemente del origen de los datos. De esta manera, se facilita la integración tradicional a nivel de datos, con los repositorios BDTR y BDH indistintamente, pudiendo incluso realizar consultas en las que se combine información de ambos.
 
- .. figure::  ./images/DataLink.JPG
+.. figure::  ./images/DataLink.JPG
  :align:   center
 
 Por lo tanto, las **capacidades** que nos ofrece este módulos son las siguientes:
