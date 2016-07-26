@@ -8,6 +8,7 @@ A continuación vamos a describir los módulos que componen la Plataforma sobre 
 
 
 Módulos IoT:
+============
 
 SDK
 ----
@@ -238,7 +239,7 @@ Proporciona geovisualización en tiempo real sobre el terreno
 | 
 | 
 Módulos Big Data:
-
+=================
 |
 Sofia2 DataFlow
 ---------------
