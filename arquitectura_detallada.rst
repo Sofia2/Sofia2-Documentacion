@@ -228,7 +228,7 @@ Las Reglas se desarrollan haciendo uso de una biblioteca de APIS que permiten in
 |
 Motor CEP (Sofia2-CEP)
 -----------------------
-
+El motor CEP que permite definir reglas en las que interviene el tiempo (por ejemplo que no ha llegado una cierta medida en 1 día). A los eventos generados por el motor CEP pueden suscribirse los clientes o servir como entrada al motor de Reglas.
 
 |
 Sofia2 Storage
