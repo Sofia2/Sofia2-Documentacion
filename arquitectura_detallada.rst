@@ -163,6 +163,9 @@ Los informes se podrán visualizar en HTML o PDF y exportar los informes a forma
 |
 Semantic Broker (SIB)
 ---------------------
+Módulo de la Plataforma que recibe, procesa y almacena toda la información de las aplicaciones, sensores y dispositivos conectados, actuando como Bus de Interoperabilidad. Esta capa validará la corrección sintáctica y semántica del dato recibido gracias a la definición previa de la estructura del dato esperado (ontología), identificando de qué dato trata, y aplicando la seguridad correspondiente al mismo.
+
+Mediante el despliegue de plugins se podrá ampliar o adaptar la funcionalidad por defecto de este componente de una manera sencilla.
 
 
 |
