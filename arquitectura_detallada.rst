@@ -302,6 +302,15 @@ Este módulo incluye herramientas de monitorización tanto para agilizar el desa
 |
 Sofia2 Notebooks
 ----------------
+Permite realizar de manera muy sencilla e interactiva, analítica sobre datos de fuentes muy variadas, incluidas las fuentes de datos de Sofia2. De esta manera se podría, por ejemplo, realizar cargas de archivos desde HDFS a spark, cargar de datos en tablas Hive, lanzar consultas o realizar un proceso complejo de machine learning mediante las librerías de MLlib de Spark. También el posible la utilización de código R así como las numerosas librerías del lenguaje, permitiendo por ejemplos visualizar mapas de leaflet.
+
+.. figure::  ./images/Notebooks1.jpg
+ :align:   center
+ 
+Sofia2 Notebooks posee la capacidad de combinar código Scala, Spark, SparkSQL, Hive, R, Shell, o muchos otros con contenido html o directivas reactivas de angular, permitiendo interacciones en tiempo real con una potente interfaz y todo ello en un entorno compartido y multiusuario.
+Cada lenguaje soportado es gestionado por un intérprete, por lo que siempre que se quiera escribir código de un cierto lenguaje se tendrá que escribir un marcador propio en el párrafo.
+Además permite realizar  visualizaciones instantáneas de los datos, pudiendo configurar de forma sencilla los gráficos y cambiar rápidamente el tipo de visualización de los mismos. También es posible la creación de gráficos avanzados gracias a librerías propias de cada lenguaje.
+
 
 |
 Sofia2 ML
