@@ -46,7 +46,7 @@ A través de esta capacidad será posible la integración con la gestión de per
 * **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
 
 * **Visualizaciones**: La Plataforma permite acceder a la información gestionada por ella a través de cualquiera de sus APIs (por ejemplo API Javascript para desarrollo de Webs), a través del API Manager vía Interfaces REST y a través de conexión ODBC y JDBC. Además de esto ofrece 3 módulos que resuelven out-of-the-box las necesidades de visualización:
-
+|
   * **Dashboards**:
 Este módulo permite crear de forma sencilla y visual Cuadros de Mando sobre la información gestionada por la Plataforma.
 
@@ -80,7 +80,7 @@ Este módulo (en desarrollo) permite desde el Panel de Control crear visualmente
  :align:   center
 
 |
-  * **Informes**: 
+ * **Informes**: 
 
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
