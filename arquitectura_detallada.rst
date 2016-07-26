@@ -214,6 +214,10 @@ Sus principales **capacidades** son:
 * **Simplicidad en el acceso a la información de la plataforma** a través de APIs REST lo que permite que esta se pueda consumir sin conocer los detalles técnicos de la Plataforma.
 * Portal integrado en el Panel de Control que permite la búsqueda, suscripción e invocación de las APIs.
 * **Autenticación** mediante token en cabecera de cada petición HTTP. Desde la consola de administración, cada usuario, o en su caso un administrador, puede generar y regenerar sus token de autenticación. En cada petición se deberá incluir en la cabecera HTTP este token para autenticar la petición.
+
+.. figure::  ./images/AutenticacionAPI.JPG
+ :align:   center
+ 
 * **Seguridad en el acceso personalizado a las APIs**, a nivel de API y a nivel de entidad de información. Desde la consola de administración, cada usuario que exponga una entidad de información puede otorgar y revocar el permiso de operación sobre el API a otros usuarios.
 * **Control de cuotas de consumo** en el acceso a la información para usuarios. Sofia2-API Manager gestiona el consumo realizado por cada usuario en función de distintas políticas configurables desde la consola de administración.
 * **Proporcionar acceso a APIS externas** incluyendo sistemas de datos abiertos.
