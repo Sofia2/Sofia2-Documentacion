@@ -219,6 +219,11 @@ Sus principales **capacidades** son:
  :align:   center
  
 * **Seguridad en el acceso personalizado a las APIs**, a nivel de API y a nivel de entidad de información. Desde la consola de administración, cada usuario que exponga una entidad de información puede otorgar y revocar el permiso de operación sobre el API a otros usuarios.
+
+.. figure::  ./images/SeguridadAPI.PNG
+ :align:   center
+
+
 * **Control de cuotas de consumo** en el acceso a la información para usuarios. Sofia2-API Manager gestiona el consumo realizado por cada usuario en función de distintas políticas configurables desde la consola de administración.
 * **Proporcionar acceso a APIS externas** incluyendo sistemas de datos abiertos.
 * **Ciclo de vida de las APIS expuestas**, gestionando a través de la consola de administración la fuente de los datos, versión del API, categoría y estado de exposición del API (Creada, en Desarrollo, Publicada, Deprecada, Eliminada).
