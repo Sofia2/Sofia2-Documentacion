@@ -64,8 +64,9 @@ que pueden unirse para generar un completo Dashboard,  bien sobre la informació
   * **Sinópticos**:
 Este módulo (en desarrollo) permite desde el Panel de Control crear visualmente sinópticos tipo SCADA que reaccionan a los eventos (ontologías) generados en la Plataforma permitiendo crear completos cuadros de mando operacionales:
 
- .. figure::  ./images/ Sinopticos.png
+.. figure::  ./images/Sinopticos.png
  :align:   center
+
 
   * **Informes**: 
 
