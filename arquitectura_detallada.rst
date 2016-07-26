@@ -66,7 +66,7 @@ La implementación de referencia de este módulo se basa en la librería open-so
 
 Desde Sofia2 Control Panel  y dependiendo del perfil del usuario se habilitarán las opciones a las que se tenga acceso.
 
-.. figure::  ./images/Informes2.jpg
+.. figure::  ./images/Informes2.png
  :align:   center
 
 Con el perfil de Administrador se pueden crear/modificar/eliminar informes y asignar permisos de consulta a otros usuarios. La opción Autorización Informes no estará disponible para usuarios con rol Usuario.
