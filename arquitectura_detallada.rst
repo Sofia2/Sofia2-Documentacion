@@ -31,7 +31,27 @@ El panel de control es una herramienta que, mediante interfaces normalizadas, pe
  :align:   center
 
 
-Provee a los usuarios (en función de los privilegios de su rol) funcionalidades como estas:
+Generando proyectos de diferentes **Tipos de Proyectos** organizamos el trabajo que se realiza en la plataforma y tenemos una visión unificada de los conceptos que se manejan, además de permitir colaborar a diferentes usuarios en un proyecto.
+
+Existen tres tipos de Proyectos:
+
+* **IoT Basic**:  Proyectos que sólo necesitan acceso a las funcionalidad IoT básicas de la Plataforma.
+* **IoT General**: Proyectos que necesitan del grueso de funcionalidades proporcionadas por la Plataforma.
+* **Social Media**: Proyectos centrados en la analítica de Redes Sociales
+* Big Data Analytics: Proyectos enfocados en el análisis, explotación, modelización, reporting,…
+
+El Panel de  Control se adaptará en función del tipo de proyecto seleccionado.
+
+.. figure::  ./images/TiposProyectos.png
+ :align:   center
+
+Asociado a los proyectos se puede crear una Definición de **proyectos Web asociados** a las ontologías e interfaces configurados en la plataforma. Edición y despliegue de recursos web (HTML5, css y Javascript):
+
+.. figure::  ./images/ProyectoWeb.JPG
+ :align:   center
+
+
+El Panel de Control provee a los usuarios (en función de los privilegios de su rol) funcionalidades como estas:
 
 * **Herramienta de consulta sobre la BDTR y BDH**: permite acceder a los datos insertados en la plataforma a través de un motor de queries integrado.
 Esta interfaz posibilita lanzar queries en lenguaje SQL. Asimismo será posible el filtrado de los resultados (ej. por operador, identificador del jugador, tipo de juego, intervalo de fechas) mediante cláusulas where de SQL.
