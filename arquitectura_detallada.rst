@@ -51,10 +51,11 @@ A través de esta capacidad será posible la integración con la gestión de per
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
 Permite:
-* Diseñar Informes de forma flexible desde el editor de informes visual integrado en Sofia2-SDK
-* Acceder a BDTR y BDH
-* Cargar informes en la Plataforma a través de la Consola Web de la Plataforma
-* Visualizar Informes en formato HTML integrados en la Consola
+
+* Diseñar Informes de forma flexible desde el editor de informes visual integrado en Sofia2-SDK.
+* Acceder a BDTR y BDH.
+* Cargar informes en la Plataforma a través de la Consola Web de la Plataforma.
+* Visualizar Informes en formato HTML integrados en la Consola.
 * Generar informes en formatos HTML, PDF, Word, Excel,…
 * Guardar informes generados, catalogarlos y darles permisos de visualización.
 
