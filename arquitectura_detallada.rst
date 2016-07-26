@@ -69,6 +69,10 @@ Esto posibilitará la monitorización del estado y funcionamiento de las cargas,
  
 
 * **Gestión de usuarios y roles**: asignación de roles a usuarios, asignación de permisos sobre información almacenada en la plataforma.
+
+.. figure::  ./images/GestionUsuarios.JPG
+ :align:   center
+ 
 A través de esta capacidad será posible la integración con la gestión de perfiles centralizada usada en el Sistema.
 
 * **Gestión de clientes de la Plataforma y sus tokens** (requeridos para interactuar con la plataforma): permite una gestión integral de aquellos clientes (KPs) que están accediendo o insertando datos en la plataforma, pudiendo invalidar en cualquier momento tokens de acceso. 
