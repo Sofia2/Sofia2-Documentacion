@@ -234,10 +234,13 @@ Sus principales **capacidades** son:
 * **Documentación web de APIS** expuestas mediante página descriptiva de los comentarios incluidos durante la creación del APIS y la definición de los métodos expuestos. 
 
 .. figure::  ./images/DocumentacionAPI.png
- :align:   cente
+ :align:   center
  
-* **Cache de APIs configurable**, cacheando la respuesta de las peticiones durante un intervalo configurable el tiempo de respuesta para peticiones complejas sobre grandes volúmenes de datos es casi inmediato
+* **Cache de APIs configurable**, cacheando la respuesta de las peticiones durante un intervalo configurable el tiempo de respuesta para peticiones complejas sobre grandes volúmenes de datos es casi inmediato.
 
+.. figure::  ./images/CacheAPI.png
+ :align:   center
+ 
 |
 Holystic Viewer
 ---------------
