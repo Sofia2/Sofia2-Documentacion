@@ -13,6 +13,7 @@ Módulos IoT:
 SDK
 ----
 IDE personalizado basado en Eclipse para el desarrollo simplificado de integraciones sobre la Plataforma.
+`Descargar <http://sofia2.com/desarrollador.html#descargas>`_
 
 
 Sofia2 Control Panel
@@ -69,7 +70,7 @@ Para agilizar la integración con la plataforma (desde sensores, dispositivos o 
 
 Además, se facilita la incorporación de nuevos protocolos gracias al despliegue de nuevos Plugins.
 
-Esto, sumado a las APIS multilenguaje `(Descargar) <http://sofia2.com/desarrollador.html#descargas>`_ que ofrece la plataforma facilita el desarrollo de cualquier cliente que quiera comunicarse con la plataforma, permitiendo la abstracción de los detalles técnicos del protocolo a utilizar (ya considerados en el API).
+Esto, sumado a las **APIS multilenguaje** `(Descargar) <http://sofia2.com/desarrollador.html#descargas>`_ que ofrece la plataforma facilita el desarrollo de cualquier cliente que quiera comunicarse con la plataforma, permitiendo la abstracción de los detalles técnicos del protocolo a utilizar (ya considerados en el API).
 
 
 |
