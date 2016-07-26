@@ -224,7 +224,7 @@ Sus principales **capacidades** son:
  
 * **Seguridad en el acceso personalizado a las APIs**, a nivel de API y a nivel de entidad de información. Desde la consola de administración, cada usuario que exponga una entidad de información puede otorgar y revocar el permiso de operación sobre el API a otros usuarios.
 
-.. figure::  ./images/SeguridadAPI.PNG
+.. figure::  ./images/SeguridadAPI.png
  :align:   center
 
 
@@ -232,6 +232,10 @@ Sus principales **capacidades** son:
 * **Proporcionar acceso a APIS externas** incluyendo sistemas de datos abiertos.
 * **Ciclo de vida de las APIS expuestas**, gestionando a través de la consola de administración la fuente de los datos, versión del API, categoría y estado de exposición del API (Creada, en Desarrollo, Publicada, Deprecada, Eliminada).
 * **Documentación web de APIS** expuestas mediante página descriptiva de los comentarios incluidos durante la creación del APIS y la definición de los métodos expuestos. 
+
+.. figure::  ./images/DocumentacionAPI.png
+ :align:   cente
+ 
 * **Cache de APIs configurable**, cacheando la respuesta de las peticiones durante un intervalo configurable el tiempo de respuesta para peticiones complejas sobre grandes volúmenes de datos es casi inmediato
 
 |
