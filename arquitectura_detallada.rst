@@ -287,8 +287,8 @@ Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las sigui
  * Otros componentes como el duplicador de Registro o el reemplazador de valores
 
 *  **Carga**: Se disponen de más de veinte posibles destinos, a incorporar en el proceso mediante Drag&drop desde la barra de tareas. De ellos podemos destacar el componente Sofia2 (que permite seleccionar la ontología, campos y otros parámetros adicionales), AmazonS3, Cassandra, Hadoop, Kafka, Flume….
-
- .. figure::  ./images/CargaDestinoDatosDataFlow.JPG
+ 
+.. figure::  ./images/CargaDestinoDatosDataFlow.JPG
  :align:   center
 
 
