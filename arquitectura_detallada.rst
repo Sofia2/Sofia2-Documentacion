@@ -309,7 +309,7 @@ Permite realizar de manera muy sencilla e interactiva, analítica sobre datos de
  
 Sofia2 Notebooks posee la capacidad de combinar código Scala, Spark, SparkSQL, Hive, R, Shell, o muchos otros con contenido html o directivas reactivas de angular, permitiendo interacciones en tiempo real con una potente interfaz y todo ello en un entorno compartido y multiusuario.
 Cada lenguaje soportado es gestionado por un intérprete, por lo que siempre que se quiera escribir código de un cierto lenguaje se tendrá que escribir un marcador propio en el párrafo.
-Además permite realizar  visualizaciones instantáneas de los datos, pudiendo configurar de forma sencilla los gráficos y cambiar rápidamente el tipo de visualización de los mismos. También es posible la creación de gráficos avanzados gracias a librerías propias de cada lenguaje.
+Además permite realizar  **visualizaciones instantáneas de los datos**, pudiendo configurar de forma sencilla los gráficos y cambiar rápidamente el tipo de visualización de los mismos. También es posible la creación de gráficos avanzados gracias a librerías propias de cada lenguaje.
 
 SparkSQL:
 
@@ -341,11 +341,13 @@ Tanto los párrafos, como el notebook completo se pueden externalizar vía url, 
  :align:   center
 
 
-Otra característica importante es la posibilidad de planificar la ejecución de los notebooks mediante un expresión CRON, pudiendo ejecutar notebook repetidamente y sin pérdida de contexto, pudiendo seleccionar un intervalo de ejecución de los prediseñados o escribir uno personalizado.
+Otra característica importante es la posibilidad de **planificar la ejecución de los notebooks** mediante un expresión CRON, pudiendo ejecutar notebook repetidamente y sin pérdida de contexto, pudiendo seleccionar un intervalo de ejecución de los prediseñados o escribir uno personalizado.
 
 
-Con todas estas características tenemos una herramienta web colaborativa, que es capaz de realizar análisis complejos la información gestionada por la plataforma IoT (tanto en tiempo real como histórica), combinando diferentes lenguajes y generando vistas gráficas (u otras acciones), que se pueden planificar para su ejecución periódica, refrescando automáticamente el resultado de la analítica que queda expuesto en una URL. 
+Con todas estas características tenemos una **herramienta web colaborativa**, que es capaz de realizar análisis complejos la información gestionada por la plataforma IoT (tanto en tiempo real como histórica), **combinando diferentes lenguajes y generando vistas gráficas** (u otras acciones), que se pueden planificar para su ejecución periódica, refrescando automáticamente el resultado de la analítica que queda expuesto en una URL. 
 
+.. figure::  ./images/Notebooks3.png
+ :align:   center
 
 
 |
