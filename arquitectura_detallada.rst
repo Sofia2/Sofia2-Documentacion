@@ -328,6 +328,7 @@ Python:
  :align:   center
 
 R:
+
 .. figure::  ./images/Notebooks-R.jpg
  :align:   center
 
@@ -336,7 +337,12 @@ Cada Notebook se compone de párrafos, que pueden tener diferentes lenguajes, pu
 
 Tanto los párrafos, como el notebook completo se pueden externalizar vía url, viendo en tiempo real en todos los casos, las ejecuciones de los notebooks o del párrafo en concreto.
 
+.. figure::  ./images/Notebooks2.jpg
+ :align:   center
+
+
 Otra característica importante es la posibilidad de planificar la ejecución de los notebooks mediante un expresión CRON, pudiendo ejecutar notebook repetidamente y sin pérdida de contexto, pudiendo seleccionar un intervalo de ejecución de los prediseñados o escribir uno personalizado.
+
 
 Con todas estas características tenemos una herramienta web colaborativa, que es capaz de realizar análisis complejos la información gestionada por la plataforma IoT (tanto en tiempo real como histórica), combinando diferentes lenguajes y generando vistas gráficas (u otras acciones), que se pueden planificar para su ejecución periódica, refrescando automáticamente el resultado de la analítica que queda expuesto en una URL. 
 
