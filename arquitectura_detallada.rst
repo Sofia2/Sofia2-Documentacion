@@ -165,8 +165,28 @@ Semantic Broker (SIB)
 ---------------------
 Módulo de la Plataforma que recibe, procesa y almacena toda la información de las aplicaciones, sensores y dispositivos conectados, actuando como Bus de Interoperabilidad. Esta capa validará la corrección sintáctica y semántica del dato recibido gracias a la definición previa de la estructura del dato esperado (ontología), identificando de qué dato trata, y aplicando la seguridad correspondiente al mismo.
 
-Mediante el despliegue de plugins se podrá ampliar o adaptar la funcionalidad por defecto de este componente de una manera sencilla.
+* **Plugins**:
 
+La Plataforma ofrece el concepto de plugin como mecanismos de extensión de la Plataforma que permite incorporar nuevas funcionalidades en esta (por ejemplo un nuevo conector basado en protocolo OneM2M) de forma sencilla. 
+
+Mediante el despliegue de **plugins** se podrá ampliar o adaptar la funcionalidad por defecto de este componente de una manera sencilla.
+
+El motor de plugins permite crear nuevos conectores, cambiar autenticación, auditar información, persistir en otros repositorios, generar KPIs, monitorizar, etc. , es decir, dotan de una flexibilidad máxima a la Plataforma. 
+
+Existen diversos tipos de plugins a desarrollar sobre la Plataforma: 
+
+* **Plugin Tipo Gateway**: permiten desarrollar conectores en otros protocolos
+* **Plugins de pre y postprocesamiento**: Permiten procesas cualquier acción realizada dentro del SIB antes o después de su persistencia en BD.
+* **Plugins de Seguridad**: permiten ampliar o cambiar modelo de autenticación y autorización, por ejemplo configurándolo contra un repositorio LDAP corporativo o una BD externa.
+* **Plugins de Ciclo de Vida del SIB**: Permiten realizar acciones al parar o arrancar la Plataforma.
+* **Plugins de Procesado de Mensajes**: permiten preprocesar y postprocesar cualquier mensaje incluyendo invocación a otros Backends.
+* **Plugins de Motores**: permiten interceptar las acciones que realizan los diversos motores.
+
+La plataforma incluye un conjunto de plugins preconstruidos y los mecanismos (APIs y guías) para construir nuevos plugins.
+
+.. figure::  ./images/Sofia2SibPlugins.png
+ :align:   center
+ 
 
 |
 IoT Gateway
