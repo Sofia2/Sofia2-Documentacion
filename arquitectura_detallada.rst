@@ -62,11 +62,12 @@ que pueden unirse para generar un completo Dashboard,  bien sobre la informació
  :align:   center
 
   * **Sinópticos**:
- 
- 
- 
-  * **Informes**: 
+Este módulo (en desarrollo) permite desde el Panel de Control crear visualmente sinópticos tipo SCADA que reaccionan a los eventos (ontologías) generados en la Plataforma permitiendo crear completos cuadros de mando operacionales:
 
+ .. figure::  ./images/ Sinopticos.png
+ :align:   center
+
+  * **Informes**: 
 
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
