@@ -54,6 +54,10 @@ Asociado a los proyectos se puede crear una Definición de **proyectos Web asoci
 El Panel de Control provee a los usuarios (en función de los privilegios de su rol) funcionalidades como estas:
 
 * **Herramienta de consulta sobre la BDTR y BDH**: permite acceder a los datos insertados en la plataforma a través de un motor de queries integrado.
+
+.. figure::  ./images/ConsultaBDTR.JPG
+ :align:   center
+
 Esta interfaz posibilita lanzar queries en lenguaje SQL. Asimismo será posible el filtrado de los resultados (ej. por operador, identificador del jugador, tipo de juego, intervalo de fechas) mediante cláusulas where de SQL.
 El hecho de poder ejecutar sentencias SQL permitirá la actualización y borrado manual de registros a aquellos roles capacitados para tal fin.
 
