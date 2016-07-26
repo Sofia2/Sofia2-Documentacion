@@ -58,13 +58,15 @@ Para eso ofrece diversos tipos de gadgets:
  
 que pueden unirse para generar un completo Dashboard,  bien sobre la información que se va añadiendo a la plataforma, bien sobre la información histórica:
 
-.. figure::  ./images/DashboardCompleto.png
+.. figure::  ./images/DashboardsCompleto.png
  :align:   center
 
   * **Sinópticos**:
  
  
+ 
   * **Informes**: 
+
 
 Este módulo ofrece una funcionalidad de reporting sobre la información gestionada por el Sofia2 Storage (BDTR y la BDH). 
 
