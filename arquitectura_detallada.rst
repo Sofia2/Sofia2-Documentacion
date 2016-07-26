@@ -281,7 +281,7 @@ Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las sigui
  *	**Parseadores de JSON, XML y logs**: Parsea información válida según los diferentes tipos de formato de logs, y esquemas XML y JSON.
  * **Selector de Flujo**: Para seleccionar la siguiente actividad a ejecutar sobre el conjunto de datos, en función de condiciones de ejecución.
  
- .. figure::  ./images/SelectorFlujoDataflow.png
+.. figure::  ./images/SelectorFlujoDataflow.png
  :align:   center
 
  
