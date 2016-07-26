@@ -198,6 +198,11 @@ Por ejemplo se pueden definir transformaciones a los datos existentes o implemen
 
 Todas estas reglas se crean desde la Consola Web de forma sencilla y sin programar. La creación de reglas desde la consola va en función del rol, por ejemplo usuario administrador puede crear reglas sobre cualquier ontología mientras que un usuario colaborador puede definir reglas sobre ontologías de las que es propietario.
 
+
+.. figure::  ./images/Regla.JPG
+ :align:   center
+
+
 La Plataforma disponibiliza  un conjunto de acciones predefinidas que se pueden ejecutar dentro de la regla, como Enviar Mail, Generar Alarma,… Además, se pueden crear nuevas acciones predefinidas en tiempo de desarrollo.
 
 
