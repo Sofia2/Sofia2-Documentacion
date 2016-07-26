@@ -48,6 +48,19 @@ A través de esta capacidad será posible la integración con la gestión de per
 * Visualizaciones: La Plataforma permite acceder a la información gestionada por ella a través de cualquiera de sus APIs (por ejemplo API Javascript para desarrollo de Webs), a través del API Manager vía Interfaces REST y a través de conexión ODBC y JDBC. Además de esto ofrece 3 módulos que resuelven out-of-the-box las necesidades de visualización:
 
   * **Dashboards**:
+Este módulo permite crear de forma sencilla y visual Cuadros de Mando sobre la información gestionada por la Plataforma.
+
+Este módulo permite crear cuadros de mando de forma sencilla y visual desde el Panel de control de la Plataforma. 
+Para eso ofrece diversos tipos de gadgets:
+
+.. figure::  ./images/Gadget.png
+ :align:   center
+ 
+que pueden unirse para generar un completo Dashboard,  bien sobre la información que se va añadiendo a la plataforma, bien sobre la información histórica:
+
+.. figure::  ./images/DashboardCompleto.png
+ :align:   center
+
   * **Sinópticos**:
   * **Informes**: 
 
