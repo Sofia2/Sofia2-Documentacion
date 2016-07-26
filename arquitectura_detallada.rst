@@ -264,7 +264,7 @@ La configuración de alertas y thresholds de normalidad posibilitan la ejecució
 
 Haciendo foco en las **capacidades** ETL del módulo, podemos destacar las siguientes capacidades por cada fase del proceso:
 
- .. figure::  ./images/CargaDataFlow.png
+.. figure::  ./images/CargaDataFlow.png
  :align:   center
  
 
