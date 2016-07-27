@@ -12,7 +12,7 @@ Documentación Básica
 
 .. toctree::
    :caption: Mecanismos de Seguridad
-  seguridad
+  /basico/seguridad
   
   
   
