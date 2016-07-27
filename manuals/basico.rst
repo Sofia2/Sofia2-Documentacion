@@ -24,7 +24,7 @@ TCO Sofia2 como Backend.
    :maxdepth: 2
    :caption: Mecanismos de Seguridad
 
-   manuals/basico/SOFIA2-Seguridad
+      /basico/SOFIA2-Seguridad
 
 
 
