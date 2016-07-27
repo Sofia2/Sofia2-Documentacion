@@ -20,10 +20,7 @@ TCO Sofia2 como Backend.
 ------------------------
 
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Mecanismos de Seguridad
-         /basico/seguridad
+/basico/seguridad
 
 
 
