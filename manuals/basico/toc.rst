@@ -1,94 +1,19 @@
-+----------------------------------------------------+----+----+
-| |image0|                                           |
-|                                                    |
-| TCO de sofia2                                      |
-|                                                    |
-| vs desarrollo a medida sobre una base relacional   |
-|                                                    |
-| Abril 2015                                         |
-|                                                    |
-| Versión 1                                          |
-+----------------------------------------------------+----+----+
-|                                                    |
-+----------------------------------------------------+----+----+
-| |image1|                                           |    |    |
-+----------------------------------------------------+----+----+
+.. figure::  ./../../images/logo_sofia2_grande.png
+ :align:   center
+ 
+ 
 
-INDICE
-======
+TCO de Sofia2 vs desarrollo a medida sobre una base relacional
+==============================================================
 
-`**1** **INDICE** 2 <#indice>`__
+A continuación se describe el razonamiento empresarial para implementar Sofia2 en vez de un desarrollo tradicional con una base de datos relacional. Este informe hace una comparación entre el Coste Total de Propiedad de la Plataforma Sofia2 y el de un desarrollo a medida con una base de datos relacional, considerando los costes iniciales y corrientes (software, hardware y personal).
 
-`**2** **Introducción** 3 <#introducción>`__
-
-`**2.1** **Objetivos y alcance del presente documento** 3 <#objetivos-y-alcance-del-presente-documento>`__
-
-`**3** **Qué es Sofia2** 4 <#qué-es-sofia2>`__
-
-`**4** **Coste Total de Propiedad (TCO)** 5 <#_Toc417046153>`__
-
-`**4.1** **Costes Iniciales** 5 <#_Toc417046154>`__
-
-`**4.2** **Costes Corrientes** 5 <#_Toc417046155>`__
-
-`**5** **Comparación del coste total de propiedad** 6 <#_Toc417046156>`__
-
-`**5.1** **Esfuerzo de desarrollo inicial** 6 <#_Toc417046157>`__
-
-`**5.2** **Esfuerzo administrativo inicial** 7 <#esfuerzo-administrativo-inicial>`__
-
-`**5.3** **Licencias de software** 8 <#licencias-de-software>`__
-
-`**5.4** **Hardware de servidores** 8 <#hardware-de-servidores>`__
-
-`**5.5** **Hardware de almacenamiento** 9 <#hardware-de-almacenamiento>`__
-
-`**5.6** **Esfuerzo de desarrollo corriente** 9 <#esfuerzo-de-desarrollo-corriente>`__
-
-`**5.7** **Esfuerzo administrativo corriente** 9 <#esfuerzo-administrativo-corriente>`__
-
-`**5.8** **Mantenimiento y soporte técnico** 9 <#mantenimiento-y-soporte-técnico>`__
-
-`**5.9** **Otras ventajas de Sofia2** 10 <#otras-ventajas-de-sofia2>`__
-
-Introducción
-============
-
-Objetivos y alcance del presente documento
-------------------------------------------
-
-El presente documento describe el razonamiento empresarial para implementar Sofia2 en vez de un desarrollo tradicional con una base de datos relacional. Este informe hace una comparación entre el Coste Total de Propiedad de la Plataforma Sofia2 y el de un desarrollo a medida con una base de datos relacional, considerando los costes iniciales y corrientes (software, hardware y personal).
-
-Qué es Sofia2
-=============
-
-Sofia2 surge de un proyecto I+D europeo denominado SOFIA.
-
-SOFIA es el acrónimo de **SMART OBJECTS FOR INTELLIGENT APPLICATIONS** y es una plataforma que surge como de un proyecto de I +D Artemis de tres años finalizado en Marzo de 2012, en el que participan 19 partners de cuatro países de la UE, entre los cuales están Nokia, Philips, Fiat, Acciona e Indra.
-
-Sofia2 es una Arquitectura middleware semántica que permite la interoperabilidad de múltiples sistemas y dispositivos. Permite poner información real a disposición de aplicaciones inteligentes, dando respuesta al emergente concepto del IoT (**Internet of Things**).
-
-Entre otras cosas, Sofia2 es:
-
--  Open-source
-
--  Multiplataforma: disponible para Windows, Android, Linux, iOS,…
-
--  Multilenguaje: con APIs Java, Javascript, C++, Arduino
-
--  Agnóstica de las comunicaciones: con implementaciones TCP, MQTT, HTTP (REST, Websockets y WebServices), Ajax Push, etc.
-
--  Escalable horizontalmente: Su diseño permite mantener un rendimiento óptimo con solo añadir más máquinas al cluster, en caso de necesitar más potencia si aumenta la carga de trabajo.
-
--  Basada en estándares: Desde su implementación interna utilizando estándares del mercado (Java, Spring, MongoDB, etc.) hasta la publicación de servicios al exterior también mediante interfaces y métodos de comunicación estándar (HTTP, Rest, Web Services, etc.).
-
--  Agnóstica de las comunicaciones: con implementaciones TCP, MQTT, HTTP (REST y WebServices), Ajax Push,…
 
 Coste Total de Propiedad (TCO)
-==============================
+------------------------------
 
 Costes Iniciales
-----------------
+^^^^^^^^^^^^^^^^
 
 Los costes iniciales se componen de:
 
@@ -103,7 +28,7 @@ Los costes iniciales se componen de:
 -  **Hardware de almacenamiento**. Almacenamiento necesario para almacenar los datos, varía en función de si se utiliza almacenamiento interno o compartido (SAN), de la cantidad de almacenamiento y de si se utilizan unidades de disco duro (HDD) o unidades de estado sólido (SSD).
 
 Costes Corrientes 
-------------------
+^^^^^^^^^^^^^^^^
 
 Los costes corrientes se componen de:
 
@@ -117,13 +42,14 @@ Los costes corrientes se componen de:
 
 -  **Costes de despliegue diversos**: Otros costes necesarios para mantener la base de datos en funcionamiento. Incluye costes de nube/alojamiento/coubicación, costes de ancho de banda, tarifas eléctricas, etc.
 
+
 Comparación del coste total de propiedad
-========================================
+----------------------------------------
 
 A continuación veremos como Sofia2 reduce los diversos costes que componen el TCO de un sistema.
 
 Esfuerzo de desarrollo inicial
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 El esfuerzo de desarrollo inicial se refiere al coste del tiempo dedicado por el desarrollador para conseguir que la aplicación y el almacén de datos trabajen juntos.
 
@@ -167,8 +93,9 @@ Algunos motivos que respaldan las ventajas de productividad de Sofia2 son:
 
 -  **Soporte JSON**. El almacenamiento en JSON, pilar básico de numerosas aplicaciones actuales, se realiza sin dificultades y no requiere conversión. Con una SGBDR, los desarrolladores necesitan “aplanar” y transformar JSON para almacenarlo en tablas relacionales, y más tarde tienen que recuperar las capas al realizar la extracción de la base de datos.
 
+
 Esfuerzo administrativo inicial
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La instalación y configuración de Sofia2 es económica y sencilla.
 
@@ -183,7 +110,7 @@ La Plataforma se compone de :
 -  **SIB + Consola + Tools + API Manager + Process**: todos los módulos de negocio de la Plataforma están construidos en Java, se despliegan como aplicaciones Web en cualquier servidor de aplicaciones JEE. El grueso de la configuración va en la BDC por lo que no es necesario crear ficheros de configuración complejos.
 
 Licencias de software
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Sofia2 es una Plataforma con una versión gratuita para la comunidad de código abierto (licencia Apache) y una edición para suscriptores comerciales que puede usarse en modo On Premise o en Modo Cloud.
 
@@ -192,7 +119,7 @@ Esta versión incluye soporte técnico en diferentes modalidades (desde 8x5 sin 
 La edición comercial de Sofia2 se factura de forma continua en lugar de puntualmente (esto es, una cuota anual por servidor).
 
 Hardware de servidores
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 En general, los costes de servidores de Sofia2 son considerablemente inferiores a los de un desarrollo tradicional sobre BD relacional para cargas de trabajo y disponibilidad similar. Esto aplica a todos los componentes.
 
@@ -201,14 +128,14 @@ Sofia2 se diseña para utilizar hardware básico en arquitecturas escalables.
 Los despliegues de Sofia2 normalmente utilizan servidores Linux básicos y económicos, que tienen un coste de tan solo 3.000 $; incluso un sistema de baja energía y alto rendimiento puede costar tan solo 4.000 $ (excluyendo almacenamiento).
 
 Hardware de almacenamiento
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 La arquitectura escalable de Sofia2 permite reducir considerablemente los costes de almacenamiento.
 
 Sofia2 puede utilizar el almacenamiento local económico y permite realizar un uso eficiente de las unidades de estado sólido (SSD).
 
 Esfuerzo de desarrollo corriente
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Las dinámicas del esfuerzo de desarrollo corriente son menores a las del esfuerzo de desarrollo inicial.
 
@@ -217,7 +144,7 @@ Con una desarrollo tradicional, el coste de realizar cambios en la aplicación e
 Por ejemplo con Sofia2 resulta fácil para los desarrolladores agregar campos a las entidades, crear nuevas APIs, lo que se deriva en costes considerablemente inferiores y permite a los desarrolladores adaptar las aplicaciones a medida que evolucionen las demandas.
 
 Esfuerzo administrativo corriente
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 El esfuerzo administrativo corriente incluye actividades que mantienen el sistema en buen estado de funcionamiento (por ejemplo, actualización del software y hardware, realización de copias de seguridad y recuperación de tiempos de interrupción inesperados).
 
@@ -226,20 +153,13 @@ Se requiere mucho menos tiempo y esfuerzo para administrar Sofia2 en comparació
 La administración de un despliegue de Sofia2 implica principalmente administrar configuraciones de Linux y el propio hardware; solo es necesario conocer y administrar unos pocos parámetros.
 
 Mantenimiento y soporte técnico
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Las suscripciones de Sofia2 se facturan anualmente por core. Esto incluye el acceso al soporte técnico del producto, actualizaciones de software y soluciones de errores, así como ciertas funciones que solo se ofrecen en la edición de pago.
 
 Otras ventajas de Sofia2
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Resumiendo, además de los ahorros de costes tangibles, el modelo orientado a documentos y el esquema flexible de Sofia2 también aportan mayor agilidad y flexibilidad a las empresas, que a su vez proporcionan ventajas para generar ingresos.
 
 Una vez implantada la Plataforma Sofia2 en una empresa esta puede utilizar la Plataforma (sin necesidad de montar nueva infraestructura) para hacer nuevos desarrollos y para integrar datos de otros sistemas de forma que los tenga centralizados en un repositorio común y con capacidades Big Data. Además puede desarrollar aplicaciones Sofia2 en cualquier tecnología y lenguaje.
-
-.. |image0| image:: ./media/image2.png
-   :width: 2.15972in
-   :height: 0.99167in
-.. |image1| image:: ./media/image3.png
-   :width: 1.40764in
-   :height: 0.45556in
