@@ -24,7 +24,7 @@ TCO Sofia2 como Backend.
 .. toctree::
    :caption: Mecanismos de Seguridad
 
-   manuals/basico/seguridad
+  seguridad
 
 
 
