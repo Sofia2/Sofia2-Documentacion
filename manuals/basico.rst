@@ -12,7 +12,6 @@ Documentación Básica
 
 .. toctree::
    :caption: Mecanismos de Seguridad
-   :numbered:
   seguridad
   
   
