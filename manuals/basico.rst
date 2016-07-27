@@ -20,7 +20,9 @@ TCO Sofia2 como Backend.
 ------------------------
 
 
-/basico/seguridad
+.. include:: /basico/seguridad.rst
+
+
 
 
 
