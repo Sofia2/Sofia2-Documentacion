@@ -71,8 +71,8 @@ Seguridad de Acceso
 
 La plataforma está dividida en dos áreas con independencia en su modelo de seguridad.
 
- La Administración.
- ------------------
+La Administración.
+^^^^^^^^^^^^^^^^^^
 
 En la plataforma se han definido tres tipos de Roles, que definen las funcionalidades que dispondrán los usuarios a nivel administrativo:
 
