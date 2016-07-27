@@ -32,7 +32,7 @@ Mecanismos de Seguridad
 `**7.3** **plugin-sib-security** 10 <#plugin-sib-security>`__
 
 INTRODUCCIÓN
-============
+------------
 
 Esta guía describe los mecanismos de seguridad que aplican a Sofia2.
 
@@ -51,7 +51,7 @@ La Seguridad cubre las diferentes capas del aplicativo:
 -  **La Información**: La plataforma solo te permite interactuar con la información para la que has sido autorizado, y valida que la información que se persiste en la plataforma cumple con el modelo de la información esperado.
 
 Seguridad en las Comunicaciones
-===============================
+-------------------------------
 
 Sofia2 utiliza el canal seguro de comunicaciones https para todas las comunicaciones con el exterior. Este canal utiliza un protocolo SSL/TSL con un cifrado estándar RSA que necesita de un certificad de seguridad X.509. Es el estándar de cifrado más extendido y aceptado en el mundo del www.
 
@@ -60,7 +60,7 @@ La clave privada se instala en el SIB Sofia2 y su parte pública (conocida como 
 Hay que destacar que el sistema de autenticación será mediante certificado de servidor, no de cliente-servidor (como podrían ser los certificados de la fnmt). Esta tipo de encriptado garantiza que el cliente se está conectando con el servidor requerido y no a un posible servicio impostor, pero no autentica al cliente.
 
 Los Clientes
-============
+------------
 
 Un usuario deberá registrar en la plataforma sus KPs (Cliente), de lo contrario, la plataforma rechazará la conexión de los mismos.
 
@@ -95,7 +95,7 @@ El protocolo SSAP proporciona dos operaciones en este sentido:
 Mientras exista una sesión entre el KP y la plataforma, el KP podrá utilizar el resto de operaciones del protocolo SSAP para producir/consumir información.
 
 Seguridad de Acceso
-===================
+-------------------
 
 La plataforma está dividida en dos áreas con independencia en su modelo de seguridad.
 
@@ -128,7 +128,7 @@ Los **Colaboradores** tienen Permiso Total sobre las ontologías de las que son 
 -  **Permiso Total**: Permite a un usuario o colaborador realizar todas las operaciones sobre las ontologías para las que se le ha asignado este permiso.
 
 Seguridad en los Datos
-======================
+----------------------
 
 Todas las operaciones son validadas a nivel de Autenticación, para lo que la plataforma comprueba si el Cliente se ha autenticado con la plataforma.
 
@@ -141,7 +141,7 @@ Una vez que se ha comprobado la Autenticación del Cliente se comprueba su autor
 Si todos los pasos anteriores han sido correctamente comprobados y la operación es Insert o Update todavía se ha de realizar una tercera validación, que consisten en comprobar que la información que se inserta cumple escrupulosamente con el Esquema que se ha definido, a través de la validación del JSON Schema, casando la información que está insertando con la estructura de la Ontología.
 
 Implementación de Referencia
-============================
+----------------------------
 
 La implementación de referencia de la Seguridad está basada en tres plugins:
 
