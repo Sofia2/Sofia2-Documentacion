@@ -1,6 +1,27 @@
 Documentación Básica
 ===================
 
+
+.. toctree::
+   :caption: TCO Sofia2 como Backend
+
+  tco
+
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Mecanismos de Seguridad
+   :numbered:
+  seguridad
+  
+  
+  
+  
+  
+
+
 Welcome Pack Sofia2.
 --------------------
 |descargar-mini| `Descargar PDF <http://sofia2.com/docs/Sofia2-Welcome%20Pack-v03.pdf>`_
@@ -20,19 +41,7 @@ Soluciones Sofia2.
 
 
 
-.. toctree::
-   :caption: TCO Sofia2 como Backend
 
-  tco
-
-
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Mecanismos de Seguridad
-   :numbered:
-  seguridad
 
 
 
