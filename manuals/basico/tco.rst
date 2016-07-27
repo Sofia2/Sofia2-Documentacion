@@ -21,7 +21,7 @@ Los costes iniciales se componen de:
 
 -  **Esfuerzo administrativo inicial**: Coste de personal + Administradores para instalar y configurar software, máquinas del clúster, particionado, …
 
--  **Licencias de software **
+-  **Licencias de software**
 
 -  **Hardware de servidores**. Servidores necesarios para ejecutar la base de datos (se excluye almacenamiento). Depende principalmente del número y tipo de procesadores y RAM. Otros costes incluyen recintos, conexiones de red, cableado y suministros de alimentación
 
