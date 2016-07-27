@@ -4,6 +4,9 @@
 Documentación Básica
 ===================
 
+Se podrá descargar la siguiente documentación como primera toma de contacto con Sofia2.
+
+
 Welcome Pack Sofia2.
 --------------------
 |descargar-mini| `Descargar PDF <http://sofia2.com/docs/Sofia2-Welcome%20Pack-v03.pdf>`_
@@ -21,14 +24,8 @@ Soluciones Sofia2.
 
 
 
-
-
-
-
-
-
-
-
+|
+Las Guías para conocer temas básicos que aplican a Sofia2 son las siguientes:
 
   
   
