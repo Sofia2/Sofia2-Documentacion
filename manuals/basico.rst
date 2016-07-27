@@ -29,6 +29,7 @@ Soluciones Sofia2.
 
 
 .. toctree::
+   :maxdepth: 1
    :caption: Mecanismos de Seguridad
    :numbered:
   seguridad
