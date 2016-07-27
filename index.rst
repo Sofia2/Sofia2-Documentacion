@@ -48,7 +48,7 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    script
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Manuales
 
    manuals/basico
