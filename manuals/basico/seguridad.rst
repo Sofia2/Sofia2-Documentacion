@@ -71,8 +71,8 @@ Seguridad de Acceso
 
 La plataforma está dividida en dos áreas con independencia en su modelo de seguridad.
 
-La Administración.
-------------------
+ La Administración.
+ ------------------
 
 En la plataforma se han definido tres tipos de Roles, que definen las funcionalidades que dispondrán los usuarios a nivel administrativo:
 
@@ -82,8 +82,8 @@ En la plataforma se han definido tres tipos de Roles, que definen las funcionali
 
 -  Rol **Usuario**: este rol permite operar con la información de la plataforma, volcando y consumiento información de estructuras de información existentes en las que ha sido autorizado.
 
-La Operación.
--------------
+ La Operación.
+ -------------
 
 Los permisos, para los que también existen 3 tipos, definen las funcionalidades de los usuarios a nivel operativo sobre la información.
 
@@ -117,8 +117,8 @@ Implementación de Referencia
 
 La implementación de referencia de la Seguridad está basada en tres plugins:
 
-plugin-sofia-user
------------------
+ plugin-sofia-user
+ -----------------
 
 Este plugin (Usado únicamente a nivel de Administración) es el encargado de recuperar la información de los usuarios. En la implementación de referencia la recupera de la base de datos de configuración.
 
@@ -144,15 +144,15 @@ Tiene la capacidad de trabajar con Password encriptada o en claro, permitiendo c
 
 **public** List<Usuario> findUserByIdentificacion(String identificacion) **throws** EmptyResultDataAccessException;
 
-plugin-console-security
------------------------
+ plugin-console-security
+ -----------------------
 
 Este plugin es el encargado de gestionar la Autenticación y Autorización en la consola de Administración y se basa en Spring Security. En la implementación de referencia hace uso de la base de datos de configuración.
 
 Hace uso de plugin-sofia-user para recuperar la información de los usuarios.
 
-plugin-sib-security
--------------------
+ plugin-sib-security
+ -------------------
 
 Este plugin es el encargado de gestionar la Autenticación y Autorización a las operaciones del SIB y está basado en un mecanismo de Token – SessionKey.
 
@@ -173,10 +173,3 @@ String authenticate(SSAPMessage message) **throws** AuthenticationException;
 **void** checkAuthorizationConfig(SSAPMessageTypes operationType, String tableName, String sessionKey) **throws** AuthorizationServiceException;
 
 **void** checkAuthorization(SSAPMessageTypes operationType, String kpName, String instanceKpName, String token) **throws** AuthorizationServiceException;
-
-.. |image0| image:: ./media/image2.png
-   :width: 2.15972in
-   :height: 0.99167in
-.. |image1| image:: ./media/image3.png
-   :width: 1.40764in
-   :height: 0.45556in
