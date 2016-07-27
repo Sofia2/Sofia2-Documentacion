@@ -1,25 +1,9 @@
-+----------------+----+----+
-| |image0|       |
-|                |
-| SEGURIDAD      |
-+----------------+----+----+
-|                |
-+----------------+----+----+
-|                |
-+----------------+----+----+
-| OCTUBRE 2015   |
-|                |
-| Versión 1      |
-+----------------+----+----+
-|                |
-+----------------+----+----+
-| |image1|       |    |    |
-+----------------+----+----+
+.. figure::  ./images/logo_sofia2_grande.png
+ :align:   center
+ 
 
-INDICE
-======
-
-`**1** **INDICE** 2 <#indice>`__
+Mecanismos de Seguridad
+=======================
 
 `**2** **INTRODUCCIÓN** 3 <#introducción>`__
 
@@ -49,14 +33,6 @@ INDICE
 
 INTRODUCCIÓN
 ============
-
-Requisitos
-----------
-
-Antes de seguir esta guía se recomienda leer la guía **SOFIA2-Conceptos SOFIA2.doc**
-
-Objetivos y alcance del presente documento
-------------------------------------------
 
 Esta guía describe los mecanismos de seguridad que aplican a Sofia2.
 
