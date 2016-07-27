@@ -5,35 +5,6 @@
 Mecanismos de Seguridad
 =======================
 
-`**2** **INTRODUCCIÓN** 3 <#introducción>`__
-
-`**2.1** **Requisitos** 3 <#requisitos>`__
-
-`**2.2** **Objetivos y alcance del presente documento** 3 <#objetivos-y-alcance-del-presente-documento>`__
-
-`**3** **Seguridad en las Comunicaciones** 4 <#seguridad-en-las-comunicaciones>`__
-
-`**4** **Los Clientes** 5 <#los-clientes>`__
-
-`**5** **Seguridad de Acceso** 7 <#seguridad-de-acceso>`__
-
-`**5.1** **La Administración.** 7 <#la-administración.>`__
-
-`**5.2** **La Operación.** 7 <#la-operación.>`__
-
-`**6** **Seguridad en los Datos** 8 <#seguridad-en-los-datos>`__
-
-`**7** **Implementación de Referencia** 9 <#implementación-de-referencia>`__
-
-`**7.1** **plugin-sofia-user** 9 <#plugin-sofia-user>`__
-
-`**7.2** **plugin-console-security** 9 <#plugin-console-security>`__
-
-`**7.3** **plugin-sib-security** 10 <#plugin-sib-security>`__
-
-INTRODUCCIÓN
-------------
-
 Esta guía describe los mecanismos de seguridad que aplican a Sofia2.
 
 La plataforma Sofia2 es un entorno de interoperabilidad controlado, que implementa varios mecanismos de seguridad que operan a lo largo de las diferentes capas ofreciendo autorización, autenticación, consistencia y en su conjunto protección integral de los datos.
@@ -49,6 +20,7 @@ La Seguridad cubre las diferentes capas del aplicativo:
 -  **Las Operaciones**: La plataforma solo permite realizar las operaciones para las que se tiene permiso.
 
 -  **La Información**: La plataforma solo te permite interactuar con la información para la que has sido autorizado, y valida que la información que se persiste en la plataforma cumple con el modelo de la información esperado.
+
 
 Seguridad en las Comunicaciones
 -------------------------------
