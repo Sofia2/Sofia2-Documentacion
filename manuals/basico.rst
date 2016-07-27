@@ -11,7 +11,9 @@ Las Guías para conocer temas básicos que aplican a Sofia2 son las siguientes:
    :caption: Mecanismos de Seguridad
   ./basico/seguridad
   
-
+.. toctree::
+   :caption: TCO Sofia2 como Backend
+  ./basico/tco
 
 Además se podrá descargar la siguiente documentación como primera toma de contacto con Sofia2:
 
