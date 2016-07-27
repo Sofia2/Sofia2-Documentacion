@@ -20,9 +20,12 @@ TCO Sofia2 como Backend.
 ------------------------
 
 
-Mecanismos de Seguridad
------------------------
- manuals/basico/SOFIA2-Seguridad
+.. toctree::
+   :maxdepth: 2
+   :caption: Mecanismos de Seguridad
+
+   manuals/basico/SOFIA2-Seguridad
+
 
 
 .. |descargar-mini| image:: ./../images/mini-download.png
