@@ -25,4 +25,4 @@ Mecanismos de Seguridad
 
 
 
-.. |descargar-mini| image:: ./images/mini-download.png
+.. |descargar-mini| image:: ./../images/mini-download.png
