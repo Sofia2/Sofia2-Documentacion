@@ -245,85 +245,57 @@ Feeds (Medidas)
 
 Para la definición de la plantilla de medidas se utiliza una simplificación del estándar de datos AMON (`**http://amee.github.io/AMON/** <http://amee.github.io/AMON/>`__ ):
 
-{"Feed":
+.. code-block:: json
+ {"Feed":
+  {
+   "asset":
+   {
+    "assetId" : string, (required)
+     "assetType": string, (required)
+     "assetSource": string, (required)
+     "assetName": string (optional)
+   },
 
+  "type": string, (required) [FIXED, MOBILE, VIRTUAL]
+  "timestamp": (required)
 {
-
-"asset":
-
-{
-
-"assetId" : string, (required)
-
-"assetType": string, (required)
-
-"assetSource": string, (required)
-
-"assetName": string (optional)
-
+ "$date": "RFC 3339 DATETIME"
 },
 
-"type": string, (required) [FIXED, MOBILE, VIRTUAL]
-
-"timestamp": (required)
-
-{
-
-"$date": "RFC 3339 DATETIME"
-
-},
-
-"attribs": (optional)
-
+  "attribs": (optional)
 [
-
 { "name": "value" }
-
 ],
 
-"geometry": geojson [Point, LineString, Polygon], (optional)
-
-"measures": (required)
-
+  "geometry": geojson [Point, LineString, Polygon], (optional)
+  "measures": (required)
 {
-
 "timestamp" : (required)
-
 {
-
 "$date": "RFC 3339 DATETIME"
-
 },
 
-"type" : string, (required) [INSTANT, CUMULATIVE, PULSE]
+  "type" : string, (required) [INSTANT, CUMULATIVE, PULSE]
 
-"period" : number, (optional)
+  "period" : number, (optional)
 
-"periodUnit": string, (optional) [m, s, h, d]
+  "periodUnit": string, (optional) [m, s, h, d]
 
-"values" : (required)
+  "values" : (required)
 
 [
-
 {
-
-"name": string, (optional)
-
-"desc": string, (optional)
-
-"unit": string, (required)
-
-"measure": string, (required)
-
-"method": string,(required)
-
-"modifications": (optional)
+ "name": string, (optional)
+ "desc": string, (optional)
+ "unit": string, (required)
+ "measure": string, (required)
+ "method": string,(required)
+ "modifications": (optional)
 
 [ {
 
-"oldMeasure": string, (required)
-
-"changeTimestamp": (required)
+ "oldMeasure": string, (required)
+ "changeTimestamp": (required)
 
 {
 
@@ -336,15 +308,10 @@ Para la definición de la plantilla de medidas se utiliza una simplificación de
 }
 
 ]
-
 }
-
 ]
-
 }
-
 }
-
 }
 
 El objeto **asset** hace referencia al activo que emite la medida:
