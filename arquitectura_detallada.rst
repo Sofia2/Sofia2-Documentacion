@@ -9,17 +9,17 @@ A continuación vamos a describir los módulos que componen la Plataforma sobre 
 
 
 Módulos IoT:
-------------
+============
 
 SDK
-^^^
+---
 IDE personalizado basado en Eclipse para el desarrollo simplificado de integraciones sobre la Plataforma.
 
 `Descargar <http://sofia2.com/desarrollador.html#descargas>`_
 
 
 Sofia2 Control Panel
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 La Plataforma ofrece una **completa web de administración/configuración** desarrollada con tecnología HTML5 que permite gestionar todos los conceptos que maneja la Plataforma. 
 
 El resto de módulos de la Plataforma se operan/configuran desde este módulo, que persiste su configuración en la **BDC** (Base Datos Configuración) del Sofia2-Repository.
@@ -163,7 +163,7 @@ Los informes se podrán visualizar en HTML o PDF y exportar los informes a forma
 
 |
 Semantic Broker (SIB)
-^^^^^^^^^^^^^^^^^^^^^
+---------------------
 Módulo de la Plataforma que recibe, procesa y almacena toda la información de las aplicaciones, sensores y dispositivos conectados, actuando como Bus de Interoperabilidad. Esta capa validará la corrección sintáctica y semántica del dato recibido gracias a la definición previa de la estructura del dato esperado (ontología), identificando de qué dato trata, y aplicando la seguridad correspondiente al mismo.
 
 * **Plugins**:
@@ -191,7 +191,7 @@ La plataforma incluye un conjunto de plugins preconstruidos y los mecanismos (AP
 
 |
 IoT Gateway
-^^^^^^^^^^^
+-----------
 Capa de abstracción del protocolo de comunicación, que implementa el protocolo SSAP (Smart Space Access Protocol). 
 
 Este módulo se especializa en el esquema de comunicación con dispositivos, sensores y sistemas TI en un contexto IoT, donde se debe facilitar el uso de protocolos de comunicación ligeros en un entorno tecnológico heterogéneo. El protocolo SSAP proporciona tanto la ligereza del mensaje como su homogeneización a nivel de aplicación. De esta manera, la información gestionada por las subsiguientes capas de la plataforma es completamente agnóstica del protocolo tecnológico usado para el envío del dato, dando lugar a su gestión desde un punto de vista semántico.
@@ -209,7 +209,7 @@ Esto, sumado a las **APIS multilenguaje** `(Descargar) <http://sofia2.com/desarr
 
 |
 Process
-^^^^^^^
+-------
 Se compone de los dos módulos siguientes:
 
 Motor de Reglas (Sofia2-Rules)
@@ -253,7 +253,7 @@ El motor CEP que permite definir reglas en las que interviene el tiempo (por eje
 
 |
 Sofia2 Storage
-^^^^^^^^^^^^^^
+--------------
 Modulo de almacenamiento de la información de la plataforma.
 
 Con el objetivo de garantizar que, para cada momento del **ciclo de vida de la información**, ésta se gestiona de la menor manera, la plataforma plantea el uso de tres repositorios distintos que se complementan y comunican componiendo una solución de almacenamiento completa:
@@ -335,7 +335,7 @@ Podemos destacar las siguientes capacidades de este repositorio:
 
 |
 API Manager
-^^^^^^^^^^^
+-----------
 Este módulo permite acceder a la información recolectada y gestionada por la Plataforma.
 
 .. figure::  ./images/APIManager1.png
@@ -388,7 +388,7 @@ Sus principales **capacidades** son:
  
 |
 Holystic Viewer
-^^^^^^^^^^^^^^^
+---------------
 Este módulo forma parte del ecosistema de la Plataforma, es desarrollado por una empresa partner de Indra y puede adquirirse o no junto a la plataforma. 
 
 Sofia2-HolisticViewer es el módulo de visualización avanzada de la Plataforma, se trata de un sistema integral de visualización avanzada e interactiva que permite una gestión de información geolocalizada asociándola a un entorno de visualización tridimensional y multimedia:
@@ -406,7 +406,7 @@ Proporciona geovisualización en tiempo real sobre el terreno
 | 
 | 
 Módulos Big Data:
-----------------
+=================
 |
 Sofia2 DataFlow
 ^^^^^^^^^^^^^^^
