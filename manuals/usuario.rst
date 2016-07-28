@@ -6,10 +6,14 @@ Documentación para Usuarios.
 
 Consola Web de Configuración.
 -----------------------------
+.. toctree::
+   :caption: Consola Web de Configuración
+  ./usuario/consola_web_configuracion
 
-Modelado de Ontologías.
--------------------------
 
+.. toctree::
+   :caption: Modelado de Ontologías
+  ./usuario/modelado_ontologias
 
 .. toctree::
    :caption: Gobierno de Ontologías
