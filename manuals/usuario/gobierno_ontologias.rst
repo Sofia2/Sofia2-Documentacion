@@ -246,6 +246,7 @@ Feeds (Medidas)
 Para la definición de la plantilla de medidas se utiliza una simplificación del estándar de datos AMON (`**http://amee.github.io/AMON/** <http://amee.github.io/AMON/>`__ ):
 
 .. code-block:: json
+
  {"Feed":
   {
    "asset":
@@ -258,10 +259,9 @@ Para la definición de la plantilla de medidas se utiliza una simplificación de
 
   "type": string, (required) [FIXED, MOBILE, VIRTUAL]
   "timestamp": (required)
-{
- "$date": "RFC 3339 DATETIME"
-},
-
+ {
+  "$date": "RFC 3339 DATETIME"
+ },
   "attribs": (optional)
 [
 { "name": "value" }
@@ -276,37 +276,27 @@ Para la definición de la plantilla de medidas se utiliza una simplificación de
 },
 
   "type" : string, (required) [INSTANT, CUMULATIVE, PULSE]
-
   "period" : number, (optional)
-
   "periodUnit": string, (optional) [m, s, h, d]
-
   "values" : (required)
-
-[
-{
- "name": string, (optional)
- "desc": string, (optional)
- "unit": string, (required)
- "measure": string, (required)
- "method": string,(required)
- "modifications": (optional)
-
+  [
+   {
+   "name": string, (optional)
+   "desc": string, (optional)
+   "unit": string, (required)
+   "measure": string, (required)
+   "method": string,(required)
+   "modifications": (optional)
 [ {
 
  "oldMeasure": string, (required)
  "changeTimestamp": (required)
-
 {
-
 "$date": "RFC 3339 DATETIME"
 
 }
-
 "changeDesc": string, (optional)
-
 }
-
 ]
 }
 ]
