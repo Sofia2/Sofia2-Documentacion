@@ -1,6 +1,7 @@
 .. figure::  ./images/logo_sofia2_grande.png
  :align:   center
  
+======================
 Arquitectura Detallada
 ======================
 
@@ -211,8 +212,8 @@ Process
 ^^^^^^^
 Se compone de los dos módulos siguientes:
 
-Motor de Reglas (Sofia2-Rules)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ Motor de Reglas (Sofia2-Rules)
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 El módulo Sofia2-Rules permite ampliar el funcionamiento de la Plataforma permitiendo definir reglas que se ejecutan ante ciertas condiciones (inserción de un nuevo dato o cada cierto tiempo). 
  
 Estas reglas dan la capacidad de definir, en base a Scripting, acciones que ejecuta la Plataforma. Gracias a ellas se pueden gestionar y tratar los datos de la plataforma. 
