@@ -16,7 +16,7 @@ Se recomienda encarecidamente la lectura previa de la documentación de referenc
 
 Dado que los mecanismos ofrecidos por Sofia2 para la gestión de ontologías son muy flexibles y adaptables, para **garantizar que toda la información en la Plataforma tiene una estructura homogénea entre los diferentes aplicaciones y verticales**, y que permite **hacer un uso horizontal de toda la información generada**, se han establecido las reglas de gobernanza fijadas en el presente documento.
 
-ENTIDADES SOFIA2
+Entidades Sofia2
 ----------------
 
 La Plataforma sofia2 gestiona dos tipos de entidades:
@@ -67,7 +67,7 @@ A la hora de crear una ontología se pueden usar los catálogos (plantillas) sig
 
 -  Inmediatamente a la recepción de un comando y su correcta ejecución el Asset (el KP que lo gestiona) debe de generar una nueva medida para reflejar en la Plataforma su nuevo estado.
 
-NOMENCLATURA
+Nomenclatura
 ------------
 
 A continuación se establecen las reglas básicas de nomenclatura:
@@ -100,7 +100,7 @@ A continuación se establecen las reglas básicas de nomenclatura:
 
 -  Para la definición de **constantes** utilizadas como valores posibles para los atributos de las ontologías: todas las letras en mayúsculas. Por ejemplo: MOBILE, FIXED, VIRTUAL.
 
-TIPADO Y FORMATOS
+Tipado y Formatos
 -----------------
 
 Para la definición de ontologías se utilizarán cadenas de texto UTF-8 siguiendo el esquema json establecido por la correspondiente plantilla (actualmente siguiendo JSON Schema 0.4 `http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`_).
@@ -237,7 +237,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 
 **[NOTA]:** Un polígono puede tener 2 anillos (el exterior y el interior).
 
-PLANTILLAS PREDEFINIDAS
+Plantillas Predefinidas
 -----------------------
 
 Feeds (Medidas)
@@ -655,53 +655,34 @@ Audit
 
 La definición de mensajes de auditoria sigue el siguiente esquema.
 
+.. code-block:: json
+
 {"Adt":
-
-{
-
-"id" : {
-
-"auditId": string, (required)
-
-"auditSource": string (required)
-
-},
-
-"timestamp": (required)
-
-{
-
-"$date": "ISO 3339 DATETIME"
-
-},
-
-"asset":
-
-{
-
-"assetId" : string, (required)
-
-"assetType": string, (required)
-
-"assetProvider": string, (required)
-
-"assetName": string (optional)
-
-},
-
-"message": {
-
-"source": string required,
-
-"sender": string optional,
-
-"subject": string required,
-
-"body": string optional,
-
-"level": [INFO, WARNING, ERROR, DEBUG]
-
+ {
+  "id" : {
+  "auditId": string, (required)
+  "auditSource": string (required)
+ },
+ "timestamp": (required)
+ {
+  "$date": "ISO 3339 DATETIME"
+ },
+ "asset":
+  {
+   "assetId" : string, (required)
+   "assetType": string, (required)
+   "assetProvider": string, (required)
+   "assetName": string (optional)
+  },
+"message": 
+  {
+   "source": string required,
+   "sender": string optional,
+   "subject": string required,
+   "body": string optional,
+   "level": [INFO, WARNING, ERROR, DEBUG]
+  }
+ }
 }
 
-}
 
