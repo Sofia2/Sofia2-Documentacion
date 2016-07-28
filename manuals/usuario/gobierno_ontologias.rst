@@ -518,8 +518,8 @@ La definición de eventos sigue el siguiente esquema.
         "repeatEach": entero, (opcional)
         "repeatUnit": string (opcional) [s, m, h, d, w, m]
       }
- }
-} 
+  }
+ } 
 
 Audit
 ^^^^^
