@@ -24,7 +24,7 @@ La Plataforma sofia2 gestiona dos tipos de entidades:
 -  **Ontologías**. Los assets generan información y dicha información se modela por medio de ontologías (JSON) en la Plataforma.
 
 Assets
-------
+^^^^^^
 
 Dependiendo de su naturaleza y de cómo se conectan dichos assets a la Plataforma se establece una clasificación de los mismos en:
 
@@ -37,7 +37,7 @@ Dependiendo de su naturaleza y de cómo se conectan dichos assets a la Plataform
 -  **Assets Virtuales**. Los assets virtuales son a priori no conocidos, generan información y esta llega a la Plataforma a través de integraciones, normalmente contra otros servicios de información en la nube, como por ejemplo las redes sociales.
 
 Ontologías
-----------
+^^^^^^^^^^
 
 Los assets conectados generan y consumen información sensorial en forma de ontologías json.
 
