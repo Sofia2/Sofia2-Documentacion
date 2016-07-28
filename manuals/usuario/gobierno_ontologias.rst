@@ -165,7 +165,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
    {"address": 
      {
        "location": "cadena de texto",
-      "number": "cadena de texto"
+       "number": "cadena de texto"
      }
    }
 
@@ -186,13 +186,11 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
       -  Ejemplo:
       
 .. code-block:: json
+
 {"geometry": 
  {
-
   "type": "Point",
-
   "coordinates": [-8.410161625142807, 43.360463863501934]
-
  }
 }
 
@@ -203,6 +201,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
    -  Ejemplo:
    
 .. code-block:: json
+
 {"geometry": 
  {
  "type": "LineString",
@@ -220,7 +219,9 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
    -  Ejemplo:
 
 .. code-block:: json
-{"geometry": {
+
+{"geometry": 
+{
 
 "type": "Polygon",
 
