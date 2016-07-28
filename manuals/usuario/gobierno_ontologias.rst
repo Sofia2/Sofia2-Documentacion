@@ -159,15 +159,19 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 -  **Direcciones**:
 
    -  Notificación simplificada para facilitar las tareas de integración:
-.. code-block:: json
-    {"address": {
+ .. code-block:: json
 
-    "location": "cadena de texto",
-
-    "number": "cadena de texto"
-
+    {
+        "key": "value",
+        "key2": "value2"
     }
 
+.. code-block:: json
+
+    {"address": {
+    "location": "cadena de texto",
+    "number": "cadena de texto"
+    }
     }
 
 -  **Unidades de medidas**
