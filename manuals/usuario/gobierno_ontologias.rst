@@ -187,12 +187,12 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
       
 .. code-block:: json
 
-{"geometry": 
- {
-  "type": "Point",
-  "coordinates": [-8.410161625142807, 43.360463863501934]
- }
-}
+   {"geometry": 
+    {
+     "type": "Point",
+     "coordinates": [-8.410161625142807, 43.360463863501934]
+    }
+  }
 
 -  **Líneas**:
 
