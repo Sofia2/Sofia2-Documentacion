@@ -658,31 +658,31 @@ La definición de mensajes de auditoria sigue el siguiente esquema.
 .. code-block:: json
 
   {"Adt":
- {
-  "id" : {
-  "auditId": string, (required)
-  "auditSource": string (required)
- },
- "timestamp": (required)
- {
-  "$date": "ISO 3339 DATETIME"
- },
- "asset":
-  {
-   "assetId" : string, (required)
-   "assetType": string, (required)
-   "assetProvider": string, (required)
-   "assetName": string (optional)
-  },
-"message": 
-  {
-   "source": string required,
-   "sender": string optional,
-   "subject": string required,
-   "body": string optional,
-   "level": [INFO, WARNING, ERROR, DEBUG]
+   {
+    "id" : {
+    "auditId": string, (required)
+    "auditSource": string (required)
+   },
+   "timestamp": (required)
+   {
+     "$date": "ISO 3339 DATETIME"
+   },
+   "asset":
+    {
+     "assetId" : string, (required)
+     "assetType": string, (required)
+     "assetProvider": string, (required)
+     "assetName": string (optional)
+    },
+   "message": 
+    {
+     "source": string required,
+     "sender": string optional,
+     "subject": string required,
+     "body": string optional,
+     "level": [INFO, WARNING, ERROR, DEBUG]
+    }
   }
  }
-}
 
 
