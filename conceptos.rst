@@ -203,57 +203,67 @@ El esquema JSON que cumple la ontología SensorTemperatura indicada en el ejempl
          }
         }
     },
-    "datos": {
-        "title": "datos",
-        "description": "Info SensorTemperatura",
-        "type": "object",
-        "properties": {
-            "identificador": {
-                "type": "string",
-                "required": true
-            },
-            "timestamp": {
-                "type": "integer",
-                "minimum": 0,
-                "required": true
-            },
-            "medida": {
-                "type": "number",
-                "required": true
-            },
-            "unidad": {
-                "type": "string",
-                "required": true
-            },
-            "coordenadaGps": {
-                "required": true,
-                "$ref": "#/gps"
-            }
-        }
-    },         
-        "gps": {
-            "title": "gps",
-            "description": "Gps SensorTemperatura",
-            "type": "object",
-            "properties": {
-                "altitud": {
-                    "type": "number",
-                    "required": false
-                },
-                "latitud": {
-                    "type": "number",
-                    "required": true
-                },
-                "longitud": {
-                    "type": "number",
-                    "required": true
-                }
-            }
-        },
-
-        "additionalItems": false
-
-   }
+    "datos": 
+     {
+        "title": "datos",
+        "description": "Info SensorTemperatura",
+        "type": "object",
+        "properties": 
+        {
+         "identificador": 
+         {
+           "type": "string",
+           "required": true
+         },
+         "timestamp": 
+         {
+           "type": "integer",
+            "minimum": 0,
+            "required": true
+         },
+         "medida": 
+         {
+           "type": "number",
+           "required": true
+         },
+         "unidad": 
+         {
+           "type": "string",
+           "required": true
+         },
+         "coordenadaGps": 
+         {
+           "required": true,
+           "$ref": "#/gps"
+         }
+        }
+     },
+     "gps":
+     {
+       "title": "gps",
+       "description": "Gps SensorTemperatura",
+       "type": "object",
+       "properties": 
+       {
+         "altitud": 
+         {
+           "type": "number",
+           "required": false
+         },
+         "latitud":
+         {
+           "type": "number",
+           "required": true
+         },
+         "longitud":
+         {
+           "type": "number",
+           "required": true
+         }
+       }
+      },
+     "additionalItems": false
+    }
 
 Cuando una ontología es guardada en la BDTR, la plataforma le añade meta información relativa al contexto de uso de dicha ontología, esta información la vemos marcada en amarillo en el siguiente ejemplo
 
