@@ -409,7 +409,7 @@ Módulos Big Data:
 =================
 |
 Sofia2 DataFlow
-^^^^^^^^^^^^^^^
+---------------
 Permite hacer ingesta masiva de datos desde multitud de fuentes, transformaciones simples online sobre la información y ruteado hacia otro destino (módulo IoT Flow, BDTR, BDH,…). Es posible añadir plugins a la plataforma para incorporar nuevas fuentes, transformaciones y destinos.
 
 La composición del proceso ETL (Extracción, Transformación y Carga o Load), se realiza mediante el drag&drop  de las tareas disponibles en la barra de herramientas.
@@ -466,7 +466,7 @@ Este módulo incluye herramientas de monitorización tanto para agilizar el desa
 
 |
 Sofia2 Notebooks
-^^^^^^^^^^^^^^^^
+----------------
 Permite realizar de manera muy sencilla e interactiva, analítica sobre datos de fuentes muy variadas, incluidas las fuentes de datos de Sofia2. De esta manera se podría, por ejemplo, realizar cargas de archivos desde HDFS a spark, cargar de datos en tablas Hive, lanzar consultas o realizar un proceso complejo de machine learning mediante las librerías de MLlib de Spark. También el posible la utilización de código R así como las numerosas librerías del lenguaje, permitiendo por ejemplos visualizar mapas de leaflet.
 
 .. figure::  ./images/Notebooks1.jpg
@@ -517,7 +517,7 @@ Con todas estas características tenemos una **herramienta web colaborativa**, q
 
 |
 Sofia2 ML
-^^^^^^^^^
+---------
 El modulo Machine Learning de la Plataforma permite aplicar y modelar de forma sencilla diversas técnicas de aprendizaje, entre las cuales podemos destacar las siguientes:
 
 * **Regression**: Técnicas para estimar relaciones entre variables y determinar la importancia relativa de éstas en la predicción de nuevos valores.
@@ -537,7 +537,7 @@ A través del intérprete Sofia2 permite:
 
 |
 Sofia2 DataLink
-^^^^^^^^^^^^^^^
+---------------
 Actúa de interfaz con productos de analítica, ofreciendo  conectores estándar JDBC, ODBC y REST y una capa de abstracción que permite operar a través de SQL independientemente del origen de los datos. De esta manera, se facilita la integración tradicional a nivel de datos, con los repositorios BDTR y BDH indistintamente, pudiendo incluso realizar consultas en las que se combine información de ambos.
 
 .. figure::  ./images/DataLink.JPG
