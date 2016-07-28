@@ -212,7 +212,7 @@ Process
 Se compone de los dos módulos siguientes:
 
 Motor de Reglas (Sofia2-Rules)
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 El módulo Sofia2-Rules permite ampliar el funcionamiento de la Plataforma permitiendo definir reglas que se ejecutan ante ciertas condiciones (inserción de un nuevo dato o cada cierto tiempo). 
  
 Estas reglas dan la capacidad de definir, en base a Scripting, acciones que ejecuta la Plataforma. Gracias a ellas se pueden gestionar y tratar los datos de la plataforma. 
@@ -247,7 +247,7 @@ Las Reglas se desarrollan haciendo uso de una biblioteca de APIS que permiten in
 
 |
 Motor CEP (Sofia2-CEP)
------------------------
+^^^^^^^^^^^^^^^^^^^^^^
 El motor CEP que permite definir reglas en las que interviene el tiempo (por ejemplo que no ha llegado una cierta medida en 1 día). A los eventos generados por el motor CEP pueden suscribirse los clientes o servir como entrada al motor de Reglas.
 
 |
