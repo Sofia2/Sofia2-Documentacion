@@ -263,53 +263,37 @@ El esquema JSON que cumple la ontología SensorTemperatura indicada en el ejempl
      "additionalItems": false
     }
 
-Cuando una ontología es guardada en la BDTR, la plataforma le añade meta información relativa al contexto de uso de dicha ontología, esta información la vemos marcada en amarillo en el siguiente ejemplo
+Cuando una ontología es guardada en la BDTR, la plataforma le añade meta información relativa al contexto de uso de dicha ontología:
 
-{|image7|
+.. code-block:: json
 
-    "\_id": {|image8|
-
-      "$oid": "51e3dbd465701fd8e0f69828"
-
-    },
-
-    "contextData": {|image9|
-
-      "session\_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
-
-      "user\_id": 1,
-
-      "kp\_id": 9,
-
-      "kp\_identificador": "gatewaysensores",
-
-      "timestamp": "1373887444356"
-
-    },
-
-    "SensorTemperatura": {|image10|
-
-      "coordenadaGps": {|image11|
-
-        "altitud": 0,
-
-        "latitud": 40.512274,
-
-        "longitud": -3.675679
-
-      },
-
-      "identificador": "S\_Temperatura\_00001",
-
-      "medida": 19,
-
-      "timestamp": 1373887443001,
-
-      "unidad": "C"
-
-    }
-
-  }
+   {
+    "\_id": 
+    {
+       "$oid": "51e3dbd465701fd8e0f69828"
+    },
+    "contextData": 
+    {
+      "session\_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
+      "user\_id": 1,
+      "kp\_id": 9,
+      "kp\_identificador": "gatewaysensores",
+      "timestamp": "1373887444356"
+    },
+    "SensorTemperatura": 
+    {
+      "coordenadaGps": 
+       {
+         "altitud": 0,
+         "latitud": 40.512274,
+         "longitud": -3.675679
+       },
+     "identificador": "S\_Temperatura\_00001",
+     "medida": 19,
+     "timestamp": 1373887443001,
+     "unidad": "C"
+   }
+  }
 
 Como vemos en el contextData aparece la clave de sesión que ha establecido el KP con SIB, el identificador del usuario que usa el KP, el identificador del KP, el identificador de la instancia del KP conectada y una marca de tiempo en la que se insertó la información.
 
