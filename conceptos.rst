@@ -54,13 +54,13 @@ SIB (Semantic Information Broker)
    {
     "body":
     "{
-       "query":"{SensorHumedad.medida:{$gt:18}}"
+       "query": "{SensorHumedad.medida: {$gt:18}}"
      }",
-     "direction":"REQUEST",
-     "ontology":"SensorHumedad",
-     "messageType":"QUERY",
-     "messageId":121,
-     "sessionKey":"88bf5ee7-84d4-4956-98a3-ff290222fd64"
+     "direction": "REQUEST",
+     "ontology": "SensorHumedad",
+     "messageType": "QUERY",
+     "messageId": 121,
+     "sessionKey": "88bf5ee7-84d4-4956-98a3-ff290222fd64"
    }
 
 -  Existen implementaciones en diversos lenguajes y plataformas. Indra suministra un SIB JEE que corre sobre cualquier Servidor Web JEE (Tomcat, JBoss,…)
