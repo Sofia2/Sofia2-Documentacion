@@ -657,7 +657,7 @@ La definición de mensajes de auditoria sigue el siguiente esquema.
 
 .. code-block:: json
 
-{"Adt":
+  {"Adt":
  {
   "id" : {
   "auditId": string, (required)
