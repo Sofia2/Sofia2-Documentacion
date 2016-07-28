@@ -10,5 +10,8 @@ Consola Web de Configuración.
 Modelado de Ontologías.
 -------------------------
 
-Gobierno de Ontologías.
------------------------
+
+.. toctree::
+   :caption: Gobierno de Ontologías
+  ./usuario/gobierno-ontologias
+
