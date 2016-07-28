@@ -1,54 +1,6 @@
-+-----------------------+----+----+
-| |image0|              |
-|                       |
-| gobierno ontologías   |
-|                       |
-| sofia2                |
-+-----------------------+----+----+
-|                       |
-+-----------------------+----+----+
-|                       |
-+-----------------------+----+----+
-| DICIEMBRE 2014        |
-|                       |
-| Versión 2             |
-+-----------------------+----+----+
-|                       |
-+-----------------------+----+----+
-| |image1|              |    |    |
-+-----------------------+----+----+
 
-INDICE
-======
-
-`**1** **INDICE** 2 <#indice>`__
-
-`**2** **INTRODUCCIÓN** 3 <#_Toc406415865>`__
-
-`**3** **ENTIDADES SOFIA2** 4 <#entidades-sofia2>`__
-
-`**3.1** **Assets** 4 <#_Toc406415867>`__
-
-`**3.2** **Ontologías** 5 <#_Toc406415868>`__
-
-`**4** **NOMENCLATURA** 6 <#_Toc406415869>`__
-
-`**5** **TIPADO Y FORMATOS** 7 <#_Toc406415870>`__
-
-`**6** **PLANTILLAS PREDEFINIDAS** 9 <#_Toc406415871>`__
-
-`**6.1** **Feeds (Medidas)** 9 <#_Toc406415872>`__
-
-`**6.2** **Commands (Comandos)** 12 <#_Toc406415873>`__
-
-`**6.3** **Alertas** 13 <#_Toc406415874>`__
-
-`**6.4** **Eventos** 14 <#_Toc406415875>`__
-
-`**6.5** **Audit** 15 <#_Toc406415876>`__
-
-INTRODUCCIÓN
-============
+Gobierno de Ontologías
+======================
 
 La Plataforma Sofia2 ofrece todos los mecanismos necesarios para interconectar cualquier tipo de red de sensores ofreciendo diversos mecanismos para ello.
 
@@ -63,7 +15,7 @@ Se recomienda encarecidamente la lectura previa de la documentación de referenc
 Dado que los mecanismos ofrecidos por Sofia2 para la gestión de ontologías son muy flexibles y adaptables, para **garantizar que toda la información en la Plataforma tiene una estructura homogénea entre los diferentes aplicaciones y verticales**, y que permite **hacer un uso horizontal de toda la información generada**, se han establecido las reglas de gobernanza fijadas en el presente documento.
 
 ENTIDADES SOFIA2
-================
+----------------
 
 La Plataforma sofia2 gestiona dos tipos de entidades:
 
@@ -114,7 +66,7 @@ A la hora de crear una ontología se pueden usar los catálogos (plantillas) sig
 -  Inmediatamente a la recepción de un comando y su correcta ejecución el Asset (el KP que lo gestiona) debe de generar una nueva medida para reflejar en la Plataforma su nuevo estado.
 
 NOMENCLATURA
-============
+------------
 
 A continuación se establecen las reglas básicas de nomenclatura:
 
@@ -147,7 +99,7 @@ A continuación se establecen las reglas básicas de nomenclatura:
 -  Para la definición de **constantes** utilizadas como valores posibles para los atributos de las ontologías: todas las letras en mayúsculas. Por ejemplo: MOBILE, FIXED, VIRTUAL.
 
 TIPADO Y FORMATOS
-=================
+-----------------
 
 Para la definición de ontologías se utilizarán cadenas de texto UTF-8 siguiendo el esquema json establecido por la correspondiente plantilla (actualmente siguiendo JSON Schema 0.4 `**http://json-schema.org/draft-04/schema#** <http://json-schema.org/draft-04/schema>`__).
 
@@ -292,7 +244,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 **[NOTA]:** Un polígono puede tener 2 anillos (el exterior y el interior).
 
 PLANTILLAS PREDEFINIDAS
-=======================
+-----------------------
 
 Feeds (Medidas)
 ---------------
@@ -805,9 +757,3 @@ La definición de mensajes de auditoria sigue el siguiente esquema.
 
 }
 
-.. |image0| image:: ./media/image2.png
-   :width: 2.15972in
-   :height: 0.99167in
-.. |image1| image:: ./media/image3.png
-   :width: 1.40764in
-   :height: 0.45556in
