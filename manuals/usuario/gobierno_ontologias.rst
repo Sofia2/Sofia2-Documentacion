@@ -259,49 +259,46 @@ Para la definición de la plantilla de medidas se utiliza una simplificación de
 
   "type": string, (required) [FIXED, MOBILE, VIRTUAL]
   "timestamp": (required)
- {
-  "$date": "RFC 3339 DATETIME"
- },
+  {
+   "$date": "RFC 3339 DATETIME"
+  },
   "attribs": (optional)
-[
-{ "name": "value" }
-],
-
+  [
+   { "name": "value" }
+  ],
   "geometry": geojson [Point, LineString, Polygon], (optional)
   "measures": (required)
-{
-"timestamp" : (required)
-{
-"$date": "RFC 3339 DATETIME"
-},
-
-  "type" : string, (required) [INSTANT, CUMULATIVE, PULSE]
-  "period" : number, (optional)
-  "periodUnit": string, (optional) [m, s, h, d]
-  "values" : (required)
-  [
-   {
-   "name": string, (optional)
-   "desc": string, (optional)
-   "unit": string, (required)
-   "measure": string, (required)
-   "method": string,(required)
-   "modifications": (optional)
-[ {
-
- "oldMeasure": string, (required)
- "changeTimestamp": (required)
-{
-"$date": "RFC 3339 DATETIME"
-
-}
-"changeDesc": string, (optional)
-}
-]
-}
-]
-}
-}
+  {
+   "timestamp" : (required)
+    {
+     "$date": "RFC 3339 DATETIME"
+    },
+   "type" : string, (required) [INSTANT, CUMULATIVE, PULSE]
+   "period" : number, (optional)
+   "periodUnit": string, (optional) [m, s, h, d]
+   "values" : (required)
+     [
+      {
+       "name": string, (optional)
+       "desc": string, (optional)
+       "unit": string, (required)
+       "measure": string, (required)
+       "method": string,(required)
+       "modifications": (optional)
+       [ 
+        {
+         "oldMeasure": string, (required)
+         "changeTimestamp": (required)
+         {
+           "$date": "RFC 3339 DATETIME"
+         }
+         "changeDesc": string, (optional)
+        }
+      ]
+     }
+    ]
+  }
+ }
 }
 
 El objeto **asset** hace referencia al activo que emite la medida:
