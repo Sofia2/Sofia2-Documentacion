@@ -247,7 +247,7 @@ PLANTILLAS PREDEFINIDAS
 -----------------------
 
 Feeds (Medidas)
----------------
+^^^^^^^^^^^^^^^
 
 Para la definición de la plantilla de medidas se utiliza una simplificación del estándar de datos AMON (`**http://amee.github.io/AMON/** <http://amee.github.io/AMON/>`__ ):
 
@@ -406,7 +406,7 @@ El objeto **measures** hace referencia a las características comunes de referen
    -  **modifications**: lista de modificaciones realizadas sobre la medida originalmente capturada
 
 Commands (Comandos)
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Para la definición de los comandos se utiliza:
 
@@ -479,7 +479,7 @@ Para la definición de los comandos se utiliza:
 }
 
 Alertas
--------
+^^^^^^^
 
 Para la definición de las alertas se utiliza una simplificación del estándar **CAP 1.2 (http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html )**
 
@@ -596,7 +596,7 @@ FOLLOW, SCALATION, REMINDER, CANCEL],
 }
 
 Eventos
--------
+^^^^^^^
 
 La definición de eventos sigue el siguiente esquema.
 
@@ -703,7 +703,7 @@ $date: "RFC 3339 INTERVAL"
 }
 
 Audit
------
+^^^^^
 
 La definición de mensajes de auditoria sigue el siguiente esquema.
 
