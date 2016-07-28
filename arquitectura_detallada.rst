@@ -272,7 +272,7 @@ Este módulo nos ofrece las siguientes **Capacidades**:
 
  
 Base de Datos Tiempo Real (BDTR)
---------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Almacena la información recibida en tiempo real, como instancias de ontologías, siendo, por lo tanto el primer repositorio en el que se almacena la información recibida de:
 
@@ -298,7 +298,7 @@ Podemos destacar las siguientes **capacidades** de este repositorio:
 
 |
 Base de Datos Histórica (BDH).
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Almacena la información histórica para su posterior explotación analítica.
 
 La información almacenada estará disponible como origen de datos para los distintos módulos de la plataforma: Integración, Machine Learning, API Manager…
@@ -315,7 +315,7 @@ Como **características** más importantes de este repositorio podemos destacar 
 * Actúa como el corazón del **Data Lake** de la plataforma, almacenando información heterogénea con capacidad de procesamiento	
 
 Repositorio Staging
--------------------
+^^^^^^^^^^^^^^^^^^^
 **Almacena información** en diferentes estados (estructurada, semi-estructurada y no estructurada) **temporalmente**, para facilitar procesos complejos de transformación, ingestión y exposición de datos que requieran la persistencia temporal de estados intermedios del proceso.
 
 Este repositorio se implementa sobre **HDFS**, cuya arquitectura basada en ficheros de texto y nodos de procesamiento paralelo, proporcionan la flexibilidad y escalado horizontal necesarios.
