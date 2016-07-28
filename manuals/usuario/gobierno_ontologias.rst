@@ -465,107 +465,61 @@ Eventos
 
 La definición de eventos sigue el siguiente esquema.
 
-{"Event":
+.. code-block:: json
 
-{
-
-"id":
-
-{
-
-"eventId": string, (required)
-
-"eventSource": string (required)
-
-},
-
-"timestamp":{
-
-"$date": "ISO 3339", (required)
-
-},
-
-"asset":
-
-{
-
-"assetId" : string, (required)
-
-"assetType": string, (required)
-
-"assetSource": string, (required)
-
-"assetName": string (optional)
-
-},
-
-"eventInfo":
-
-{
-
-"subject": string, (required)
-
-"description": string, (optional)
-
-"type": string,[INFO, PROGRAM, EVENT]
-
-"affectedLocations": (optional)
-
-[
-
-{
-
-"desc": string, (required)
-
-"geometry": geojson optional [Point, Line, Polygon],
-
-"locationURI": string optional
-
-}
-
-],
-
-"resources": (optional)
-
-[
-
-{
-
-"name": string, (required)
-
-"description": string, (optional)
-
-"uri": string, (required)
-
-"mimeType": string (optional)
-
-}
-
-]
-
-}
-
-"eventRule":
-
-{
-
-"type": [SINGLE, PERIOD, RULE],
-
-"period": (required)
-
-{
-
-$date: "RFC 3339 INTERVAL"
-
-},
-
-"repeatEach": entero, (opcional)
-
-"repeatUnit": string (opcional) [s, m, h, d, w, m]
-
-}
-
-}
+   {"Event":
+    {
+     "id":
+      {
+        "eventId": string, (required)
+        "eventSource": string (required)
+      },
+     "timestamp":
+      {
+        "$date": "ISO 3339", (required)
+      },
+     "asset":
+      {
+        "assetId" : string, (required)
+        "assetType": string, (required)
+        "assetSource": string, (required)
+        "assetName": string (optional)
+      },
+     "eventInfo":
+      {
+        "subject": string, (required)
+        "description": string, (optional)
+        "type": string,[INFO, PROGRAM, EVENT]
+        "affectedLocations": (optional)
+         [
+          {
+            "desc": string, (required)
+            "geometry": geojson optional [Point, Line, Polygon],
+            "locationURI": string optional
+          }
+         ],
+       "resources": (optional)
+        [
+         {
+            "name": string, (required)
+            "description": string, (optional)
+            "uri": string, (required)
+            "mimeType": string (optional)
+         }
+       ]
+      }
+     "eventRule":
+      {
+        "type": [SINGLE, PERIOD, RULE],
+         "period": (required)
+         {
+           $date: "RFC 3339 INTERVAL"
+         },
+        "repeatEach": entero, (opcional)
+        "repeatUnit": string (opcional) [s, m, h, d, w, m]
+      }
+ }
+} 
 
 Audit
 ^^^^^
