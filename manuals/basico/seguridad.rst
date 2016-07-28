@@ -31,8 +31,8 @@ La clave privada se instala en el SIB Sofia2 y su parte pública (conocida como 
 
 Hay que destacar que el sistema de autenticación será mediante certificado de servidor, no de cliente-servidor (como podrían ser los certificados de la fnmt). Esta tipo de encriptado garantiza que el cliente se está conectando con el servidor requerido y no a un posible servicio impostor, pero no autentica al cliente.
 
-Los Clientes
-------------
+Seguridad en los Clientes
+-------------------------
 
 Un usuario deberá registrar en la plataforma sus KPs (Cliente), de lo contrario, la plataforma rechazará la conexión de los mismos.
 
