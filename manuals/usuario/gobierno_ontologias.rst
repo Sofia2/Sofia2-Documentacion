@@ -103,7 +103,7 @@ A continuación se establecen las reglas básicas de nomenclatura:
 TIPADO Y FORMATOS
 -----------------
 
-Para la definición de ontologías se utilizarán cadenas de texto UTF-8 siguiendo el esquema json establecido por la correspondiente plantilla (actualmente siguiendo JSON Schema 0.4 `**http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>**`__).
+Para la definición de ontologías se utilizarán cadenas de texto UTF-8 siguiendo el esquema json establecido por la correspondiente plantilla (actualmente siguiendo JSON Schema 0.4 `**http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>**`_).
 
 A continuación se establecen las reglas de tipado y formato para los diferentes tipos soportados:
 
