@@ -157,7 +157,7 @@ En Sofia2, estas ontologías están representadas en formato JSON-Schema, por ej
         "latitud": 40.512274,
         "longitud": -3.675679
        },
-       "identificador": "S\_Temperatura\_00001",
+       "identificador": "S_Temperatura_00001",
        "medida": 19,
        "timestamp": 1373887443001,
        "unidad": "C"
@@ -176,7 +176,7 @@ El esquema JSON que cumple la ontología SensorTemperatura indicada en el ejempl
     "type": "object",
     "properties": 
     {
-     "\_id": 
+     "_id": 
      {
        "type": "object",
        "$ref": "#/identificador"
@@ -268,16 +268,16 @@ Cuando una ontología es guardada en la BDTR, la plataforma le añade meta infor
 .. code-block:: json
 
    {
-    "\_id": 
+    "_id": 
     {
        "$oid": "51e3dbd465701fd8e0f69828"
     },
     "contextData": 
     {
-      "session\_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
-      "user\_id": 1,
-      "kp\_id": 9,
-      "kp\_identificador": "gatewaysensores",
+      "session_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
+      "user_id": 1,
+      "kp_id": 9,
+      "kp_identificador": "gatewaysensores",
       "timestamp": "1373887444356"
     },
     "SensorTemperatura": 
@@ -288,7 +288,7 @@ Cuando una ontología es guardada en la BDTR, la plataforma le añade meta infor
          "latitud": 40.512274,
          "longitud": -3.675679
        },
-     "identificador": "S\_Temperatura\_00001",
+     "identificador": "S_Temperatura_00001",
      "medida": 19,
      "timestamp": 1373887443001,
      "unidad": "C"
