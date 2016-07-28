@@ -401,116 +401,63 @@ Alertas
 
 Para la definición de las alertas se utiliza una simplificación del estándar **CAP 1.2 (http://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html )**
 
-{"Alert":
+.. code-block:: json
 
-{
-
-"id" : {
-
-"alertId": string, (required)
-
-"alertSource": string (required)
-
-},
-
-"timestamp":{
-
-"$date": "ISO 3339", (required)
-
-},
-
-"asset":
-
-{
-
-"assetId" : string, (required)
-
-"assetType": string, (required)
-
-"assetSource": string, (required)
-
-"assetName": string (optional)
-
-},
-
-"alert":
-
-{
-
-"sourceAlertId": identifier,
-
-"subject": string required,
-
-"description": string optional,
-
-"source": string required,
-
-"type": [ALARM, WARNING, MESSAGE, NOTIFICATION, INFO],
-
-"status": [OPEN, CLOSED, UNKNOWN],
-
-"affectedLocations": (optional)
-
-[
-
-{
-
-"desc": string, (optional)
-
-"geometry": geojson,(optional) [Point, Line, Polygon],
-
-"locationUri": string, (optional)
-
-}
-
-]
-
-}
-
-"info":
-
-{
-
-"action": [CREATE, CLOSE, UPDATE, ACK,
-
-FOLLOW, SCALATION, REMINDER, CANCEL],
-
-"sender": string, (required)
-
-"contact": string, (optional)
-
-"description": string, (optional)
-
-"parameters": string, (optional)
-
-"urgency": [EXPECTED, FUTURE, INMEDIATE, PAST, UNKNOWN],
-
-"severity": [EXTREME, MINOR, MODERATE, SEVERE, UNKNOWN],
-
-"certainty": [LIKELY, OBSERVED, POSSIBLE, UNLIKELY, UNKNOWN],
-
-"resources": optional
-
-[
-
-{
-
-"name": string, (required)
-
-"description": string, (optional)
-
-"uri": string, (required)
-
-"mimeType": string (optional)
-
-}
-
-]
-
-}
-
-}
-
+   {"Alert":
+    {
+     "id" : {
+     "alertId": string, (required)
+     "alertSource": string (required)
+    },
+    "timestamp":
+     {
+      "$date": "ISO 3339", (required)
+     },
+    "asset":
+     {
+       "assetId" : string, (required)
+       "assetType": string, (required)
+       "assetSource": string, (required)
+       "assetName": string (optional)
+     },
+   "alert":
+    {
+      "sourceAlertId": identifier,
+      "subject": string required,
+      "description": string optional,
+      "source": string required,
+      "type": [ALARM, WARNING, MESSAGE, NOTIFICATION, INFO],
+      "status": [OPEN, CLOSED, UNKNOWN],
+      "affectedLocations": (optional)
+      [
+       {
+         "desc": string, (optional)
+         "geometry": geojson,(optional) [Point, Line, Polygon],
+         "locationUri": string, (optional)
+       }
+     ]
+   }
+  "info":
+   {
+     "action": [CREATE, CLOSE, UPDATE, ACK,FOLLOW, SCALATION, REMINDER, CANCEL],
+     "sender": string, (required)
+     "contact": string, (optional)
+     "description": string, (optional)
+     "parameters": string, (optional)
+     "urgency": [EXPECTED, FUTURE, INMEDIATE, PAST, UNKNOWN],
+     "severity": [EXTREME, MINOR, MODERATE, SEVERE, UNKNOWN],
+     "certainty": [LIKELY, OBSERVED, POSSIBLE, UNLIKELY, UNKNOWN],
+     "resources": optional
+      [
+       {
+        "name": string, (required)
+        "description": string, (optional)
+        "uri": string, (required)
+        "mimeType": string (optional)
+       }
+      ]
+   }
+ }
 }
 
 Eventos
