@@ -4,8 +4,6 @@
 Documentación para Usuarios.
 ===========================
 
-Consola Web de Configuración.
------------------------------
 .. toctree::
    :caption: Consola Web de Configuración
   ./usuario/consola_web_configuracion
