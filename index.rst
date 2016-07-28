@@ -26,7 +26,7 @@ Aquí podrá encontrar toda la información y documentación necesaria sobre la 
    comoTrabaja
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :caption: Sofia2 en detalle
    
    arquitectura_detallada
