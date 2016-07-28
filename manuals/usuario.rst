@@ -13,5 +13,5 @@ Modelado de Ontologías.
 
 .. toctree::
    :caption: Gobierno de Ontologías
-  ./usuario/gobierno-ontologias
+  ./usuario/gobierno_ontologias
 
