@@ -159,20 +159,15 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 -  **Direcciones**:
 
    -  Notificación simplificada para facilitar las tareas de integración:
- .. code-block:: json
-
-    {
-        "key": "value",
-        "key2": "value2"
-    }
-
+ 
 .. code-block:: json
 
-    {"address": {
-    "location": "cadena de texto",
-    "number": "cadena de texto"
-    }
-    }
+   {"address": 
+     {
+       "location": "cadena de texto",
+      "number": "cadena de texto"
+     }
+   }
 
 -  **Unidades de medidas**
 
@@ -189,7 +184,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
       -  GeoJson Point
 
       -  Ejemplo:
-
+.. code-block:: json
 {"geometry": {
 
 "type": "Point",
@@ -205,7 +200,8 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
    -  GeoJson LineString
 
    -  Ejemplo:
-
+   
+.. code-block:: json
 {"geometry": {
 
 "type": "LineString",
@@ -228,6 +224,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 
    -  Ejemplo:
 
+.. code-block:: json
 {"geometry": {
 
 "type": "Polygon",
