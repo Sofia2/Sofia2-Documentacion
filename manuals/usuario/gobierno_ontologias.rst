@@ -358,73 +358,43 @@ Commands (Comandos)
 
 Para la definición de los comandos se utiliza:
 
-{"Command":
+.. code-block:: json
 
-{
+   {"Command":
 
-"commandId": string, (required)
-
-"asset":
-
-{
-
-"assetId" : string, (required)
-
-"assetType": string, (required)
-
-"assetSource": string, (required)
-
-"assetName": string (optional)
-
-},
-
-"timestamp": (required)
-
-{
-
-"$date": "ISO 3339 DATETIME"
-
-},
-
-"desc": string, (optional),
-
-"type": string, (required) [REQUEST, RESPONSE],
-
-"command":
-
-{
-
-"type": string, (required) [SWITCH, DIM, SET, EXECUTE, SEND]
-
-"value1": string, (optional)
-
-"value2": string, (optional)
-
-"value3": string, (optional)
-
-"msg": string (optional)
-
-}
-
-"rule":
-
-{
-
-"type": string, (required) [ASAP, DATE]
-
-"date": (optional)
-
-{
-
-"$date": "ISO 3339 DATETIME"
-
-}
-
-}
-
-}
-
-}
+    {
+      "commandId": string, (required)
+      "asset":
+       {
+        "assetId" : string, (required)
+        "assetType": string, (required)
+        "assetSource": string, (required)
+        "assetName": string (optional)
+       },
+      "timestamp": (required)
+       {
+         "$date": "ISO 3339 DATETIME"
+       },
+      "desc": string, (optional),
+      "type": string, (required) [REQUEST, RESPONSE],
+      "command":
+       {
+         "type": string, (required) [SWITCH, DIM, SET, EXECUTE, SEND]
+         "value1": string, (optional)
+         "value2": string, (optional)
+         "value3": string, (optional)
+         "msg": string (optional)
+       }
+     "rule":
+      {
+        "type": string, (required) [ASAP, DATE]
+        "date": (optional)
+        {
+          "$date": "ISO 3339 DATETIME"
+        }
+      }
+    }
+  }
 
 Alertas
 ^^^^^^^
