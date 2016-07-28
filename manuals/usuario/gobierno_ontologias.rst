@@ -103,7 +103,7 @@ A continuación se establecen las reglas básicas de nomenclatura:
 TIPADO Y FORMATOS
 -----------------
 
-Para la definición de ontologías se utilizarán cadenas de texto UTF-8 siguiendo el esquema json establecido por la correspondiente plantilla (actualmente siguiendo JSON Schema 0.4 `**http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>**`_).
+Para la definición de ontologías se utilizarán cadenas de texto UTF-8 siguiendo el esquema json establecido por la correspondiente plantilla (actualmente siguiendo JSON Schema 0.4 `http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`_).
 
 A continuación se establecen las reglas de tipado y formato para los diferentes tipos soportados:
 
@@ -111,17 +111,20 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 
    -  Cadena de texto. Standard Universally Unique Identifier.
 
+
 -  **Números enteros**:
 
    -  Entero Largo de 64 bits
 
    -  Ejemplo: {'contador' : 10}
+   
 
 -  **Números flotantes**:
 
    -  Notación simple. Decimal con punto. 64 bits
 
    -  Ejemplo: {'valor' : 10.5}
+
 
 -  **Cadenas de texto**:
 
@@ -156,7 +159,7 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 -  **Direcciones**:
 
    -  Notificación simplificada para facilitar las tareas de integración:
-
+.. code-block:: json
     {"address": {
 
     "location": "cadena de texto",
