@@ -15,5 +15,7 @@ Documentación para Usuarios.
 
 .. toctree::
    :caption: Gobierno de Ontologías
+   :maxdepth: 3
+   
   ./usuario/gobierno_ontologias
 
