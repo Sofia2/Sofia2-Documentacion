@@ -148,29 +148,23 @@ Las **ontologías** son descripciones semánticas de un conjunto de clases, repr
 
 En Sofia2, estas ontologías están representadas en formato JSON-Schema, por ejemplo, una ontología que usa KP que representa a un sensor de temperatura sería la siguiente:
 
-"SensorTemperatura": {|image5|
 
-      "coordenadaGps": {|image6|
+.. code-block:: json
 
-        "altitud": 0,
-
-        "latitud": 40.512274,
-
-        "longitud": -3.675679
-
-      },
-
-      "identificador": "S\_Temperatura\_00001",
-
-      "medida": 19,
-
-      "timestamp": 1373887443001,
-
-      "unidad": "C"
-
-    }
-
-  },
+   "SensorTemperatura": 
+   {
+       "coordenadaGps": 
+       {
+        "altitud": 0,
+        "latitud": 40.512274,
+        "longitud": -3.675679
+       },
+       "identificador": "S\_Temperatura\_00001",
+       "medida": 19,
+       "timestamp": 1373887443001,
+       "unidad": "C"
+   }
+ 
 
 Estas ontologías JSON se dan de alta en la plataforma y tienen un esquema JSON que le permite validar si la información semántica enviada por el KP cumple las reglas de forma de dicha ontología:
 
