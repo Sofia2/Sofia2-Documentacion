@@ -52,9 +52,12 @@ SIB (Semantic Information Broker)
 .. code-block:: json
 
    {
-    "body":
+    "body": 
     "{
-       "query": "{SensorHumedad.medida: {$gt:18}}"
+       "query":
+       "{ 
+          SensorHumedad.medida: {$gt:18}
+        }"
      }",
      "direction": "REQUEST",
      "ontology": "SensorHumedad",
