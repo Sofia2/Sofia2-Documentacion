@@ -202,15 +202,15 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
    
 .. code-block:: json
 
-{"geometry": 
- {
- "type": "LineString",
- "coordinates":[
-  [-8.410161625142807, 43.360463863501934],
-  [-8.410161625142807, 43.360463863501978]
- ]
-}
-}
+  {"geometry": 
+   {
+    "type": "LineString",
+    "coordinates":[
+      [-8.410161625142807, 43.360463863501934],
+      [-8.410161625142807, 43.360463863501978]
+    ]
+  }
+ }
 
 -  **Áreas**:
 
@@ -220,26 +220,18 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
 
 .. code-block:: json
 
-{"geometry": 
-{
-
-"type": "Polygon",
-
-"coordinates":[
-
-[[-8.410161625142807, 43.360463863501934],
-
-[-8.410161625142807, 43.360463863501978],
-
-[-8.41016162514290, 43.360463863501978],
-
-[-8.410161625142807, 43.360463863501934]]
-
-]
-
-}
-
-}
+   {"geometry": 
+    {
+     "type": "Polygon",
+     "coordinates":[
+        [[-8.410161625142807, 43.360463863501934],
+         [-8.410161625142807, 43.360463863501978],
+         [-8.41016162514290, 43.360463863501978],
+         [-8.410161625142807, 43.360463863501934]
+        ]  
+     ]
+   }
+ }
 
 **[NOTA]:** Para cerrar el polígono el primer y el último valor de cada anillo deben de ser idénticos.
 
