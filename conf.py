@@ -6,9 +6,10 @@ import json
 
 #from recommonmark.parser import CommonMarkParser
 #sys.path.insert(0, os.path.abspath('..'))
-sys.path.append(os.path.abspath('_ext'))
+#sys.path.append(os.path.abspath('_ext'))
 
-extensions = ['jsonlexer']
+#extensions = ['jsonlexer']
+extensions = []
 templates_path = ['_templates']
 
 source_suffix = ['.rst', '.md']
