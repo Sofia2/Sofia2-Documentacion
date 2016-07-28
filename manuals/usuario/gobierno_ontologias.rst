@@ -184,15 +184,16 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
       -  GeoJson Point
 
       -  Ejemplo:
+      
 .. code-block:: json
-{"geometry": {
+{"geometry": 
+ {
 
-"type": "Point",
+  "type": "Point",
 
-"coordinates": [-8.410161625142807, 43.360463863501934]
+  "coordinates": [-8.410161625142807, 43.360463863501934]
 
-}
-
+ }
 }
 
 -  **Líneas**:
@@ -202,20 +203,14 @@ A continuación se establecen las reglas de tipado y formato para los diferentes
    -  Ejemplo:
    
 .. code-block:: json
-{"geometry": {
-
-"type": "LineString",
-
-"coordinates":[
-
-[-8.410161625142807, 43.360463863501934],
-
-[-8.410161625142807, 43.360463863501978]
-
-]
-
+{"geometry": 
+ {
+ "type": "LineString",
+ "coordinates":[
+  [-8.410161625142807, 43.360463863501934],
+  [-8.410161625142807, 43.360463863501978]
+ ]
 }
-
 }
 
 -  **Áreas**:
