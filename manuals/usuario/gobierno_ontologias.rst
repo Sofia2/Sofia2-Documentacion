@@ -297,9 +297,9 @@ Para la definición de la plantilla de medidas se utiliza una simplificación de
       ]
      }
     ]
+   }
   }
  }
-}
 
 El objeto **asset** hace referencia al activo que emite la medida:
 
