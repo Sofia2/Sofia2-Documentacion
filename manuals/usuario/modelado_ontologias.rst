@@ -289,52 +289,38 @@ Si en esta consulta lanzo una consulta de este estilo:
 
 |image7|
 
-Veré la información de la última instancia insertada en la BDTR de SOFIA2
+Veré la información de la última instancia insertada en la BDTR de SOFIA2:
 
-{
+.. code-block:: json
 
-**    "\_id": {**
+ {
+  "id":
+  {
+   "$oid": "51e3dbd465701fd8e0f69828"
+  },
+  "contextData": 
+  {
+    "session_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
+    "user_id": 1,
+    "kp_id": 9,
+    "kp_identificador": "gatewaysensores",
+    "timestamp": {"$date": "2014-01-27T11:14:00Z"}
+  },
 
-      "$oid": "51e3dbd465701fd8e0f69828"
-
-    },
-
-    **"contextData": {**
-
-      "session\_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
-
-      "user\_id": 1,
-
-      "kp\_id": 9,
-
-      "kp\_identificador": "gatewaysensores",
-
-      "timestamp": {"$date": "2014-01-27T11:14:00Z"}
-
-    },
-
-    {
-
-**"SensorTemperatura": {**
-
-"identificador":"ST-TA3231-1",
-
-"timestamp":{"$date": "2014-01-27T11:14:00Z"},
-
-"medida":25.1,
-
-"unidad":"C",
-
-"geometry":{
-
-"type": "Point",
-
-"coordinates":[90,-10.1]
-
-}
-
-}
-
+  {
+   "SensorTemperatura": 
+   {
+     "identificador":"ST-TA3231-1",
+     "timestamp":{"$date": "2014-01-27T11:14:00Z"},
+     "medida":25.1,
+     "unidad":"C",
+     "geometry":
+     {
+       "type": "Point",
+       "coordinates":[90,-10.1]
+     }
+    }
+  }
 }
 
 Podemos observar que la información devuelta incluye:
