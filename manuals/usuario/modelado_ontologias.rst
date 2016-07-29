@@ -156,14 +156,14 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     "items":[
     {
     "type":"number",
-    “maximum”:180,
-    “mininum”:-180
+    "maximum":180,
+    "mininum":-180
     },
 
     {
     "type":"number",
-    “maximum”:180,
-    “mininum”:-180
+    "maximum":180,
+    "mininum":-180
     }
     ],
     "minItems":2,
