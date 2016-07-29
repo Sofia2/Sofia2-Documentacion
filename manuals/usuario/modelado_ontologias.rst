@@ -536,82 +536,51 @@ En este ejemplo podemos ver que hay una propiedad que es obligatoria “\ **Sens
 
 .. code-block:: json
 
-"identificador":{
+	"identificador":
+	{
+	            "title":"id",
+	            "description":"Id insertado del SensorTemperatura",
+	            "type":"object",
+	            "properties":{
+	                "$oid":{
+	                    "type":"string"
+	                }
+	            },
+	            "additionalProperties":false
+	   },
+	   "datos":
+	   {
+	        "title":"datos",
+	        "description":"Info SensorTemperatura",
+	        "type":"object",
+	        "required":["identificador","timestamp","medida","unidad","coordenadaGps"],
+	        "properties":{
+	            "identificador":{
+	                "type":"string"
+	            },
+	            "timestamp":{                
+	                    "type":"object",
+	                    "required":["$date"],
+	                    "properties":{
+	                        "$date":{
+	                            "type":"string",
+	                            "format":"date-time"
+	                        }
+	                    },
+	                    "additionalProperties":false
+	                    },
+	            "medida":{
+	                "type":"number"
+	            },
+	            "unidad":{
+	                "type":"string"},
+	            "geometry":{
+	                "$ref":"#/gps"
+	            }
+	        },
+	     "additionalProperties":false
+	    }
 
-"title":"id",
-
-"description":"Id insertado del SensorTemperatura",
-
-"type":"object",
-
-"properties":{
-
-"$oid":{
-
-"type":"string"
-
-}
-},
-
-"additionalProperties":false
-},
-
-"datos":{
-
-"title":"datos",
-"description":"Info SensorTemperatura",
-"type":"object",
-"required":["identificador","timestamp","medida","unidad","coordenadaGps"],
-
-"properties":{
-
-"identificador":{
-
-"type":"string"
-
-},
-
-"timestamp":{
-
-"type":"object",
-
-"required":["$date"],
-
-"properties":{
-
-"$date":{
-
-"type":"string",
-
-"format":"date-time"
-
-}
-
-},
-
-"additionalProperties":false
-
-},
-
-"medida":{
-
-"type":"number"
-
-},
-
-"unidad":{
-
-"type":"string"},
-
-"geometry":{
-
-"$ref":"#/gps"
-
-}
-
-},
-
-"additionalProperties":false
 
 Como podemos ver tanto “identificador” como en “datos” son esquemas que definen su representación. Podemos ver también que no se admiten ningún tipo de propiedad que no sean las definidas (se ha incluido “additionalProperties”).
 
@@ -625,7 +594,8 @@ Como podemos ver tanto “identificador” como en “datos” son esquemas que 
     	"enum": ["latitud","longitud"]
     }
 
- Para instanciarlo, *“tipo”: “latitud”*
+
+Para instanciarlo, “tipo”: “latitud”*
 
 *  **“ítems”:** Define los elementos permitidos en un array, debe ser un esquema o un conjunto de esquemas.
 
