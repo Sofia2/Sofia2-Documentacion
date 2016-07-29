@@ -791,13 +791,13 @@ Una instancia para este objeto sería como el siguiente
 
 Podemos encontrar más información y ejemplos en el siguiente enlace: `**http://json-schema.org/** <http://json-schema.org/>`__
 
-.. |image0| image:: ./manuals/usuario/media/image2.png
+.. |image0| image:: ./media/image2.png
    :width: 2.15972in
    :height: 0.99167in
-.. |image1| image:: ./manuals/usuario/media/image3.png
+.. |image1| image:: ./media/image3.png
    :width: 1.40764in
    :height: 0.45556in
-.. |image2| image:: ./manuals/usuario/media/image6.png
+.. |image2| image:: ./media/image6.png
    :width: 5.13472in
    :height: 7.60486in
 .. |image3| image:: ./manuals/usuario/media/image7.png
