@@ -306,7 +306,6 @@ Veré la información de la última instancia insertada en la BDTR de SOFIA2:
     "kp_identificador": "gatewaysensores",
     "timestamp": {"$date": "2014-01-27T11:14:00Z"}
   },
-
   {
    "SensorTemperatura": 
    {
@@ -322,6 +321,7 @@ Veré la información de la última instancia insertada en la BDTR de SOFIA2:
     }
   }
 }
+
 
 Podemos observar que la información devuelta incluye:
 
