@@ -293,34 +293,34 @@ Veré la información de la última instancia insertada en la BDTR de SOFIA2:
 
 .. code-block:: json
 
- {
-  "id":
   {
-   "$oid": "51e3dbd465701fd8e0f69828"
-  },
-  "contextData": 
-  {
-    "session_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
-    "user_id": 1,
-    "kp_id": 9,
-    "kp_identificador": "gatewaysensores",
-    "timestamp": {"$date": "2014-01-27T11:14:00Z"}
-  },
-  {
-   "SensorTemperatura": 
+   "id":
    {
-     "identificador":"ST-TA3231-1",
-     "timestamp":{"$date": "2014-01-27T11:14:00Z"},
-     "medida":25.1,
-     "unidad":"C",
-     "geometry":
-     {
-       "type": "Point",
-       "coordinates":[90,-10.1]
-     }
+    "$oid": "51e3dbd465701fd8e0f69828"
+   },
+   "contextData": 
+   {
+     "session_key": "08bf50c8-6ea6-41dc-99ac-5d12a6f517a3",
+     "user_id": 1,
+     "kp_id": 9,
+     "kp_identificador": "gatewaysensores",
+     "timestamp": {"$date": "2014-01-27T11:14:00Z"}
+   },
+   {
+    "SensorTemperatura": 
+    {
+      "identificador":"ST-TA3231-1",
+      "timestamp":{"$date": "2014-01-27T11:14:00Z"},
+      "medida":25.1,
+      "unidad":"C",
+      "geometry":
+      {
+        "type": "Point",
+        "coordinates":[90,-10.1]
+      }
     }
+   }
   }
-}
 
 
 Podemos observar que la información devuelta incluye:
@@ -343,7 +343,7 @@ Tecnologías Implicadas
 JSON
 ^^^^
 
-`**JSON es el acrónimo de JavaScript Object Notation** <http://www.json.org/>`__.
+`JSON es el acrónimo de JavaScript Object Notation <http://www.json.org/>`__.
 
 JSON es un formato ligero originalmente concebido para el intercambio de datos en Internet.
 
@@ -393,7 +393,7 @@ Un **número** es como un número decimal en Java.
 Referencias
 ~~~~~~~~~~~
 
-`**http://cdn.dzone.com/sites/all/files/refcardz/rc173-010d-JSON\_2.pdf** <http://cdn.dzone.com/sites/all/files/refcardz/rc173-010d-JSON_2.pdf>`__
+`http://cdn.dzone.com/sites/all/files/refcardz/rc173-010d-JSON\_2.pdf <http://cdn.dzone.com/sites/all/files/refcardz/rc173-010d-JSON_2.pdf>`__
 
 Esquemas JSON (JSON-SChema)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
