@@ -398,56 +398,41 @@ Referencias
 Esquemas JSON (JSON-SChema)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-JSON-Schema (`**http://json-schema.org** <http://json-schema.org>`__ ) es un formato JSON para describir datos en JSON. Es en JSON lo que XSD a XML. Ofrece un contrato para definir los datos requeridos para una aplicación dada y la forma de interactuar con él.
+JSON-Schema (`http://json-schema.org <http://json-schema.org>`__ ) es un formato JSON para describir datos en JSON. Es en JSON lo que XSD a XML. Ofrece un contrato para definir los datos requeridos para una aplicación dada y la forma de interactuar con él.
 
 Ejemplo
 ~~~~~~~
 
 Para hacernos una idea veamos un ejemplo de un esquema JSON sencillo:
 
-**{**
+.. code-block:: json
 
-**"$schema":** **"**\ http://json-schema.org/draft-04/schema#\ **",**
-
-**"title":** **"**\ Product\ **",**
-
-**"description":** **"**\ A product from Acme's catalog\ **",**
-
-**"type":** **"**\ object\ **",**
-
-**"properties":** **{**
-
-*"id"*\ **:** **{**
-
-**"description":** **"**\ The unique identifier for a product\ **",**
-
-**"type":** **"**\ integer\ **"**
-
-**},**
-
-*"name"*\ **:** **{**
-
-**"description":** **"**\ Name of the product\ **",**
-
-**"type":** **"**\ string\ **"**
-
-**},**
-
-*"price"*\ **:** **{**
-
-**"type":** **"**\ number\ **",**
-
-**"minimum":** **0,**
-
-**"exclusiveMinimum":** **true**
-
-**}**
-
-**},**
-
-**"required":** **["**\ id\ **",** **"**\ name\ **",** **"**\ price\ **"]**
-
-**}**
+  {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Product",
+    "description": "A product from Acme's catalog",
+    "type":"object",
+    "properties":
+    {
+      "id":
+      {
+        "description": "The unique identifier for a product",
+        "type": "integer"
+      },
+    "name":
+    {
+      "description": "Name of the product",
+      "type": "string"
+    },
+    "price":
+    {
+      "type": "number",
+      "minimum": 0,
+      "exclusiveMinimum": true
+    }
+   },
+   "required": ["id","name","price"]
+ }
 
 Que validaría como válidos JSONs como este:
 
