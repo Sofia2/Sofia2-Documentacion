@@ -436,7 +436,7 @@ Para hacernos una idea veamos un ejemplo de un esquema JSON sencillo:
 
 Que validaría como válidos JSONs como este:
 
-..code-block:: json
+.. code-block:: json
 
   {
     "id": 1,
@@ -448,7 +448,7 @@ Que validaría como válidos JSONs como este:
 
 Y como inválido este por no tener el atributo price:
 
-..code-block:: json
+.. code-block:: json
 
   {
        "id": 1,
@@ -460,51 +460,42 @@ Y como inválido este por no tener el atributo price:
 Atributos de un esquema JSON
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Podemos ver la referencia completa de la especificación JSON aquí: `**http://json-schema.org/latest/json-schema-core.html** <http://json-schema.org/latest/json-schema-core.html>`__
+Podemos ver la referencia completa de la especificación JSON aquí: `http://json-schema.org/latest/json-schema-core.html <http://json-schema.org/latest/json-schema-core.html>`__
 
-**{**
+.. code-block:: json
+   {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Product",
+    "description": "A product from Acme's catalog",
+    "type": "object",
+    "properties": {
+        …
+       	…
+	       …
+       	…
+    },
+    "required": ["id", "name", "price"]
+   }
 
-**"$schema":** **"**\ http://json-schema.org/draft-04/schema#\ **",**
 
-**"title":** **"**\ Product\ **",**
-
-**"description":** **"**\ A product from Acme's catalog\ **",**
-
-**"type":** **"**\ object\ **",**
-
-**"properties":** **{**
-
-*…*
-
-*…*
-
-*…*
-
-*…*
-
-**},**
-
-**"required":** **["**\ id\ **",** **"**\ name\ **",** **"**\ price\ **"]**
-
-**}**
 
 Los atributos más utilizados en un esquema JON son:
 
--  ***“$schema”***: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 (*`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__)*.
+* **“$schema”**: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 (*`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__)*.
 
--  **“title”**: indicar un título con el que identificar el esquema.
+*  **“title”**: indicar un título con el que identificar el esquema.
 
--  **“description”**: Se puede utilizar este atributo para incluir una descripción de lo que va a representar el esquema JSON.
+*  **“description”**: Se puede utilizar este atributo para incluir una descripción de lo que va a representar el esquema JSON.
 
--  **“type”**: Para indicar el tipo que va a representar el esquema.
+*  **“type”**: Para indicar el tipo que va a representar el esquema.
 
--  **“properties”**: Este atributo es un objeto con las definiciones de propiedades que definen los valores estáticos de una instancia de objeto. Es una lista no ordenada de propiedades. Los nombres de las propiedades se deben cumplir y el valor de las propiedades se definen a partir de un esquema, que debe cumplirse también.
+*  **“properties”**: Este atributo es un objeto con las definiciones de propiedades que definen los valores estáticos de una instancia de objeto. Es una lista no ordenada de propiedades. Los nombres de las propiedades se deben cumplir y el valor de las propiedades se definen a partir de un esquema, que debe cumplirse también.
 
--  **“patternProperties”**: Este atributo es un objeto con las definiciones de propiedades que definen los valores de una instancia de objeto. Es una lista desordenada de propiedades. Los nombres de las propiedades son patrones de expresiones regulares, las instancias de las propiedades deben cumplir con el patrón definido y el valor de la propiedad con el esquema que define esa propiedad.
+*  **“patternProperties”**: Este atributo es un objeto con las definiciones de propiedades que definen los valores de una instancia de objeto. Es una lista desordenada de propiedades. Los nombres de las propiedades son patrones de expresiones regulares, las instancias de las propiedades deben cumplir con el patrón definido y el valor de la propiedad con el esquema que define esa propiedad.
 
--  **“additionalProperties”**: Permite indicar si la instancia JSON puede contener propiedades que no hayan sido definidas en el esquema. Tiene dos posibles valores (true o false), para indicar si se admite cualquier propiedad o no. Si no se añade la propiedad, se podrá incluir cualquier otra propiedad.
+*  **“additionalProperties”**: Permite indicar si la instancia JSON puede contener propiedades que no hayan sido definidas en el esquema. Tiene dos posibles valores (true o false), para indicar si se admite cualquier propiedad o no. Si no se añade la propiedad, se podrá incluir cualquier otra propiedad.
 
--  **“required”**: Permite indicar todas las propiedades que son obligatorias para una instancia JSON y que como mínimo debe incluir. Las propiedades se incluirán entre corchetes y separadas por el carácter “,”.
+*  **“required”**: Permite indicar todas las propiedades que son obligatorias para una instancia JSON y que como mínimo debe incluir. Las propiedades se incluirán entre corchetes y separadas por el carácter “,”.
 
     (Este propiedad es obligatoria incluirla en el esquema).
 
@@ -628,7 +619,7 @@ En este ejemplo podemos ver que hay una propiedad que es obligatoria “\ **Sens
 
 Como podemos ver tanto “identificador” como en “datos” son esquemas que definen su representación. Podemos ver también que no se admiten ningún tipo de propiedad que no sean las definidas (se ha incluido “additionalProperties”).
 
--  **Enumerados**: Los enumerados los representaremos a como una lista entre corchetes y separados entre el carácter “,”. Los enumerados siempre son de tipo “string”. Por ejemplo si queremos definir una propiedad llamada “tipo” que sólo pueda tener uno de los dos valores “latitud” o “longitud”, quedaría del siguiente modo:
+*  **Enumerados**: Los enumerados los representaremos a como una lista entre corchetes y separados entre el carácter “,”. Los enumerados siempre son de tipo “string”. Por ejemplo si queremos definir una propiedad llamada “tipo” que sólo pueda tener uno de los dos valores “latitud” o “longitud”, quedaría del siguiente modo:
 
     “tipo”:{
 
@@ -640,13 +631,13 @@ Como podemos ver tanto “identificador” como en “datos” son esquemas que 
 
     Para instanciarlo, *“tipo”: “latitud”*
 
--  **“ítems”:** Define los elementos permitidos en un array, debe ser un esquema o un conjunto de esquemas.
+*  **“ítems”:** Define los elementos permitidos en un array, debe ser un esquema o un conjunto de esquemas.
 
--  **“additonalItems”:** Para indicar si se admiten elementos en el array, además de los definidos en el esquema.
+*  **“additonalItems”:** Para indicar si se admiten elementos en el array, además de los definidos en el esquema.
 
--  **“minItems”:** Número mínimo de elementos que puede tener el array.
+*  **“minItems”:** Número mínimo de elementos que puede tener el array.
 
--  **“maxItems”:** Número máximo de elementos que puede tener el array.
+*  **“maxItems”:** Número máximo de elementos que puede tener el array.
 
 En el siguiente ejemplo podemos ver cómo es el esquema para un array, “coordinates”, que debe ser de tipo numérico y que sólo puede tener dos elementos. También vemos que la propiedad “type”, es un enumerado con un único valor posible “Point”.
 
@@ -698,7 +689,7 @@ Una instancia para este objeto sería como el siguiente
 
 }
 
-Podemos encontrar más información y ejemplos en el siguiente enlace: `**http://json-schema.org/** <http://json-schema.org/>`__
+Podemos encontrar más información y ejemplos en el siguiente enlace: `http://json-schema.org/ <http://json-schema.org/>`__
 
 .. |image0| image:: ./media/image2.png
    :width: 2.15972in
