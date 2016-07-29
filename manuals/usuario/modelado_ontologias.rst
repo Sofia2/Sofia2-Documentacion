@@ -36,9 +36,10 @@ Comencemos con la definición de un Ontología sencilla como la que representa u
 
 Una instancia de esta ontologías sería algo como:
 
+
 .. code-block:: json
 
-    {
+   {
      "SensorTemperatura": {
      "identificador":"ST-TA3231-1",
      "timestamp":{"$date": "2014-01-27T11:14:00Z"},
