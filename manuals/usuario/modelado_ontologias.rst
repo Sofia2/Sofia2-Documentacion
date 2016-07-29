@@ -59,177 +59,107 @@ Puedo ver cómo se define el esquema JSON de esta ontología en SOFIA2:
 Esta ontología es pública, lo que implica que cualquier persona puede consultar datos de esta.
 
 Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (en posteriores apartados entraremos en detalle sobre la sintaxis de este esquema):
+.. code-block:: json
 
     {"$schema":"http://json-schema.org/draft-04/schema#",
-
     "title":"SensorTemperatura Schema",
-
     "type":"object",
-
     "required":["**SensorTemperatura**"],
-
     "**properties**":{
-
-    **"\_id**":{
-
-    "type":"object",
-
-    "$ref":"#/identificador"
-
+     **"\_id**":
+     {
+      "type":"object",
+      "$ref":"#/identificador"
+     },
+    "**SensorTemperatura**":
+     {
+     "type":"string",
+     "$ref":"#/**datos**"
+     }
     },
-
-    "**SensorTemperatura**":{
-
-    "type":"string",
-
-    "$ref":"#/**datos**"}
-
-    },
-
     "additionalProperties":false,
-
-    "**identificador**":{
-
+    "**identificador**":
+    {
     "title":"id",
-
     "description":"Id insertado del SensorTemperatura",
-
     "type":"object",
-
-    "properties":{
-
-    "$oid":{
-
-    "type":"string"
-
-    }
-
+    "properties":
+    {
+     "$oid":
+     {
+      "type":"string"
+     }
     },
-
     "additionalProperties":false
-
     },
 
     "**datos**":{
-
     "title":"datos",
-
     "description":"Info SensorTemperatura",
-
     "type":"object",
-
     "required":["identificador","timestamp","medida","unidad","coordenadaGps"],
-
     "properties":{
-
-    "**identificador**":{
-
+    "**identificador**":
+    {
     "type":"string"
-
     },
 
     "**timestamp**":{
-
     "type":"object",
-
     "required":["$date"],
-
     "properties":{
-
-    "$date":{
-
-    "type":"string",
-
-    "format":"date-time"
-
-    }
-
+     "$date":
+     {
+      "type":"string",
+      "format":"date-time"
+     }
     },
-
     "additionalProperties":false
-
     },
-
     "**medida**":{
-
     "type":"number"
-
     },
-
     "**unidad**":{
-
-    "type":"string"},
-
-    "**geometry**":{
-
-    "$ref":"#/gps"
-
-    }
-
+    "type":"string"
     },
-
+    "**geometry**":{
+    "$ref":"#/gps"
+    }
+    },
     "additionalProperties":false
-
     },
 
     "**gps**":{
-
     "title":"gps",
-
     "description":"Gps SensorTemperatura",
-
     "type":"object",
-
     "required":["coordinates","type"],
-
     "properties":{
-
     "**coordinates**":{
-
     "type":"**array**",
-
     "items":[
-
     {
-
     "type":"number",
-
     “maximum”:180,
-
     “mininum”:-180
-
     },
 
     {
-
     "type":"number",
-
     “maximum”:180,
-
     “mininum”:-180
-
     }
-
     ],
-
     "minItems":2,
-
     "maxItems":2
-
     },
-
-    "type":{
-
-    "type":"string",
-
-    "enum":["**Point**"]
-
+    "type":
+    {
+     "type":"string",
+     "enum":["**Point**"]
     }
-
     },
-
     "additionalProperties":false
-
     }
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
