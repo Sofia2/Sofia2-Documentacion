@@ -625,7 +625,7 @@ Como podemos ver tanto “identificador” como en “datos” son esquemas que 
     	"enum": ["latitud","longitud"]
     }
 
-    Para instanciarlo, *“tipo”: “latitud”*
+ Para instanciarlo, *“tipo”: “latitud”*
 
 *  **“ítems”:** Define los elementos permitidos en un array, debe ser un esquema o un conjunto de esquemas.
 
@@ -640,42 +640,25 @@ En el siguiente ejemplo podemos ver cómo es el esquema para un array, “coordi
 .. code-block:: json
 
 “geometry”:{
+    "type": "object",
+    "required":["coordinates","type"],
+    "properties":{
+         "coordinates":{
+              "type":"array",
+              "items":{
+                   "type":"number"
+              },
+              "minItems":2,
+              "maxItems":2
+          },
+         "type":{
+             "type":"string",
+             "enum":["Point"]
+           }   
+    },
+      "additionalProperties":false    
+}      
 
-"type": "object",
-
-"required":["coordinates","type"],
-
-"properties":{
-
-"coordinates":{
-
-"type":"array",
-
-"items":{
-
-"type":"number"
-
-},
-
-"minItems":2,
-
-"maxItems":2
-
-},
-
-"type":{
-
-"type":"string",
-
-"enum":["Point"]
-
-}
-
-},
-
-"additionalProperties":false
-
-}
 
 Una instancia para este objeto sería como el siguiente:
 
