@@ -70,10 +70,10 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
      
      "type":"object",
      
-     "required":["**SensorTemperatura**"],
-     "**properties**":
+     "required":["SensorTemperatura"],
+     "properties":
      {
-      **"_id**":
+     "_id":
       {
        "type":"object",
        "$ref":"#/identificador"
@@ -81,11 +81,11 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
      "**SensorTemperatura**":
       {
        "type":"string",
-       "$ref":"#/**datos**"
+       "$ref":"#/datos"
       }
      },
     "additionalProperties":false,
-    "**identificador**":
+    "identificador":
     {
      "title":"id",
      "description":"Id insertado del SensorTemperatura",
@@ -100,7 +100,7 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     "additionalProperties":false
     },
 
-    "**datos**":
+    "datos":
     {
      "title":"datos",
      "description":"Info SensorTemperatura",
@@ -108,11 +108,11 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
      "required":["identificador","timestamp","medida","unidad","coordenadaGps"],
      "properties":
      {
-     "**identificador**":
+     "identificador":
      {
        "type":"string"
      },
-     "**timestamp**":
+     "timestamp":
      {
       "type":"object",
       "required":["$date"],
@@ -126,15 +126,15 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
        },
     "additionalProperties":false
      },
-     "**medida**":
+     "medida":
      {
        "type":"number"
      },
-    "**unidad**":
+    "unidad":
     {
       "type":"string"
     },
-    "**geometry**":
+    "geometry":
     {
      "$ref":"#/gps"
     }
@@ -142,7 +142,7 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     "additionalProperties":false
     },
 
-    "**gps**":
+    "gps":
     {
     "title":"gps",
     "description":"Gps SensorTemperatura",
@@ -150,9 +150,9 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     "required":["coordinates","type"],
     "properties":
     {
-    "**coordinates**":
+    "coordinates":
     {
-    "type":"**array**",
+    "type":"array",
     "items":[
     {
     "type":"number",
@@ -172,7 +172,7 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     "type":
     {
      "type":"string",
-     "enum":["**Point**"]
+     "enum":["Point"]
     }
     },
     "additionalProperties":false
