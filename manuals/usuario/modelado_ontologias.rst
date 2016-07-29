@@ -62,35 +62,36 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
 .. code-block:: json
 
     {
-    "$schema":"http://json-schema.org/draft-04/schema#",
-    "title":"SensorTemperatura Schema",
-    "type":"object",
-    "required":["**SensorTemperatura**"],
-    "**properties**":{
-     **"\_id**":
+     "$schema":"http://json-schema.org/draft-04/schema#",
+     "title":"SensorTemperatura Schema",
+     "type":"object",
+     "required":["**SensorTemperatura**"],
+     "**properties**":
      {
-      "type":"object",
-      "$ref":"#/identificador"
+      **"\_id**":
+      {
+       "type":"object",
+       "$ref":"#/identificador"
+      },
+     "**SensorTemperatura**":
+      {
+       "type":"string",
+       "$ref":"#/**datos**"
+      }
      },
-    "**SensorTemperatura**":
-     {
-     "type":"string",
-     "$ref":"#/**datos**"
-     }
-    },
     "additionalProperties":false,
     "**identificador**":
     {
-    "title":"id",
-    "description":"Id insertado del SensorTemperatura",
-    "type":"object",
-    "properties":
-    {
-     "$oid":
+     "title":"id",
+     "description":"Id insertado del SensorTemperatura",
+     "type":"object",
+     "properties":
      {
-      "type":"string"
-     }
-    },
+      "$oid":
+      {
+       "type":"string"
+      }
+     },
     "additionalProperties":false
     },
 
