@@ -481,7 +481,7 @@ Podemos ver la referencia completa de la especificación JSON aquí: `http://jso
 
 Los atributos más utilizados en un esquema JON son:
 
-* **“$schema”**: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 (*`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__)*.
+* **“$schema”**: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 (`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__).
 
 *  **“title”**: indicar un título con el que identificar el esquema.
 
@@ -503,37 +503,29 @@ Los atributos más utilizados en un esquema JON son:
 
 Veamos en este extracto de esquema un ejemplo para los atributos definidos
 
-    {
+.. code-block:: json
 
+{
     "$schema":"http://json-schema.org/draft-04/schema#",
-
     "title":"SensorTemperatura Schema",
-
     "type":"object",
-
     "required":["SensorTemperatura"],
-
     "properties":{
-
-    "\_id":{
-
-    "type":"object",
-
-    "$ref":"#/identificador"
-
-    },
-
-    "SensorTemperatura":{
-
-    "type":"string",
-
-    "$ref":"#/datos"}
-
-    },
-
-    "additionalProperties":false,
+        "_id":{
+            "type":"object",
+            "$ref":"#/identificador"
+        },
+        "SensorTemperatura":{
+            "type":"string",
+            "$ref":"#/datos"}
+      },
+      "additionalProperties":false,
+}
 
 En este ejemplo podemos ver que hay una propiedad que es obligatoria “\ **SensorTemperatura**\ ” y que hay dos propiedades **“\_id**\ ” y “\ **SensorTemperatura**\ ”, que incluyen una referencia a un elemento que es el que contiene la representación completa de esa propiedad.
+
+
+.. code-block:: json
 
 "identificador":{
 
@@ -550,21 +542,16 @@ En este ejemplo podemos ver que hay una propiedad que es obligatoria “\ **Sens
 "type":"string"
 
 }
-
 },
 
 "additionalProperties":false
-
 },
 
 "datos":{
 
 "title":"datos",
-
 "description":"Info SensorTemperatura",
-
 "type":"object",
-
 "required":["identificador","timestamp","medida","unidad","coordenadaGps"],
 
 "properties":{
