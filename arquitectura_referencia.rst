@@ -22,3 +22,17 @@ Los componentes de Sofia2 son:
 En una instalación de Sofia2 no es necesario instalar todos los módulos, ya que cada módulo cubre un conjunto de funcionalidades bien diferenciadas. Dependerá de cada caso concreto que módulos se instalan en la instalación de Sofia2.
 
 Cada módulo Sofia2 puede funcionar en instancia única o en cluster, dependiendo de la carga de trabajo a la que se vaya a someter.
+
+Plugins
+-------
+
+Los  plugins son componentes que, añaden una funcionalidad adicional o una nueva característica a la  platafoma, sin tener que modificar el core de la misma.
+Los plugins se empaquetan como fichersos JAR (Java Application Resource), cuyas cláses se incluirán en tiempo de ejecución, junto con el resto de clases del core de la plataforma, añadiendo de este modo  nuevas funcionalidades..
+
+Existen distintos tipos de plugins:
+
+* **Seguridad**: Permiten personalizar el mecanismo de autenticación/autorización en los módulos de Sofia2, adaptándose al módelo existente en la organización donde se despliega Sofia2. 
+*	**Plugin-Gateway**: Permiten añadir nuevos protocolos e interfaces de comunicación para el envio/recepción de información desde/hacia Sofia2
+* **Plugins de pre/post procesado**: Permiten realizar ciertas acciones con un mensaje recibido por la plataforma antes y/o después de ser procesado
+*	**Plugins de plataforma**: Son plugins desarrollados a medida para  Sofia2. Realizan funciones de integración entre componentes de la plataforma.
+
