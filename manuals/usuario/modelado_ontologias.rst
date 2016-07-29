@@ -100,49 +100,58 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     "additionalProperties":false
     },
 
-    "**datos**":{
-    "title":"datos",
-    "description":"Info SensorTemperatura",
-    "type":"object",
-    "required":["identificador","timestamp","medida","unidad","coordenadaGps"],
-    "properties":{
-    "**identificador**":
+    "**datos**":
     {
-    "type":"string"
-    },
-
-    "**timestamp**":{
-    "type":"object",
-    "required":["$date"],
-    "properties":{
-     "$date":
+     "title":"datos",
+     "description":"Info SensorTemperatura",
+     "type":"object",
+     "required":["identificador","timestamp","medida","unidad","coordenadaGps"],
+     "properties":
      {
-      "type":"string",
-      "format":"date-time"
-     }
-    },
+     "**identificador**":
+     {
+       "type":"string"
+     },
+     "**timestamp**":
+     {
+      "type":"object",
+      "required":["$date"],
+      "properties":
+       {
+        "$date":
+         {
+           "type":"string",
+           "format":"date-time"
+         }
+       },
     "additionalProperties":false
+     },
+     "**medida**":
+     {
+       "type":"number"
+     },
+    "**unidad**":
+    {
+      "type":"string"
     },
-    "**medida**":{
-    "type":"number"
-    },
-    "**unidad**":{
-    "type":"string"
-    },
-    "**geometry**":{
-    "$ref":"#/gps"
+    "**geometry**":
+    {
+     "$ref":"#/gps"
     }
     },
     "additionalProperties":false
     },
 
-    "**gps**":{
+    "**gps**":
+    {
     "title":"gps",
     "description":"Gps SensorTemperatura",
     "type":"object",
     "required":["coordinates","type"],
-    "properties":{
-    "**coordinates**":{
+    "properties":
+    {
+    "**coordinates**":
+    {
     "type":"**array**",
     "items":[
     {
