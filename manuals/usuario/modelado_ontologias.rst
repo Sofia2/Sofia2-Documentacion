@@ -513,15 +513,21 @@ Veamos en este extracto de esquema un ejemplo para los atributos definidos:
     "type":"object",
     
     "required":["SensorTemperatura"],
-    "properties":{
-        "_id":{
+    
+    "properties":
+    {
+        "_id":
+        {
             "type":"object",
             "$ref":"#/identificador"
         },
-        "SensorTemperatura":{
+        "SensorTemperatura":
+        {
             "type":"string",
-            "$ref":"#/datos"}
+            "$ref":"#/datos"
+        }
       },
+      
       "additionalProperties":false,
 }
 
@@ -611,13 +617,12 @@ Como podemos ver tanto “identificador” como en “datos” son esquemas que 
 
 *  **Enumerados**: Los enumerados los representaremos a como una lista entre corchetes y separados entre el carácter “,”. Los enumerados siempre son de tipo “string”. Por ejemplo si queremos definir una propiedad llamada “tipo” que sólo pueda tener uno de los dos valores “latitud” o “longitud”, quedaría del siguiente modo:
 
+.. code-block:: json
 
-    “tipo”:{
-
-    “type”:”string”,
-
-    “enum”:[“latitud”,”longitud”]
-
+    "tipo":
+    {
+    	"type": "string",
+    	"enum": ["latitud","longitud"]
     }
 
     Para instanciarlo, *“tipo”: “latitud”*
@@ -631,6 +636,8 @@ Como podemos ver tanto “identificador” como en “datos” son esquemas que 
 *  **“maxItems”:** Número máximo de elementos que puede tener el array.
 
 En el siguiente ejemplo podemos ver cómo es el esquema para un array, “coordinates”, que debe ser de tipo numérico y que sólo puede tener dos elementos. También vemos que la propiedad “type”, es un enumerado con un único valor posible “Point”.
+
+.. code-block:: json
 
 “geometry”:{
 
@@ -670,15 +677,16 @@ En el siguiente ejemplo podemos ver cómo es el esquema para un array, “coordi
 
 }
 
-Una instancia para este objeto sería como el siguiente
+Una instancia para este objeto sería como el siguiente:
 
-"geometry":{
+.. code-block:: json
 
-"type": "Point",
+   "geometry":
+    {
+	"type": "Point",
+	"coordinates":[110.2,1233.1]
+    }
 
-"coordinates":[110.2,1233.1]
-
-}
 
 Podemos encontrar más información y ejemplos en el siguiente enlace: `http://json-schema.org/ <http://json-schema.org/>`__
 
