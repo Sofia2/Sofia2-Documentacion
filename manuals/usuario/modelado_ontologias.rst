@@ -73,7 +73,7 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
      "required":["**SensorTemperatura**"],
      "**properties**":
      {
-      **"\_id**":
+      **"_id**":
       {
        "type":"object",
        "$ref":"#/identificador"
