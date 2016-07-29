@@ -584,7 +584,7 @@ Como podemos ver tanto “identificador” como en “datos” son esquemas que 
 
 .. code-block:: json
 
-    "tipo":
+    "tipo": 
     {
     	"type": "string",
     	"enum": ["latitud","longitud"]
@@ -605,7 +605,8 @@ En el siguiente ejemplo podemos ver cómo es el esquema para un array, “coordi
 
 .. code-block:: json
 
-	"geometry":{
+	"geometry": 
+	{
 	    "type": "object",
 	    "required":["coordinates","type"],
 	    "properties":{
@@ -630,7 +631,7 @@ Una instancia para este objeto sería como el siguiente:
 
 .. code-block:: json
 
-   "geometry":
+   "geometry": 
     {
 	"type": "Point",
 	"coordinates":[110.2,1233.1]
