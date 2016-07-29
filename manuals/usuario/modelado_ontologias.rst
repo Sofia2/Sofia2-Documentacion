@@ -4,7 +4,7 @@
 Modelado de Ontologías
 ======================
 
-CONCEPTOS BÁSICOS
+Conceptos Básicos
 =================
 
 -  **JSON**: es un formato ligero para el intercambio de datos (como XML pero menos verboso)
@@ -17,7 +17,7 @@ CONCEPTOS BÁSICOS
 
 -  **Instancia de Ontología:** es un elemento concreto de una ontología
 
-UN PRIMER VISTAZO
+Un primer vistazo
 =================
 
 Como hemos dicho en SOFIA2 una **ontología** representa una entidad en mi sistema (SmartSpace), y esta se define en **JSON**.
@@ -410,7 +410,7 @@ Podemos observar que la información devuelta incluye:
 
     |image10|
 
-TECNOLOGÍAS IMPLICADAS 
+Tecnologías Implicadas
 =======================
 
 JSON
