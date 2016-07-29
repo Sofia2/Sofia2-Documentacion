@@ -78,7 +78,7 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
        "type":"object",
        "$ref":"#/identificador"
       },
-     "**SensorTemperatura**":
+     "SensorTemperatura":
       {
        "type":"string",
        "$ref":"#/datos"
