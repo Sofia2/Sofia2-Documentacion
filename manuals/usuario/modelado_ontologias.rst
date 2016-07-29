@@ -61,7 +61,8 @@ Esta ontología es pública, lo que implica que cualquier persona puede consulta
 Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (en posteriores apartados entraremos en detalle sobre la sintaxis de este esquema):
 .. code-block:: json
 
-    {"$schema":"http://json-schema.org/draft-04/schema#",
+    {
+    "$schema":"http://json-schema.org/draft-04/schema#",
     "title":"SensorTemperatura Schema",
     "type":"object",
     "required":["**SensorTemperatura**"],
@@ -161,6 +162,7 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
     },
     "additionalProperties":false
     }
+   } 
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **NOTA**                                                                                                                                                                                                                                                                                                                                                                                               |
