@@ -4,6 +4,8 @@
 Modelado de Ontologías
 ======================
 
+A continuación se explica de forma clara y sencilla cómo se definen las ontologías en la Plataforma.
+
 Conceptos Básicos
 -----------------
 
