@@ -609,7 +609,7 @@ En el siguiente ejemplo podemos ver cómo es el esquema para un array, “coordi
 
 .. code-block:: json
 
-	“geometry”:{
+	"geometry":{
 	    "type": "object",
 	    "required":["coordinates","type"],
 	    "properties":{
