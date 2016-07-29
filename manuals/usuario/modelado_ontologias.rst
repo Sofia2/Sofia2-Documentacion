@@ -63,8 +63,11 @@ Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (
 
     {
      "$schema":"http://json-schema.org/draft-04/schema#",
+     
      "title":"SensorTemperatura Schema",
+     
      "type":"object",
+     
      "required":["**SensorTemperatura**"],
      "**properties**":
      {
