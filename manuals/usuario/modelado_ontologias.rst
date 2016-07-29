@@ -349,8 +349,8 @@ JSON
 
 JSON es un formato ligero originalmente concebido para el intercambio de datos en Internet.
 
-Tipos de datos 
-~~~~~~~~~~~~~~~
+Tipos de datos JSON 
+~~~~~~~~~~~~~~~~~~~
 
 -  **string** : Cadena de texto
 
