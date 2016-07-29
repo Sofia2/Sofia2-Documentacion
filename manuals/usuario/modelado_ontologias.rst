@@ -5,7 +5,7 @@ Modelado de Ontologías
 ======================
 
 Conceptos Básicos
-=================
+-----------------
 
 -  **JSON**: es un formato ligero para el intercambio de datos (como XML pero menos verboso)
 
@@ -18,7 +18,7 @@ Conceptos Básicos
 -  **Instancia de Ontología:** es un elemento concreto de una ontología
 
 Un primer vistazo
-=================
+-----------------
 
 Como hemos dicho en SOFIA2 una **ontología** representa una entidad en mi sistema (SmartSpace), y esta se define en **JSON**.
 
@@ -411,10 +411,10 @@ Podemos observar que la información devuelta incluye:
     |image10|
 
 Tecnologías Implicadas
-=======================
+----------------------
 
 JSON
-----
+^^^^
 
 `**JSON es el acrónimo de JavaScript Object Notation** <http://www.json.org/>`__.
 
@@ -469,7 +469,7 @@ Referencias
 `**http://cdn.dzone.com/sites/all/files/refcardz/rc173-010d-JSON\_2.pdf** <http://cdn.dzone.com/sites/all/files/refcardz/rc173-010d-JSON_2.pdf>`__
 
 Esquemas JSON (JSON-SChema)
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 JSON-Schema (`**http://json-schema.org** <http://json-schema.org>`__ ) es un formato JSON para describir datos en JSON. Es en JSON lo que XSD a XML. Ofrece un contrato para definir los datos requeridos para una aplicación dada y la forma de interactuar con él.
 
