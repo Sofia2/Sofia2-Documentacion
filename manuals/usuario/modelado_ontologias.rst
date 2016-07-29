@@ -800,49 +800,49 @@ Podemos encontrar más información y ejemplos en el siguiente enlace: `**http:/
 .. |image2| image:: ./media/image6.png
    :width: 5.13472in
    :height: 7.60486in
-.. |image3| image:: ./manuals/usuario/media/image7.png
+.. |image3| image:: ./media/image7.png
    :width: 3.03333in
    :height: 2.88264in
-.. |image4| image:: ./manuals/usuario/media/image8.png
+.. |image4| image:: ./media/image8.png
    :width: 6.49583in
    :height: 0.83194in
-.. |image5| image:: ./manuals/usuario/media/image9.png
+.. |image5| image:: ./media/image9.png
    :width: 0.31944in
    :height: 0.25208in
-.. |image6| image:: ./manuals/usuario/media/image10.png
+.. |image6| image:: ./media/image10.png
    :width: 2.11736in
    :height: 1.37847in
-.. |image7| image:: ./manuals/usuario/media/image11.png
+.. |image7| image:: ./media/image11.png
    :width: 6.49583in
    :height: 6.49583in
-.. |image8| image:: ./manuals/usuario/media/image12.png
+.. |image8| image:: ./media/image12.png
    :width: 2.79861in
    :height: 0.43681in
-.. |image9| image:: ./manuals/usuario/media/image13.png
+.. |image9| image:: ./media/image13.png
    :width: 3.70556in
    :height: 1.31111in
-.. |image10| image:: ./manuals/usuario/media/image14.png
+.. |image10| image:: ./media/image14.png
    :width: 3.14306in
    :height: 1.82361in
-.. |image11| image:: ./manuals/usuario//image15.png
+.. |image11| image:: ./media/image15.png
    :width: 3.83194in
    :height: 0.78958in
-.. |image12| image:: ./manuals/usuario/media/image16.png
+.. |image12| image:: ./media/image16.png
    :width: 2.30278in
    :height: 1.40347in
-.. |image13| image:: ./manuals/usuario/media/image17.png
+.. |image13| image:: ./media/image17.png
    :width: 3.95764in
    :height: 1.08403in
-.. |image14| image:: ./manuals/usuario/media/image18.png
+.. |image14| image:: ./media/image18.png
    :width: 3.84028in
    :height: 1.00833in
-.. |image15| image:: ./manuals/usuario/media/image19.png
+.. |image15| image:: ./media/image19.png
    :width: 3.66389in
    :height: 2.17639in
-.. |image16| image:: ./manuals/usuario/media/image20.png
+.. |image16| image:: ./media/image20.png
    :width: 3.66389in
    :height: 2.52917in
-.. |image17| image:: ./manuals/usuario/media/image21.png
+.. |image17| image:: ./media/image21.png
    :width: 3.73958in
    :height: 1.66389in
 
