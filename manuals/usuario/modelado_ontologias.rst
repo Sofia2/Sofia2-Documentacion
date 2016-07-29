@@ -505,31 +505,27 @@ Veamos en este extracto de esquema un ejemplo para los atributos definidos:
 
 .. code-block:: json
 
-{
-    "$schema":"http://json-schema.org/draft-04/schema#",
-    
-    "title":"SensorTemperatura Schema",
-    
-    "type":"object",
-    
-    "required":["SensorTemperatura"],
-    
-    "properties":
-    {
-        "_id":
-        {
-            "type":"object",
-            "$ref":"#/identificador"
-        },
-        "SensorTemperatura":
-        {
-            "type":"string",
-            "$ref":"#/datos"
-        }
-      },
-      
-      "additionalProperties":false,
-}
+	{
+	    "$schema":"http://json-schema.org/draft-04/schema#",
+	    "title":"SensorTemperatura Schema",
+	    "type":"object",
+	    "required":["SensorTemperatura"],
+	    "properties":
+	    {
+	        "_id":
+	        {
+	            "type":"object",
+	            "$ref":"#/identificador"
+	        },
+	        "SensorTemperatura":
+	        {
+	            "type":"string",
+	            "$ref":"#/datos"
+	        }
+	     },
+	     "additionalProperties":false
+	}
+
 
 En este ejemplo podemos ver que hay una propiedad que es obligatoria “\ **SensorTemperatura**\ ” y que hay dos propiedades **“\_id**\ ” y “\ **SensorTemperatura**\ ”, que incluyen una referencia a un elemento que es el que contiene la representación completa de esa propiedad.
 
