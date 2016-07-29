@@ -436,17 +436,15 @@ Para hacernos una idea veamos un ejemplo de un esquema JSON sencillo:
 
 Que validaría como válidos JSONs como este:
 
-**{**
+.. code-block:: json
 
-"id"**:** **1,**
+{
+    "id": 1,
+    "name": "A green door",
+    "price": 12.50,
+    "tags": ["home", "green"]
+}
 
-"name"**:** **"**\ A green door\ **",**
-
-"price"**:** **12.50,**
-
-"tags"**:** **["**\ home\ **",** **"**\ green\ **"]**
-
-**}**
 
 Y como inválido este por no tener el atributo price:
 
