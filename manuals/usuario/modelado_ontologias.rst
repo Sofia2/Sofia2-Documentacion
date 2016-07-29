@@ -36,7 +36,6 @@ Comencemos con la definición de un Ontología sencilla como la que representa u
 
 Una instancia de esta ontologías sería algo como:
 
-
 .. code-block:: json
 
    {
@@ -60,6 +59,8 @@ Puedo ver cómo se define el esquema JSON de esta ontología en SOFIA2:
 Esta ontología es pública, lo que implica que cualquier persona puede consultar datos de esta.
 
 Si pinchamos Ver |image5| veremos el esquema JSON que describe esta Ontología (en posteriores apartados entraremos en detalle sobre la sintaxis de este esquema):
+
+
 .. code-block:: json
 
     {
