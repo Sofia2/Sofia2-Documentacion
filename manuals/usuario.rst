@@ -11,6 +11,7 @@ Documentación para Usuarios.
 
 .. toctree::
    :caption: Modelado de Ontologías
+   :maxdepth: 3
   ./usuario/modelado_ontologias
 
 .. toctree::
