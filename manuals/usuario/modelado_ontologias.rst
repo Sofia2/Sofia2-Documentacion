@@ -36,7 +36,7 @@ Para simplificar la creación de Ontologías la Plataforma ofrece el concepto de
 
 Comencemos con la definición de un Ontología sencilla como la que representa un Sensor de Temperatura que almacena: identificador, timestamp, medida, unidad y coordenadas GPS.
 
-Una instancia de esta ontologías sería algo como:
+Una instancia de esta ontología sería algo como:
 
 .. code-block:: json
 
