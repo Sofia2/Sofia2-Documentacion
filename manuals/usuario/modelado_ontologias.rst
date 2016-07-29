@@ -36,27 +36,21 @@ Comencemos con la definición de un Ontología sencilla como la que representa u
 
 Una instancia de esta ontologías sería algo como:
 
+.. code-block:: json
+
     {
-
-    "SensorTemperatura": {
-
-    "identificador":"ST-TA3231-1",
-
-    "timestamp":{"$date": "2014-01-27T11:14:00Z"},
-
-    "medida":25.1,
-
-    "unidad":"C",
-
-    "geometry":{
-
-    "type": "Point",
-
-    "coordinates":[90,-10.1]
-
+     "SensorTemperatura": {
+     "identificador":"ST-TA3231-1",
+     "timestamp":{"$date": "2014-01-27T11:14:00Z"},
+     "medida":25.1,
+     "unidad":"C",
+     "geometry":
+     {
+      "type": "Point",
+      "coordinates":[90,-10.1]
+     }
     }
-
-    }
+   } 
 
 Puedo ver cómo se define el esquema JSON de esta ontología en SOFIA2:
 
