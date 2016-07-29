@@ -501,14 +501,17 @@ Los atributos más utilizados en un esquema JON son:
 
 -  **“$ref”**: Define una URI de un esquema que contienen la completa representación para esa propiedad.
 
-Veamos en este extracto de esquema un ejemplo para los atributos definidos
+Veamos en este extracto de esquema un ejemplo para los atributos definidos:
 
 .. code-block:: json
 
 {
     "$schema":"http://json-schema.org/draft-04/schema#",
+    
     "title":"SensorTemperatura Schema",
+    
     "type":"object",
+    
     "required":["SensorTemperatura"],
     "properties":{
         "_id":{
@@ -607,6 +610,7 @@ En este ejemplo podemos ver que hay una propiedad que es obligatoria “\ **Sens
 Como podemos ver tanto “identificador” como en “datos” son esquemas que definen su representación. Podemos ver también que no se admiten ningún tipo de propiedad que no sean las definidas (se ha incluido “additionalProperties”).
 
 *  **Enumerados**: Los enumerados los representaremos a como una lista entre corchetes y separados entre el carácter “,”. Los enumerados siempre son de tipo “string”. Por ejemplo si queremos definir una propiedad llamada “tipo” que sólo pueda tener uno de los dos valores “latitud” o “longitud”, quedaría del siguiente modo:
+
 
     “tipo”:{
 
