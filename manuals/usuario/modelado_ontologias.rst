@@ -1,37 +1,6 @@
+======================
 Modelado de Ontologías
 ======================
-
-`**1** **INDICE** 2 <#indice>`__
-
-`**2** **INTRODUCCIÓN** 3 <#introducción>`__
-
-`**2.1** **Objetivos y alcance del presente documento** 3 <#objetivos-y-alcance-del-presente-documento>`__
-
-`**3** **CONCEPTOS BÁSICOS** 4 <#conceptos-básicos>`__
-
-`**4** **UN PRIMER VISTAZO** 5 <#un-primer-vistazo>`__
-
-`**5** **TECNOLOGÍAS IMPLICADAS** 13 <#tecnologías-implicadas>`__
-
-`**5.1** **JSON** 13 <#json>`__
-
-`**5.1.1** **Tipos de datos** 13 <#tipos-de-datos>`__
-
-`**5.1.2** **Referencias** 15 <#referencias>`__
-
-`**5.2** **Esquemas JSON (JSON-SChema)** 15 <#esquemas-json-json-schema>`__
-
-`**5.2.1** **Ejemplo** 15 <#ejemplo>`__
-
-`**5.2.2** **Atributos de un esquema JSON** 16 <#atributos-de-un-esquema-json>`__
-
-INTRODUCCIÓN
-============
-
-Objetivos y alcance del presente documento
-------------------------------------------
-
-El objetivo de este documento es explicar de forma clara y sencilla cómo se definen las ontologías en la Plataforma.
 
 CONCEPTOS BÁSICOS
 =================
