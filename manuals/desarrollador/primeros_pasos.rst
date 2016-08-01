@@ -608,8 +608,7 @@ Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero e
    :width: 6.48958in
    :height: 1.42708in
 .. |image26| image:: ./media/image30.png
-   :width: 6.13542in
-   :height: 3.67708in
+
 .. |image27| image:: ./media/image31.png
    :width: 1.34375in
    :height: 0.63542in
