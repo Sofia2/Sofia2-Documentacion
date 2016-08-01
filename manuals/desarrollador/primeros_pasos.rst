@@ -201,7 +201,7 @@ Una vez que lo hagamos se nos asignará el rol **USUARIO**, **este rol permite c
 Con este rol puedo crear APPs Sofia2 que consuman (consulten, se suscriban) a las ontologías que otros usuarios hayan definido como públicas.
 
 **NOTA:** Más tarde veremos como solicitar el rol **COLABORADOR**, que permite **volcar información en la plataforma.**
-|
+
 
 Acceder a la Consola Web de Sofia2 CloudLab
 -------------------------------------------
@@ -600,8 +600,7 @@ Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero e
    :width: 6.13542in
    :height: 1.55208in
 .. |image23| image:: ./media/image27.png
-   :width: 4.00000in
-   :height: 3.89583in
+
 .. |image24| image:: ./media/image28.png
    :width: 4.75000in
    :height: 3.68750in
