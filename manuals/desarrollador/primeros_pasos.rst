@@ -179,9 +179,7 @@ El proceso para desarrollar una APP Sofia2 consiste básicamente en:
 
 -  Desarrollo de APP Sofia2 de consulta sobre las ontologías en Javascript y Java
 
--  Desarrollo de APP Sofia2 que inserta y
-
--  en Java que publica medidas de Temperatura y Humedad
+-  Desarrollo de APP Sofia2 que inserta y en Java que publica medidas de Temperatura y Humedad
 
 Darse de alta en la instancia Sofia2 inCloudLab
 -----------------------------------------------
