@@ -108,7 +108,7 @@ El API Java se encuentra en la ruta |image30-APIJAVA| en un Jar |image31-APIJAVA
 API JavaScript
 ^^^^^^^^^^^^^^
 
-El API Java Script se encuentra en el propio SIB, El acceso directo |image34|\ nos ubicará en la ruta |image35|\ donde está el fichero js con el API del KP |image36|
+El API Java Script se encuentra en el propio SIB, El acceso directo |image34-APIJS|\ nos ubicará en la ruta |image35-APIJS|\ donde está el fichero js con el API del KP |image36-APIJS|
 
 
 
@@ -842,3 +842,7 @@ Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero e
 .. |image30-APIJAVA| image:: ./media/image30-APIJAVA.png
 .. |image31-APIJAVA| image:: ./media/image31-APIJAVA.png
 .. |image32-APIJAVA| image:: ./media/image32-APIJAVA.png
+.. |image34-APIJS| image:: ./media/image34-APIJS.png
+.. |image35-APIJS| image:: ./media/image35-APIJS.png
+.. |image36-APIJS| image:: ./media/image36-APIJS.png
+
