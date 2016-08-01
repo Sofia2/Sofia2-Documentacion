@@ -191,7 +191,7 @@ En la sección Productos de la Web de Sofia2 (`http://sofia2.com/sofia2incloud.h
 También se puede acceder vía: `http://sofia2.com/console/login <http://sofia2.com/console/login>`__
 
 
-.. figure:: ./media/loginSofia2.png
+.. figure:: ./media/loginSofia2.PNG
  :align:   center
 
 En esta URL podemos registrarnos pulsando sobre el link **Crear una Nueva Cuenta**:
