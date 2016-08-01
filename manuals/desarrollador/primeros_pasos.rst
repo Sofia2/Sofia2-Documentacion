@@ -90,61 +90,12 @@ SOFIA2 distribuye 2 IDE:
 
 -  IDE para el desarrollo sobre Arduino.
 
-IDE Java
-^^^^^^^^
-
-Ejecutando en la Consola el comando **S:\\>ide**
-
-|image20|
-
-Se abrirá el **IDE Eclipse de la Arquitectura iTR de Indra** para el desarrollo de aplicaciones SOFIA2.
-
-|image21|
-
-|image22|
-
-IDE Arduino
-^^^^^^^^^^^
-
-Ejecutando en la Consola el comando **S:\\>arduino**
-
-|image23|
-
-Se abrirá el **IDE para el desarrollo de clientes Arduino**.
-
-|image24|
-
-Consola de Arquitectura
-^^^^^^^^^^^^^^^^^^^^^^^
-
-Ofrece herramientas de productividad para crear proyectos SOFIA2 de forma sencilla.
-
-Ejecutando en la Consola el comando **S:\\>arqspring**
-
-|image25|
-
-Se abrirá la **consola de Arquitectura iTR**
-
-|image26|
-
-Donde dispondremos de los comandos **ArqSpring>sofia create(Gateway, KP, Plugin)**
-
-|image27|
-
-Que creará un esqueleto básico de un proyecto java para desarrollar uno de estos componentes.
-
-
 
 APIs
 ^^^^
 
 En el directorio **/SOFIA-SDK/API** encontramos los API proporcionados por la plataforma SOFIA2 para el desarrollo de aplicaciones que interactuen con ella.
 
-+------------------------------------------------------------------------------------------------------------------+
-| **IMPORTANTE**                                                                                                   |
-+==================================================================================================================+
-| **Lea las Guías** |image29| p\ **ara obtener más información sobre el uso de las API de la plataforma SOFIA.**   |
-+------------------------------------------------------------------------------------------------------------------+
 
 API Java
 ^^^^^^^^
@@ -153,22 +104,12 @@ El API Java se encuentra en la ruta |image30| en un Jar |image31|\ con la siguie
 
 |image32|
 
-+---------------------------------------------------------------------------------------------+
-| **IMPORTANTE**                                                                              |
-+=============================================================================================+
-| Para más detalle sobre el API Java puede referirse al **capítulo 6** de la Guía |image33|   |
-+---------------------------------------------------------------------------------------------+
 
 API JavaScript
 ^^^^^^^^^^^^^^
 
 El API Java Script se encuentra en el propio SIB, El acceso directo |image34|\ nos ubicará en la ruta |image35|\ donde está el fichero js con el API del KP |image36|
 
-+---------------------------------------------------------------------------------------------+
-| **IMPORTANTE**                                                                              |
-+=============================================================================================+
-| Para más detalle sobre el API Java puede referirse al **capítulo 8** de la Guía |image37|   |
-+---------------------------------------------------------------------------------------------+
 
 
 Abrir IDE Sofia2
