@@ -1,106 +1,11 @@
-+-----------------------------------------------+----+----+
-| |image0|                                      |
-|                                               |
-| Cómo desarrollar sobre la plataforma sofia2   |
-+-----------------------------------------------+----+----+
-|                                               |
-+-----------------------------------------------+----+----+
-|                                               |
-+-----------------------------------------------+----+----+
-| MAYO 2014                                     |
-|                                               |
-| Versión 3                                     |
-+-----------------------------------------------+----+----+
-|                                               |
-+-----------------------------------------------+----+----+
-| |image1|                                      |    |    |
-+-----------------------------------------------+----+----+
+.. figure::  ./../../images/logo_sofia2_grande.png
+ :align:   center
+ 
 
-INDICE
-======
-
-`**1** **INDICE** 2 <#indice>`__
-
-`**2** **INTRODUCCION** 4 <#introduccion>`__
-
-`**2.1** **Requisitos** 4 <#requisitos>`__
-
-`**2.2** **Objetivos y alcance del presente documento** 4 <#objetivos-y-alcance-del-presente-documento>`__
-
-`**3** **INSTALACIÓN DE SOFIA SDK** 5 <#_Toc389467777>`__
-
-`**3.1** **Descarga e Instalación del SDK de SOFIA2** 5 <#descarga-e-instalación-del-sdk-de-sofia2>`__
-
-`**3.2** **Arranque del SDK de SOFIA2** 6 <#_Toc389467779>`__
-
-`**3.3** **Elementos que componen el SDK de SOFIA2** 7 <#_Toc389467780>`__
-
-`**3.3.1** **IDE** 7 <#_Toc389467781>`__
-
-`**3.3.2** **Consola de Arquitectura** 9 <#_Toc389467782>`__
-
-`**3.3.3** **API** 10 <#_Toc389467783>`__
-
-`**4** **DESARROLLO APLICACIONES SOFIA2** 12 <#desarrollo-aplicaciones-sofia2>`__
-
-`**4.1** **Registro en la plataforma SOFIA2** 12 <#registro-en-la-plataforma-sofia2>`__
-
-`**4.1.1** **Alta de usuario en la plataforma** 12 <#alta-de-usuario-en-la-plataforma>`__
-
-`**4.2** **Ontologización de la información** 15 <#ontologización-de-la-información>`__
-
-`**4.2.1** **Identificación de los conceptos de la información** 16 <#identificación-de-los-conceptos-de-la-información>`__
-
-`**4.2.2** **Identificación de los atributos de los conceptos** 16 <#identificación-de-los-atributos-de-los-conceptos>`__
-
-`**4.2.3** **Modelado en formato JSONSchema** 17 <#modelado-en-formato-jsonschema>`__
-
-`**4.2.4** **Alta de la ontología en la plataforma** 19 <#alta-de-la-ontología-en-la-plataforma>`__
-
-`**4.3** **Desarrollo de Clientes SOFIA2 (KPs)** 20 <#desarrollo-de-clientes-sofia2-kps>`__
-
-`**4.3.1** **Alta de permisos para usuario propietario en la plataforma** 20 <#alta-de-permisos-para-usuario-propietario-en-la-plataforma>`__
-
-`**4.3.2** **Alta de KP en la plataforma** 21 <#alta-de-kp-en-la-plataforma>`__
-
-`**4.3.3** **Conexión del KP con la plataforma** 22 <#conexión-del-kp-con-la-plataforma>`__
-
-`**4.3.4** **Captación/Explotacion de la información** 23 <#captaciónexplotacion-de-la-información>`__
-
-`**4.3.5** **Transformación de la información a formato ontológico** 23 <#transformación-de-la-información-a-formato-ontológico>`__
-
-`**4.3.6** **Envío a la plataforma según protocolo SSAP** 23 <#envío-a-la-plataforma-según-protocolo-ssap>`__
-
-`**4.3.7** **Consulta/Suscripción de la información según protocolo SSAP** 24 <#consultasuscripción-de-la-información-según-protocolo-ssap>`__
-
-`**4.3.8** **Recepción de la información a formato ontológico** 24 <#recepción-de-la-información-a-formato-ontológico>`__
-
-`**4.4** **Colaboración de KPs en tiempo real** 25 <#colaboración-de-kps-en-tiempo-real>`__
-
-`**5** **EJEMPLO PRÁCTICO** 26 <#ejemplo-práctico>`__
-
-`**5.1** **Alta de usuario en la plataforma** 27 <#alta-de-usuario-en-la-plataforma-1>`__
-
-`**5.2** **Ontologización de la información** 31 <#ontologización-de-la-información-1>`__
-
-`**5.3** **Desarrollo de KP productor de información** 35 <#desarrollo-de-kp-productor-de-información>`__
-
-`**5.4** **Desarrollo de KP consumidor de información** 42 <#desarrollo-de-kp-consumidor-de-información>`__
-
-`**5.5** **Ejecución** 54 <#ejecución>`__
-
-INTRODUCCION
-============
-
-Requisitos
-----------
-
-Antes de seguir esta guía se recomienda leer la guía **SOFIA2-Conceptos SOFIA2.doc**
+Cómo desarrollar sobre la plataforma Sofia2
+===========================================
 
 Para poder desarrollar aplicaciones SOFIA2 es necesaria la instalación del SDK de SOFIA2 conforme se indica en el punto **Instalación de SOFIA2 SDK**.
-
-Objetivos y alcance del presente documento
-------------------------------------------
 
 El presente documento describe los pasos para el desarrollo de aplicaciones sobre la plataforma SOFIA2, incluyendo:
 
