@@ -527,9 +527,8 @@ Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero e
 
     El administrador validará la petición, si se rechaza se le informará de los motivos.
 
-1. Que un usuario con rol COLABORADOR nos cree un Token con permisos para insertar instancias de una Ontología de la que es propietario.
+2. Que un usuario con rol COLABORADOR nos cree un Token con permisos para insertar instancias de una Ontología de la que es propietario.
 
-En la siguiente guía podremos ver un ejemplo completo sobre una aplicación que simula un tablón de anuncios sobre el que se insertarán datos. `Desarrollo de un cliente <http://sofia2.com/docs/SOFIA2-Desarrollo%20de%20un%20KP%20sobre%20la%20Plataforma%20SOFIA2.pdf>`__.
 
 
 .. |image0| image:: ./media/image2.png
