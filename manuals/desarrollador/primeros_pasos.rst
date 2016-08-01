@@ -161,7 +161,7 @@ Cómo Desarrollar una APP SOFIA2 (ROL USUARIO)
 
 En el punto anterior hemos descargado el SDK y las APIS y hemos ejecutado los ejemplos básicos que vienen incluidos.
 
-En este punto explicaremos los pasos necesarios para desarrollar una **APP Sofia2** sobre la instancia de Sofia2 disponibilizada en `**http://sofia2.com** <http://sofia2.com>`__.
+En este punto explicaremos los pasos necesarios para desarrollar una **APP Sofia2** sobre la instancia de Sofia2 disponibilizada en `http://sofia2.com <http://sofia2.com>`__.
 
 Esta instancia de Sofia2: **Sofia2 CloudLab** ofrece un entorno de experimentación que permite comenzar a desarrollar con la plataforma con una cuenta gratuita teniendo acceso a todas las funcionalidades de Sofia2 y accediendo a multitud de datos disponibilizados.
 
@@ -186,7 +186,7 @@ El proceso para desarrollar una APP Sofia2 consiste básicamente en:
 Darse de alta en la instancia Sofia2 inCloudLab
 -----------------------------------------------
 
-En la sección Productos de la Web de Sofia2 (`**http://sofia2.com/sofia2incloud.html** <http://sofia2.com/sofia2incloud.html>`__) se puede acceder a **Sofia2 CloudLab:**
+En la sección Productos de la Web de Sofia2 (`http://sofia2.com/sofia2incloud.html <http://sofia2.com/sofia2incloud.html>`__) se puede acceder a **Sofia2 CloudLab:**
 
 |image22|
 
@@ -196,7 +196,7 @@ En esta URL podemos registrarnos:
 
 |image23|
 
-Una vez que lo hagamos se nos asignará el rol **USUARIO**, **este rol permite consumir información pública de la plataforma, pero no volcar información en esta. **
+Una vez que lo hagamos se nos asignará el rol **USUARIO**, **este rol permite consumir información pública de la plataforma, pero no volcar información en esta.**
 
 Con este rol puedo crear APPs Sofia2 que consuman (consulten, se suscriban) a las ontologías que otros usuarios hayan definido como públicas.
 
@@ -213,7 +213,7 @@ Una vez que tengo mi usuario de Sofia2 CloudLab desde la página principal de So
 
 |image25|
 
-O bien a través de este link: `**http://sofia2.com/console/login** <http://sofia2.com/console/login>`__
+O bien a través de este link: `http://sofia2.com/console/login <http://sofia2.com/console/login>`__
 
 Nos logaremos con el usuario creado en el punto anterior, la pantalla principal tiene este aspecto:
 
