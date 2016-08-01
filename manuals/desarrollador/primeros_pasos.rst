@@ -217,7 +217,7 @@ Nos logaremos con el usuario creado en el punto anterior, la pantalla principal 
 |image26|
 
 Búsqueda y Suscripción a Ontologías
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Una vez dentro de la consola web el próximo paso es buscar **ontologías públicas** que pueda consumir desde mi APP y suscribirme a ellas para poder usarlas.
 
