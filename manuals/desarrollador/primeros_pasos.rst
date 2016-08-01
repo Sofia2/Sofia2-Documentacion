@@ -316,7 +316,7 @@ Al pulsar en el botón |image47|. Obtendremos la siguiente información:
 
 Tras esto podremos ver la instancia KP creada en Mis instancias KPs, desde donde podremos borrarla si fuese necesario |image49|.
 
-Si se necesita profundizar en los campos de las instancias KP se puede obtener mas información en la siguiente guía `**Consola Web Configuración** (Pdf) <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__
+Si se necesita profundizar en los campos de las instancias KP se puede obtener mas información en la siguiente guía `Consola Web Configuración (Pdf) <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__
 
 Consultar información desde Consola acceso BDTR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
