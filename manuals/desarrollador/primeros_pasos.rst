@@ -1,74 +1,9 @@
-+--------------------+----+----+
-| |image0|           |
-|                    |
-| PRIMEROS           |
-|                    |
-| PASOS con sofia2   |
-+--------------------+----+----+
-|                    |
-+--------------------+----+----+
-|                    |
-+--------------------+----+----+
-| JUNIO 2015         |
-|                    |
-| Versión 7          |
-+--------------------+----+----+
-|                    |
-+--------------------+----+----+
-| |image1|           |    |    |
-+--------------------+----+----+
+.. figure::  ./../../images/logo_sofia2_grande.png
+ :align:   center
+ 
 
-INDICE
-======
-
-`**1** **INDICE** 2 <#indice>`__
-
-`**2** **INTRODUCCIÓN** 3 <#introducción>`__
-
-`**2.1** **Requisitos** 3 <#requisitos>`__
-
-`**2.2** **Objetivos y alcance del presente documento** 3 <#objetivos-y-alcance-del-presente-documento>`__
-
-`**3** **SDK Y APIS SOFIA2** 4 <#sdk-y-apis-sofia2>`__
-
-`**3.1** **Instalar SDK Sofia2** 4 <#instalar-sdk-sofia2>`__
-
-`**3.2** **Abrir IDE Sofia2** 6 <#abrir-ide-sofia2>`__
-
-`**3.3** **Lanzar ejemplo de API Java Sofia2** 7 <#lanzar-ejemplo-de-api-java-sofia2>`__
-
-`**4** **CÓMO DESARROLLAR UNA APP SOFIA2 (ROL USUARIO)** 11 <#cómo-desarrollar-una-app-sofia2-rol-usuario>`__
-
-`**4.1** **Darse de alta en la instancia Sofia2 inCloudLab** 11 <#darse-de-alta-en-la-instancia-sofia2-incloudlab>`__
-
-`**4.2** **Acceder a la Consola Web de Sofia2 CloudLab** 13 <#acceder-a-la-consola-web-de-sofia2-cloudlab>`__
-
-`**4.2.1** **Búsqueda y Suscripción a Ontologías** 13 <#búsqueda-y-suscripción-a-ontologías>`__
-
-`**4.2.2** **Creación de un KP** 15 <#creación-de-un-kp>`__
-
-`**4.2.3** **Creación de una instancia KP** 17 <#creación-de-una-instancia-kp>`__
-
-`**4.2.4** **Consultar información desde Consola acceso BDTR** 19 <#consultar-información-desde-consola-acceso-bdtr>`__
-
-`**4.3** **Desarrollo de APP Sofia2 de consulta** 22 <#desarrollo-de-app-sofia2-de-consulta>`__
-
-`**4.3.1** **APP en Javascript** 22 <#app-en-javascript>`__
-
-`**4.3.2** **APP en Java** 27 <#app-en-java>`__
-
-`**4.4** **Desarrollo de una APP Sofia2 que inserte datos.** 32 <#desarrollo-de-una-app-sofia2-que-inserte-datos.>`__
-
-INTRODUCCIÓN
-============
-
-Requisitos
-----------
-
-Antes de seguir esta guía se recomienda leer la guía **SOFIA2-Conceptos SOFIA2.doc**
-
-Objetivos y alcance del presente documento
-------------------------------------------
+Primeros Pasos con Sofia2
+=========================
 
 Esta guía pretende introducir la plataforma SOFIA2, de modo que de una forma muy rápida un usuario pueda estar comunicando con la plataforma enviando y recibiendo datos a través de un KP.
 
@@ -83,7 +18,7 @@ Para eso se parte de:
 -  El **API** ***Javascript*** que contiene una APP Sofia2 HTML de ejemplo que representa visualmente los datos introducidos por el KP Java.
 
 SDK Y APIS SOFIA2 
-==================
+-----------------
 
 Instalar SDK Sofia2
 -------------------
