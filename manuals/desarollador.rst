@@ -4,8 +4,11 @@
 Documentación para Desarrolladores.
 ===================================
 
+Se recomienda previamente leer la documentación Básica para adquirir los conceptos principales.
 
-Si quieres interactuar y desarrollar tu cliente con la plataforma Sofia2 las siguientes Guías para desarrolladores serán de gran utilidad:
+Si quieres desarrollar tu APP para interactuar con la plataforma Sofia2 las siguientes Guías para desarrolladores te serán de gran utilidad.
+
+
 
 .. toctree::
    :caption: Primeros Pasos Sofia2
@@ -13,8 +16,11 @@ Si quieres interactuar y desarrollar tu cliente con la plataforma Sofia2 las sig
   
 
 
-Cómo desarrollar en Sofia2
---------------------------
+.. toctree::
+   :caption: Cómo desarrollar en Sofia2
+  ./desarrollador/desarrollar_en_sofia2
+  
+
 
 APIS y librerías Sofia2
 -----------------------
