@@ -428,7 +428,7 @@ A partir de aquí con un poco de conocimiento en Javascript puedo crear aplicaci
 APP en Java
 ~~~~~~~~~~~
 
-Siguiendo el mismo procedimiento que hemos seguido con la APP Javascript ahora descargaré el ejemplo base Java desde http://sofia2.com/docs/query_java.zip <http://sofia2.com/docs/query_java.zip>`_
+Siguiendo el mismo procedimiento que hemos seguido con la APP Javascript ahora descargaré el ejemplo base Java desde `http://sofia2.com/docs/query_java.zip <http://sofia2.com/docs/query_java.zip>`_
 
 Lo descargaré a mi unidad **s:\\** en la que monté el SDK.
 
