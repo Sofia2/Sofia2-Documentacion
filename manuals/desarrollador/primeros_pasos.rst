@@ -190,19 +190,18 @@ En la sección Productos de la Web de Sofia2 (`http://sofia2.com/sofia2incloud.h
 
 También se puede acceder vía: `http://sofia2.com/console/login <http://sofia2.com/console/login>`__
 
-En esta URL podemos registrarnos:
+En esta URL podemos registrarnos pulsando sobre el link **Crear una Nueva Cuenta**:
 
 |image23|
+
+A la hora de crear el usuario es importante seguir las reglas que se indican, entre ellas que la password debe contener letras, números y letras mayúsculas y minúsculas.
 
 Una vez que lo hagamos se nos asignará el rol **USUARIO**, **este rol permite consumir información pública de la plataforma, pero no volcar información en esta.**
 
 Con este rol puedo crear APPs Sofia2 que consuman (consulten, se suscriban) a las ontologías que otros usuarios hayan definido como públicas.
 
 **NOTA:** Más tarde veremos como solicitar el rol **COLABORADOR**, que permite **volcar información en la plataforma.**
-
-    |image24|
-
-A la hora de crear el usuario es importante seguir las reglas que se indican, entre ellas que la password debe contener letras, números y letras mayúsculas y minúsculas.
+|
 
 Acceder a la Consola Web de Sofia2 CloudLab
 -------------------------------------------
