@@ -100,9 +100,9 @@ En el directorio **/SOFIA-SDK/API** encontramos los API proporcionados por la pl
 API Java
 ^^^^^^^^
 
-El API Java se encuentra en la ruta |image30| en un Jar |image31|\ con la siguiente estructura de paquetes.
+El API Java se encuentra en la ruta |image30-APIJAVA| en un Jar |image31-APIJAVA|\ con la siguiente estructura de paquetes:
 
-|image32|
+|image32-APIJAVA|
 
 
 API JavaScript
@@ -838,3 +838,7 @@ Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero e
 .. |image84| image:: ./media/image88.png
    :width: 1.45833in
    :height: 0.34375in
+   
+.. |image30-APIJAVA| image:: ./media/image30-APIJAVA.png
+.. |image31-APIJAVA| image:: ./media/image31-APIJAVA.png
+.. |image32-APIJAVA| image:: ./media/image32-APIJAVA.png
