@@ -467,7 +467,7 @@ Donde:
 A continuación vamos a construir paso por paso el escenario descrito:
 
  Alta de usuario en la plataforma
----------------------------------
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Daremos de alta un único usuario, que será propietario de ambos KPs. Llamaremos a este usuario *sensorizacionLuminosidad*\ **.**
 
@@ -488,7 +488,7 @@ A continuación vamos a construir paso por paso el escenario descrito:
     De este modo, a partir de ahora, nuestro usuario *sensorizacionLuminosidad* será lo suficientemente autónomo sobre la plataforma para poner en marcha sus KPs.
 
  Ontologización de la información
----------------------------------
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Para el escenario descrito, identificamos un único concepto: **LuminositySensor**, al que dotaremos de los siguientes atributos:
 
@@ -619,7 +619,7 @@ A continuación vamos a construir paso por paso el escenario descrito:
     |image49|
 
 Desarrollo de KP productor de información
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     En el desarrollo de nuestro KP deberíamos empezar por dar permisos de **INSERT** a nuestro usuario para la ontología a ***LuminositySensor*** como se indica en la `**Guía de uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__. En nuestro caso, el usuario propietario del KP es también propietario de la ontología que utilizará el KP, por lo que no es necesario dar permiso de INSERT al usuario, ya que tiene todos los permisos.
 
@@ -884,7 +884,7 @@ Donde:
 +----------------------------------------------------------------------------------------------------------------------------------+
 
  Desarrollo de KP consumidor de información
--------------------------------------------
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Al igual que con el KP Productor, en el desarrollo de nuestro KP consumidor deberíamos empezar por dar permiso de **QUERY** a nuestro usuario para la ontología **LuminositySensor**. Pero de nuevo el usuario propietario del KP es también propietario de la ontología que utilizará, por lo que no es necesario dar tal permiso, ya que nuestro usuario tiene todos los permisos. En caso de utilizar otra ontología de la que el usuario no fuera propietario, un administrador debería dotar al usuario de tal permiso tal como se indicó en punto 3.3.1
 
@@ -1401,7 +1401,7 @@ Para esto, el API JavaScript nos obliga a implementar la siguiente función:
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Ejecución
----------
+^^^^^^^^^
 
     Una vez realizados todos los pasos anteriores, lo siguiente es comprobar que todo funciona correctamente. Para ello:
 
