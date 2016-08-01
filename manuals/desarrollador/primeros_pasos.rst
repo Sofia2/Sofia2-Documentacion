@@ -76,7 +76,7 @@ La Plataforma SOFIA se compone por estos elementos:
 -  **APIs SOFIA2**
 
 IDE 
-~~~~
+^^^
 
 Es el Entrono de Desarrollo de la Plataforma.
 
@@ -111,7 +111,7 @@ Se abrirá el **IDE para el desarrollo de clientes Arduino**.
 |image24|
 
 Consola de Arquitectura
-~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Ofrece herramientas de productividad para crear proyectos SOFIA2 de forma sencilla.
 
@@ -131,8 +131,8 @@ Que creará un esqueleto básico de un proyecto java para desarrollar uno de est
 
 
 
-API
-~~~
+APIs
+^^^^
 
 En el directorio **/SOFIA-SDK/API** encontramos los API proporcionados por la plataforma SOFIA2 para el desarrollo de aplicaciones que interactuen con ella.
 
