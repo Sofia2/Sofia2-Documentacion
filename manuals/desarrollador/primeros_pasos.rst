@@ -256,7 +256,7 @@ En la pantalla principal podré verla:
 A continuación haré lo mismo sobre la Ontología ***SensorHumedad.***
 
 Creación de un KP
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
 
 Tras suscribirme a las Ontologías debo crear un KP a través de la Consola Web.
 
@@ -291,7 +291,7 @@ Tras esto podré ver el KP creado en Mis KPs, desde esta ventana puedo verlo |im
 |image41|
 
 Creación de una instancia KP
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tras la creación de nuestro KP podemos dejar definida una instancia KP a través de la Consola Web.
 
@@ -318,7 +318,7 @@ Tras esto podremos ver la instancia KP creada en Mis instancias KPs, desde donde
 Si se necesita profundizar en los campos de las instancias KP se puede obtener mas información en la siguiente guía `Consola Web Configuración (Pdf) <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__
 
 Consultar información desde Consola acceso BDTR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Desde la Consola accederá a la opción de menú **HERRAMIENTAS>Consola BDTR y BDH.**
 
@@ -366,7 +366,7 @@ Hasta el momento:
 En este paso vamos a crear una APP Sofia2 tanto en Javascript como en Java que me permita consultar la información de estas ontologías, como su objetivo es ser didáctica la construiremos al estilo de la Consola de consultas a la BDTR.
 
 APP en Javascript
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^
 
 Para el ejemplo de APP Javascript partiremos de un ejemplo muy sencillo que podemos descargar desde: `http://sofia2.com/docs/query\_html.zip <http://sofia2.com/docs/query_html.zip>`__
 
