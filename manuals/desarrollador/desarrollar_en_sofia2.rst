@@ -5,7 +5,10 @@
 Cómo desarrollar sobre la plataforma Sofia2
 ===========================================
 
-Para poder desarrollar aplicaciones SOFIA2 es necesaria la instalación del SDK de SOFIA2 conforme se indica en el punto **Instalación de SOFIA2 SDK**.
+Para poder desarrollar aplicaciones SOFIA2 es necesaria la instalación del SDK de SOFIA2 conforme se indica en el punto **Descarga e Instalación del SDK de SOFIA2**.
+
+:doc: `/manuals/desarrollador/primeros_pasos.html#descarga-e-instalacion-del-sdk-de-sofia2`
+
 
 El presente documento describe los pasos para el desarrollo de aplicaciones sobre la plataforma SOFIA2, incluyendo:
 
