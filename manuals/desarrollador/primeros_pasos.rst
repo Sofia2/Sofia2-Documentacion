@@ -369,7 +369,7 @@ En este paso vamos a crear una APP Sofia2 tanto en Javascript como en Java que m
 APP en Javascript
 ~~~~~~~~~~~~~~~~~
 
-Para el ejemplo de APP Javascript partiremos de un ejemplo muy sencillo que podemos descargar desde: `**http://sofia2.com/docs/query\_html.zip** <http://sofia2.com/docs/query_html.zip>`__
+Para el ejemplo de APP Javascript partiremos de un ejemplo muy sencillo que podemos descargar desde: `http://sofia2.com/docs/query\_html.zip <http://sofia2.com/docs/query_html.zip>`__
 
 Lo descargaré a mi unidad s:\\ en la que monté el SDK.
 
@@ -377,7 +377,7 @@ Una vez allí lo descomprimo en una carpeta **s:\\query\_html.**
 
 |image58|
 
-El ejemplo se compone de un único fichero HTML **query.html** que utiliza las librerías Javascript de Sofia2 colgadas en `**http://sofia2.com** <http://sofia2.com>`__.
+El ejemplo se compone de un único fichero HTML **query.html** que utiliza las librerías Javascript de Sofia2 colgadas en `http://sofia2.com <http://sofia2.com>`__.
 
 Si abrimos el ejemplo encontraremos un interfaz muy básico
 
@@ -419,16 +419,16 @@ Podemos ver que el código Javascript es muy sencillo y podemos depurarlo a trav
 
 Que me permite ir viendo por donde va pasando el código.
 
-\*Nota: si no se muestra información puede ser debido a que no se encuentre información en la base de datos.
+**Nota**: si no se muestra información puede ser debido a que no se encuentre información en la base de datos.
 
-A partir de aquí con un poco de conocimiento en Javascript puedo crear aplicaciones mucho más complejas como pueden verse en los demostradores Sofia2: `**http://sofia2.com** <http://sofia2.com>`__
+A partir de aquí con un poco de conocimiento en Javascript puedo crear aplicaciones mucho más complejas como pueden verse en los demostradores Sofia2: `http://sofia2.com/demostradores.html <http://sofia2.com/demostradores.html>`__
 
 |image66|
 
 APP en Java
 ~~~~~~~~~~~
 
-Siguiendo el mismo procedimiento que hemos seguido con la APP Javascript ahora descargaré el ejemplo base Java desde **http://sofia2.com/docs/query_java.zip.**
+Siguiendo el mismo procedimiento que hemos seguido con la APP Javascript ahora descargaré el ejemplo base Java desde http://sofia2.com/docs/query_java.zip <http://sofia2.com/docs/query_java.zip>`_
 
 Lo descargaré a mi unidad **s:\\** en la que monté el SDK.
 
@@ -512,7 +512,7 @@ La descarga esta primera vez puede tardar varios minutos.
 
     |image83|
 
-**\*Nota**: si no se muestra información puede ser debido a que no se encuentre información en la base de datos.
+**Nota**: si no se muestra información puede ser debido a que no se encuentre información en la base de datos.
 
 Desarrollo de una APP Sofia2 que inserte datos. 
 ------------------------------------------------
