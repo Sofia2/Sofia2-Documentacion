@@ -188,7 +188,7 @@ En la sección Productos de la Web de Sofia2 (`http://sofia2.com/sofia2incloud.h
 
 |image22|
 
-También se puede acceder vía: `**http://sofia2.com/console/gestionusuarios/registerUser** <http://sofia2.com/console/gestionusuarios/registerUser>`__
+También se puede acceder vía: `http://sofia2.com/console/login <http://sofia2.com/console/login>`__
 
 En esta URL podemos registrarnos:
 
