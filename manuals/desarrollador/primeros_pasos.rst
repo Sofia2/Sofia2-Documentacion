@@ -57,7 +57,11 @@ Los pasos para instalarlo son:
 
     El fichero LEEME\_WINDOWS.txt describe los pasos a seguir para configurar y lanzar el SDK y ejecutar los ejemplos.
 
-1. Una vez descomprimido voy a la carpeta (c:\\SOFIA2\_SDK\_WIN\\) y ejecuto el script **Sofia2\_SDK-START.bat.** Esto debe abrir una línea de comandos sobre **S:** con esta información:
+
+Arranque del SDK de SOFIA2
+--------------------------
+
+Una vez descomprimido voy a la carpeta (c:\\SOFIA2\_SDK\_WIN\\) y ejecuto el script **Sofia2\_SDK-START.bat.** Esto debe abrir una línea de comandos sobre **S:** con esta información:
 
     |image7|
 
@@ -67,7 +71,7 @@ Elementos que componen el SDK de SOFIA2
 
 La Plataforma SOFIA se compone por estos elementos:
 
--  **IDE **
+-  **IDE**
 
 -  **Consola de Arquitectura Técnica iTR de Indra**
 
@@ -170,7 +174,7 @@ El API Java Script se encuentra en el propio SIB, El acceso directo |image34|\ n
 Abrir IDE Sofia2
 ----------------
 
-Una vez instalado el SDK ya puedo lanzar el IDE Eclipse incluido.
+Una vez instalado y arrancado el SDK ya puedo lanzar el IDE Eclipse incluido.
 
 Para eso:
 
@@ -187,6 +191,7 @@ Para eso:
     |image10|
 
     y en User Settings selecciono: **s:\\SOFIA2-SDK\\MAVEN\\conf\\settings.xml** y selecciono **Update Settings.** Luego pincho OK.
+
 
 Lanzar ejemplo de API Java Sofia2
 ---------------------------------
