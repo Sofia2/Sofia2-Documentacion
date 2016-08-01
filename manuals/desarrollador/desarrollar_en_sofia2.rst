@@ -466,8 +466,8 @@ Donde:
 
 A continuación vamos a construir paso por paso el escenario descrito:
 
- Alta de usuario en la plataforma
- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Alta de usuario en la plataforma
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Daremos de alta un único usuario, que será propietario de ambos KPs. Llamaremos a este usuario *sensorizacionLuminosidad*\ **.**
 
@@ -487,8 +487,8 @@ A continuación vamos a construir paso por paso el escenario descrito:
 
     De este modo, a partir de ahora, nuestro usuario *sensorizacionLuminosidad* será lo suficientemente autónomo sobre la plataforma para poner en marcha sus KPs.
 
- Ontologización de la información
- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ontologización de la información
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Para el escenario descrito, identificamos un único concepto: **LuminositySensor**, al que dotaremos de los siguientes atributos:
 
@@ -883,8 +883,8 @@ Donde:
 | }                                                                                                                                |
 +----------------------------------------------------------------------------------------------------------------------------------+
 
- Desarrollo de KP consumidor de información
- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Desarrollo de KP consumidor de información
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Al igual que con el KP Productor, en el desarrollo de nuestro KP consumidor deberíamos empezar por dar permiso de **QUERY** a nuestro usuario para la ontología **LuminositySensor**. Pero de nuevo el usuario propietario del KP es también propietario de la ontología que utilizará, por lo que no es necesario dar tal permiso, ya que nuestro usuario tiene todos los permisos. En caso de utilizar otra ontología de la que el usuario no fuera propietario, un administrador debería dotar al usuario de tal permiso tal como se indicó en punto 3.3.1
 
