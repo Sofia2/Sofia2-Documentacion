@@ -13,15 +13,15 @@ Para eso se parte de:
 
 -  El **SDK Sofia2** que nos permite desarrollar APPs Sofia2 de forma sencilla. No es imprescindible pero simplifica su desarrollo.
 
--  El **API *Java*** que además contiene una APP Sofia2 de ejemplo (KP) que envía datos simulados de Temperatura y Humedad.
+-  El **API Java** que además contiene una APP Sofia2 de ejemplo (KP) que envía datos simulados de Temperatura y Humedad.
 
--  El **API** ***Javascript*** que contiene una APP Sofia2 HTML de ejemplo que representa visualmente los datos introducidos por el KP Java.
+-  El **API Javascript** que contiene una APP Sofia2 HTML de ejemplo que representa visualmente los datos introducidos por el KP Java.
 
 
 Instalar SDK Sofia2
 -------------------
 
-Para descargar el SDK de Sofia2 iré al menú de Desarrolladores de Sofia2: `**http://sofia2.com/desarrollador.html** <http://sofia2.com/desarrollador.html>`__
+Para descargar el SDK de Sofia2 iré al menú de Desarrolladores de Sofia2: `http://sofia2.com/desarrollador.html <http://sofia2.com/desarrollador.html>`__
 
 |image2|
 
@@ -41,7 +41,7 @@ El SDK de Windows se suministra en formato ZIP y contiene todo lo necesario para
 
 Los pasos para instalarlo son:
 
-1. Descargar SDK Sofia2 (Windows) en `**http://sofia2.org/sdk/SOFIA2\_SDK\_WIN.zip** <http://sofia2.org/sdk/SOFIA2_SDK_WIN.zip>`__
+1. Descargar SDK Sofia2 (Windows) en `http://sofia2.org/sdk/SOFIA2\_SDK\_WIN.zip <http://sofia2.org/sdk/SOFIA2_SDK_WIN.zip>`__
 
 2. Una vez descargado el ZIP lo descomprimo en una carpeta, nosotros usaremos **c:\\SOFIA2\_SDK\_WIN\\**
 
@@ -89,9 +89,9 @@ Ahora vamos a cargar en el IDE un ejemplo Java incluido en el API Java Sofia2.
 
 Para eso:
 
-1. Desde el menú de Desarrollador de la web de Sofia2 `**http://sofia2.com/desarrollador.html** <http://sofia2.com/desarrollador.html>`__ en la sección Descargas selecciono el API Java:
+1. Desde el menú de Desarrollador de la web de Sofia2 `http://sofia2.com/desarrollador.html <http://sofia2.com/desarrollador.html>`__ en la sección Descargas selecciono el API Java:
 
-    `**http://sofia2.org/apis/SOFIA2\_API\_JAVA/SOFIA2\_API\_JAVA.zip** <http://sofia2.org/apis/SOFIA2_API_JAVA/SOFIA2_API_JAVA.zip>`__
+    `http://sofia2.org/apis/SOFIA2\_API\_JAVA/SOFIA2\_API\_JAVA.zip <http://sofia2.org/apis/SOFIA2_API_JAVA/SOFIA2_API_JAVA.zip>`__
 
 1. Descargo el API Java en el directorio donde previamente instalé el SDK (en nuestro caso **c:\\SOFIA2\_SDK\_WIN\\)**
 
