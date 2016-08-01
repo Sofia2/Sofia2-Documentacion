@@ -352,8 +352,7 @@ Y:
 
 |image57|
 
-Desarrollo de una APP Sofia2 de consulta
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 Hasta el momento:
 
@@ -365,8 +364,8 @@ Hasta el momento:
 
 En este paso vamos a crear una APP Sofia2 tanto en Javascript como en Java que me permita consultar la información de estas ontologías, como su objetivo es ser didáctica la construiremos al estilo de la Consola de consultas a la BDTR.
 
-APP en Javascript
-^^^^^^^^^^^^^^^^^
+Desarrollo de una APP Sofia2 de consulta en Javascript
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Para el ejemplo de APP Javascript partiremos de un ejemplo muy sencillo que podemos descargar desde: `http://sofia2.com/docs/query\_html.zip <http://sofia2.com/docs/query_html.zip>`__
 
@@ -394,7 +393,7 @@ En el que aparece:
 
 -  **Botón Join:** este botón se encarga de logar en la instancia con el Token y la instancia de KP.
 
-Introduciré mi Token en el camo y pulsaré el botón Join:
+Introduciré mi Token en el campo y pulsaré el botón Join:
 
 |image60|
 
@@ -424,8 +423,8 @@ A partir de aquí con un poco de conocimiento en Javascript puedo crear aplicaci
 
 |image66|
 
-APP en Java
-~~~~~~~~~~~
+Desarrollo de una APP Sofia2 de consulta en Java
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Siguiendo el mismo procedimiento que hemos seguido con la APP Javascript ahora descargaré el ejemplo base Java desde `http://sofia2.com/docs/query_java.zip <http://sofia2.com/docs/query_java.zip>`_
 
