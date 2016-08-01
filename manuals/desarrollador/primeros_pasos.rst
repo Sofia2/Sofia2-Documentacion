@@ -18,8 +18,8 @@ Para eso se parte de:
 -  El **API Javascript** que contiene una APP Sofia2 HTML de ejemplo que representa visualmente los datos introducidos por el KP Java.
 
 
-Instalar SDK Sofia2
--------------------
+Descarga e Instalación del  SDK de Sofia2
+-----------------------------------------
 
 Para descargar el SDK de Sofia2 iré al menú de Desarrolladores de Sofia2: `http://sofia2.com/desarrollador.html <http://sofia2.com/desarrollador.html>`__
 
