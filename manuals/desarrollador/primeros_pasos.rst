@@ -17,8 +17,6 @@ Para eso se parte de:
 
 -  El **API** ***Javascript*** que contiene una APP Sofia2 HTML de ejemplo que representa visualmente los datos introducidos por el KP Java.
 
-SDK Y APIS SOFIA2 
------------------
 
 Instalar SDK Sofia2
 -------------------
@@ -157,7 +155,8 @@ Para eso:
 
 -  Query en SQL, Query a la BDC (Assets)
 
-CÓMO DESARROLLAR UNA APP SOFIA2 (ROL USUARIO)
+
+Cómo Desarrollar una APP SOFIA2 (ROL USUARIO)
 =============================================
 
 En el punto anterior hemos descargado el SDK y las APIS y hemos ejecutado los ejemplos básicos que vienen incluidos.
