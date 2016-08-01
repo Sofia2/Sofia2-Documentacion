@@ -157,7 +157,7 @@ Para eso:
 
 
 Cómo Desarrollar una APP SOFIA2
-===============================
+-------------------------------
 
 En el punto anterior hemos descargado el SDK y las APIS y hemos ejecutado los ejemplos básicos que vienen incluidos.
 
@@ -182,7 +182,7 @@ El proceso para desarrollar una APP Sofia2 consiste básicamente en:
 -  Desarrollo de APP Sofia2 que inserta y en Java que publica medidas de Temperatura y Humedad
 
 Darse de alta en la instancia Sofia2 inCloudLab
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 En la sección Productos de la Web de Sofia2 (`http://sofia2.com/sofia2incloud.html <http://sofia2.com/sofia2incloud.html>`__) se puede acceder a **Sofia2 CloudLab:**
 
@@ -204,7 +204,7 @@ Con este rol puedo crear APPs Sofia2 que consuman (consulten, se suscriban) a la
 
 
 Acceder a la Consola Web de Sofia2 CloudLab
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Una vez que tengo mi usuario de Sofia2 CloudLab desde la página principal de Sofia2 puedo hacer Login:
 
@@ -353,7 +353,7 @@ Y:
 |image57|
 
 Desarrollo de una APP Sofia2 de consulta
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Hasta el momento:
 
@@ -514,7 +514,7 @@ La descarga esta primera vez puede tardar varios minutos.
 **Nota**: si no se muestra información puede ser debido a que no se encuentre información en la base de datos.
 
 Desarrollo de una APP Sofia2 que inserte datos. 
-------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero estas mismas aplicaciones también pueden insertar información, siempre que tengan permisos para insertar datos en la Plataforma, esto se puede conseguir:
 
