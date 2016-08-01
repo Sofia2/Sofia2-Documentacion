@@ -466,31 +466,33 @@ Donde:
 
 A continuación vamos a construir paso por paso el escenario descrito:
 
+
 Alta de usuario en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Daremos de alta un único usuario, que será propietario de ambos KPs. Llamaremos a este usuario *sensorizacionLuminosidad*\ **.**
+Daremos de alta un único usuario, que será propietario de ambos KPs. Llamaremos a este usuario *sensorizacionLuminosidad*\ **.**
 
-    Entramos en la plataforma y pulsamos **solicita un nuevo usuario:**
+Entramos en la plataforma y pulsamos **solicita un nuevo usuario:**
 
 |image45|
 
-    A continuación introducimos los datos del usuario en el formulario de alta:
+A continuación introducimos los datos del usuario en el formulario de alta:
 
 |image46|
 
-    Una vez dado de alta por esta vía, el usuario tendrá rol **ROL\_USUARIO**, con el cual podrá crear sus propios KPs sobre ontologías sobre las que está suscrito, pero no será lo suficientemente autónomo para poder ejecutar este ejemplo práctico dado que se necesita crear un KP productos de información. Para poder obtener los privilegios oportunos, un usuario con **ROL\_ADMINISTRADOR** deberá incrementar su nivel de control sobre la plataforma a **ROL\_COLABORADOR** o **ROL\_ADMINISTRADOR**.
+Una vez dado de alta por esta vía, el usuario tendrá rol **ROL\_USUARIO**, con el cual podrá crear sus propios KPs sobre ontologías sobre las que está suscrito, pero no será lo suficientemente autónomo para poder ejecutar este ejemplo práctico dado que se necesita crear un KP productos de información. Para poder obtener los privilegios oportunos, un usuario con **ROL\_ADMINISTRADOR** deberá incrementar su nivel de control sobre la plataforma a **ROL\_COLABORADOR** o **ROL\_ADMINISTRADOR**.
 
-    En nuestro caso le daremos **ROL\_COLABORADOR** como se indica en la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__:
+En nuestro caso le daremos **ROL\_COLABORADOR** como se indica en la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__:
 
     |image47|
 
-    De este modo, a partir de ahora, nuestro usuario *sensorizacionLuminosidad* será lo suficientemente autónomo sobre la plataforma para poner en marcha sus KPs.
+ De este modo, a partir de ahora, nuestro usuario *sensorizacionLuminosidad* será lo suficientemente autónomo sobre la plataforma para poner en marcha sus KPs.
+ 
 
 Ontologización de la información
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Para el escenario descrito, identificamos un único concepto: **LuminositySensor**, al que dotaremos de los siguientes atributos:
+Para el escenario descrito, identificamos un único concepto: **LuminositySensor**, al que dotaremos de los siguientes atributos:
 
 -  **Identificador**: Identificación del Sensor String
 
