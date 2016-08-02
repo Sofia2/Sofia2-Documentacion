@@ -72,7 +72,7 @@ Por ejemplo, en un SmartSpace de sensorización de una SmartCity, conceptos rele
 
 -  AspersorRiego
 
-    ·····
+ ·····
 
 Identificación de los atributos de los conceptos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -319,17 +319,17 @@ De manera que en función del tipo de KPs que vaya a desarrollar un usuario, hab
 Alta de KP en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Un usuario deberá registrar en la plataforma sus KPs, de lo contrario, la plataforma rechazará la conexión de los mismos.
+Un usuario deberá registrar en la plataforma sus KPs, de lo contrario, la plataforma rechazará la conexión de los mismos.
 
-    Para registrar un KP, la plataforma proporciona la sección **Gestion KPs**, donde un usuario podrá crear un nuevo KP o administrar los que ya tiene dados de alta:
+Para registrar un KP, la plataforma proporciona la sección **Gestion KPs**, donde un usuario podrá crear un nuevo KP o administrar los que ya tiene dados de alta:
 
     |image43|
 
-    Como vemos, un KP podrá hacer uso de una o varias ontologías, siendo esta la información que producirá o consumirá de la plataforma.
+Como vemos, un KP podrá hacer uso de una o varias ontologías, siendo esta la información que producirá o consumirá de la plataforma.
 
-    Una vez registrado en la plataforma, el KP ya podrá establecer conexiones con la misma.
+Una vez registrado en la plataforma, el KP ya podrá establecer conexiones con la misma.
 
-    Desde la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__ publicada se puede consultar el detalle de la operativa relacionada con la Gestión de KPs.
+
 
 Conexión del KP con la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -404,7 +404,7 @@ Del mismo modo que un KP envía la información a la plataforma de acuerdo a una
 Colaboración de KPs en tiempo real
 ----------------------------------
 
- Representa la colaboración entre KPs formando un ***Smart Space***. Requiere que:
+Representa la colaboración entre KPs formando un ***Smart Space***. Requiere que:
 
 -  Las ontologías representando la información a intercambiar están dadas de alta en la plataforma por medio de la ***Consola Web***.
 
