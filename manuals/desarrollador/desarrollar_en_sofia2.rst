@@ -191,29 +191,24 @@ Por lo que la información que los KPs produzcan/consuman de este tipo de sensor
 +---------------------------------------+
 | **SensorTemperatura-instance.json**   |
 +---------------------------------------+
-| {                                     |
-|                                       |
-| "SensorTemperatura": {                |
-|                                       |
-| "*identificador*":"ST-TA3231-1",      |
-|                                       |
-| "*timestamp*":1357930309163,          |
-|                                       |
-| "*medida*":25.1,                      |
-|                                       |
-| "*unidad*":"C",                       |
-|                                       |
-| "localizacionGps":{                   |
-|                                       |
-| "*altitud*":0.0,                      |
-|                                       |
-| "*latitud*":40.512967,                |
-|                                       |
-| "*longitud*":-3.67495                 |
-| }                                     |
-| }                                     |
-| }                                     |
-+---------------------------------------+
+.. code-block:: json
+
+  {
+   "SensorTemperatura": 
+    {
+    "identificador":"ST-TA3231-1",
+    "timestamp":1357930309163,
+    "medida":25.1,
+    "unidad":"C",
+     "localizacionGps":
+      {
+        "altitud":0.0,
+        "latitud":40.512967,
+        "longitud":-3.67495
+      }
+    }
+  }
+
 
 Alta de la ontología en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
