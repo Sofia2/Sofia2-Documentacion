@@ -59,9 +59,9 @@ Los pasos para instalarlo son:
  
  3. Dentro del directorio SOFIA2-SDK encontramos todos los componentes que componen el SDK:
  
-- En los directorios **MAVEN** y **M2_REPRO** se encuentran la Herramienta Maven las dependeencias manejadas por esta para el desarrollo sobre la Plataforma Sofia.
-- En el directorio **API**   encontramos las API Java y Javascript para el desarrollo de KP.
-- En el directorio **WORKSPACE** encontramos los directorios de configuración de los IDE.
+   - En los directorios **MAVEN** y **M2_REPRO** se encuentran la Herramienta Maven las dependeencias manejadas por esta para el desarrollo sobre la Plataforma Sofia.
+   - En el directorio **API**   encontramos las API Java y Javascript para el desarrollo de KP.
+   - En el directorio **WORKSPACE** encontramos los directorios de configuración de los IDE.
 
 
 
@@ -116,27 +116,6 @@ Donde dispondremos de los comandos **ArqSpring>sofia create(Gateway, KP, Plugin)
 |image27-ConsolaArq|
 
 Que creará un esqueleto básico de un proyecto java para desarrollar uno de estos componentes.
-
-
-APIs
-^^^^
-
-En el directorio **/SOFIA-SDK/API** encontramos los API proporcionados por la plataforma SOFIA2 para el desarrollo de aplicaciones que interactuen con ella.
-
-
-API Java
-^^^^^^^^
-
-El API Java se encuentra en la ruta |image30-APIJAVA| en un Jar |image31-APIJAVA|\ con la siguiente estructura de paquetes:
-
-|image32-APIJAVA|
-
-
-API JavaScript
-^^^^^^^^^^^^^^
-
-El API Java Script se encuentra en el propio SIB, El acceso directo |image34-APIJS|\ nos ubicará en la ruta |image35-APIJS|\ donde está el fichero js con el API del KP |image36-APIJS|
-
 
 
 Abrir IDE Sofia2
