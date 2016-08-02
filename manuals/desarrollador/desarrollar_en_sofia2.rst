@@ -102,7 +102,7 @@ Modelado en formato JSONSchema
 
 Identificados los datos a intercambiar, el siguiente paso es estandarizarlos para que tengan una definición unívoca para los KPs en la plataforma. En esto consiste la ontologización de la información, donde cada concepto relevante se define de acuerdo a un schema JSON.
 
- Por ejemplo, el concepto SensorTemperatura con los atributos identificados anteriormente se definiría en formato JSONSchema del siguiente modo:
+Por ejemplo, el concepto SensorTemperatura con los atributos identificados anteriormente se definiría en formato JSONSchema del siguiente modo:
 
 +---------------------------------------------------------+
 | **SensorTemperatura.json**                              |
@@ -296,8 +296,8 @@ Para ello se dispone en la plataforma de un apartado de **Gestión de Ontología
 
 
 
- Desarrollo de Clientes SOFIA2 (KPs)
-------------------------------------
+Desarrollo de Clientes SOFIA2 (KPs)
+-----------------------------------
 
  Un KP es cualquier aplicación que produce o consume información para colaborar con otros a través de la plataforma, formando de este modo un **Smart Space** con aquellos otros KPs con los que colabora.
 
