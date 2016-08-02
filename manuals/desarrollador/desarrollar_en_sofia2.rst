@@ -20,16 +20,16 @@ Diferentes KPs intercambiarán información para interoperar.
 Cada KP tiene un usuario propietario, pudiendo un mismo usuario ser propietario de varios KPs.
 
 Alta de usuario en la plataforma
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Un usuario puede darse de alta en la plataforma por sí mismo o por un administrador.
 
--  **Alta por sí mismo**: En la URL `**http://sofia2.com/console/** <http://sofia2.com/console/>`__ la pantalla de **login** proporciona el enlace *crear una cuenta nueva.*
+-  **Alta por sí mismo**: En la URL `http://sofia2.com/console/ <http://sofia2.com/console/>`__ la pantalla de **login** proporciona el enlace *crear una cuenta nueva.*
 
 .. figure:: ./media/loginSofia2.PNG
  :align:   center
 
-    Que redirecciona a un formulario de alta de usuario:
+ Que redirecciona a un formulario de alta de usuario:
 
 .. figure:: ./media/image27.png 
  :align:   center
@@ -52,7 +52,7 @@ Ontologización de la información
     SOFIA2 propone el intercambio de información entre KPs en formato JSON. De modo que una ontología en SOFIA2 es la especificación unívoca de un formato JSON de información, por lo que estas ontologías se definen de acuerdo a un schema JSON `**http://json-schema.org/** <http://json-schema.org/>`__.
 
 Identificación de los conceptos de la información
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Consiste en identificar las entidades que agruparán los datos que intercambiarán los KPs a través de la plataforma.
 
