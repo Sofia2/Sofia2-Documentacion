@@ -91,6 +91,26 @@ SOFIA2 distribuye 2 IDE:
 -  IDE para el desarrollo sobre Arduino.
 
 
+Consola de Arquitectura
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Ofrece herramientas de productividad para crear proyectos SOFIA2 de forma sencilla.
+
+Ejecutando en la Consola el comando **S:\\>arqspring**
+
+|image25-ConsolaArq|
+
+Se abrirá la **consola de Arquitectura iTR**
+
+|image26-ConsolaArq|
+
+Donde dispondremos de los comandos **ArqSpring>sofia create(Gateway, KP, Plugin)**
+
+|image27-ConsolaArq|
+
+Que creará un esqueleto básico de un proyecto java para desarrollar uno de estos componentes.
+
+
 APIs
 ^^^^
 
@@ -845,4 +865,7 @@ Hasta ahora hemos visto como desarrollar APPs de consumo de información. Pero e
 .. |image34-APIJS| image:: ./media/image34-APIJS.png
 .. |image35-APIJS| image:: ./media/image35-APIJS.png
 .. |image36-APIJS| image:: ./media/image36-APIJS.png
+.. |image25-ConsolaArq| image:: ./media/image25-ConsolaArq.png
+.. |image26-ConsolaArq| image:: ./media/image26-ConsolaArq.png
+.. |image27-ConsolaArq| image:: ./media/image27-ConsolaArq.png
 
