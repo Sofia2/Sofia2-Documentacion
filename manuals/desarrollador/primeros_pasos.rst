@@ -84,7 +84,6 @@ La Plataforma SOFIA se compone por estos elementos:
 
 -  **Repositorio Local Maven3 con todas las dependencias**
 
--  **APIs SOFIA2**
 
 IDE 
 ^^^
