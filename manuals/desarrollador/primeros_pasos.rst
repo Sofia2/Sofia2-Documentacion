@@ -56,6 +56,13 @@ Los pasos para instalarlo son:
     |image6|
 
     El fichero LEEME\_WINDOWS.txt describe los pasos a seguir para configurar y lanzar el SDK y ejecutar los ejemplos.
+ 
+ 3. Dentro del directorio SOFIA-SDK encontramos todos los componentes que componen el SDK:
+ 
+- En los directorios **MAVEN** y **M2_REPRO** se encuentran la Herramienta Maven las dependeencias manejadas por esta para el desarrollo sobre la Plataforma Sofia.
+- En el directorio **API**   encontramos las API Java y Javascript para el desarrollo de KP.
+- En el directorio **WORKSPACE** encontramos los directorios de configuración de los IDE.
+
 
 
 Arranque del SDK de SOFIA2
