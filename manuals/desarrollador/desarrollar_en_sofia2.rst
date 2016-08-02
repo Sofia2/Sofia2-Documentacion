@@ -217,7 +217,8 @@ Una ontología deberá ser registrada en la plataforma para quedar operativa y p
 
 Para ello se dispone en la plataforma de un apartado de **Gestión de Ontologías**, donde editar y dar de alta nuevas ontologías, así como su administración posterior:
 
-|image41|
+.. figure:: ./media/CrearOntologia.png 
+ :align:   center
 
 
 
