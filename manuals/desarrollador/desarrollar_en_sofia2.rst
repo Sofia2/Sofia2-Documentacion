@@ -302,7 +302,7 @@ Desde la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/S
  Desarrollo de Clientes SOFIA2 (KPs)
 ------------------------------------
 
- Un KP es cualquier aplicación que produce o consume información para colaborar con otros a través de la plataforma, formando de este modo un ***Smart Space*** con aquellos otros KPs con los que colabora.
+ Un KP es cualquier aplicación que produce o consume información para colaborar con otros a través de la plataforma, formando de este modo un **Smart Space** con aquellos otros KPs con los que colabora.
 
  Para desarrollar un KP, aparte de programar su lógica de negocio, hay que realizar los siguientes pasos sobre la plataforma:
 
@@ -314,8 +314,6 @@ Alta de permisos para usuario propietario en la plataforma
     Una ontología registrada en la plataforma puede no ser visible para un usuario, o en caso de serlo, puede estar limitado en sus operaciones a determinados permisos.
 
     La plataforma proporciona a los administradores en la sección de **Gestión de usuarios > Autorizaciones**, una pantalla para administrar las autorizaciones de un usuario sobre las distintas ontologías registradas.
-
-    Desde la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__ publicada se puede consultar el detalle de la operativa relacionada con la Gestión de Usuarios.
 
     |image42|
 
@@ -440,6 +438,7 @@ Colaboración de KPs en tiempo real
       -  En modo suscripción mediante SSAP SUBSCRIBE.
 
    -  Explotan la información según su lógica de negocio.
+
 
 Ejemplo Práctico
 ----------------
