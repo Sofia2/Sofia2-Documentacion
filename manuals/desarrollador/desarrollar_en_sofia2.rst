@@ -26,11 +26,13 @@ Alta de usuario en la plataforma
 
 -  **Alta por sí mismo**: En la URL `**http://sofia2.com/console/** <http://sofia2.com/console/>`__ la pantalla de **login** proporciona el enlace *crear una cuenta nueva.*
 
-    |image38|
+.. figure:: ./media/loginSofia2.PNG
+ :align:   center
 
     Que redirecciona a un formulario de alta de usuario:
 
-    |image39|
+.. figure:: ./media/image27.png 
+ :align:   center
 
     Dándose de alta por sí mismo, el usuario tendrá rol **USUARIO** en la plataforma, sin gozar de permisos especiales, cosa que deberá hacerse posteriormente por un administrador.
 
