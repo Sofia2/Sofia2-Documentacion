@@ -49,7 +49,7 @@ Ontologización de la información
 
     Una ontología es una clasificación de la información, que estandariza las propiedades de los conceptos del dominio con los que interoperarán los distintos KPs, de manera que distintos KPs trabajando con las mismas ontologías pueden intercambiar información a través de la plataforma de una manera totalmente desacoplada, mediante el intercambio de instancias de tales ontologías.
 
-    SOFIA2 propone el intercambio de información entre KPs en formato JSON. De modo que una ontología en SOFIA2 es la especificación unívoca de un formato JSON de información, por lo que estas ontologías se definen de acuerdo a un schema JSON `**http://json-schema.org/** <http://json-schema.org/>`__.
+    SOFIA2 propone el intercambio de información entre KPs en formato JSON. De modo que una ontología en SOFIA2 es la especificación unívoca de un formato JSON de información, por lo que estas ontologías se definen de acuerdo a un schema JSON `http://json-schema.org/ <http://json-schema.org/>`__.
 
 Identificación de los conceptos de la información
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,7 +75,7 @@ Identificación de los conceptos de la información
     ·····
 
 Identificación de los atributos de los conceptos
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Consiste en identificar los datos agrupados por los conceptos de información y que serán relevantes para los KPs
 
@@ -98,7 +98,7 @@ Identificación de los atributos de los conceptos
    -  **Longitud**:double
 
 Modelado en formato JSONSchema
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Identificados los datos a intercambiar, el siguiente paso es estandarizarlos para que tengan una definición unívoca para los KPs en la plataforma. En esto consiste la ontologización de la información, donde cada concepto relevante se define de acuerdo a un schema JSON.
 
@@ -289,15 +289,15 @@ Modelado en formato JSONSchema
 +---------------------------------------+
 
 Alta de la ontología en la plataforma
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Una ontología deberá ser registrada en la plataforma para quedar operativa y poder ser utilizada por los KPs para insertar/consumir la información descrita por la misma.
+Una ontología deberá ser registrada en la plataforma para quedar operativa y poder ser utilizada por los KPs para insertar/consumir la información descrita por la misma.
 
-    Para ello se dispone en la plataforma de un apartado de **Gestión de Ontologías**, donde editar y dar de alta nuevas ontologías, así como su administración posterior:
+ Para ello se dispone en la plataforma de un apartado de **Gestión de Ontologías**, donde editar y dar de alta nuevas ontologías, así como su administración posterior:
 
 |image41|
 
-Desde la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__ publicada se puede consultar el detalle de la operativa relacionada con la Gestión de Ontologías.
+
 
  Desarrollo de Clientes SOFIA2 (KPs)
 ------------------------------------
@@ -307,7 +307,7 @@ Desde la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/S
  Para desarrollar un KP, aparte de programar su lógica de negocio, hay que realizar los siguientes pasos sobre la plataforma:
 
 Alta de permisos para usuario propietario en la plataforma
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Para que los KPs de un usuario puedan producir o consumir datos de una determinada ontología, el usuario deberá disponer de los permisos adecuados sobre dicha ontología.
 
@@ -320,7 +320,7 @@ Alta de permisos para usuario propietario en la plataforma
     De manera que en función del tipo de KPs que vaya a desarrollar un usuario, habrá que proporcionarle permiso de **INSERT**, **QUERY** ó **ALL** sobre la ontología que describe los datos que manejará el KP.
 
 Alta de KP en la plataforma
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Un usuario deberá registrar en la plataforma sus KPs, de lo contrario, la plataforma rechazará la conexión de los mismos.
 
@@ -335,7 +335,7 @@ Alta de KP en la plataforma
     Desde la `**Guía de Uso de la Consola Web** <http://scfront.cloudapp.net/docs/SOFIA2-Guia%20de%20Uso%20de%20Consola%20Web.pdf>`__ publicada se puede consultar el detalle de la operativa relacionada con la Gestión de KPs.
 
 Conexión del KP con la plataforma
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     La conexión de un KP con la plataforma debe ser vista como dos tipos de conexión
 
@@ -358,17 +358,17 @@ Conexión del KP con la plataforma
     Para obtener más información acerca de las Apis distribuidas por la plataforma se recomienda revisar la `**Guía de Apis SOFIA2** <http://scfront.cloudapp.net/docs/SOFIA2-APIs%20SOFIA2.pdf>`__, en donde se indica su uso e instalación.
 
 Captación/Explotacion de la información
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Constituye parte de la lógica de negocio de un KP y es independiente de la plataforma. Depende exclusivamente de la naturaleza y propósito del KP el modo de captar la información de las distintas fuentes si es productor de información, así como su explotación una vez recibida la información si se trata de un KP consumidor.
 
 Transformación de la información a formato ontológico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Como ya se ha comentado en el presente documento la información que envíe un KP productor a la plataforma debe cumplir con el formato definido en la ontología que la representa. De manera que con tal información se deberá construir mensaje JSON que agrupe tales datos cumpliendo el ***JSONSchema*** de la ontología correspondiente, convirtiéndose de este modo los datos en una instancia de la ontología.
 
 Envío a la plataforma según protocolo SSAP
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Una vez construido el mensaje JSON con los datos a enviar a la plataforma. Se deberá construir el mensaje SSAP de INSERT correspondiente y que integrará tales datos.
 
@@ -377,7 +377,7 @@ Envío a la plataforma según protocolo SSAP
     Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `**Guía de Apis SOFIA2** <http://scfront.cloudapp.net/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
 
 Consulta/Suscripción de la información según protocolo SSAP
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     La información enviada a la plataforma por los KPs, puede ser consultada por otros KPs, bien explícitamente mediante la operación QUERY del protocolo SSAP, bien en modo suscripción a futuras entradas de información mediante la operación SUBSCRIBE.
 
@@ -400,7 +400,7 @@ Consulta/Suscripción de la información según protocolo SSAP
     Podemos encontrar más información sobre los tipos de Query en la guía SOFIA2-APIs SOFIA2.
 
 Recepción de la información a formato ontológico
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Del mismo modo que un KP envía la información a la plataforma de acuerdo a una ontología, cuando un KP recibe información de la plataforma, esta información también viene en formato JSON según la ontología correspondiente, de modo que una vez extraída del mensaje SSAP correspondiente, el KP puede tratar dicha información según la definición de la ontología en el ***JSONSchema*** que la define.
 
