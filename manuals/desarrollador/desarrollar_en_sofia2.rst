@@ -250,7 +250,8 @@ Un usuario deberá registrar en la plataforma sus KPs, de lo contrario, la plata
 
 Para registrar un KP, la plataforma proporciona la sección **Gestion KPs**, donde un usuario podrá crear un nuevo KP o administrar los que ya tiene dados de alta:
 
-    |image43|
+.. figure:: ./media/CrearKP.PNG 
+ :align:   center
 
 Como vemos, un KP podrá hacer uso de una o varias ontologías, siendo esta la información que producirá o consumirá de la plataforma.
 
