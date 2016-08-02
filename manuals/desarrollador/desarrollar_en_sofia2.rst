@@ -299,7 +299,7 @@ Una vez construido el mensaje JSON con los datos a enviar a la plataforma. Se de
 
 La plataforma validará que el usuario propietario del KP tiene el correspondiente permiso sobre la ontología que representan tales datos, así como que los datos cumplen con el Schema JSON de la ontología. Si hay algún problema, se notificará al KP, si todo va bien, tales datos se agregan a la base de datos de tiempo real del SIB, quedando disponible para el resto de KPs.
 
-Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `Guía de Apis SOFIA2 http://sofia2.com/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
+Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `Guía de Apis SOFIA2 <http://sofia2.com/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
 
 Consulta/Suscripción de la información según protocolo SSAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
