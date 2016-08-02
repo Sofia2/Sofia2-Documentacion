@@ -40,7 +40,7 @@ Un usuario puede darse de alta en la plataforma por sí mismo o por un administr
 
     |image40|
 
-    Una vez dado de alta el usuario en la plataforma, este tendrá acceso a la misma, en función a su rol. Asimismo, como veremos más adelante, los KPs de los que el usuario sea propietario podrán establecer una sesión lógica para enviar/recibir información.
+Una vez dado de alta el usuario en la plataforma, este tendrá acceso a la misma, en función a su rol. Asimismo, como veremos más adelante, los KPs de los que el usuario sea propietario podrán establecer una sesión lógica para enviar/recibir información.
 
 Ontologización de la información
 --------------------------------
