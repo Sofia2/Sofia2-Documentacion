@@ -299,16 +299,16 @@ Para ello se dispone en la plataforma de un apartado de **Gestión de Ontología
 Desarrollo de Clientes SOFIA2 (KPs)
 -----------------------------------
 
- Un KP es cualquier aplicación que produce o consume información para colaborar con otros a través de la plataforma, formando de este modo un **Smart Space** con aquellos otros KPs con los que colabora.
+Un KP es cualquier aplicación que produce o consume información para colaborar con otros a través de la plataforma, formando de este modo un **Smart Space** con aquellos otros KPs con los que colabora.
 
- Para desarrollar un KP, aparte de programar su lógica de negocio, hay que realizar los siguientes pasos sobre la plataforma:
+Para desarrollar un KP, aparte de programar su lógica de negocio, hay que realizar los siguientes pasos sobre la plataforma:
 
 Alta de permisos para usuario propietario en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Para que los KPs de un usuario puedan producir o consumir datos de una determinada ontología, el usuario deberá disponer de los permisos adecuados sobre dicha ontología.
 
- Una ontología registrada en la plataforma puede no ser visible para un usuario, o en caso de serlo, puede estar limitado en sus operaciones a determinados permisos.
+Una ontología registrada en la plataforma puede no ser visible para un usuario, o en caso de serlo, puede estar limitado en sus operaciones a determinados permisos.
 
 La plataforma proporciona a los administradores en la sección de **Gestión de usuarios > Autorizaciones**, una pantalla para administrar las autorizaciones de un usuario sobre las distintas ontologías registradas.
 
