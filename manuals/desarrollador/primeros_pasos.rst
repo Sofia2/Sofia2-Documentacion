@@ -238,7 +238,7 @@ El proceso para desarrollar una APP Sofia2 consiste básicamente en:
 
 -  Desarrollo de APP Sofia2 que inserta y en Java que publica medidas de Temperatura y Humedad
 
-Darse de alta en la instancia Sofia2 inCloudLab
+Darse de alta en la instancia Sofia2 CloudLab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 En la sección Productos de la Web de Sofia2 (`http://sofia2.com/sofia2incloud.html <http://sofia2.com/sofia2incloud.html>`__) se puede acceder a **Sofia2 CloudLab:**
