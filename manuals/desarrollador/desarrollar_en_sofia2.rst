@@ -108,6 +108,88 @@ Por ejemplo, el concepto SensorTemperatura con los atributos identificados anter
 +---------------------------------------------------------+
 | **SensorTemperatura.json**                              |
 +---------------------------------------------------------+
+
+.. code-block:: json
+
+{
+    "$schema": "http://json-schema.org/draft-03/schema#",
+    "title": "SensorTemperatura Schema",
+    "type": "object",
+    "properties": {
+        "_id": {
+            "type": "object",
+            "$ref": "#/identificador"
+        },
+        "SensorTemperatura": {
+            "type": "string",
+            "$ref": "#/datos"
+        }
+    },
+    "identificador": {
+        "title": "id",
+        "description": "Id insertado del SensorTemperatura",
+        "type": "object",
+        "properties": {
+            "$oid": {
+                "type": "string",
+                "required": false
+            }
+        }
+    },
+    "datos": {
+        "title": "datos",
+        "description": "Info SensorTemperatura",
+        "type": "object",
+        "properties": {
+            "identificador": {
+                "type": "string",
+                "required": true
+            },
+            "timestamp": {
+                "type": "integer",
+                "minimum": 0,
+                "required": true
+            },
+            "medida": {
+                "type": "number",
+                "required": true
+            },
+            "unidad": {
+                "type": "string",
+                "required": true
+            },
+            "LocalizacionGps": {
+                "required": true,
+                "$ref": "#/gps"
+            }
+        }
+    },
+    "gps": {
+        "title": "gps",
+        "description": "Gps SensorTemperatura",
+        "type": "object",
+        "properties": {
+            "altitud": {
+                "type": "number",
+                "required": false
+            },
+            "latitud": {
+                "type": "number",
+                "required": true
+            },
+            "longitud": {
+                "type": "number",
+                "required": true
+            }
+        }
+    },
+    "additionalItems": false
+}
+
+
++---------------------------------------------------------+
+| **SensorTemperatura.json**                              |
++---------------------------------------------------------+
 | {                                                       |
 |                                                         |
 | "$schema": "http://json-schema.org/draft-03/schema#",   |
