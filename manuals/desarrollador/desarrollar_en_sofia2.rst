@@ -24,7 +24,7 @@ Alta de usuario en la plataforma
 
     Un usuario puede darse de alta en la plataforma por sí mismo o por un administrador.
 
--  **Alta por sí mismo**: En la URL `**http://scfront.cloudapp.net/console/** <http://scfront.cloudapp.net/console/>`__ la pantalla de **login** proporciona el enlace *crear una cuenta nueva.*
+-  **Alta por sí mismo**: En la URL `**http://sofia2.com/console/** <http://sofia2.com/console/>`__ la pantalla de **login** proporciona el enlace *crear una cuenta nueva.*
 
     |image38|
 
