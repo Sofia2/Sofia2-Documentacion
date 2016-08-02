@@ -236,9 +236,10 @@ Para que los KPs de un usuario puedan producir o consumir datos de una determina
 
 Una ontología registrada en la plataforma puede no ser visible para un usuario, o en caso de serlo, puede estar limitado en sus operaciones a determinados permisos.
 
-La plataforma proporciona a los administradores en la sección de **Gestión de usuarios > Autorizaciones**, una pantalla para administrar las autorizaciones de un usuario sobre las distintas ontologías registradas.
+La plataforma proporciona a los administradores en la sección de **Ontologías > Autorizaciones a mis Ontologías**, una pantalla para administrar las autorizaciones de un usuario sobre las distintas ontologías registradas.
 
-    |image42|
+.. figure:: ./media/AutorizacionesOntologias.PNG 
+ :align:   center
 
 De manera que en función del tipo de KPs que vaya a desarrollar un usuario, habrá que proporcionarle permiso de **INSERT**, **QUERY** ó **ALL** sobre la ontología que describe los datos que manejará el KP.
 
