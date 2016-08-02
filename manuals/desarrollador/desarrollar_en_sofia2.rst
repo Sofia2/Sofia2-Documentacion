@@ -22,7 +22,7 @@ Cada KP tiene un usuario propietario, pudiendo un mismo usuario ser propietario 
 Alta de usuario en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Un usuario puede darse de alta en la plataforma por sí mismo o por un administrador.
+ Un usuario puede darse de alta en la plataforma por sí mismo o por un administrador.
 
 -  **Alta por sí mismo**: En la URL `http://sofia2.com/console/ <http://sofia2.com/console/>`__ la pantalla de **login** proporciona el enlace *crear una cuenta nueva.*
 
@@ -45,20 +45,20 @@ Alta de usuario en la plataforma
 Ontologización de la información
 --------------------------------
 
-    La plataforma SOFIA propone como clave de la interoperabilidad de aplicaciones, la definición ontológica de la información que intercambian las aplicaciones.
+La plataforma SOFIA propone como clave de la interoperabilidad de aplicaciones, la definición ontológica de la información que intercambian las aplicaciones.
 
-    Una ontología es una clasificación de la información, que estandariza las propiedades de los conceptos del dominio con los que interoperarán los distintos KPs, de manera que distintos KPs trabajando con las mismas ontologías pueden intercambiar información a través de la plataforma de una manera totalmente desacoplada, mediante el intercambio de instancias de tales ontologías.
+Una ontología es una clasificación de la información, que estandariza las propiedades de los conceptos del dominio con los que interoperarán los distintos KPs, de manera que distintos KPs trabajando con las mismas ontologías pueden intercambiar información a través de la plataforma de una manera totalmente desacoplada, mediante el intercambio de instancias de tales ontologías.
 
-    SOFIA2 propone el intercambio de información entre KPs en formato JSON. De modo que una ontología en SOFIA2 es la especificación unívoca de un formato JSON de información, por lo que estas ontologías se definen de acuerdo a un schema JSON `http://json-schema.org/ <http://json-schema.org/>`__.
+SOFIA2 propone el intercambio de información entre KPs en formato JSON. De modo que una ontología en SOFIA2 es la especificación unívoca de un formato JSON de información, por lo que estas ontologías se definen de acuerdo a un schema JSON `http://json-schema.org/ <http://json-schema.org/>`__.
 
 Identificación de los conceptos de la información
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Consiste en identificar las entidades que agruparán los datos que intercambiarán los KPs a través de la plataforma.
+Consiste en identificar las entidades que agruparán los datos que intercambiarán los KPs a través de la plataforma.
 
-    Un concepto agrupará uno o varios datos relacionados y de interés para los KP, de manera que un KP productor de información recolectará todos estos datos, los agrupará conforme a la especificación hecha en la ontología que describa tal concepto y los enviará de esta manera, normalizados a la plataforma. Mientras que un KP consumidor de información, recibirá estos datos normalizados y los explotará.
+Un concepto agrupará uno o varios datos relacionados y de interés para los KP, de manera que un KP productor de información recolectará todos estos datos, los agrupará conforme a la especificación hecha en la ontología que describa tal concepto y los enviará de esta manera, normalizados a la plataforma. Mientras que un KP consumidor de información, recibirá estos datos normalizados y los explotará.
 
-    Por ejemplo, en un SmartSpace de sensorización de una SmartCity, conceptos relevantes para ser ontologizados serian:
+Por ejemplo, en un SmartSpace de sensorización de una SmartCity, conceptos relevantes para ser ontologizados serian:
 
 -  SensorTemperatura
 
@@ -77,9 +77,9 @@ Identificación de los conceptos de la información
 Identificación de los atributos de los conceptos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Consiste en identificar los datos agrupados por los conceptos de información y que serán relevantes para los KPs
+Consiste en identificar los datos agrupados por los conceptos de información y que serán relevantes para los KPs
 
-    Por ejemplo para el concepto SensorTemperatura, se podrían considerar los siguientes atributos:
+Por ejemplo para el concepto SensorTemperatura, se podrían considerar los siguientes atributos:
 
 -  **IdentificadorSensor**: string
 
@@ -100,9 +100,9 @@ Identificación de los atributos de los conceptos
 Modelado en formato JSONSchema
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Identificados los datos a intercambiar, el siguiente paso es estandarizarlos para que tengan una definición unívoca para los KPs en la plataforma. En esto consiste la ontologización de la información, donde cada concepto relevante se define de acuerdo a un schema JSON.
+Identificados los datos a intercambiar, el siguiente paso es estandarizarlos para que tengan una definición unívoca para los KPs en la plataforma. En esto consiste la ontologización de la información, donde cada concepto relevante se define de acuerdo a un schema JSON.
 
-    Por ejemplo, el concepto SensorTemperatura con los atributos identificados anteriormente se definiría en formato JSONSchema del siguiente modo:
+ Por ejemplo, el concepto SensorTemperatura con los atributos identificados anteriormente se definiría en formato JSONSchema del siguiente modo:
 
 +---------------------------------------------------------+
 | **SensorTemperatura.json**                              |
@@ -256,7 +256,7 @@ Modelado en formato JSONSchema
 | }                                                       |
 +---------------------------------------------------------+
 
-    Por lo que la información que los KPs produzcan/consuman de este tipo de sensor quedará normalizada al siguiente formato:
+Por lo que la información que los KPs produzcan/consuman de este tipo de sensor quedará normalizada al siguiente formato:
 
 +---------------------------------------+
 | **SensorTemperatura-instance.json**   |
@@ -280,11 +280,8 @@ Modelado en formato JSONSchema
 | "*latitud*":40.512967,                |
 |                                       |
 | "*longitud*":-3.67495                 |
-|                                       |
 | }                                     |
-|                                       |
 | }                                     |
-|                                       |
 | }                                     |
 +---------------------------------------+
 
@@ -293,7 +290,7 @@ Alta de la ontología en la plataforma
 
 Una ontología deberá ser registrada en la plataforma para quedar operativa y poder ser utilizada por los KPs para insertar/consumir la información descrita por la misma.
 
- Para ello se dispone en la plataforma de un apartado de **Gestión de Ontologías**, donde editar y dar de alta nuevas ontologías, así como su administración posterior:
+Para ello se dispone en la plataforma de un apartado de **Gestión de Ontologías**, donde editar y dar de alta nuevas ontologías, así como su administración posterior:
 
 |image41|
 
@@ -309,15 +306,15 @@ Una ontología deberá ser registrada en la plataforma para quedar operativa y p
 Alta de permisos para usuario propietario en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Para que los KPs de un usuario puedan producir o consumir datos de una determinada ontología, el usuario deberá disponer de los permisos adecuados sobre dicha ontología.
+Para que los KPs de un usuario puedan producir o consumir datos de una determinada ontología, el usuario deberá disponer de los permisos adecuados sobre dicha ontología.
 
-    Una ontología registrada en la plataforma puede no ser visible para un usuario, o en caso de serlo, puede estar limitado en sus operaciones a determinados permisos.
+ Una ontología registrada en la plataforma puede no ser visible para un usuario, o en caso de serlo, puede estar limitado en sus operaciones a determinados permisos.
 
-    La plataforma proporciona a los administradores en la sección de **Gestión de usuarios > Autorizaciones**, una pantalla para administrar las autorizaciones de un usuario sobre las distintas ontologías registradas.
+La plataforma proporciona a los administradores en la sección de **Gestión de usuarios > Autorizaciones**, una pantalla para administrar las autorizaciones de un usuario sobre las distintas ontologías registradas.
 
     |image42|
 
-    De manera que en función del tipo de KPs que vaya a desarrollar un usuario, habrá que proporcionarle permiso de **INSERT**, **QUERY** ó **ALL** sobre la ontología que describe los datos que manejará el KP.
+De manera que en función del tipo de KPs que vaya a desarrollar un usuario, habrá que proporcionarle permiso de **INSERT**, **QUERY** ó **ALL** sobre la ontología que describe los datos que manejará el KP.
 
 Alta de KP en la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -337,7 +334,7 @@ Alta de KP en la plataforma
 Conexión del KP con la plataforma
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    La conexión de un KP con la plataforma debe ser vista como dos tipos de conexión
+La conexión de un KP con la plataforma debe ser vista como dos tipos de conexión
 
 -  **Conexión Física**: Establecida por el protocolo de trasporte utilizado para la conexión por un KP (TCP/IP, MQTT, JMS, Ajax-Push…). La manera de realizar esta tipo de conexión depende en gran medida del API de KP utilizado (Java, Javascript, Arduino, C++...).
 
@@ -360,34 +357,34 @@ Conexión del KP con la plataforma
 Captación/Explotacion de la información
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Constituye parte de la lógica de negocio de un KP y es independiente de la plataforma. Depende exclusivamente de la naturaleza y propósito del KP el modo de captar la información de las distintas fuentes si es productor de información, así como su explotación una vez recibida la información si se trata de un KP consumidor.
+Constituye parte de la lógica de negocio de un KP y es independiente de la plataforma. Depende exclusivamente de la naturaleza y propósito del KP el modo de captar la información de las distintas fuentes si es productor de información, así como su explotación una vez recibida la información si se trata de un KP consumidor.
 
 Transformación de la información a formato ontológico
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Como ya se ha comentado en el presente documento la información que envíe un KP productor a la plataforma debe cumplir con el formato definido en la ontología que la representa. De manera que con tal información se deberá construir mensaje JSON que agrupe tales datos cumpliendo el ***JSONSchema*** de la ontología correspondiente, convirtiéndose de este modo los datos en una instancia de la ontología.
+Como ya se ha comentado en el presente documento la información que envíe un KP productor a la plataforma debe cumplir con el formato definido en la ontología que la representa. De manera que con tal información se deberá construir mensaje JSON que agrupe tales datos cumpliendo el ***JSONSchema*** de la ontología correspondiente, convirtiéndose de este modo los datos en una instancia de la ontología.
 
 Envío a la plataforma según protocolo SSAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Una vez construido el mensaje JSON con los datos a enviar a la plataforma. Se deberá construir el mensaje SSAP de INSERT correspondiente y que integrará tales datos.
+Una vez construido el mensaje JSON con los datos a enviar a la plataforma. Se deberá construir el mensaje SSAP de INSERT correspondiente y que integrará tales datos.
 
-    La plataforma validará que el usuario propietario del KP tiene el correspondiente permiso sobre la ontología que representan tales datos, así como que los datos cumplen con el Schema JSON de la ontología. Si hay algún problema, se notificará al KP, si todo va bien, tales datos se agregan a la base de datos de tiempo real del SIB, quedando disponible para el resto de KPs.
+La plataforma validará que el usuario propietario del KP tiene el correspondiente permiso sobre la ontología que representan tales datos, así como que los datos cumplen con el Schema JSON de la ontología. Si hay algún problema, se notificará al KP, si todo va bien, tales datos se agregan a la base de datos de tiempo real del SIB, quedando disponible para el resto de KPs.
 
-    Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `**Guía de Apis SOFIA2** <http://scfront.cloudapp.net/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
+Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `**Guía de Apis SOFIA2** <http://scfront.cloudapp.net/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
 
 Consulta/Suscripción de la información según protocolo SSAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    La información enviada a la plataforma por los KPs, puede ser consultada por otros KPs, bien explícitamente mediante la operación QUERY del protocolo SSAP, bien en modo suscripción a futuras entradas de información mediante la operación SUBSCRIBE.
+La información enviada a la plataforma por los KPs, puede ser consultada por otros KPs, bien explícitamente mediante la operación QUERY del protocolo SSAP, bien en modo suscripción a futuras entradas de información mediante la operación SUBSCRIBE.
 
-    En ambas operaciones se indican a la plataforma los criterios de la consulta.
+En ambas operaciones se indican a la plataforma los criterios de la consulta.
 
-    En la operación **QUERY**, nos serán devueltas las instancias existentes actualmente en la base de datos de tiempo real que cumplen con los criterios de la consulta.
+En la operación **QUERY**, nos serán devueltas las instancias existentes actualmente en la base de datos de tiempo real que cumplen con los criterios de la consulta.
 
-    En la operación **SUBSCRIBE**, la plataforma nos enviará en el futuro nuevas instancias cada vez que un KP las inserte y cumplan con los criterios de la consulta.
+En la operación **SUBSCRIBE**, la plataforma nos enviará en el futuro nuevas instancias cada vez que un KP las inserte y cumplan con los criterios de la consulta.
 
-    SOFIA permite que las operaciones de **QUERY** puedan ser:
+SOFIA permite que las operaciones de **QUERY** puedan ser:
 
 -  **Query de tipo** **Nativo**: cuando la query es resuelta por el motor de BDTR subyacente, siendo en la implementación de referencia *MongoDB.*
 
@@ -402,7 +399,7 @@ Consulta/Suscripción de la información según protocolo SSAP
 Recepción de la información a formato ontológico
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Del mismo modo que un KP envía la información a la plataforma de acuerdo a una ontología, cuando un KP recibe información de la plataforma, esta información también viene en formato JSON según la ontología correspondiente, de modo que una vez extraída del mensaje SSAP correspondiente, el KP puede tratar dicha información según la definición de la ontología en el ***JSONSchema*** que la define.
+Del mismo modo que un KP envía la información a la plataforma de acuerdo a una ontología, cuando un KP recibe información de la plataforma, esta información también viene en formato JSON según la ontología correspondiente, de modo que una vez extraída del mensaje SSAP correspondiente, el KP puede tratar dicha información según la definición de la ontología en el ***JSONSchema*** que la define.
 
 Colaboración de KPs en tiempo real
 ----------------------------------
