@@ -111,7 +111,7 @@ Por ejemplo, el concepto SensorTemperatura con los atributos identificados anter
 
 .. code-block:: json
 
-{
+  {
     "$schema": "http://json-schema.org/draft-03/schema#",
     "title": "SensorTemperatura Schema",
     "type": "object",
@@ -184,7 +184,7 @@ Por ejemplo, el concepto SensorTemperatura con los atributos identificados anter
         }
     },
     "additionalItems": false
-}
+  }
 
 
 +---------------------------------------------------------+
