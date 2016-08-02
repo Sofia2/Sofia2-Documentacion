@@ -280,7 +280,7 @@ La conexión de un KP con la plataforma debe ser vista como dos tipos de conexi�
 
     Mientras exista una sesión entre el KP y la plataforma, el KP podrá utilizar el resto de operaciones del protocolo SSAP para producir/consumir información.
 
-    Para obtener más información acerca de las Apis distribuidas por la plataforma se recomienda revisar la `**Guía de Apis SOFIA2** <http://scfront.cloudapp.net/docs/SOFIA2-APIs%20SOFIA2.pdf>`__, en donde se indica su uso e instalación.
+    Para obtener más información acerca de las Apis distribuidas por la plataforma se recomienda revisar la `Guía de Apis SOFIA2 <http://sofia2.com/docs/SOFIA2-APIs%20SOFIA2.pdf>`__, en donde se indica su uso e instalación.
 
 Captación/Explotacion de la información
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -290,7 +290,7 @@ Constituye parte de la lógica de negocio de un KP y es independiente de la plat
 Transformación de la información a formato ontológico
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Como ya se ha comentado en el presente documento la información que envíe un KP productor a la plataforma debe cumplir con el formato definido en la ontología que la representa. De manera que con tal información se deberá construir mensaje JSON que agrupe tales datos cumpliendo el ***JSONSchema*** de la ontología correspondiente, convirtiéndose de este modo los datos en una instancia de la ontología.
+Como ya se ha comentado en el presente documento la información que envíe un KP productor a la plataforma debe cumplir con el formato definido en la ontología que la representa. De manera que con tal información se deberá construir mensaje JSON que agrupe tales datos cumpliendo el **JSONSchema** de la ontología correspondiente, convirtiéndose de este modo los datos en una instancia de la ontología.
 
 Envío a la plataforma según protocolo SSAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -299,7 +299,7 @@ Una vez construido el mensaje JSON con los datos a enviar a la plataforma. Se de
 
 La plataforma validará que el usuario propietario del KP tiene el correspondiente permiso sobre la ontología que representan tales datos, así como que los datos cumplen con el Schema JSON de la ontología. Si hay algún problema, se notificará al KP, si todo va bien, tales datos se agregan a la base de datos de tiempo real del SIB, quedando disponible para el resto de KPs.
 
-Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `**Guía de Apis SOFIA2** <http://scfront.cloudapp.net/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
+Al igual que todas las operaciones SSAP, la operación INSERT está contemplada en todos los API de KP proporcionados. Para obtener más información acerca de la mensajería SSAP se recomienda revisar la `Guía de Apis SOFIA2 http://sofia2.com/docs/SOFIA2-APIs%20SOFIA2.pdf>`__.
 
 Consulta/Suscripción de la información según protocolo SSAP
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -332,11 +332,11 @@ Del mismo modo que un KP envía la información a la plataforma de acuerdo a una
 Colaboración de KPs en tiempo real
 ----------------------------------
 
-Representa la colaboración entre KPs formando un ***Smart Space***. Requiere que:
+Representa la colaboración entre KPs formando un **Smart Space**. Requiere que:
 
--  Las ontologías representando la información a intercambiar están dadas de alta en la plataforma por medio de la ***Consola Web***.
+-  Las ontologías representando la información a intercambiar están dadas de alta en la plataforma por medio de la **Consola Web**.
 
--  Los usuarios propietarios de los distintos KPs están dados de alta en la plataforma por medio de la ***Consola Web*** y existen Tokens activos asociados a los mismos.
+-  Los usuarios propietarios de los distintos KPs están dados de alta en la plataforma por medio de la **Consola Web** y existen Tokens activos asociados a los mismos.
 
 -  Los usuarios tienen permisos adecuados sobre las ontologías que utilizan sus KPs.
 
