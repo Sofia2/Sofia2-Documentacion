@@ -38,7 +38,8 @@ Un usuario puede darse de alta en la plataforma por sí mismo o por un administr
 
 -  **Alta por administrador**: El administrador dispone en la plataforma de una sección de **Gestión de Usuarios**. Desde esta sección se proporciona al administrador de un formulario para dar de alta nuevos usuarios a la plataforma, con el rol necesario:
 
-    |image40|
+.. figure:: ./media/CrearUsuario.png 
+ :align:   center
 
 Una vez dado de alta el usuario en la plataforma, este tendrá acceso a la misma, en función a su rol. Asimismo, como veremos más adelante, los KPs de los que el usuario sea propietario podrán establecer una sesión lógica para enviar/recibir información.
 
