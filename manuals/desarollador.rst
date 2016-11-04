@@ -31,3 +31,13 @@ Desarrollo de un cliente
 |descargar-mini| `Descargar PDF <http://sofia2.com/docs/SOFIA2-Como%20desarrollar%20sobre%20la%20Plataforma%20SOFIA2.pdf>`_
 
 .. |descargar-mini| image:: ./../images/mini-download.png
+
+
+
+.. toctree::
+   :caption: Taller IoT
+  ./desarrollador/TallerIoT
+  
+.. toctree::
+   :caption: Taller Analytics
+  ./desarrollador/TallerAnalytics
