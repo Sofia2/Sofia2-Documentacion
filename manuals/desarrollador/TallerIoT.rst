@@ -120,15 +120,15 @@ Configuración del simulador
 
 Pulsamos el botón Crear Simulador, lo primero que vamos a crear son los Generadores de Instancias que vamos a usar, un Generador de Instancias, es una definición de datos de prueba.
 
-Vamos crear los siguientes generadores.
+Vamos a crear los siguientes generadores:
 
--  Primero el generador del campo ID para nuestro supuesto Watorimetro, como nombre le ponemos TallerIoTWAT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor el mismo que el nombre que le hemos dado.
+-  Primero el generador del campo ID para nuestro supuesto Watorimetro, como nombre le ponemos TallerIoTWAT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor, el mismo que el nombre que le hemos dado.
 
 |image16|
 
 -  Ahora el generador del campo ID para nuestro supuesto Termostato, como nombre le ponemos TallerIoTTERMOSTATO<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor el mismo que el nombre que le hemos dado.
 
--  Para termina con el ID el generador del campo ID para nuestro supuesto Medidor de Humedad, como nombre le ponemos TallerIoTH<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor el mismo que el nombre que le hemos dado.
+-  Para terminar con el ID, el generador del campo ID para nuestro supuesto Medidor de Humedad, como nombre le ponemos TallerIoTH<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor el mismo que el nombre que le hemos dado.
 
 -  Como generador de valores vamos a crear un único generador que utilizaremos tanto para simular la temperatura, la humedad y los watios consumidos, lo llamaremos TallerIoTVALOR<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> como tipo de Generador Random Number, valores desde 1 hasta 100 y decimales de precisión 2.
 
@@ -159,7 +159,7 @@ Creamos los datos para el simulador del Watorimetro.
 Ejecución de Simulador
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Abrimos tres nuevas pestañas en el explorador, y accedemos en cada una de ellas a uno de los tres simuladores. Y pulsamos el botón ¡Empezar! En cada uno de ellos
+Abrimos tres nuevas pestañas en el explorador, y accedemos en cada una de ellas a uno de los tres simuladores. Y pulsamos el botón ¡Empezar! en cada uno de ellos
 
 |image22|
 
@@ -184,22 +184,23 @@ Detenemos nuestros tres simuladores, pulsando sobre el botón ¡Parar!.
 |image27|
 
 CUADRO DE MANDO
-===============
+---------------
 
     El siguiente paso es crear un cuadro de mando usando las capacidades de presentación gráfica de la plataforma.
+    
 
 Crear Gadget
-------------
+^^^^^^^^^^^^
 
 Accedemos a la opción de menú Mis Gadgets y pulsamos sobre Crear Gadget, seleccionamos crear Gadget y el tipo Columna
 
     |image28|
 
-Como nombre le asignamos TallerIoTGADGETH<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y seleccionamos el KP que creamos.
+Como nombre le asignamos TallerIoTGADGETH<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y seleccionamos el ThinKP que creamos.
 
 |image29|
 
-seleccionamos la pestaña Obtener datos por query, usando la sentencia select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='HUMEDAD'; y como medidas Para el Eje X contextData.timestamp, este último debemos transformarlo usando new Date($0) y para el Eje Y HUMEDAD.
+Seleccionamos la pestaña Obtener datos por query, usando la sentencia select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='HUMEDAD'; y como medidas Para el Eje X contextData.timestamp, este último debemos transformarlo usando new Date($0) y para el Eje Y HUMEDAD.
 
     |image30|
 
