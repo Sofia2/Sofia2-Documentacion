@@ -6,6 +6,7 @@ Taller IoT Sofia2
 ===================
 
 
+
 Introducción
 ------------
 
@@ -13,11 +14,13 @@ El objetivo de este taller es la realización de un ejemplo real sobre el que po
 
 Para ello vamos a simular un edificio que dispone de varias plantas, y tres dispositivos para la lectura de consumo energético, temperatura y humedad en cada una de ellas, para terminar, crearemos un cuadro de mando para viasualizar esta información y publicaremos los datos en un API para ser consumido de manera sencilla por cualquier aplicación.
 
+
+
 Modelo de datos
 ---------------
 
 El Modelo
----------
+^^^^^^^^^
 
 El pilar sobre el que sustenta un proyecto IoT es su modelo de datos, este debe contener toda la información relevante, tanto para un uso inmediato como para posteriores análisis de la información.
 
