@@ -334,7 +334,7 @@ ANEXO
 Los siguientes pasos del taller, nos permiten trabajar sobre dos capacidades avanzadas de Sofia2 las cuales dotan a la plataforma de la capacidad de reaccionar a eventos pudiendo analizar los datos de entrada y actuar ante ellos.
 
 Crear Regla CEP
----------------
+^^^^^^^^^^^^^^^
 
 Accedemos a la opción de menú Mis Eventos CEP y pulsamos sobre Crear Evento
 
@@ -344,29 +344,29 @@ Como Identificacion le asignaremos TallerIoTEVENTO<Nuestras iniciales Nombre, 1 
 
 |image59|
 
-Seleccionamos los campos TEMPERATURA, TIPO y UBICACIÓN u pulsamos el boton Crear
+Seleccionamos los campos TEMPERATURA, TIPO y UBICACIÓN y pulsamos el boton Crear.
 
-Fijemonos en la columna Nombre Evento CEP, ese será el nombre que deberemos usar en el siguiente punto.
+Fijémonos en la columna Nombre Evento CEP, ese será el nombre que deberemos usar en el siguiente punto.
 
 |image60|
 
-Ahora accedemos al menu Mis Reglas CEP y pulsamos sobre el botón Crear Regla
+Ahora accedemos al menu Mis Reglas CEP y pulsamos sobre el botón Crear Regla.
 
 |image61|
 
-Seleccionamos el Evento que hemos creado
+Seleccionamos el Evento que hemos creado.
 
 |image62|
 
-En el from entablecemos los parametros de cumplimiento de la regla
+En el from establecemos los parametros de cumplimiento de la regla.
 
 |image63|
 
-En el select los campos que queremos recuperar cuando se lance la regla CEP
+En el select los campos que queremos recuperar cuando se lance la regla CEP.
 
 |image64|
 
-En el Insert Into la regla que queremos generar, en nuestro caso TallerIoTREGLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> una vez introducidas las tres casillas, pulsamos el botón Crear.
+En el Insert Into la regla que queremos generar, en nuestro caso TallerIoTREGLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>. Una vez introducidas las tres casillas, pulsamos el botón Crear.
 
 |image65|
 
@@ -375,9 +375,9 @@ Ya hemos creado una Regla que generará un evento cada vez que llegue una instan
 |image66|
 
 Crear Regla SCRIPT
-------------------
+^^^^^^^^^^^^^^^^^^
 
-Accedemos a la opción de menú Mis Reglas Script y pulsamos sobre Crear Script
+Accedemos a la opción de menú Mis Reglas Script y pulsamos sobre Crear Script.
 
 |image67|
 
@@ -385,14 +385,14 @@ Asignamos al Script el nombre TallerIoTSCRIPT<Nuestras iniciales Nombre, 1 Apell
 
 |image68|
 
-Forzamos la ejecución del bloque Then añadiendo un return true; en el bloque de evaluación if
+Forzamos la ejecución del bloque Then añadiendo un return true; en el bloque de evaluación if.
 
 |image69|
 
 En la guia `**http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf** <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf>`__ encontraremos más información sobre el uso de Script y las API que disponibiliza.
 
 Ejercicio Final
----------------
+^^^^^^^^^^^^^^^
 
 En el bloque then añadiremos la lógica que queramos que se ejecute cuando se produzcan los eventos del CEP.
 
