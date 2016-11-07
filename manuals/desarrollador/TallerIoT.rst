@@ -18,6 +18,9 @@ Modelo de datos
 
 El Modelo
 ^^^^^^^^^
+
+El Modelo
+^^^^^^^^^
 El pilar sobre el que sustenta un proyecto IoT es su modelo de datos, este debe contener toda la información relevante, tanto para un uso inmediato como para posteriores análisis de la información.
 
 Es importante que los dispositivos no tengan que enviar información irrelevante que únicamente genere un coste en las comunicaciones.
