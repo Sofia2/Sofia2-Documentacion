@@ -320,7 +320,7 @@ Al púlsar sobre cada opción nos aparece la meta información del servicio y la
 
 |image55|
 
-Al ejcutarlo obtendremos el resultado de la consulta que habíamos definido
+Al ejcutarlo obtendremos el resultado de la consulta que habíamos definido.
 
 |image56|
 
@@ -329,7 +329,7 @@ En la pestaña Request Info podemos ver el URL de invocación de la operación, 
 |image57|
 
 ANEXO
-=====
+-----
 
 Los siguientes pasos del taller, nos permiten trabajar sobre dos capacidades avanzadas de Sofia2 las cuales dotan a la plataforma de la capacidad de reaccionar a eventos pudiendo analizar los datos de entrada y actuar ante ellos.
 
