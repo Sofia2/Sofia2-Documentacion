@@ -59,17 +59,7 @@ HUMEDAD       Number   no requerido
 TIPO          String   requerido
 ============  =======  =============
 
-ID String requerido
 
-UBICACION String requerido
-
-TEMPERATURA Number no requerido
-
-WATIOS Number no requerido
-
-HUMEDAD Number no requerido
-
-TIPO String requerido
 
 |image5|
 
