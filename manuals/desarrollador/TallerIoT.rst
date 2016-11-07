@@ -417,14 +417,14 @@ A continuación, un ejemplo de como insertar una ontología desde las Reglas Scr
 
 |image72|
 
-En `**http://sofia2.com/desarrollador.html#documentacion** <http://sofia2.com/desarrollador.html#documentacion>`__ disponéis de toda la documentación de la plataforma.
+En `http://sofia2.com/desarrollador.html#documentacion <http://sofia2.com/desarrollador.html#documentacion>`__ disponéis de toda la documentación de la plataforma.
 
-La guia `**http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf** <http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf>`__ describe las API disponibilizadas
+La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf>`__ describe las API disponibilizadas
 
 
-`http://sofia2.com/desarrollador.html#documentacion <http://sofia2.com/desarrollador.html#documentacion>`__
 
-`http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf>`__
+
+
 
 
 .. |image0| image:: ./media/image2.png
