@@ -78,7 +78,7 @@ Si pulsamos el botón Generar Instancia nos mostrará un ejemplo de una instanci
 Por último, pulsamos el botón Crear.
 
 KP
-==
+--
 
     Una vez que hemos definido el modelo de datos y lo hemos plasmado en una ontología, tenemos que crear el KP, la configuración lógica de los dispositivos que van a interactuar con nuestra ontología.
 
