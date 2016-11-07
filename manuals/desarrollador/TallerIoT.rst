@@ -38,13 +38,13 @@ La consola de administración centralizada de sofia2 `http://sofia2-analytic.clo
 
 Vamos a utilizar la Creación Guiada de Ontología.
 
-|image3|
+|image74|
 
 Lo primero que tenemos que hacer es darle un nombre a nuestra ontología, la llamaremos TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>.
 
 Marcamos la ontología como activa y es una buena práctica indicar la descripción de la finalidad que tiene nuestra ontología.
 
-|image4|
+|image75|
 
 Podemos obviar los detales de Configuración BDTR y BDH y dependencia entre ontologías, pues no tiene relevancia para este taller.
 
@@ -61,19 +61,19 @@ TIPO          String   requerido
 
 
 
-|image5|
+|image76|
 
 Establecemos la propiedad Additional Properties a false para evitar que nuestra ontología pueda contener otro tipo de información. Y pulsamos el botón generar ontología.
 
-|image6|
+|image77|
 
 En el apartado Esquema, nos aparecerá la definición del JSON-Schema que define nuestra ontología y que tiene que cumplir todas las instancias de ontología que utilicemos.
 
-|image7|
+|image78|
 
 Si pulsamos el botón Generar Instancia nos mostrará un ejemplo de una instancia de ontología.
 
-|image8|
+|image79|
 
 Por último, pulsamos el botón Crear.
 
@@ -84,27 +84,28 @@ ThinKP
 
     Para ello accedemos al menú Mis ThinKPs y pulsamos sobre el botón Nuevo ThinKP.
 
-    |image9|
+    |image80|
 
 Le damos un nombre a nuestro ThinKP, le llamaremos TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>.
 
-|image10|
+|image81|
 
 Podemos darle una descripción. Y debemos de seleccionar la ontología que hemos creado en el punto 3. Que debe llamarse TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>
 
-|image11|
+|image82|
 
 Una vez dada esta información podemos pulsar el botón Crear, nos aparecerá la pantalla de detalle del ThinKP.
 
-|image12|
+|image83|
 
 Siempre podremos acceder a nuestros Token e incluso generar nuevos Token, deshabilitarlos y borrarlos a través del menú Mis Tokens.
 
-|image13|
+|image84|
 
 Seleccionamos el icono de edición de nuestro ThinKP (el lápiz) y seleccionamos la pestaña Mis Tokens. Nos aparecerá un listado con los Tokens que tiene asignados y las opciones para activar/desactivar, dar de baja y añadir nuevos Tokens.
 
-|image14|
+|image85|
+|image86|
 
 Simular datos de entrada
 ------------------------
@@ -653,4 +654,41 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
 .. |image73| image:: ./media/image90.png
    :width: 6.48958in
    :height: 1.03125in
+.. |image74| image:: ./media/image91.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image75| image:: ./media/image92.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image76| image:: ./media/image93.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image77| image:: ./media/image94.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image78| image:: ./media/image95.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image79| image:: ./media/image96.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image80| image:: ./media/image97.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image81| image:: ./media/image98.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image82| image:: ./media/image99.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image83| image:: ./media/image100.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image84| image:: ./media/image101.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image85| image:: ./media/image102.png
+   :width: 6.48958in
+   :height: 1.03125in
+
    
