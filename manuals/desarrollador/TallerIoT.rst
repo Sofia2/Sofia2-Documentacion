@@ -34,7 +34,8 @@ La consola de administración centralizada de sofia2 `http://sofia2-analytic.clo
 
 
 
-|image2|
+.. figure:: ./media/image90.PNG
+ :align:   center
 
 Vamos a utilizar la Creación Guiada de Ontología.
 
