@@ -30,7 +30,9 @@ Ontología
 
 En Sofia2 el modelo de datos recibe el nombre de Ontología, podemos definir ésta de una manera muy superficial como un esquema JSON que definirá de forma explícita los datos que almacenará.
 
-La consola de administración centralizada de sofia2 `**http://sofia2-analytic.cloudapp.net/console** `http://sofia2-analytic.cloudapp.net/console/ <http://sofia2-analytic.cloudapp.net/console/>`__ dispone de varios métodos para crear una ontología (editor gráfico, modo texto, asistente y desde origen de datos).
+La consola de administración centralizada de sofia2 `http://sofia2-analytic.cloudapp.net/console/ <http://sofia2-analytic.cloudapp.net/console/>`__ dispone de varios métodos para crear una ontología (editor gráfico, modo texto, asistente y desde origen de datos).
+
+`http://json-schema.org/ <http://json-schema.org/>`__
 
 `http://json-schema.org/ <http://json-schema.org/>`__
 
