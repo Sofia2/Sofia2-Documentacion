@@ -265,7 +265,7 @@ Crear Dashboard
 
 nos aparece un cuadro de diálogo con una URL en la que accedemos directamente al Dashboard y que podemos publicar.
 
-Publicar Ontología como Api
+Publicar Ontología como API
 ---------------------------
 
     Sofia2 permite publicar nuestras ontologías como Api RST, para ello accedemos a la opción de menú Mis Apis.
@@ -282,15 +282,15 @@ Se nos muestra el EndPoint de acceso al API.
 
 |image47|
 
-debemos indicar una descripción y un valor para el campo Meta Inf, por último nos aparecen las operaciones que podemos crear
+Debemos indicar una descripción y un valor para el campo Meta Inf. Por último nos aparecen las operaciones que podemos crear.
 
 |image48|
 
-Vamos a crear tres CUSTOM, uno por cada tipo de dato que almacenamos, Humedad, Temperatura y Watios
+Vamos a crear tres CUSTOM, uno por cada tipo de dato que almacenamos, Humedad, Temperatura y Watios.
 
 |image49|
 
-El resultado final debe de ser las siguientes tres API
+El resultado final debe de ser las siguientes tres API.
 
 |image50|
 
@@ -306,13 +306,13 @@ Accedemos al menú Mis Suscripciones, donde aparecerán las API que tenemos publ
 
 |image53|
 
-Al pulsar en Test & Doc accedemos a una página de pruebas de las API, donde en la parte derecha aparecen las operaciones que hemos expuesto
+Al pulsar en Test & Doc accedemos a una página de pruebas de las API, donde en la parte derecha aparecen las operaciones que hemos expuesto.
 
 \\Humedad
 
 \\Watios
 
-\\Tempratura
+\\Temperatura
 
 |image54|
 
