@@ -403,23 +403,29 @@ El siguiente código envia un email avisando de que hemos excedido los 30 grados
 
 |image70|
 
-Si queremos recuperar los datos del Evento, la proyección que hicimos a traves de la clausula select de la Regla CEP, disponemos del Objecto inEvents
+Si queremos recuperar los datos del Evento, la proyección que hicimos a traves de la clausula select de la Regla CEP, disponemos del Objeto inEvents.
 
 |image71|
 
-Y a traves del atributo getValuesJson podemos recuperar cada uno de los atributos del Evento, que eran VALOR y UBICACIÓN
+Y a traves del atributo getValuesJson podemos recuperar cada uno de los atributos del Evento, que eran VALOR y UBICACIÓN.
 
 Para terminar, os propongo crear una nueva ontología, la llamaremos TallerIoTAlarma<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, esta deberá contener los campos UBICACIÓN String y VALOR Number, ambos requeridos.
 
-Podemos usar el mismo KP que creamos en el punto 4 y asignarle también esta ontología, y por último usar las API Script para realizar una inerción en la ontología Arlarma cuando se producza un evento.
+Podemos usar el mismo ThinKP que creamos en el punto 4 y asignarle también esta ontología, y por último usar las API Script para realizar una inserción en la ontología Alarma cuando se produzca un evento.
 
-A continuación, un ejemplo de como insertar una ontología desde las Reglas Script
+A continuación, un ejemplo de como insertar una ontología desde las Reglas Script:
 
 |image72|
 
 En `**http://sofia2.com/desarrollador.html#documentacion** <http://sofia2.com/desarrollador.html#documentacion>`__ disponéis de toda la documentación de la plataforma.
 
 La guia `**http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf** <http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf>`__ describe las API disponibilizadas
+
+
+`http://sofia2.com/desarrollador.html#documentacion <http://sofia2.com/desarrollador.html#documentacion>`__
+
+`http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf>`__
+
 
 .. |image0| image:: ./media/image2.png
    :width: 2.15625in
