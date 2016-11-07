@@ -77,16 +77,16 @@ Si pulsamos el botón Generar Instancia nos mostrará un ejemplo de una instanci
 
 Por último, pulsamos el botón Crear.
 
-KP
---
+ThinKP
+------
 
-    Una vez que hemos definido el modelo de datos y lo hemos plasmado en una ontología, tenemos que crear el KP, la configuración lógica de los dispositivos que van a interactuar con nuestra ontología.
+    Una vez que hemos definido el modelo de datos y lo hemos plasmado en una ontología, tenemos que crear el ThinKP, la configuración lógica de los dispositivos que van a interactuar con nuestra ontología.
 
-    Para ello accedemos al menú Mis KPs/APPs y pulsamos sobre el botón Crear KP.
+    Para ello accedemos al menú Mis ThinKPs y pulsamos sobre el botón Nuevo ThinKP.
 
     |image9|
 
-Le damos un nombre a nuestro KP, le llamaremos TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>.
+Le damos un nombre a nuestro ThinKP, le llamaremos TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>.
 
 |image10|
 
@@ -94,7 +94,7 @@ Podemos darle una descripción. Y debemos de seleccionar la ontología que hemos
 
 |image11|
 
-Una vez dada esta información podemos pulsar el botón Crear KP, nos aparecerá la pantalla de detalle del KP.
+Una vez dada esta información podemos pulsar el botón Crear, nos aparecerá la pantalla de detalle del ThinKP.
 
 |image12|
 
@@ -102,7 +102,7 @@ Siempre podremos acceder a nuestros Token e incluso generar nuevos Token, deshab
 
 |image13|
 
-Seleccionamos nuestro KP y nos aparecerá un listado con los Token que tiene asignados y las opciones para activarlo/desactívalo dar de baja y añadir nuevos Token.
+Seleccionamos el icono de edición de nuestro ThinKP (el lápiz) y seleccionamos la pestaña Mis Tokens. Nos aparecerá un listado con los Tokens que tiene asignados y las opciones para activar/desactivar, dar de baja y añadir nuevos Tokens.
 
 |image14|
 
