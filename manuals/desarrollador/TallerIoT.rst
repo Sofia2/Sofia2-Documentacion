@@ -16,7 +16,6 @@ Para ello vamos a simular un edificio que dispone de varias plantas, y tres disp
 
 Modelo de datos
 ---------------
-
 El Modelo
 ^^^^^^^^^
 
