@@ -20,7 +20,7 @@ Modelo de datos
 -----------------
 
 
-El Modelo
+
 ^^^^^^^^^^
 
 El Modelo
