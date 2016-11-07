@@ -17,11 +17,8 @@ Para ello vamos a simular un edificio que dispone de varias plantas, y tres disp
 Modelo de datos
 ---------------
 
-
-
 El Modelo
 ^^^^^^^^^
-
 
 El pilar sobre el que sustenta un proyecto IoT es su modelo de datos, este debe contener toda la información relevante, tanto para un uso inmediato como para posteriores análisis de la información.
 
