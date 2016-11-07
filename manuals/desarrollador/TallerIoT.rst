@@ -1,55 +1,9 @@
-+---------------------+----+----+
-| |image0|            |
-|                     |
-| TALLER IoT SOFIA2   |
-+---------------------+----+----+
-|                     |
-+---------------------+----+----+
-|                     |
-+---------------------+----+----+
-| Septiembre 2016     |
-+---------------------+----+----+
-|                     |
-+---------------------+----+----+
-| |image1|            |    |    |
-+---------------------+----+----+
+.. figure::  ./../images/logo_sofia2_grande.png
+ :align:   center
 
-INDICE
-======
 
-`**1** **INDICE** 2 <#indice>`__
-
-`**2** **INTRODUCCION** 3 <#introduccion>`__
-
-`**3** **MODELO DE DATOS** 4 <#modelo-de-datos>`__
-
-`**3.1** **El Modelo** 4 <#el-modelo>`__
-
-`**3.2** **Ontología** 4 <#ontología>`__
-
-`**4** **KP** 8 <#kp>`__
-
-`**5** **SIMULAR DATOS DE ENTRADA** 11 <#simular-datos-de-entrada>`__
-
-`**5.1** **Configuración del simulador** 11 <#configuración-del-simulador>`__
-
-`**5.2** **Ejecución de Simulador** 15 <#ejecución-de-simulador>`__
-
-`**6** **CUADRO DE MANDO** 18 <#cuadro-de-mando>`__
-
-`**6.1** **Crear Gadget** 18 <#crear-gadget>`__
-
-`**6.2** **Crear Dashboard** 22 <#crear-dashboard>`__
-
-`**7** **PUBLICAR ONTOLOGIA COMO API** 26 <#publicar-ontologia-como-api>`__
-
-`**8** **ANEXO** 31 <#anexo>`__
-
-`**8.1** **Crear Regla CEP** 31 <#crear-regla-cep>`__
-
-`**8.2** **Crear Regla SCRIPT** 34 <#crear-regla-script>`__
-
-`**8.3** **Ejercicio Final** 36 <#ejercicio-final>`__
+Taller IoT Sofia2
+===================
 
 INTRODUCCION
 ============
