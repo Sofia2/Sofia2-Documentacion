@@ -391,6 +391,9 @@ Forzamos la ejecución del bloque Then añadiendo un return true; en el bloque d
 
 En la guia `**http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf** <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf>`__ encontraremos más información sobre el uso de Script y las API que disponibiliza.
 
+`http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf>`__
+
+
 Ejercicio Final
 ^^^^^^^^^^^^^^^
 
