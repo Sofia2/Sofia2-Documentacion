@@ -50,12 +50,14 @@ Podemos obviar los detales de Configuración BDTR y BDH y dependencia entre onto
 
 Ahora vamos a añadir los campos, de nuestro modelo de datos, vamos a trabajar con un modelo muy sencillo que contendrá la siguiente información.
 
-=====  =====  =======
-False  False  False
-True   False  False
-False  True   False
-True   True   True
-=====  =====  =======
+============  =======  =============
+ID            String   requerido
+UBICACION     String   requerido
+TEMPERATURA   Number   no requerido
+WATIOS        Number   no requerido
+HUMEDAD       Number   no requerido
+TIPO          String   requerido
+============  =======  =============
 
 ID String requerido
 
