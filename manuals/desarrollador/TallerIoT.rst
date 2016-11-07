@@ -106,11 +106,13 @@ Seleccionamos el icono de edición de nuestro ThinKP (el lápiz) y seleccionamos
 
 |image14|
 
-SIMULAR DATOS DE ENTRADA
-========================
+Simular datos de entrada
+------------------------
 
 Configuración del simulador
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 
     Puesto que no tenemos un dispositivo real que inserte información en nuestra ontología, vamos a hacer uso de las herramientas de Sofia2 para insertar datos simulados, para ello accedemos al menú Simulador Tiempo Real Instancias de Ontología.
 
@@ -155,7 +157,7 @@ Creamos los datos para el simulador del Watorimetro.
 |image21|
 
 Ejecución de Simulador
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Abrimos tres nuevas pestañas en el explorador, y accedemos en cada una de ellas a uno de los tres simuladores. Y pulsamos el botón ¡Empezar! En cada uno de ellos
 
