@@ -3,7 +3,8 @@
 
 
 Taller IoT Sofia2
-=================
+===================
+
 
 Introducción
 ------------
@@ -12,8 +13,8 @@ El objetivo de este taller es la realización de un ejemplo real sobre el que po
 
 Para ello vamos a simular un edificio que dispone de varias plantas, y tres dispositivos para la lectura de consumo energético, temperatura y humedad en cada una de ellas, para terminar, crearemos un cuadro de mando para viasualizar esta información y publicaremos los datos en un API para ser consumido de manera sencilla por cualquier aplicación.
 
-MODELO DE DATOS
-===============
+Modelo de datos
+---------------
 
 El Modelo
 ---------
