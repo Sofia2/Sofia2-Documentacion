@@ -98,13 +98,15 @@ Una vez dada esta información podemos pulsar el botón Crear, nos aparecerá la
 
 |image83|
 
-Siempre podremos acceder a nuestros Token e incluso generar nuevos Token, deshabilitarlos y borrarlos a través del menú Mis Tokens.
+Siempre podremos acceder a nuestros Token mediante la pestaña Mis Tokens.
 
 |image84|
 
-Seleccionamos el icono de edición de nuestro ThinKP (el lápiz) y seleccionamos la pestaña Mis Tokens. Nos aparecerá un listado con los Tokens que tiene asignados y las opciones para activar/desactivar, dar de baja y añadir nuevos Tokens.
+Seleccionamos el icono de edición de nuestro ThinKP (lápiz). 
 
 |image85|
+
+Seleccionamos la pestaña Mis Tokens. Nos aparecerá un listado con los Tokens que tiene asignados y las opciones para activar/desactivar, dar de baja y añadir nuevos Tokens. 
 |image86|
 
 Simular datos de entrada
