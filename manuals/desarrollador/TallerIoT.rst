@@ -183,7 +183,7 @@ Detenemos nuestros tres simuladores, pulsando sobre el botón ¡Parar!.
 
 |image27|
 
-CUADRO DE MANDO
+Cuadro de mando
 ---------------
 
     El siguiente paso es crear un cuadro de mando usando las capacidades de presentación gráfica de la plataforma.
@@ -216,18 +216,18 @@ Y para crear el gráfico de temperatura, al que llamaremos TallerIoTGADGETT<Nues
 
     |image33|
 
-    Por último, crearmos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas.
+    Por último, crearmos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas:
 
     |image34|
 
-    El resultado de este Gadget es una tabla como la siguiente.
+    El resultado de este Gadget es una tabla como la siguiente:
 
     |image35|
 
 Crear Dashboard
----------------
+^^^^^^^^^^^^^^^
 
-    Una vez que hemos creado los Gadget ahora vsamos a crear un Dashboard que los use, para ello accedemos a la opción de menú Mis Dashboards y pulsamos sobre Crear Dashboard
+    Una vez que hemos creado los Gadget, ahora vamos a crear un Dashboard que los use, para ello accedemos a la opción de menú Mis Dashboards y pulsamos sobre Crear Dashboard.
 
     |image36|
 
@@ -235,11 +235,11 @@ Crear Dashboard
 
     |image37|
 
-    Habilitamos el modo de edición
+    Habilitamos el modo de edición.
 
     |image38|
 
-    Pulsamos sobre el símbolo + que nos permitirá añadir un nuevo Gadget
+    Pulsamos sobre el símbolo + que nos permitirá añadir un nuevo Gadget.
 
     |image39|
 
@@ -247,11 +247,11 @@ Crear Dashboard
 
     |image40|
 
-    Una vez añadido el tipo de Gadget, pulsamos sobre el botón configuración
+    Una vez añadido el tipo de Gadget, pulsamos sobre el botón configuración.
 
     |image41|
 
-    Seleccionamos el Gadget que queremos añadir a nuestro Dashboard
+    Seleccionamos el Gadget que queremos añadir a nuestro Dashboard.
 
     |image42|
 
@@ -259,14 +259,14 @@ Crear Dashboard
 
     |image43|
 
-    En el listado de Gadget si pulsamos sobre el símbolo del enlace
+    En el listado de Gadget si pulsamos sobre el símbolo del enlace,
 
     |image44|
 
-Nos aparece un cuadro de diálogo con una URL en la que accedemos directamente al Dashboard y que podemos publicar.
+nos aparece un cuadro de diálogo con una URL en la que accedemos directamente al Dashboard y que podemos publicar.
 
-PUBLICAR ONTOLOGIA COMO API
-===========================
+Publicar Ontología como Api
+---------------------------
 
     Sofia2 permite publicar nuestras ontologías como Api RST, para ello accedemos a la opción de menú Mis Apis.
 
