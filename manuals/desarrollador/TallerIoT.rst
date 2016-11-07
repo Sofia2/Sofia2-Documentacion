@@ -3,10 +3,10 @@
 
 
 Taller IoT Sofia2
-===================
+=================
 
-INTRODUCCION
-============
+Introducción
+------------
 
 El objetivo de este taller es la realización de un ejemplo real sobre el que poder evaluar las capacidades de la plataforma Sofia2.
 
