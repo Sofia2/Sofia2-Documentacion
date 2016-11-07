@@ -28,7 +28,7 @@ Es importante que los dispositivos no tengan que enviar información irrelevante
 En la generación de un modelo equilibrado radica la complejidad del diseño del modelo de datos.
 
 Ontología
----------
+^^^^^^^^^^^^^^^^
 
 En Sofia2 el modelo de datos recibe el nombre de Ontología, podemos definir ésta de una manera muy superficial como un esquema JSON que definirá de forma explícita los datos que almacenará.
 
