@@ -14,7 +14,7 @@ El objetivo de este taller es crear un sistema de recomendación en base a los r
 
 -  Creación del modelo mediante Notebook.
 
-INGESTA DE LOS DATOS
+Ingesta de los datos
 --------------------
 
 Creación Pipeline
