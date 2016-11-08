@@ -15,10 +15,10 @@ El objetivo de este taller es crear un sistema de recomendación en base a los r
 -  Creación del modelo mediante Notebook.
 
 INGESTA DE LOS DATOS
-====================
+--------------------
 
 Creación Pipeline
------------------
+^^^^^^^^^^^^^^^^^
 
 Vamos a realizar la ingesta de los datos de películas con el Dataflow. Lo primero que hay que hacer es crear un Pipeline desde cero. Dentro de las opciones de Menú de Analytics, “Mis Pipelines”, y dentro de esta pantalla, hay que pulsar el botón de Crear. Aparecerá una ventana en la que introducir el nombre del Pipeline, una descripción y un temporizador, que para esta práctica no aplica:
 
@@ -27,7 +27,7 @@ Vamos a realizar la ingesta de los datos de películas con el Dataflow. Lo prime
 Al crear el pipeline accede directamente al espacio de trabajo en el que crearemos el flujo de información.
 
 Definir Componente Origen
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Los datos ya están descargados en la máquina de Sofia2. Concretamente, la ruta es “/datadrive/ftp/movielens”. En este directorio deberían existir dos ficheros: *movies.dat* y *ratings.dat*. Para este pipeline nos interesan los datos de las películas.
 
@@ -52,7 +52,7 @@ Ya podemos hacer la previsualización. Dentro del menú anterior, el botón just
 En input data puedes ver lo que lee en cada registro y en cada uno de los componentes. Si pulsas sobre el componente directory, verás lo que genera y si pulsas sobre Trash lo que recibe. En este caso es lo mismo.
 
 Procesado de los datos
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Ahora vamos a hacer la preparación de los datos. Como has podido observar en el preview del paso anterior, los campos están separados por “::”. El Dataflow, interpreta los separadores como un solo carácter, por lo que no se puede definir como delimitador “::”. Esto es lo siguiente que haremos.
 
@@ -68,7 +68,7 @@ Puedes probar a previsualizar para comprobar que efectivamente está renombrando
 Esta línea lo que hace es reemplazar “::” por “%”. Hemos elegido ese delimitador porque los típicos que suelen ser “;”, “,” y “\|” aparecen en el dataset como parte de los campos. Lanza de nuevo el preview y comprueba que se ha realizado el cambio correctamente.
 
 Destino componente destino
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image12|\ |image13|
 
@@ -96,17 +96,17 @@ Lanza el preview de nuevo y comprueba que los datos llegan correctamente al dest
 ¿Sabrías generar el fichero en el HDFS como delimitado, definiendo los nombres de los campos separados por “;”?
 
 NOTEBOOK
-========
+--------
 
 Con ayuda de los notebooks de Sofia2 vamos a generar el modelo de recomendación de películas usando los datos que hemos cargado en la plataforma en el ejercicio anterior. Proponemos llevarlo a cabo con Spark usando Scala, y más concretamente implementaremos el ALS.
 
 Definición de las rutas de los datos de entrada
------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     |image15|\ El primer paso es leer los datos de películas y ratings, y para eso primero hay que que definir la ruta de los datos. Define las variables *ratings path* y *movies\_path* con las correspondientes rutas donde hayas hecho la carga a la plataforma.
 
 Estructurar los datos
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Lo siguiente es guardar la información de películas y puntuaciones. Vamos a leer dicha información mediante RDDs de Spark.
 
@@ -117,24 +117,24 @@ También aprovechamos a importar las librerías de Mlib que se van a usar en el 
 |image16|
 
 Comprobaciones de los datos
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image17|\ Ahora, comprueba que efectivamente se han leído los datos. ¿Cuántas puntuaciones has descargado? ¿Cuántas películas hay en el catálogo? ¿Cuántas películas se han puntuado? ¿Y cuántos usuarios lo han hecho?
 
 Dividir el dataset
-------------------
+^^^^^^^^^^^^^^^^^^
 
 Antes de construir el modelo hay que dividir el dataset en partes más pequeñas, una para entrenamiento(60%), otra para validación(20%) y otra más para testing(20%).
 
 |image18|
 
 Función para evaluar el modelo
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image19|\ Una vez divididos los datos, definamos la función que evaluará el rendimiento del modelo. En concreto usaremos `**Root Mean Squared Error (RMSE)** <https://en.wikipedia.org/wiki/Root-mean-square_deviation>`__ y esta es la versión en Scala:
 
 Elección del modelo
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 |image20|\ Ahora puedes usar esta función para definir los parámetros para el algoritmo de entrenamiento. El algortimo ALS requiere 3 parámetros: el rango de la matriz de factores, el número de iteraciones y una lambda. Vamos a definir diferentes valores para estos parámetros y probar diferentes combinaciones de ellos para determinar cuál de ellas es la mejor:
 
@@ -143,7 +143,7 @@ Elección del modelo
 |image21|\ Ahora vamos a lanzar nuestra función sobre los datos de Test.
 
 Ejecutar las recomendaciones
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Una vez elegido el mejor modelo ya solo quedan las recomendaciones de películas por usuario. La idea es preguntar por el usuario, que para el Dataset usado es un numérico. Vamos a hacerlo tipo formulario, de tal forma que primero pregunte por el usuario, se inserte en un campo de texto y por último lance la recomendación. Para preguntar por el usuario:
 
