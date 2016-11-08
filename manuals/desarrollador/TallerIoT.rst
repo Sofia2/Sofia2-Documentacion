@@ -80,11 +80,11 @@ Por último, pulsamos el botón Crear.
 ThinKP
 ------
 
-    Una vez que hemos definido el modelo de datos y lo hemos plasmado en una ontología, tenemos que crear el ThinKP, la configuración lógica de los dispositivos que van a interactuar con nuestra ontología.
+Una vez que hemos definido el modelo de datos y lo hemos plasmado en una ontología, tenemos que crear el ThinKP, la configuración lógica de los dispositivos que van a interactuar con nuestra ontología.
 
-    Para ello accedemos al menú Mis ThinKPs y pulsamos sobre el botón Nuevo ThinKP.
+Para ello accedemos al menú Mis ThinKPs y pulsamos sobre el botón Nuevo ThinKP.
 
-    |image80|
+|image80|
 
 Le damos un nombre a nuestro ThinKP, le llamaremos TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>.
 
