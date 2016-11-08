@@ -107,12 +107,10 @@ De nuevo, pulsa sobre el componente y crea un flujo como el siguiente:
 
 Accede a la configuración del destino. Hay que modificar 3 pestañas:
 
-Hadoop FS: Corresponde a las conexiones y rutas del HDFS
+* Hadoop FS: Corresponde a las conexiones y rutas del HDFS
 
-
-**Hadoop FS URI**: hdfs://localhost:8020
-
-**HDFS User**: cloudera-scm
+ * **Hadoop FS URI**: hdfs://localhost:8020
+ * **HDFS User**: cloudera-scm
 
 
 
