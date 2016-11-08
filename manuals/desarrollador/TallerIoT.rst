@@ -119,7 +119,7 @@ Configuración del simulador
 
     Puesto que no tenemos un dispositivo real que inserte información en nuestra ontología, vamos a hacer uso de las herramientas de Sofia2 para insertar datos simulados, para ello accedemos al menú Simulador Tiempo Real Instancias de Ontología.
 
-|image15|
+|image87|
 
 Pulsamos el botón Crear Simulador, lo primero que vamos a crear son los Generadores de Instancias que vamos a usar, un Generador de Instancias, es una definición de datos de prueba.
 
@@ -127,7 +127,7 @@ Vamos a crear los siguientes generadores:
 
 -  Primero el generador del campo ID para nuestro supuesto Watorimetro, como nombre le ponemos TallerIoTWAT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor, el mismo que el nombre que le hemos dado.
 
-|image16|
+|image88|
 
 -  Ahora el generador del campo ID para nuestro supuesto Termostato, como nombre le ponemos TallerIoTTERMOSTATO<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, como tipo de Generador Fixed String y como valor el mismo que el nombre que le hemos dado.
 
@@ -141,50 +141,50 @@ Vamos a crear los siguientes generadores:
 
 Una vez definidos los Generadores vamos a crear tres simuladores, el medidor de termperatura, el de humedad y el de watios, para ello en el campo identificación ponemos el nombre TallerIoTSIMULADORT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, TallerIoTSIMULADORH<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y TallerIoTSIMULADORW<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>
 
-|image17|
+|image89|
 
 En la pestaña de ontología, seleccionamos nuestra ontología TallerIoT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>
 
-|image18|
+|image90|
 
 Creamos la configuración para el Simulador de Temperatura.
 
-|image19|
+|image91|
 
 Creamos el simulador para el Simulador de humedad
 
-|image20|
+|image92|
 
 Creamos los datos para el simulador del Watorimetro.
 
-|image21|
+|image93|
 
 Ejecución de Simulador
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Abrimos tres nuevas pestañas en el explorador, y accedemos en cada una de ellas a uno de los tres simuladores. Y pulsamos el botón ¡Empezar! en cada uno de ellos
 
-|image22|
+|image94|
 
 Abrimos una cuarta pestaña y accedemos a la opción del menú Consola BDTR y BDH
 
-|image23|
+|image95|
 
 Seleccionamos nuestra ontología
 
-|image24|
+|image96|
 
 Nos aparecerá una consulta por defecto, para realizar las consultas sobre BDTR usando el lenguaje SQL-Like.
 
-|image25|
+|image97|
 
 Si pulsamos el botón realizar consulta, nos devolverá los datos contenidos en la Base de Datos, debemos de ser conscientes que la plataforma por configuración nos devolverá como mucho 100 Registros.
 
-|image26|
+|image98|
 
 Detenemos nuestros tres simuladores, pulsando sobre el botón ¡Parar!.
 
-|image27|
+|image99|
 
 Cuadro de mando
 ---------------
@@ -197,74 +197,74 @@ Crear Gadget
 
 Accedemos a la opción de menú Mis Gadgets y pulsamos sobre Crear Gadget, seleccionamos crear Gadget y el tipo Columna
 
-    |image28|
+|image100|
 
 Como nombre le asignamos TallerIoTGADGETH<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y seleccionamos el ThinKP que creamos.
 
-|image29|
+|image101|
 
 Seleccionamos la pestaña Obtener datos por query, usando la sentencia select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='HUMEDAD'; y como medidas Para el Eje X contextData.timestamp, este último debemos transformarlo usando new Date($0) y para el Eje Y HUMEDAD.
 
-    |image30|
+|image102|
 
 Haremos lo mismo para crear el gráfico de consumo de Watios, al que llamaremos TallerIoTGADGETW<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='WATIOS' y en el Eje Y WATIOS
 
-    |image31|
+    |image103|
 
 Y para crear el gráfico de temperatura, al que llamaremos TallerIoTGADGETT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='TEMPERATURA' y en el Eje Y TEMPERATURA
 
-    |image32|
+    |image104|
 
     Por cada uno de los Gadget anteriores, creará un gráfico como el siguiente
 
-    |image33|
+    |image105|
 
     Por último, crearmos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas:
 
-    |image34|
+    |image106|
 
     El resultado de este Gadget es una tabla como la siguiente:
 
-    |image35|
+    |image107|
 
 Crear Dashboard
 ^^^^^^^^^^^^^^^
 
     Una vez que hemos creado los Gadget, ahora vamos a crear un Dashboard que los use, para ello accedemos a la opción de menú Mis Dashboards y pulsamos sobre Crear Dashboard.
 
-    |image36|
+    |image108|
 
     Llamaremos al dashboard TallerIoTDASHBOARD<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y lo marcarmos como público. Pulsamos el botón de Nueva Página.
 
-    |image37|
+    |image109|
 
     Habilitamos el modo de edición.
 
-    |image38|
+    |image110|
 
     Pulsamos sobre el símbolo + que nos permitirá añadir un nuevo Gadget.
 
-    |image39|
+    |image111|
 
     Seleccionamos el tipo de Gadget que queremos añadir, en nuestro caso son tres de tipo Bar y uno de tipo Table.
 
-    |image40|
+    |image112|
 
     Una vez añadido el tipo de Gadget, pulsamos sobre el botón configuración.
 
-    |image41|
+    |image113|
 
     Seleccionamos el Gadget que queremos añadir a nuestro Dashboard.
 
-    |image42|
+    |image114|
 
     El resultado final será el Dashboard con todos los Gadget que hemos añadido.
 
-    |image43|
+    |image115|
 
     En el listado de Gadget si pulsamos sobre el símbolo del enlace,
 
-    |image44|
+    |image116|
 
 nos aparece un cuadro de diálogo con una URL en la que accedemos directamente al Dashboard y que podemos publicar.
 
@@ -273,41 +273,41 @@ Publicar Ontología como API
 
     Sofia2 permite publicar nuestras ontologías como Api RST, para ello accedemos a la opción de menú Mis Apis.
 
-    |image45|
+    |image117|
 
 Pulsamos sobre el botón Crear Api. Le asignamos el nombre TallerIoTAPI<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, lo marcamos como público. Desmarcamos la opción API Externa y seleccionamos nuestra ontología.
 
-|image46|
+|image118|
 
 Vamos a establecer una cache de 5 minutos para los resultados de las consultas. Y un límite de 5 consultas al API por minuto.
 
 Se nos muestra el EndPoint de acceso al API.
 
-|image47|
+|image119|
 
 Debemos indicar una descripción y un valor para el campo Meta Inf. Por último nos aparecen las operaciones que podemos crear.
 
-|image48|
+|image120|
 
 Vamos a crear tres CUSTOM, uno por cada tipo de dato que almacenamos, Humedad, Temperatura y Watios.
 
-|image49|
+|image121|
 
 El resultado final debe de ser las siguientes tres API.
 
-|image50|
+|image122|
 
 Marcamos al API como Publicada pulsando el botón Publicar del listado de API.
 
-|image51|
+|image123|
 
 Accedemos al menú Mis API Key, donde debemos copiar el Token de Usuaro, el cual necesitamos para invocar las API.
 
-|image52|
+|image124|
 
 Accedemos al menú Mis Suscripciones, donde aparecerán las API que tenemos publicadas.
 
-|image53|
+|image125|
 
 Al pulsar en Test & Doc accedemos a una página de pruebas de las API, donde en la parte derecha aparecen las operaciones que hemos expuesto.
 
@@ -317,19 +317,19 @@ Al pulsar en Test & Doc accedemos a una página de pruebas de las API, donde en 
 
 \\Temperatura
 
-|image54|
+|image126|
 
 Al púlsar sobre cada opción nos aparece la meta información del servicio y la opción en la parte inferior de ejecutar con el botón Submit, debemos en la cabecera X-SOFIA2-APIKey pegar el Token de Usuario que copiamos en el punto anterior.
 
-|image55|
+|image127|
 
 Al ejcutarlo obtendremos el resultado de la consulta que habíamos definido.
 
-|image56|
+|image128|
 
 En la pestaña Request Info podemos ver el URL de invocación de la operación, que será el End Point que se creó cuando generamos el API más la operación.
 
-|image57|
+|image129|
 
 ANEXO
 -----
@@ -341,56 +341,56 @@ Crear Regla CEP
 
 Accedemos a la opción de menú Mis Eventos CEP y pulsamos sobre Crear Evento
 
-|image58|
+|image130|
 
 Como Identificacion le asignaremos TallerIoTEVENTO<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos nuestra ontología y pulsaremos el botón Cargar campos.
 
-|image59|
+|image131|
 
 Seleccionamos los campos TEMPERATURA, TIPO y UBICACIÓN y pulsamos el boton Crear.
 
 Fijémonos en la columna Nombre Evento CEP, ese será el nombre que deberemos usar en el siguiente punto.
 
-|image60|
+|image132|
 
 Ahora accedemos al menu Mis Reglas CEP y pulsamos sobre el botón Crear Regla.
 
-|image61|
+|image133|
 
 Seleccionamos el Evento que hemos creado.
 
-|image62|
+|image134|
 
 En el from establecemos los parametros de cumplimiento de la regla.
 
-|image63|
+|image135|
 
 En el select los campos que queremos recuperar cuando se lance la regla CEP.
 
-|image64|
+|image136|
 
 En el Insert Into la regla que queremos generar, en nuestro caso TallerIoTREGLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>. Una vez introducidas las tres casillas, pulsamos el botón Crear.
 
-|image65|
+|image137|
 
 Ya hemos creado una Regla que generará un evento cada vez que llegue una instancia de ontología con el valor TEMPRATURA mayor a 30 y que sea de tipo TEMPERATURA.
 
-|image66|
+|image138|
 
 Crear Regla SCRIPT
 ^^^^^^^^^^^^^^^^^^
 
 Accedemos a la opción de menú Mis Reglas Script y pulsamos sobre Crear Script.
 
-|image67|
+|image139|
 
 Asignamos al Script el nombre TallerIoTSCRIPT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>. Le asignamos un timeout de 5 segundos, elegimos el tipo de Script CEP y seleccionamos la regla que hemos creado antes. Ahora cuando se lance el evento asociado a nuestra regla, se ejecutará este Script. Por último, elegimos el lenguaje del Script Groovy.
 
-|image68|
+|image140|
 
 Forzamos la ejecución del bloque Then añadiendo un return true; en el bloque de evaluación if.
 
-|image69|
+|image141|
 
 En la guia `http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf <http://sofia2.com/docs/SOFIA2-Guia%20de%20Uso%20Motor%20Scripting.pdf>`__ encontraremos más información sobre el uso de Script y las API que disponibiliza.
 
@@ -404,11 +404,11 @@ En el bloque then añadiremos la lógica que queramos que se ejecute cuando se p
 
 El siguiente código envia un email avisando de que hemos excedido los 30 grados.
 
-|image70|
+|image142|
 
 Si queremos recuperar los datos del Evento, la proyección que hicimos a traves de la clausula select de la Regla CEP, disponemos del Objeto inEvents.
 
-|image71|
+|image143|
 
 Y a traves del atributo getValuesJson podemos recuperar cada uno de los atributos del Evento, que eran VALOR y UBICACIÓN.
 
@@ -418,7 +418,7 @@ Podemos usar el mismo ThinKP que creamos en el punto 4 y asignarle también esta
 
 A continuación, un ejemplo de como insertar una ontología desde las Reglas Script:
 
-|image72|
+|image144|
 
 En `http://sofia2.com/desarrollador.html#documentacion <http://sofia2.com/desarrollador.html#documentacion>`__ disponéis de toda la documentación de la plataforma.
 
@@ -693,6 +693,237 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
    :width: 6.48958in
    :height: 1.03125in
 .. |image86| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+   
+.. |image87| image:: ./media/image104.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image88| image:: ./media/image105.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image89| image:: ./media/image106.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image90| image:: ./media/image107.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image91| image:: ./media/image108.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image92| image:: ./media/image109.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image93| image:: ./media/image110.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image94| image:: ./media/image111.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image95| image:: ./media/image112.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image96| image:: ./media/image113.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image97| image:: ./media/image114.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image98| image:: ./media/image115.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image99| image:: ./media/image116.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image100| image:: ./media/image117.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image101| image:: ./media/image118.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image102| image:: ./media/image119.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image103| image:: ./media/image120.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image104| image:: ./media/image121.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image105| image:: ./media/image122.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image106| image:: ./media/image123.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image107| image:: ./media/image124.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image108| image:: ./media/image125.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image109| image:: ./media/image126.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image110| image:: ./media/image127.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image111| image:: ./media/image128.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image112| image:: ./media/image129.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image113| image:: ./media/image130.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image114| image:: ./media/image131.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image115| image:: ./media/image132.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image116| image:: ./media/image133.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image117| image:: ./media/image134.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image118| image:: ./media/image135.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image119| image:: ./media/image136.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image120| image:: ./media/image137.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image121| image:: ./media/image138.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image122| image:: ./media/image139.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image123| image:: ./media/image140.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image124| image:: ./media/image141.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image125| image:: ./media/image142.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image126| image:: ./media/image143.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image127| image:: ./media/image144.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image128| image:: ./media/image145.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image129| image:: ./media/image146.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image130| image:: ./media/image147.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image131| image:: ./media/image148.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image132| image:: ./media/image149.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image133| image:: ./media/image150.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image134| image:: ./media/image151.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image135| image:: ./media/image152.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image136| image:: ./media/image153.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image137| image:: ./media/image154.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image138| image:: ./media/image155.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image139| image:: ./media/image156.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image140| image:: ./media/image157.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image141| image:: ./media/image158.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image142| image:: ./media/image159.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image143| image:: ./media/image160.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image144| image:: ./media/image161.png
+   :width: 6.48958in
+   :height: 1.03125in
+   
+   
+   
+   
+   
+.. |image145| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image146| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image147| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image148| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image149| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image150| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image151| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image152| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image153| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image154| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image155| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image156| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image157| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image158| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image159| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image160| image:: ./media/image103.png
+   :width: 6.48958in
+   :height: 1.03125in
+.. |image161| image:: ./media/image103.png
    :width: 6.48958in
    :height: 1.03125in
 
