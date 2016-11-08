@@ -117,7 +117,7 @@ Configuración del simulador
 
 
 
-    Puesto que no tenemos un dispositivo real que inserte información en nuestra ontología, vamos a hacer uso de las herramientas de Sofia2 para insertar datos simulados, para ello accedemos al menú Simulador Tiempo Real Instancias de Ontología.
+Puesto que no tenemos un dispositivo real que inserte información en nuestra ontología, vamos a hacer uso de las herramientas de Sofia2 para insertar datos simulados, para ello accedemos al menú Simulador Tiempo Real Instancias de Ontología.
 
 |image87|
 
@@ -189,7 +189,7 @@ Detenemos nuestros tres simuladores, pulsando sobre el botón ¡Parar!.
 Cuadro de mando
 ---------------
 
-    El siguiente paso es crear un cuadro de mando usando las capacidades de presentación gráfica de la plataforma.
+El siguiente paso es crear un cuadro de mando usando las capacidades de presentación gráfica de la plataforma.
     
 
 Crear Gadget
@@ -209,71 +209,71 @@ Seleccionamos la pestaña Obtener datos por query, usando la sentencia select \*
 
 Haremos lo mismo para crear el gráfico de consumo de Watios, al que llamaremos TallerIoTGADGETW<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='WATIOS' y en el Eje Y WATIOS
 
-    |image103|
+|image103|
 
 Y para crear el gráfico de temperatura, al que llamaremos TallerIoTGADGETT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='TEMPERATURA' y en el Eje Y TEMPERATURA
 
-    |image104|
+|image104|
 
-    Por cada uno de los Gadget anteriores, creará un gráfico como el siguiente
+Por cada uno de los Gadget anteriores, creará un gráfico como el siguiente
 
-    |image105|
+|image105|
 
-    Por último, crearmos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas:
+Por último, crearmos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas:
 
-    |image106|
+|image106|
 
-    El resultado de este Gadget es una tabla como la siguiente:
+El resultado de este Gadget es una tabla como la siguiente:
 
-    |image107|
+|image107|
 
 Crear Dashboard
 ^^^^^^^^^^^^^^^
 
-    Una vez que hemos creado los Gadget, ahora vamos a crear un Dashboard que los use, para ello accedemos a la opción de menú Mis Dashboards y pulsamos sobre Crear Dashboard.
+Una vez que hemos creado los Gadget, ahora vamos a crear un Dashboard que los use, para ello accedemos a la opción de menú Mis Dashboards y pulsamos sobre Crear Dashboard.
 
-    |image108|
+|image108|
 
-    Llamaremos al dashboard TallerIoTDASHBOARD<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y lo marcarmos como público. Pulsamos el botón de Nueva Página.
+Llamaremos al dashboard TallerIoTDASHBOARD<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y lo marcarmos como público. Pulsamos el botón de Nueva Página.
 
-    |image109|
+|image109|
 
-    Habilitamos el modo de edición.
+Habilitamos el modo de edición.
 
-    |image110|
+|image110|
 
-    Pulsamos sobre el símbolo + que nos permitirá añadir un nuevo Gadget.
+Pulsamos sobre el símbolo + que nos permitirá añadir un nuevo Gadget.
 
-    |image111|
+|image111|
 
-    Seleccionamos el tipo de Gadget que queremos añadir, en nuestro caso son tres de tipo Bar y uno de tipo Table.
+Seleccionamos el tipo de Gadget que queremos añadir, en nuestro caso son tres de tipo Bar y uno de tipo Table.
+    
+|image112|
 
-    |image112|
+Una vez añadido el tipo de Gadget, pulsamos sobre el botón configuración.
 
-    Una vez añadido el tipo de Gadget, pulsamos sobre el botón configuración.
+|image113|
 
-    |image113|
+Seleccionamos el Gadget que queremos añadir a nuestro Dashboard.
 
-    Seleccionamos el Gadget que queremos añadir a nuestro Dashboard.
+|image114|
 
-    |image114|
+El resultado final será el Dashboard con todos los Gadget que hemos añadido.
 
-    El resultado final será el Dashboard con todos los Gadget que hemos añadido.
+|image115|
 
-    |image115|
+En el listado de Gadget si pulsamos sobre el símbolo del enlace,
 
-    En el listado de Gadget si pulsamos sobre el símbolo del enlace,
-
-    |image116|
+|image116|
 
 nos aparece un cuadro de diálogo con una URL en la que accedemos directamente al Dashboard y que podemos publicar.
 
 Publicar Ontología como API
 ---------------------------
 
-    Sofia2 permite publicar nuestras ontologías como Api RST, para ello accedemos a la opción de menú Mis Apis.
+Sofia2 permite publicar nuestras ontologías como Api RST, para ello accedemos a la opción de menú Mis Apis.
 
-    |image117|
+|image117|
 
 Pulsamos sobre el botón Crear Api. Le asignamos el nombre TallerIoTAPI<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, lo marcamos como público. Desmarcamos la opción API Externa y seleccionamos nuestra ontología.
 
