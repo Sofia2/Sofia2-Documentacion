@@ -109,11 +109,15 @@ Accede a la configuración del destino. Hay que modificar 3 pestañas:
 
 Hadoop FS: Corresponde a las conexiones y rutas del HDFS
 
+
 **Hadoop FS URI**: hdfs://localhost:8020
+
 **HDFS User**: cloudera-scm
 
 
-*Output Files:* Es la definición de los ficheros de salida, rutas, formato, etc.
+
+**Output Files:** Es la definición de los ficheros de salida, rutas, formato, etc.
+
 
 **File Type**: Text Files
 
@@ -123,18 +127,23 @@ Hadoop FS: Corresponde a las conexiones y rutas del HDFS
 
 **Directory Template**: /user/cloudera-scm/movielens/alias\_alumno/
 
-*Text*: Es la configuración del formato elegido en la pestaña anterior.
+
+**Text**: Es la configuración del formato elegido en la pestaña anterior.
+
 
 **Text Field Path**: /datos
 
+
 Lanza el preview de nuevo y comprueba que los datos llegan correctamente al destino:
 
-| |image14|
-| Si todo parece correcto, pulsa sobre el botón de “Start”, a la derecha del botón de validación que has usado anteriormente. Verás que se abre otra ventana con las estadísticas de los datos que se van leyendo, tiempos de proceso de cada componente, etc. Cuando veas que ya no está leyendo datos, significa que ya ha recorrido todo los ficheros de entrada. Como nosotros no necesitamos más datos que esos, podemos parar el pipeline.
+|image14|
+
+Si todo parece correcto, pulsa sobre el botón de “Start”, a la derecha del botón de validación que has usado anteriormente. Verás que se abre otra ventana con las estadísticas de los datos que se van leyendo, tiempos de proceso de cada componente, etc. Cuando veas que ya no está leyendo datos, significa que ya ha recorrido todo los ficheros de entrada. Como nosotros no necesitamos más datos que esos, podemos parar el pipeline.
 
 ¿Sabrías hacer lo mismo para el fichero de Ratings?
 
 ¿Sabrías generar el fichero en el HDFS como delimitado, definiendo los nombres de los campos separados por “;”?
+
 
 NOTEBOOK
 --------
