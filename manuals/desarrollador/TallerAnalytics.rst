@@ -160,7 +160,6 @@ Hay que definir un formato concreto tanto para las películas: (movieId, movieNa
 También aprovechamos a importar las librerías de Mlib que se van a usar en el ejemplo. En concreto se necesitan `ALS
 <https://spark.apache.org/docs/1.1.0/api/java/org/apache/spark/mllib/recommendation/ALS.html>`__, `Rating <https://spark.apache.org/docs/1.1.0/api/java/org/apache/spark/mllib/recommendation/Rating.html>`__ y `MatrixFactorizationModel <https://spark.apache.org/docs/1.4.0/api/java/org/apache/spark/mllib/recommendation/MatrixFactorizationModel.html>`__.
 
-`http://sofia2-analytic.cloudapp.net/console/ <http://sofia2-analytic.cloudapp.net/console/>`__
 
 |image16|
 
