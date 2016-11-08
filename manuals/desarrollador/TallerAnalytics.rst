@@ -103,6 +103,7 @@ Destino componente destino
 
 De nuevo, pulsa sobre el componente y crea un flujo como el siguiente:
 
+|image24|
 
 *Output Files:* Es la definición de los ficheros de salida, rutas, formato, etc.
 
@@ -210,3 +211,4 @@ Ahora, ya solo queda lanzar la recomendación. Para este ejemplo, definimos que 
 .. |image21| image:: ./media/image181.png
 .. |image22| image:: ./media/image182.png
 .. |image23| image:: ./media/image183.png
+.. |image24| image:: ./media/image184.png
