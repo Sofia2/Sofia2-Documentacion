@@ -86,7 +86,7 @@ Puedes probar a previsualizar para comprobar que efectivamente está renombrando
 
 |image10|
 
-
+Ahora ya podemos crear el componente que sustituye el delimitador. Para llevar a cabo esta tarea se pueden usar diferentes processors, concretamente todos los que son “Evaluators”. Nosotros lo haremos	con el de JavaScript. Como siempre, pulsa sobre el componente y crea un flujo como el siguiente:
 
 |image11|
 
@@ -95,7 +95,9 @@ Esta línea lo que hace es reemplazar “::” por “%”. Hemos elegido ese de
 Destino componente destino
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|image12|\ |image13|
+|image12|
+
+|image13|
 
 *Output Files:* Es la definición de los ficheros de salida, rutas, formato, etc.
 
