@@ -21,6 +21,9 @@ Si quieres desarrollar tu APP para interactuar con la plataforma Sofia2 las sigu
   ./desarrollador/desarrollar_en_sofia2
   
 
+.. toctree::
+   :caption: Taller IoT
+  ./desarrollador/TallerIoT
 
 APIS y librerías Sofia2
 -----------------------
@@ -34,9 +37,7 @@ Desarrollo de un cliente
 
 
 
-.. toctree::
-   :caption: Taller IoT
-  ./desarrollador/TallerIoT
+
   
 .. toctree::
    :caption: Taller Analytics
