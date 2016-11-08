@@ -8,7 +8,7 @@ Taller Analytics
 Introducción
 ------------
 
-El objetivo de este taller es crear un sistema de recomendación en base a los ratings de los usuarios. Utilizaremos uno de los Dataset de `movielens/ <https://movielens.org/>`__ que ya reside en la plataforma. Lo haremos en dos pasos:
+El objetivo de este taller es crear un sistema de recomendación en base a los ratings de los usuarios. Utilizaremos uno de los Dataset de `movielens <https://movielens.org/>`__ que ya reside en la plataforma. Lo haremos en dos pasos:
 
 
 -  Ingesta y preparación de los datos mediante Pipelines.
