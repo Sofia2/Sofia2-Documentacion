@@ -234,7 +234,7 @@ Una vez que hemos creado los Gadget, ahora vamos a crear un Dashboard que los us
 
 |image108|
 
-Llamaremos al dashboard TallerIoTDASHBOARD<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y lo marcarmos como público. Pulsamos el botón de Nueva Página.
+Llamaremos al dashboard TallerIoTDASHBOARD<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> y lo marcaremos como público. Pulsamos el botón de Nueva Página.
 
 |image109|
 
