@@ -145,9 +145,10 @@ Con ayuda de los notebooks de Sofia2 vamos a generar el modelo de recomendación
 Definición de las rutas de los datos de entrada
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    |image15|
-    
 El primer paso es leer los datos de películas y ratings, y para eso primero hay que que definir la ruta de los datos. Define las variables *ratings path* y *movies\_path* con las correspondientes rutas donde hayas hecho la carga a la plataforma.
+
+|image15|
+    
 
 Estructurar los datos
 ^^^^^^^^^^^^^^^^^^^^^
@@ -156,7 +157,8 @@ Lo siguiente es guardar la información de películas y puntuaciones. Vamos a le
 
 Hay que definir un formato concreto tanto para las películas: (movieId, movieName) como para los rating: (timestamp % 10, Rating(userId, movieId, rating)).
 
-También aprovechamos a importar las librerías de Mlib que se van a usar en el ejemplo. En concreto se necesitan `**ALS** <https://spark.apache.org/docs/1.1.0/api/java/org/apache/spark/mllib/recommendation/ALS.html>`__, `**Rating** <https://spark.apache.org/docs/1.1.0/api/java/org/apache/spark/mllib/recommendation/Rating.html>`__ y `**MatrixFactorizationModel** <https://spark.apache.org/docs/1.4.0/api/java/org/apache/spark/mllib/recommendation/MatrixFactorizationModel.html>`__.
+También aprovechamos a importar las librerías de Mlib que se van a usar en el ejemplo. En concreto se necesitan `**ALS**
+<https://spark.apache.org/docs/1.1.0/api/java/org/apache/spark/mllib/recommendation/ALS.html>`__, `**Rating** <https://spark.apache.org/docs/1.1.0/api/java/org/apache/spark/mllib/recommendation/Rating.html>`__ y `**MatrixFactorizationModel** <https://spark.apache.org/docs/1.4.0/api/java/org/apache/spark/mllib/recommendation/MatrixFactorizationModel.html>`__.
 
 |image16|
 
