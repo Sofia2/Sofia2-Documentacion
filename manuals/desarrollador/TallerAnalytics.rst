@@ -1,55 +1,6 @@
-+--------------------+----+----+
-| |image0|           |
-|                    |
-| TALLER Analytics   |
-|                    |
-| DE SOFIA2          |
-+--------------------+----+----+
-|                    |
-+--------------------+----+----+
-|                    |
-+--------------------+----+----+
-| Septiembre 2016    |
-|                    |
-| Versión 1          |
-+--------------------+----+----+
-|                    |
-+--------------------+----+----+
-| |image1|           |    |    |
-+--------------------+----+----+
-
-INDICE
-======
-
-`**1** **INDICE** 2 <#indice>`__
-
-`**2** **INTRODUCCION** 3 <#introduccion>`__
-
-`**3** **INGESTA DE LOS DATOS** 4 <#ingesta-de-los-datos>`__
-
-`**3.1** **Creación Pipeline** 4 <#creación-pipeline>`__
-
-`**3.2** **Definir Componente Origen** 4 <#definir-componente-origen>`__
-
-`**3.3** **Procesado de los datos** 6 <#procesado-de-los-datos>`__
-
-`**3.4** **Destino componente destino** 8 <#destino-componente-destino>`__
-
-`**4** **NOTEBOOK** 10 <#notebook>`__
-
-`**4.1** **Definición de las rutas de los datos de entrada** 10 <#definición-de-las-rutas-de-los-datos-de-entrada>`__
-
-`**4.2** **Estructurar los datos** 10 <#estructurar-los-datos>`__
-
-`**4.3** **Comprobaciones de los datos** 11 <#comprobaciones-de-los-datos>`__
-
-`**4.4** **Dividir el dataset** 11 <#dividir-el-dataset>`__
-
-`**4.5** **Función para evaluar el modelo** 11 <#función-para-evaluar-el-modelo>`__
-
-`**4.6** **Elección del modelo** 12 <#elección-del-modelo>`__
-
-`**4.7** **Ejecutar las recomendaciones** 12 <#ejecutar-las-recomendaciones>`__
+.. figure::  ./../images/logo_sofia2_grande.png
+ :align:   center
+ 
 
 INTRODUCCION
 ============
