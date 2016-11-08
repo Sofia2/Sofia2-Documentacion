@@ -751,8 +751,7 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
    :width: 6.48958in
    :height: 1.03125in
 .. |image106| image:: ./media/image123.png
-   :width: 6.48958in
-   :height: 1.03125in
+   
 .. |image107| image:: ./media/image124.png
    :width: 6.48958in
    :height: 1.03125in
