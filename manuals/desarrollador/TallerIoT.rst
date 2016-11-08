@@ -151,11 +151,11 @@ Creamos la configuración para el Simulador de Temperatura.
 
 |image91|
 
-Creamos el simulador para el Simulador de humedad
+Creamos la configuración para el Simulador de humedad
 
 |image92|
 
-Creamos los datos para el simulador del Watorimetro.
+Creamos la configuración para el simulador del Watorimetro.
 
 |image93|
 
