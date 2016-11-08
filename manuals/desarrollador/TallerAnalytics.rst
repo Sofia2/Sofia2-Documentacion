@@ -130,7 +130,9 @@ Con ayuda de los notebooks de Sofia2 vamos a generar el modelo de recomendación
 Definición de las rutas de los datos de entrada
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    |image15|\ El primer paso es leer los datos de películas y ratings, y para eso primero hay que que definir la ruta de los datos. Define las variables *ratings path* y *movies\_path* con las correspondientes rutas donde hayas hecho la carga a la plataforma.
+    |image15|
+    
+El primer paso es leer los datos de películas y ratings, y para eso primero hay que que definir la ruta de los datos. Define las variables *ratings path* y *movies\_path* con las correspondientes rutas donde hayas hecho la carga a la plataforma.
 
 Estructurar los datos
 ^^^^^^^^^^^^^^^^^^^^^
