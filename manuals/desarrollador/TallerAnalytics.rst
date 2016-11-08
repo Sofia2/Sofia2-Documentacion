@@ -90,14 +90,19 @@ Ahora ya podemos crear el componente que sustituye el delimitador. Para llevar a
 
 |image11|
 
+Accede a la configuración del componente, y entra en la pestaña Javascript. Verás un editor de texto que se llama “script”, que ya tiene código predefinido dentro. Es la plantilla sobre la que definiremos nuestros cambios. Dentro del bucle for, añade la siguiente línea de código: 
+
+|image12|
+
 Esta línea lo que hace es reemplazar “::” por “%”. Hemos elegido ese delimitador porque los típicos que suelen ser “;”, “,” y “\|” aparecen en el dataset como parte de los campos. Lanza de nuevo el preview y comprueba que se ha realizado el cambio correctamente.
 
 Destino componente destino
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|image12|
-
 |image13|
+
+De nuevo, pulsa sobre el componente y crea un flujo como el siguiente:
+
 
 *Output Files:* Es la definición de los ficheros de salida, rutas, formato, etc.
 
