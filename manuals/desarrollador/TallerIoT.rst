@@ -339,11 +339,11 @@ Los siguientes pasos del taller, nos permiten trabajar sobre dos capacidades ava
 Crear Regla CEP
 ^^^^^^^^^^^^^^^
 
-Accedemos a la opción de menú Mis Eventos CEP y pulsamos sobre Crear Evento
+Accedemos a la opción de menú Mis Eventos CEP y pulsamos sobre Crear Evento.
 
 |image130|
 
-Como Identificacion le asignaremos TallerIoTEVENTO<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos nuestra ontología y pulsaremos el botón Cargar campos.
+Como Identificación le asignaremos TallerIoTEVENTO<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos nuestra ontología y pulsaremos el botón Cargar campos.
 
 |image131|
 
@@ -361,7 +361,7 @@ Seleccionamos el Evento que hemos creado.
 
 |image134|
 
-En el from establecemos los parametros de cumplimiento de la regla.
+En el from establecemos los parámetros de cumplimiento de la regla.
 
 |image135|
 
@@ -373,7 +373,7 @@ En el Insert Into la regla que queremos generar, en nuestro caso TallerIoTREGLA<
 
 |image137|
 
-Ya hemos creado una Regla que generará un evento cada vez que llegue una instancia de ontología con el valor TEMPRATURA mayor a 30 y que sea de tipo TEMPERATURA.
+Ya hemos creado una Regla que generará un evento cada vez que llegue una instancia de ontología con el valor TEMPERATURA mayor a 30 y que sea de tipo TEMPERATURA.
 
 |image138|
 
@@ -402,7 +402,7 @@ Ejercicio Final
 
 En el bloque then añadiremos la lógica que queramos que se ejecute cuando se produzcan los eventos del CEP.
 
-El siguiente código envia un email avisando de que hemos excedido los 30 grados.
+El siguiente código envía un email avisando de que hemos excedido los 30 grados.
 
 |image142|
 
@@ -410,7 +410,7 @@ Si queremos recuperar los datos del Evento, la proyección que hicimos a traves 
 
 |image143|
 
-Y a traves del atributo getValuesJson podemos recuperar cada uno de los atributos del Evento, que eran VALOR y UBICACIÓN.
+Y a través del atributo getValuesJson podemos recuperar cada uno de los atributos del Evento, que eran VALOR y UBICACIÓN.
 
 Para terminar, os propongo crear una nueva ontología, la llamaremos TallerIoTAlarma<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, esta deberá contener los campos UBICACIÓN String y VALOR Number, ambos requeridos.
 
@@ -873,58 +873,4 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
    
    
    
-   
-   
-.. |image145| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image146| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image147| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image148| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image149| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image150| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image151| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image152| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image153| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image154| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image155| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image156| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image157| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image158| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image159| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image160| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
-.. |image161| image:: ./media/image103.png
-   :width: 6.48958in
-   :height: 1.03125in
 
-   
