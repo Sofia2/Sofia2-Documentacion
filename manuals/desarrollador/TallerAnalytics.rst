@@ -41,9 +41,13 @@ Verás que salen alertas de errores. No te preocupes, al crear el componente vac
 Pulsa sobre el componente y accederás a su configuración. Para el origen de directorio local, los parámetros de configuración obligatorios son:
 
 Files → Data Format: Representa el formato de los datos de entrada. Hay diferentes opciones, pero la que se necesita en este ejemplo es Text.
+
 Files → Files Directory: Es el directorio de entrada, donde residen los ficheros a leer. En nuestro caso, esta ruta es /datadrive/ftp/movielens.
+
 Files → Name Pattern: Es la expresión regular con la que buscará los ficheros a cargar dentro del directorio configurado en el parámetro anterior.
+
 Nos interesa leer un solo fichero, por lo que hay que asignar a este campo en movies.dat.
+
 Dependiendo del formato de entrada elegido, se activa la pestaña correspondiente en la ventana de configuración. Verás que en este caso, la pestaña activa es Text. Solo tiene un parámetro que es Max Line Length que tiene un valor por defecto que no vamos a modificar. 
 
 
