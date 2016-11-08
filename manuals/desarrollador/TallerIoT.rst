@@ -48,7 +48,7 @@ Marcamos la ontología como activa y es una buena práctica indicar la descripci
 
 Podemos obviar los detales de Configuración BDTR y BDH y dependencia entre ontologías, pues no tiene relevancia para este taller.
 
-Ahora vamos a añadir los campos, de nuestro modelo de datos, vamos a trabajar con un modelo muy sencillo que contendrá la siguiente información.
+Ahora vamos a añadir los campos de nuestro modelo de datos, vamos a trabajar con un modelo muy sencillo que contendrá la siguiente información:
 
 ============  =======  =============
 ID            String   requerido
