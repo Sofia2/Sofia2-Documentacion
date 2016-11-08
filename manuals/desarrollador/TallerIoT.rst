@@ -323,7 +323,7 @@ Al púlsar sobre cada opción nos aparece la meta información del servicio y la
 
 |image127|
 
-Al ejcutarlo obtendremos el resultado de la consulta que habíamos definido.
+Al ejecutarlo obtendremos el resultado de la consulta que habíamos definido.
 
 |image128|
 
