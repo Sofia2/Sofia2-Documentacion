@@ -166,11 +166,11 @@ Abrimos tres nuevas pestañas en el explorador, accedemos en cada una de ellas a
 
 |image94|
 
-Abrimos una cuarta pestaña y accedemos a la opción del menú Consola BDTR y BDH
+Abrimos una cuarta pestaña y accedemos a la opción del menú Consola BDTR y BDH.
 
 |image95|
 
-Seleccionamos nuestra ontología
+Seleccionamos nuestra ontología.
 
 |image96|
 
@@ -178,11 +178,11 @@ Nos aparecerá una consulta por defecto, para realizar las consultas sobre BDTR 
 
 |image97|
 
-Si pulsamos el botón realizar consulta, nos devolverá los datos contenidos en la Base de Datos, debemos de ser conscientes que la plataforma por configuración nos devolverá como mucho 100 Registros.
+Si pulsamos el botón realizar consulta, nos devolverá los datos contenidos en la Base de Datos. Debemos de ser conscientes que la plataforma por configuración nos devolverá como mucho 100 Registros.
 
 |image98|
 
-Detenemos nuestros tres simuladores, pulsando sobre el botón ¡Parar!.
+Detenemos nuestros tres simuladores pulsando sobre el botón ¡Parar!.
 
 |image99|
 
@@ -195,7 +195,7 @@ El siguiente paso es crear un cuadro de mando usando las capacidades de presenta
 Crear Gadget
 ^^^^^^^^^^^^
 
-Accedemos a la opción de menú Mis Gadgets y pulsamos sobre Crear Gadget, seleccionamos crear Gadget y el tipo Columna
+Accedemos a la opción de menú Mis Gadgets y pulsamos sobre Crear Gadget, seleccionamos crear Gadget y el tipo Columna.
 
 |image100|
 
@@ -207,19 +207,19 @@ Seleccionamos la pestaña Obtener datos por query, usando la sentencia select \*
 
 |image102|
 
-Haremos lo mismo para crear el gráfico de consumo de Watios, al que llamaremos TallerIoTGADGETW<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='WATIOS' y en el Eje Y WATIOS
+Haremos lo mismo para crear el gráfico de consumo de Watios, al que llamaremos TallerIoTGADGETW<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='WATIOS' y en el Eje Y WATIOS.
 
 |image103|
 
-Y para crear el gráfico de temperatura, al que llamaremos TallerIoTGADGETT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='TEMPERATURA' y en el Eje Y TEMPERATURA
+Y para crear el gráfico de temperatura, al que llamaremos TallerIoTGADGETT<Nuestras iniciales Nombre, 1 Apellido 2 Apellido> en este caso con la consulta select \* from TallerIoTPTG where TallerIoTPTG.TIPO ='TEMPERATURA' y en el Eje Y TEMPERATURA.
 
 |image104|
 
-Por cada uno de los Gadget anteriores, creará un gráfico como el siguiente
+Por cada uno de los Gadget anteriores, creará un gráfico como el siguiente:
 
 |image105|
 
-Por último, crearmos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas:
+Por último, crearemos un Gadget de tipo tabla, le llamaremos TallerIoTGADGETTABLA<Nuestras iniciales Nombre, 1 Apellido 2 Apellido>, seleccionaremos la pestaña Obtener datos en directo y añadiremos las siguientes columnas:
 
 |image106|
 
