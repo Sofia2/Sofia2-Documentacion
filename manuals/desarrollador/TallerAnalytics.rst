@@ -183,7 +183,7 @@ Función para evaluar el modelo
 
 |image19|
 
-Una vez divididos los datos, definamos la función que evaluará el rendimiento del modelo. En concreto usaremos `**Root Mean Squared Error (RMSE)** <https://en.wikipedia.org/wiki/Root-mean-square_deviation>`__ y esta es la versión en Scala:
+Una vez divididos los datos, definamos la función que evaluará el rendimiento del modelo. En concreto usaremos `Root Mean Squared Error (RMSE) <https://en.wikipedia.org/wiki/Root-mean-square_deviation>`__ y esta es la versión en Scala:
 
 Elección del modelo
 ^^^^^^^^^^^^^^^^^^^
@@ -192,11 +192,13 @@ Elección del modelo
 
 Ahora puedes usar esta función para definir los parámetros para el algoritmo de entrenamiento. El algortimo ALS requiere 3 parámetros: el rango de la matriz de factores, el número de iteraciones y una lambda. Vamos a definir diferentes valores para estos parámetros y probar diferentes combinaciones de ellos para determinar cuál de ellas es la mejor:
 
-¿Cuál crees que es el mejor modelo?
-
 |image21|
 
+¿Cuál crees que es el mejor modelo?
+
 Ahora vamos a lanzar nuestra función sobre los datos de Test.
+
+
 
 Ejecutar las recomendaciones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
