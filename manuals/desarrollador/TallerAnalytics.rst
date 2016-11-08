@@ -74,12 +74,17 @@ Ahora vamos a hacer la preparación de los datos. Como has podido observar en el
 
 |image7|
 
-| |image8|
-| Ahora hay que configurarlo. Este componente es muy simple. Pulsa sobre él, y en su configuración accede a la pestaña “Rename”. En “Fields to Rename” hay que introducir el campo origen y el nombre al que cambiarlo. Escribe como “From Field” /text y como “To |image9|\ Field” /datos.
+Por comodidad, vamos a incluir, antes del cambio de delimitador, un renombrado de campos. En el preview, al desplegar cada registro 	aparecen los campos definidos. Al leer como formato Text, para cada línea se genera un campo que por defecto se llama “text”. Este es el que vamos a renombrar. Para ello, dentro de “Processors”, pulsa sobre “Field Renamer”.  Crea un flujo como el siguiente: 
+
+|image8|
+
+Ahora hay que configurarlo. Este componente es muy simple. Pulsa sobre él, y en su configuración accede a la pestaña “Rename”. En “Fields to Rename” hay que introducir el campo origen y el nombre al que cambiarlo. Escribe como “From Field” /text y como “To |image9|\ Field” /datos.
+
+|image10|
 
 Puedes probar a previsualizar para comprobar que efectivamente está renombrando el campo.
 
-|image10|\ |image11|
+|image11|
 
 Esta línea lo que hace es reemplazar “::” por “%”. Hemos elegido ese delimitador porque los típicos que suelen ser “;”, “,” y “\|” aparecen en el dataset como parte de los campos. Lanza de nuevo el preview y comprueba que se ha realizado el cambio correctamente.
 
