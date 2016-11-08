@@ -116,22 +116,17 @@ Hadoop FS: Corresponde a las conexiones y rutas del HDFS
 
 
 
-**Output Files:** Es la definición de los ficheros de salida, rutas, formato, etc.
+* **Output Files:** Es la definición de los ficheros de salida, rutas, formato, etc.
+
+* **File Type**: Text Files
+* **Data Format**: Text
+* **Files Prefix**: movie
+* **Directory Template**: /user/cloudera-scm/movielens/alias\_alumno/
 
 
-**File Type**: Text Files
+* **Text**: Es la configuración del formato elegido en la pestaña anterior.
 
-**Data Format**: Text
-
-**Files Prefix**: movie
-
-**Directory Template**: /user/cloudera-scm/movielens/alias\_alumno/
-
-
-**Text**: Es la configuración del formato elegido en la pestaña anterior.
-
-
-**Text Field Path**: /datos
+* **Text Field Path**: /datos
 
 
 Lanza el preview de nuevo y comprueba que los datos llegan correctamente al destino:
