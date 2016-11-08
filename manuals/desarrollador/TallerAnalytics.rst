@@ -105,6 +105,14 @@ De nuevo, pulsa sobre el componente y crea un flujo como el siguiente:
 
 |image24|
 
+Accede a la configuración del destino. Hay que modificar 3 pestañas:
+
+Hadoop FS: Corresponde a las conexiones y rutas del HDFS
+
+**Hadoop FS URI**: hdfs://localhost:8020
+**HDFS User**: cloudera-scm
+
+
 *Output Files:* Es la definición de los ficheros de salida, rutas, formato, etc.
 
 **File Type**: Text Files
