@@ -154,27 +154,26 @@ Ahora, ya solo queda lanzar la recomendación. Para este ejemplo, definimos que 
 
 |image23|
 
-.. |image0| image:: ./media/image2.png
-.. |image1| image:: ./media/image3.png
-.. |image2| image:: ./media/image6.png
-.. |image3| image:: ./media/image7.png
-.. |image4| image:: ./media/image8.png
-.. |image5| image:: ./media/image9.png
-.. |image6| image:: ./media/image10.png
-.. |image7| image:: ./media/image11.png
-.. |image8| image:: ./media/image12.png
-.. |image9| image:: ./media/image13.png
-.. |image10| image:: ./media/image14.png
-.. |image11| image:: ./media/image15.emf
-.. |image12| image:: ./media/image16.emf
-.. |image13| image:: ./media/image17.png
-.. |image14| image:: ./media/image18.png
-.. |image15| image:: ./media/image19.png
-.. |image16| image:: ./media/image20.png
-.. |image17| image:: ./media/image21.png
-.. |image18| image:: ./media/image22.png
-.. |image19| image:: ./media/image23.png
-.. |image20| image:: ./media/image24.png
-.. |image21| image:: ./media/image25.png
-.. |image22| image:: ./media/image26.png
-.. |image23| image:: ./media/image27.png
+
+.. |image2| image:: ./media/image162.png
+.. |image3| image:: ./media/image163.png
+.. |image4| image:: ./media/image164.png
+.. |image5| image:: ./media/image165.png
+.. |image6| image:: ./media/image166.png
+.. |image7| image:: ./media/image167.png
+.. |image8| image:: ./media/image168.png
+.. |image9| image:: ./media/image169.png
+.. |image10| image:: ./media/image170.png
+.. |image11| image:: ./media/image171.emf
+.. |image12| image:: ./media/image172.emf
+.. |image13| image:: ./media/image173.png
+.. |image14| image:: ./media/image174.png
+.. |image15| image:: ./media/image175.png
+.. |image16| image:: ./media/image176.png
+.. |image17| image:: ./media/image177.png
+.. |image18| image:: ./media/image178.png
+.. |image19| image:: ./media/image179.png
+.. |image20| image:: ./media/image180.png
+.. |image21| image:: ./media/image181.png
+.. |image22| image:: ./media/image182.png
+.. |image23| image:: ./media/image183.png
