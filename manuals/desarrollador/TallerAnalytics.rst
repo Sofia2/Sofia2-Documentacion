@@ -107,24 +107,23 @@ De nuevo, pulsa sobre el componente y crea un flujo como el siguiente:
 
 Accede a la configuración del destino. Hay que modificar 3 pestañas:
 
-* Hadoop FS: Corresponde a las conexiones y rutas del HDFS
+* **Hadoop FS:** Corresponde a las conexiones y rutas del HDFS
 
  * **Hadoop FS URI**: hdfs://localhost:8020
  * **HDFS User**: cloudera-scm
 
 
-
 * **Output Files:** Es la definición de los ficheros de salida, rutas, formato, etc.
 
-* **File Type**: Text Files
-* **Data Format**: Text
-* **Files Prefix**: movie
-* **Directory Template**: /user/cloudera-scm/movielens/alias\_alumno/
+ * **File Type**: Text Files
+ * **Data Format**: Text
+ * **Files Prefix**: movie
+ * **Directory Template**: /user/cloudera-scm/movielens/alias\_alumno/
 
 
 * **Text**: Es la configuración del formato elegido en la pestaña anterior.
 
-* **Text Field Path**: /datos
+ * **Text Field Path**: /datos
 
 
 Lanza el preview de nuevo y comprueba que los datos llegan correctamente al destino:
