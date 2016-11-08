@@ -2,8 +2,8 @@
  :align:   center
 
 
-Taller IoT Sofia2
-=================
+Taller IoT
+==========
 
 Introducción
 ------------
