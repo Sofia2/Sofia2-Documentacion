@@ -162,7 +162,7 @@ Creamos la configuración para el simulador del Watorimetro.
 Ejecución de Simulador
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Abrimos tres nuevas pestañas en el explorador, y accedemos en cada una de ellas a uno de los tres simuladores. Y pulsamos el botón ¡Empezar! en cada uno de ellos
+Abrimos tres nuevas pestañas en el explorador, accedemos en cada una de ellas a uno de los tres simuladores y pulsamos el botón ¡Empezar! en cada uno de ellos.
 
 |image94|
 
