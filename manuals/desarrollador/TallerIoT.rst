@@ -10,7 +10,7 @@ Introducción
 
 El objetivo de este taller es la realización de un ejemplo real sobre el que poder evaluar las capacidades de la plataforma Sofia2.
 
-Para ello vamos a simular un edificio que dispone de varias plantas, y tres dispositivos para la lectura de consumo energético, temperatura y humedad en cada una de ellas, para terminar, crearemos un cuadro de mando para viasualizar esta información y publicaremos los datos en un API para ser consumido de manera sencilla por cualquier aplicación.
+Para ello vamos a simular un edificio que dispone de varias plantas, y tres dispositivos para la lectura de consumo energético, temperatura y humedad en cada una de ellas, para terminar, crearemos un cuadro de mando para visualizar esta información y publicaremos los datos en un API para ser consumido de manera sencilla por cualquier aplicación.
 
 
 Modelo de datos
