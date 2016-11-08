@@ -78,11 +78,15 @@ Por comodidad, vamos a incluir, antes del cambio de delimitador, un renombrado d
 
 |image8|
 
-Ahora hay que configurarlo. Este componente es muy simple. Pulsa sobre él, y en su configuración accede a la pestaña “Rename”. En “Fields to Rename” hay que introducir el campo origen y el nombre al que cambiarlo. Escribe como “From Field” /text y como “To |image9|\ Field” /datos.
+Ahora hay que configurarlo. Este componente es muy simple. Pulsa sobre él, y en su configuración accede a la pestaña “Rename”. En “Fields to Rename” hay que introducir el campo origen y el nombre al que cambiarlo. Escribe como “From Field” /text y como “To Field” /datos.
+
+|image9|
+
+Puedes probar a previsualizar para comprobar que efectivamente está renombrando el campo.
 
 |image10|
 
-Puedes probar a previsualizar para comprobar que efectivamente está renombrando el campo.
+
 
 |image11|
 
