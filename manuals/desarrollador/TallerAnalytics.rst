@@ -163,10 +163,13 @@ También aprovechamos a importar las librerías de Mlib que se van a usar en el 
 
 |image16|
 
+
 Comprobaciones de los datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|image17|\ Ahora, comprueba que efectivamente se han leído los datos. ¿Cuántas puntuaciones has descargado? ¿Cuántas películas hay en el catálogo? ¿Cuántas películas se han puntuado? ¿Y cuántos usuarios lo han hecho?
+|image17|
+
+Ahora, comprueba que efectivamente se han leído los datos. ¿Cuántas puntuaciones has descargado? ¿Cuántas películas hay en el catálogo? ¿Cuántas películas se han puntuado? ¿Y cuántos usuarios lo han hecho?
 
 Dividir el dataset
 ^^^^^^^^^^^^^^^^^^
@@ -178,16 +181,22 @@ Antes de construir el modelo hay que dividir el dataset en partes más pequeñas
 Función para evaluar el modelo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|image19|\ Una vez divididos los datos, definamos la función que evaluará el rendimiento del modelo. En concreto usaremos `**Root Mean Squared Error (RMSE)** <https://en.wikipedia.org/wiki/Root-mean-square_deviation>`__ y esta es la versión en Scala:
+|image19|
+
+Una vez divididos los datos, definamos la función que evaluará el rendimiento del modelo. En concreto usaremos `**Root Mean Squared Error (RMSE)** <https://en.wikipedia.org/wiki/Root-mean-square_deviation>`__ y esta es la versión en Scala:
 
 Elección del modelo
 ^^^^^^^^^^^^^^^^^^^
 
-|image20|\ Ahora puedes usar esta función para definir los parámetros para el algoritmo de entrenamiento. El algortimo ALS requiere 3 parámetros: el rango de la matriz de factores, el número de iteraciones y una lambda. Vamos a definir diferentes valores para estos parámetros y probar diferentes combinaciones de ellos para determinar cuál de ellas es la mejor:
+|image20|
+
+Ahora puedes usar esta función para definir los parámetros para el algoritmo de entrenamiento. El algortimo ALS requiere 3 parámetros: el rango de la matriz de factores, el número de iteraciones y una lambda. Vamos a definir diferentes valores para estos parámetros y probar diferentes combinaciones de ellos para determinar cuál de ellas es la mejor:
 
 ¿Cuál crees que es el mejor modelo?
 
-|image21|\ Ahora vamos a lanzar nuestra función sobre los datos de Test.
+|image21|
+
+Ahora vamos a lanzar nuestra función sobre los datos de Test.
 
 Ejecutar las recomendaciones
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
