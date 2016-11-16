@@ -59,6 +59,15 @@ HUMEDAD       Number   no requerido
 TIPO          String   requerido
 ============  =======  =============
 
+============  =======  =============
+ID            String   required
+LOCATION      String   required
+TEMPERATURE   Number   not required
+WATTS         Number   not required
+HUMIDITY      Number   not required
+TYPE          String   required
+============  =======  =============
+
 
 
 |image76|
