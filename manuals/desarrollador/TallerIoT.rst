@@ -681,19 +681,19 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
 .. |image81| image:: ./media/image188.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image82| image:: ./media/image99.png
+.. |image82| image:: ./media/image189.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image83| image:: ./media/image100.png
+.. |image83| image:: ./media/image190.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image84| image:: ./media/image101.png
+.. |image84| image:: ./media/image191.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image85| image:: ./media/image102.png
+.. |image85| image:: ./media/image192.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image86| image:: ./media/image103.png
+.. |image86| image:: ./media/image193.png
    :width: 6.48958in
    :height: 1.03125in
    
