@@ -26,11 +26,12 @@ Gracias a las capacidades de Sofia2, la información se puede almacenar, tratar 
 
 Todas estas capacidades quedarán englobadas en un proyecto sobre Sofia2. A modo de vista general del proyecto, cuando todos los elementos estén conformados se podrá visualizar como en la siguiente figura, donde podremos distinguir los distintos componentes que conforman la solución:
 
-|image3|\ 
+|image3|
 
-Figura .- Panel de control de Proyecto DemoDispositivos
+
 
 Por último, para finalizar el tutorial, explicaremos las capacidades de la plataforma que nos permitirá gestionar los dispositivos conectados y su estado.
+
 
 Primeros pasos: Creando un usuario y definiendo la ontología.
 =============================================================
