@@ -286,10 +286,12 @@ Nota: Es recomendable restringir los resultados de las consultas en la consola d
 
 
 
+
 VISUALIZACIÓN
 -------------
 
 Para terminar vamos a crear un dashboard sobre la ontología creada.
+
 
 
 Crear Gadgets 
@@ -312,15 +314,30 @@ El primer Gadget que crearemos es uno de tipo tabla. Elige esa opción del catá
  *	**Ontología:** elige la ontología que hayas creado para este taller
  *	**Consulta:** select User, Movie, Genre from nombre_ontologia
 
+
 Debería quedar algo así: 
 
+|image33|
 
 
-* **Hadoop FS:** Corresponde a las conexiones y rutas del HDFS
+Pulsa sobre el botón de añadir, junto a la query. Se desplegarán más opciones que tienes que rellenar con el nombre del campo a mostrar junto con su transformación (no es obligatoria) y el alias que aparecerá en el Gagdet. Añade los campos User, Movie y Genre. 
 
- * **Hadoop FS URI**: hdfs://localhost:8020. Nota: Si realizamos el taller desde Sofia2.com/console cambiaremos ‘localhost:8020’ por ‘sofia2-hadoop.cloudapp.net:8020’
- * **HDFS User**: cloudera-scm
+|image34|
 
+Si todo es correcto, debajo de este bloque debería aparecer una previsualización de la tabla. Para terminar pulsa sobre “Crear”. 
+Vamos a por el segundo Gagdet. Ve al menú de creación de Gadgets y elige en el catálogo el tipo “Pie”. De nuevo tenemos que rellenar una serie de atributos:
+
+-	**Nombre:** recomendador_pie_tunombre
+-	**KP:** el mismo KP que para la tabla
+
+-	**Obtener datos por query:**
+*	**Base de datos:** BDH
+*	**Máximos valores a representar:** 100
+*	**Obtener datos cada (segundos):** 0
+
+-	**Consulta**
+*	**Ontología:** elige la ontología que hayas creado para este taller
+*	**Consulta:** select Genre, count(distinct Movie) as num from nombre_ontologia group by Genre
 
 
 
