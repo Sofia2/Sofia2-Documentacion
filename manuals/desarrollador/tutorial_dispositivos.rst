@@ -39,7 +39,9 @@ Primeros pasos: Creando un usuario y definiendo la ontología.
 Creando un usuario.
 -------------------
 
-Este tutorial se realizará sobre la instancia de Sofia2 montada en `*http://sofia2.com/console* <http://sofia2.com/console>`__ . El primer paso será generar una cuenta de usuario exclusiva para este proyecto. Tras la creación el usuario tendrá privilegios de ROL\_USUARIO (Figura 3), y necesitará solicitar los privilegios de ROL\_COLABORADOR (Figura 4), para poder acceder a todas las capacidades que se pretenden desarrollar en este escenario.
+Este tutorial se realizará sobre la instancia de Sofia2 montada en `*instancia de Sofia2* <http://sofia2.com/console>`__ . El primer paso será generar una cuenta de usuario exclusiva para este proyecto. Tras la creación el usuario tendrá privilegios de ROL\_USUARIO (Figura 3), y necesitará solicitar los privilegios de ROL\_COLABORADOR (Figura 4), para poder acceder a todas las capacidades que se pretenden desarrollar en este escenario.
+
+`Movielens <https://movielens.org/>`__
 
 |image4|
 
