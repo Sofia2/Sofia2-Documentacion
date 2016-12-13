@@ -1,6 +1,7 @@
-    |image0|
+.. figure::  ./../../images/logo_sofia2_grande.png
+ :align:   center
 
-    |image1|
+
 
     Gestión de dispositivos en Sofia2
 
