@@ -238,7 +238,7 @@ Ahora, ya solo queda lanzar la recomendación. Para este ejemplo, definimos que 
 .. |image12| image:: ./media/image172.png
 .. |image13| image:: ./media/image173.png
 .. |image14| image:: ./media/image174.png
-.. |image15| image:: ./media/image175.png
+.. |image15| image:: ./media/image206.png
 .. |image16| image:: ./media/image176.png
 .. |image17| image:: ./media/image177.png
 .. |image18| image:: ./media/image178.png
