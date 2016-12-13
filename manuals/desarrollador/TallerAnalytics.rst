@@ -299,24 +299,27 @@ Primero crearemos los gadgets que se mostrarán en el dashboard. Accede a la opc
 
 El primer Gadget que crearemos es uno de tipo tabla. Elige esa opción del catálogo. Tendrás que rellenar los datos necesarios para su creación: 
 
--	Nombre: p.e. recomendador_tabla_tunombre
--	KP: el KP que hayas creado en los pasos anteriores
--	Obtener Datos por query
+-	**Nombre:** p.e. recomendador_tabla_tunombre
+-	**KP:** el ThinKP que hayas creado en los pasos anteriores
+-	**Obtener Datos por query**
 
-o	Base de Datos: BDH
-o	Máximos valores a representar: 100 
-o	Obtener datos cada (segundos): 0
+ *	**Base de Datos:** BDH
+ *	**Máximos valores a representar:** 100 
+ *	**Obtener datos cada (segundos):** 0
 
--	Consulta
+-	**Consulta**
 
-o	Ontología: elige la ontología que hayas creado para este taller
-o	Consulta: select User, Movie, Genre from nombre_ontologia
+ *	**Ontología:** elige la ontología que hayas creado para este taller
+ *	**Consulta:** select User, Movie, Genre from nombre_ontologia
 
 Debería quedar algo así: 
 
 
 
+* **Hadoop FS:** Corresponde a las conexiones y rutas del HDFS
 
+ * **Hadoop FS URI**: hdfs://localhost:8020. Nota: Si realizamos el taller desde Sofia2.com/console cambiaremos ‘localhost:8020’ por ‘sofia2-hadoop.cloudapp.net:8020’
+ * **HDFS User**: cloudera-scm
 
 
 
