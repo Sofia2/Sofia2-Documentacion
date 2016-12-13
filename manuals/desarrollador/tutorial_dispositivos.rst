@@ -8,10 +8,10 @@
 Gestión de dispositivos en Sofia2
 =================================
 
-Introducción
-------------
+
 
 \ **Índice**
+------------
 
 `*1* *Introducción* 3 <#introducción>`__
 
