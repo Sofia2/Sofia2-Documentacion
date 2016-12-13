@@ -140,6 +140,8 @@ Si todo parece correcto, pulsa sobre el botón de “Start”, a la derecha del 
 
 ¿Sabrías generar el fichero en el HDFS como delimitado, definiendo los nombres de los campos separados por “;”?
 
+Nota: Si generas el fichero con punto y coma como delimitador, ten en cuenta que en los siguientes pasos tendrás que usar ese mismo delimitador y no el “%” como aparece en el documento.
+
 
 NOTEBOOK
 --------
