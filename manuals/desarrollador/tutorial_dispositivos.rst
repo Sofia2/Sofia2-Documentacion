@@ -53,19 +53,15 @@ Definición de la ontología a utilizar
 
 Para el escenario de esta demostración se creará una sola ontología con el objetivo de recoger las distintas magnitudes obtenidas tanto del dispositivo SensorTag como del Smartphone.
 
-Sofia2 soporta múltiples métodos de creación de ontologías (interfaz gráfico de definición de JSON Schemas, generación automática desde Excel, Wizard de creación de ontologías, etc). En este caso se mostrará la ***creación guiada de la ontología***. Todas las operaciones posibles que involucran a las ontologías se sitúan bajo el segundo menú de comandos, tal y como se muestra en la Figura 5.
+Sofia2 soporta múltiples métodos de creación de ontologías (interfaz gráfico de definición de JSON Schemas, generación automática desde Excel, Wizard de creación de ontologías, etc). En este caso se mostrará la **creación guiada de la ontología**. Todas las operaciones posibles que involucran a las ontologías se sitúan bajo el segundo menú de comandos:
 
 |image6|
 
-Figura .- Acceso a los comandos para operar con ontologías
-
-En la creación guiada de Ontología se pueden configurar múltiples parámetros (Figura 6).
+En la creación guiada de Ontología se pueden configurar múltiples parámetros:
 
 |image7|
 
-Figura .- Menú de creación guiada de ontologías
-
-De inicio hay que definir a un nombre que identificará a la ontología de aquí en adelante, y existe un campo de descripción para anotar las particularidades y usos de la misma. Justo debajo del campo de nombre existe un campo para activar la ontología.
+De inicio hay que definir un nombre que identificará a la ontología de aquí en adelante, y existe un campo de descripción para anotar las particularidades y usos de la misma. Justo debajo del campo de nombre existe un campo para activar la ontología.
 
 A continuación aparece la configuración de las bases de datos, en cuanto al trasvase de información desde la base de datos en tiempo real (BDTR), a la base de datos histórica (BDH). Para este escenario de demo, se mantendrán los datos en la BDTR.
 
