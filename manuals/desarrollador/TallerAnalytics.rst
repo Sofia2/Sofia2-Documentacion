@@ -349,11 +349,21 @@ Vamos a por el segundo Gagdet. Ve al menú de creación de Gadgets y elige en el
 
 Una vez añadidas las medidas, aparecerá una previsualización del gráfico:
 
- 
+ |image36|
 
+Ya sólo queda crear el dashboard. Para ello, accede al menú Visualización -> Mis Dashboards. En la nueva ventana que rellena el nombre, elige el theme que más te guste y pulsa en “Nueva Página”. Se abrirá una ventana como esta:
 
+|image37|
 
+Pulsa sobre el botón + para añadir un gadget creado y elige el tipo “Table Gadget”. Una vez hecho, pulsa sobre el botón de configuración del Gadget, elige el que has creado en los pasos anteriores, ponle un nombre y pulsa sobre el botón “Close”.
 
+|image38|
+
+Debería mostrarte la tabla que has creado con el Gagdet. 
+
+De manera análoga, añade el Gagdet de Pie que has creado en los pasos anteriores. Una vez hecho esto, puedes mover los gadgets de posición mediante el botón de mover de cada uno de ellos. Finalmente, el dashboard podría ser algo así: 
+
+|image39|
 
 
 
