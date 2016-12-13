@@ -739,13 +739,13 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
 .. |image101| image:: ./media/image118.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image102| image:: ./media/image119.png
+.. |image102| image:: ./media/image197.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image103| image:: ./media/image120.png
+.. |image103| image:: ./media/image198.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image104| image:: ./media/image121.png
+.. |image104| image:: ./media/image199.png
    :width: 6.48958in
    :height: 1.03125in
 .. |image105| image:: ./media/image122.png
@@ -756,7 +756,7 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
 .. |image107| image:: ./media/image124.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image108| image:: ./media/image125.png
+.. |image108| image:: ./media/image200.png
    :width: 6.48958in
    :height: 1.03125in
 .. |image109| image:: ./media/image126.png
@@ -783,7 +783,7 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
 .. |image116| image:: ./media/image133.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image117| image:: ./media/image134.png
+.. |image117| image:: ./media/image201.png
    :width: 6.48958in
    :height: 1.03125in
 .. |image118| image:: ./media/image135.png
