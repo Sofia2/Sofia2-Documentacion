@@ -804,7 +804,7 @@ La guia `http://sofia2.com/docs/SOFIA2-APIs%20Script.pdf <http://sofia2.com/docs
 .. |image123| image:: ./media/image140.png
    :width: 6.48958in
    :height: 1.03125in
-.. |image124| image:: ./media/image141.png
+.. |image124| image:: ./media/image202.png
    :width: 6.48958in
    :height: 1.03125in
 .. |image125| image:: ./media/image142.png
