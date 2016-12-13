@@ -336,15 +336,13 @@ Si vas a jugar con scripting en Sofia2, te interesará saber los siguientes **tr
 Publicando APIs de acceso a los datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ahora vamos a definir interfaces sobre los datos que estamos gestionando. Para ello, una de las opciones disponibles es la configuración de servicios REST a través del API Manager de Sofia2, que nos permitirá definir operaciones de lectura, escritura (*POST*), actualización (*PUT*), borrado (*DELETE*) búsqueda básica o búsquedas avanzadas (*GET).*
+Ahora vamos a definir interfaces sobre los datos que estamos gestionando. Para ello, una de las opciones disponibles es la configuración de servicios REST a través del API Manager de Sofia2, que nos permitirá definir operaciones de lectura, escritura (*POST*), actualización (*PUT*), borrado (*DELETE*), búsqueda básica o búsquedas avanzadas (*GET*).
 
-Para crear un conjunto de operaciones sobre la ontología *demoDispositivos\_RTFrame* que estamos usando en este ejemplo, accederemos al menú ‘Mis APIS’, opción ‘Crear API’ (Figura 39)
+Para crear un conjunto de operaciones sobre la ontología *demoDispositivos_RTFrame* que estamos usando en este ejemplo, accederemos al menú ‘Mis APIS’, opción ‘Crear API’
 
 |image41|
 
-Figura .- Menú de creación de APIs
-
-Por defecto, el formulario propone la configuración de un `*API externa* <https://about.sofia2.com/2014/09/08/nueva-version-api-manager-registro-apis-externas/>`__. En nuestro ejemplo, desmarcaremos esta opción, para poder seleccionar la ontología *demoDispositivos\_RTFrame* en el combo, y esta acción nos propondrá un nombre para el API (*demoDispositivos\_RTFramees,* que podremos actualizar a lo que prefiramos)
+Por defecto, el formulario propone la configuración de un `API externa <https://about.sofia2.com/2014/09/08/nueva-version-api-manager-registro-apis-externas/>`__. En nuestro ejemplo, desmarcaremos esta opción, para poder seleccionar la ontología *demoDispositivos\_RTFrame* en el combo, y esta acción nos propondrá un nombre para el API (*demoDispositivos\_RTFramees,* que podremos actualizar a lo que prefiramos)
 
 Para habilitar cada una de las operaciones disponibles (GET, POST, PUT, DELETE…), solo tendremos que seleccionarlas en el listado, y añadirle una descripción. En nuestro caso, haremos un ejemplo sencillo de la operación CUSTOM QUERY (Figura 40)
 
