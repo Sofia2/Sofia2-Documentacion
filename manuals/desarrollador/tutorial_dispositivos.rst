@@ -207,13 +207,11 @@ Una vez seleccionado el ThinKP, tendremos dos opciones para obtener los datos:
 -  Obtener datos por query: Definiremos un intervalo de tiempo para el refresco del gadget, transcurrido el cual se lanzará la consulta que definamos contra la base de datos en tiempo real o bien contra la base de datos histórica.
 
 
-    En el caso de los valores simples, elegiremos la segunda opción, lanzando cada 20 segundos la siguiente query a la base BDTR (que nos devuelve el último registro insertado en la ontología):
+En el caso de los valores simples, elegiremos la segunda opción, lanzando cada 20 segundos la siguiente query a la base BDTR (que nos devuelve el último registro insertado en la ontología):
 
-    **db.demoDispositivos\_RTFrame.find().sort({'demoDispositivos\_RTFrame.date':1}).sort({'contextData.timestamp':-1})**
+**db.demoDispositivos\_RTFrame.find().sort({'demoDispositivos\_RTFrame.date':1}).sort({'contextData.timestamp':-1})**
 
-    |image22|
-
-Figura .- Obtención de datos en directo para representar en Gadget
+|image22|
 
 Con los datos seleccionados en nuestro gadget, solo necesitaremos seleccionar cuál de los campos de la instancia de ontología recuperada queremos representar, asignarle un nombre en la gráfica y opcionalmente una transformación del dato recuperado de la ontología, tal y como se muestra en la Figura 22.
 
