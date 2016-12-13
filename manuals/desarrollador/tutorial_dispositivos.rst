@@ -93,7 +93,7 @@ El apartado de dependencia entre ontologías no aplica a este escenario. A conti
 | geometry      | Coordenadas de geoposición                | Smartphone   | Geometry   |
 +---------------+-------------------------------------------+--------------+------------+
 
-El resultado final es la ontología completamente definida y lista para recibir información. En el escenario de demo, hemos denominado a la ontología como **demoDispositivos\_RTFrame**. En la Figura 7 se muestra un ejemplo de instancia de esta ontología.
+El resultado final es la ontología completamente definida y lista para recibir información. En el escenario de demo, hemos denominado a la ontología como **demoDispositivos_RTFrame**. En la siguiente figura se muestra un ejemplo de instancia de esta ontología:
 
 |image8|
 
