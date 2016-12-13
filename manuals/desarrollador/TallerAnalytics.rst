@@ -100,7 +100,7 @@ Accede a la configuración del componente, y entra en la pestaña Javascript. Ve
 
 Esta línea lo que hace es reemplazar “::” por “%”. Hemos elegido ese delimitador porque los típicos que suelen ser “;”, “,” y “\|” aparecen en el dataset como parte de los campos. Lanza de nuevo el preview y comprueba que se ha realizado el cambio correctamente.
 
-Destino componente destino
+Definir componente destino
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |image13|
@@ -113,7 +113,7 @@ Accede a la configuración del destino. Hay que modificar 3 pestañas:
 
 * **Hadoop FS:** Corresponde a las conexiones y rutas del HDFS
 
- * **Hadoop FS URI**: hdfs://localhost:8020
+ * **Hadoop FS URI**: hdfs://localhost:8020. Nota: Si realizamos el taller desde Sofia2.com/console cambiaremos ‘localhost:8020’ por ‘sofia2-hadoop.cloudapp.net:8020’
  * **HDFS User**: cloudera-scm
 
 
