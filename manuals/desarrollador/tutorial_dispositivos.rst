@@ -97,60 +97,50 @@ El resultado final es la ontología completamente definida y lista para recibir 
 
 |image8|
 
-Figura .- Instancia de la ontología demoDispositivos\_RTFrame
+Con esta definición y manteniendo la ontología activa, en el lado de la plataforma Sofia2 sólo faltaría definir el ThinKP que se usará para interactuar con los datos, y tras este paso, ya se podrá enviar y obtener datos de la plataforma.
 
-Con esta definición y manteniendo la ontología activa, en el lado de la plataforma Sofia2 sólo faltaría definir el ThinKP que se usará para interactuar con los datos, y tras este paso, ya se podrá enviar y/obtener datos de la plataforma.
 
-Conectando el dispositivo: 
-===========================
+Conectando el dispositivo 
+-------------------------
 
 Creación del ThinKP asociado
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-En este apartado se creará un ThinKP para este usuario de demo. Para ello hay que pulsar sobre el tercer icono del menú de comandos de la izquierda de la pantalla, y seleccionar Mis ThinKPs, tal y como se muestra en laFigura 7.
+En este apartado se creará un ThinKP para este usuario de demo. Para ello hay que pulsar sobre el tercer icono del menú de comandos de la izquierda de la pantalla, y seleccionar Mis ThinKPs:
 
 |image9|
 
-Figura .- Acceso al menú de ThinKPs
-
-En la parte derecha de la siguiente pantalla parecerá el botón de creación de un nuevo ThinKP (Figura 9).
+En la parte derecha de la siguiente pantalla aparecerá el botón de creación de un nuevo ThinKP:
 
 |image10|
 
-Figura .- Botón de creación de un nuevo ThinKP
-
-Tras pulsar el botón se desplegará el cuadro de creación del nuevo ThinKP (Figura 10). La creación es muy sencilla y tan solo requiere la introducción de un identificador y una breve descripción.
+Tras pulsar el botón se desplegará el cuadro de creación del nuevo ThinKP. La creación es muy sencilla y tan solo requiere la introducción de un identificador y una breve descripción.
 
 |image11|
 
-Figura .- Cuadro de creación de un nuevo ThinKP
+Además será necesario asociar al menos una ontología asociada al ThinKP. En este caso tan solo se accederá a la ontología que creamos en los apartados anteriores, demoDispositivos_RTFrame, por lo que habría que seleccionarla y pulsar el botón de creación.
 
-Además será necesario asociar al menos una ontología asociada al ThinKP. En este caso tan solo se accederá a la ontología que creamos en los apartados anteriores, demoDispositivos\_RTFrame, por lo que habría que seleccionarla y pulsar el botón de creación.
-
-Con esto quedaría tal y como se muestra en la Figura 11.
+Con esto quedaría tal y como se muestra:
 
 |image12|
 
-Figura .- Visor de ThinKPs
+
+
 
 Uso de la instancia del ThinKP en dispositivos IoT
---------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tras finalizar la definición del ThinKP, quedaría listo para que distintas instancias del mismo pudieran interactuar con la plataforma. En esta demostración, se utilizará una instancia de ThinKP en el dispositivo que posee el rol de Gateway entre la placa de sensores y la plataforma Sofia2, el smartphone. Utilizando una instancia de ThinKP, se habilitará la inserción, lectura y en definitiva uso de las capacidades de Sofia2 desde el dispositivo Android.
 
-En la Figura 12se muestra como simplemente bastaría con introducir los valores de los parámetros asociados al ThinKP recién creado en Sofia2.
+En la siguiente figura se muestra como simplemente bastaría con introducir los valores de los parámetros asociados al ThinKP recién creado en Sofia2.
 
 |image13|
 
-Figura .- Definición de parámetros de ThinKP en Android
-
-En esta demostración se enviarán los datos de sensores hacia la plataforma, utilizando el protocolo REST que otorga una gran simplicidad a la inserción de datos utilizando operaciones POST. En la Figura 13, se muestra un extracto del método de envío de tramas a Sofia2, en donde se produce el mensaje de JOIN para abrir una sesión en Sofia2, realizando un POST que utiliza los parámetros de la instancia de ThinKP asociada.
+En esta demostración se enviarán los datos de sensores hacia la plataforma, utilizando el protocolo REST que otorga una gran simplicidad a la inserción de datos utilizando operaciones POST. En la siguiente figura se muestra un extracto del método de envío de tramas a Sofia2, en donde se produce el mensaje de JOIN para abrir una sesión en Sofia2, realizando un POST que utiliza los parámetros de la instancia de ThinKP asociada.
 
 |image14|
 
-Figura .- Ejemplo de método de JOIN usando REST y ThinKP en Android
-
-Con esto se obtendría un conector con Sofia2, a través del cual se pueden introducir datos en la ontología asociada siendo en este caso demoDispositivos\_RTFrame (ejemplo de instancia en la Figura 7).
+Con esto se obtendría un conector con Sofia2, a través del cual se pueden introducir datos en la ontología asociada siendo en este caso demoDispositivos_RTFrame.
 
 En cuanto a la toma de datos, en esta demostración se conecta el smartphone con el dispositivo SensorTag a través de BLE (Bluetooth Low Energy). Las características de los servicios disponibles para esta placa en concreto se pueden encontrar en la web asociada de Texas Instruments (`*http://processors.wiki.ti.com/index.php/CC2650\_SensorTag\_User's\_Guide* <http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User's_Guide>`__).
 
@@ -197,14 +187,14 @@ Con los datos de sensores obtenidos, bastará con encapsularlos en base a la ont
 Figura .- Ejemplo de construcción de trama en Android
 
 Visualizando los datos
-======================
+----------------------
 
 Una vez realizados el diseño y la configuración de la ontología, en conjunto con la integración de los dispositivos IoT con Sofia2, dispondremos en la plataforma de todos estos datos, que se podrán utilizar de diversas maneras. Por ejemplo, representándola en tiempo real en un dashboard o un sinóptico, o procesándola mediante el motor de reglas.
 
 El uso de estas dos capacidades de Sofia2 será lo que describamos en este apartado.
 
 Composición de un Dashboard
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sofia2 tiene la capacidad de configurar gadgets y dashboards sobre la información disponible. Para ello accederemos al menú de Visualización, submenú de Gadgets tal y como aparece en la Figura 19.
 
@@ -261,7 +251,7 @@ Accediendo a la nueva página recién creada del dashboard, podremos añadir los
 Figura .- Aspecto final de Dashboard
 
 Composición de Sinóptico
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sofia2 contiene un módulo Scada que permite la creación y configuración de sinópticos. Para nuestro ejemplo, se creará un sinóptico sencillo que permite visualizar la actualización de datos en tiempo real.
 
@@ -338,12 +328,12 @@ Para más detalle sobre la composición de un sinóptico se pueden visitar los s
 `*https://www.youtube.com/watch?v=IYbPyUu9DFc* <https://www.youtube.com/watch?v=IYbPyUu9DFc>`__
 
 Jugando con los datos
-=====================
+---------------------
 
 Continuando en la línea del tutorial, si en los apartados anteriores veíamos simplemente como representarlos, tal cual o bajo alguna transformación, de diversas maneras según el uso del dato, en este apartado vamos a configurar una regla, que se ejecutará por cada dato recibido, y vamos a configurar un API para ofrecer una interfaz de acceso a los datos de una manera controlada.
 
 Configurando reglas en tiempo real
-----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 En el contexto de nuestra prueba, que consiste en recibir datos de los sensores configurados en un beacon, vamos a controlar que uno de los valores no excede de un valor, y en caso de que esto ocurra, mandaremos un SMS al teléfono del administrador.
 
@@ -380,7 +370,7 @@ Si vas a jugar con scripting en Sofia2, te interesará saber los siguientes **tr
 -  Para verificar si la ejecución del script ha sido correcta, o detalles de cualquier error de ejecución, puedes ir al menú **Herramientas,** submenú **visualización de estado de procesos,** y verás toda la información necesaria para poner en marcha tu script.
 
 Publicando APIs de acceso a los datos
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ahora vamos a definir interfaces sobre los datos que estamos gestionando. Para ello, una de las opciones disponibles es la configuración de servicios REST a través del API Manager de Sofia2, que nos permitirá definir operaciones de lectura, escritura (*POST*), actualización (*PUT*), borrado (*DELETE*) búsqueda básica o búsquedas avanzadas (*GET).*
 
@@ -415,7 +405,7 @@ Para información más detallada de todas las posibilidades del API Manager en S
 -  `*https://about.sofia2.com/2015/11/25/api-manager-clonado-de-apis/* <https://about.sofia2.com/2015/11/25/api-manager-clonado-de-apis/>`__
 
 Gestión de dispositivos en Sofia2
-=================================
+---------------------------------
 
 La gestión de los dispositivos conectados es una de las 10 tecnologías más relevantes en el ámbito IoT para los próximos años, según la estimación de Gartner (Figura 41)
 
@@ -507,8 +497,8 @@ Figura .- Gestión de assets
 
 En resumen, Sofia2 cuenta con un completo conjunto de funcionalidades para dar cobertura a las necesidades de gestión de los dispositivos conectados, tanto para controlar su actividad como para asegurar su correcta configuración.
 
- Lo que viene en la próxima versión
------------------------------------
+Lo que viene en la próxima versión
+----------------------------------
 
 En cualquier caso, y siguiendo nuestro espíritu de mejora continua, estamos preparando novedades en las próximas versiones. Entre otras, estamos trabajando en una **gestión avanzada de dispositivos (ThinKPs)** que permitirá:
 
