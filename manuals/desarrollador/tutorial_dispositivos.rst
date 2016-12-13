@@ -14,11 +14,11 @@ Introducción
 
 Este tutorial pretende servir como una referencia paso a paso para la evaluación de la gestión de dispositivos IoT por la plataforma Sofia2 Smart IoT Platform.
 
-En concreto esta guía construirá un entorno de demostración con la estructura definida en la Figura 1.
+En concreto esta guía construirá un entorno de demostración con la siguiente estructura: 
 
 |image2|
 
-Figura .- Esquema de conectividad de los dispositivos involucrados en la demostración
+
 
 En este caso en concreto, se utiliza el dispositivo SensorTag de Texas Instruments como dispositivo de adquisición de datos. Este dispositivo dispone de múltiples sensores y una interfaz de comunicación a través de Bluetooth Low Energy. Usando un Smartphone, se establecerá una conexión Bluetooth con el SensorTag, y comenzará un mapeo de los valores medidos por los sensores. El Smartphone será el encargado de encapsular la información y transmitirla a Sofia2 usando redes de telefonía móvil o una red WiFi.
 
