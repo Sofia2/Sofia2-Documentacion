@@ -221,7 +221,7 @@ Una vez elegido el mejor modelo ya solo quedan las recomendaciones de películas
 
 |image22|
 
-Ahora, ya solo queda lanzar la recomendación. Para este ejemplo, definimos que se muestren las 10 mejores recomendaciones para el usuario insertado en el campo de texto.
+Para este ejemplo, definimos que se muestren las 10 mejores recomendaciones para el usuario insertado en el campo de texto.
 
 |image23|
 
