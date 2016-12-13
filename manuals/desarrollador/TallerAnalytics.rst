@@ -214,8 +214,8 @@ Ahora vamos a lanzar nuestra función sobre los datos de Test.
 
 
 
-Ejecutar las recomendaciones
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ejecutar las recomendaciones para un usuario
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Una vez elegido el mejor modelo ya solo quedan las recomendaciones de películas por usuario. La idea es preguntar por el usuario, que para el Dataset usado es un numérico. Vamos a hacerlo tipo formulario, de tal forma que primero pregunte por el usuario, se inserte en un campo de texto y por último lance la recomendación. Para preguntar por el usuario:
 
@@ -224,6 +224,112 @@ Una vez elegido el mejor modelo ya solo quedan las recomendaciones de películas
 Para este ejemplo, definimos que se muestren las 10 mejores recomendaciones para el usuario insertado en el campo de texto.
 
 |image23|
+
+
+
+
+Persistir las recomendaciones 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Ahora solo nos queda guardar las mejores recomendaciones para cada usuario en ontología. La idea es guardar registros de la forma: UserId, MovieName, MovieGenre. 
+
+
+|image24|
+
+
+Creamos la tabla HIVE con los datos almacenados en el DataFrame. Modifica el nombre de la tabla de la imagen “recomendaciones_arturo” por un identificador único, por ejemplo, recomendaciones_tunombre.
+
+|image25|
+
+
+Generar Ontología 
+^^^^^^^^^^^^^^^^^
+
+Vamos a generar una ontología a partir de la tabla HIVE que hemos creado en el punto anterior. Para ello, entra en la opción de menú de Analytics y selecciona “UTIL HIVE_To_Ontology”.  Se abre una ventana en la que aparece una lista de las tablas disponibles. La tabla que acabas de crear no debería aparecer. Esto sucede, porque la tabla es HIVE y esa lista muestra las entidades de IMPALA. Por lo tanto, hay que dar visibilidad a la tabla. Para ello, pulsa sobre el botón “Visualizar tablas HIVE”:
+
+|image26|
+
+Se abrirá otra ventana, en la que debería aparecer nuestra tabla. Selecciónala y pulsa sobre “Regenerar Metadatos”: 
+
+|image27|
+
+Una vez ejecutado, vuelve a la ventana anterior con el botón “Cancelar”. Ahora aparece nuestra tabla en la lista:
+
+|image28|
+
+Una vez elegida la tabla, pulsa sobre “Generar Esquema” y finalmente pulsa en “Crear”. 
+
+Una vez hecho esto, aparece una ventana con los datos de la ontología recién creada. Solo falta un paso más, que consiste en activar la ontología. Desde esta misma ventana, pulsa el botón “Modificar”, que está al final de la página.  Se abrirá otra ventana en la que hay que marcar el CheckBox “Activa” (marcado en rojo en la siguiente imagen):
+
+|image29|
+
+
+Finalmente, se genera la instancia y se pulsa sobre “Guardar”. Pero para poder trabajar con ella, tenemos que asociarle un ThinKP válido. Si ya tienes uno creado puedes asociarlo a esta ontología en “Mis ThinKPs” -> Editar (tienes que elegir el ThinKP), añadiendo la ontología en cuestión a la lista asociada al ThinKP. Para este taller, vamos a crear uno nuevo.
+
+Accede al menú “ThinKPs Sofia2” -> “Mis ThinKPs” y pulsa sobre “Nuevo ThinKP”:
+
+|image30|
+
+Se abre una ventana en la que hay que rellenar “Identificación” con el nombre del nuevo ThinKP, y elegir las ontologías a las que tendrá acceso al ThinKP. 
+
+Nota: Al elegir las ontologías para el ThinKP, para marcar más de una, usa el Ctrl y Shift.
+
+|image31|
+
+Una vez rellenados los datos, pulsa sobre “Crear” y aparecerá una ventana resumen del ThinKP:
+
+|image32|
+
+Ahora ya está preparada la ontología para trabajar con ella. Entra en la consola dentro del menú “Herramientas” y lanza alguna consulta sobre la ontología recién creada. 
+
+Nota: Es recomendable restringir los resultados de las consultas en la consola de Sofia2 con “limit numero_registros” (p.e. select * from ontología limit 5)
+
+
+
+VISUALIZACIÓN
+-------------
+
+Para terminar vamos a crear un dashboard sobre la ontología creada.
+
+
+Crear Gadgets 
+^^^^^^^^^^^^^
+
+Primero crearemos los gadgets que se mostrarán en el dashboard. Accede a la opción de Menú -> Mis Gadgets. Dentro de la nueva ventana, pulsa el botón “Crear Gadget”. 
+
+El primer Gadget que crearemos es uno de tipo tabla. Elige esa opción del catálogo. Tendrás que rellenar los datos necesarios para su creación: 
+
+-	Nombre: p.e. recomendador_tabla_tunombre
+-	KP: el KP que hayas creado en los pasos anteriores
+-	Obtener Datos por query
+
+o	Base de Datos: BDH
+o	Máximos valores a representar: 100 
+o	Obtener datos cada (segundos): 0
+
+-	Consulta
+
+o	Ontología: elige la ontología que hayas creado para este taller
+o	Consulta: select User, Movie, Genre from nombre_ontologia
+
+Debería quedar algo así: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
