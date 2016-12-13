@@ -3,11 +3,13 @@
 
 
 
-    Gestión de dispositivos en Sofia2
+    
 
-Tutorial paso a paso
+Gestión de dispositivos en Sofia2
+=================================
 
-    Octubre de 2016
+Introducción
+------------
 
 \ **Índice**
 
