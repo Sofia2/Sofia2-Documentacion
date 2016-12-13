@@ -144,47 +144,41 @@ Con esto se obtendría un conector con Sofia2, a través del cual se pueden intr
 
 En cuanto a la toma de datos, en esta demostración se conecta el smartphone con el dispositivo SensorTag a través de BLE (Bluetooth Low Energy). Las características de los servicios disponibles para esta placa en concreto se pueden encontrar en la `web <http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User's_Guide>`__ asociada de Texas Instruments.
 
+La captura de datos del dispositivo SensorTag se puede estructurar en 3 bloques principales:
+
 |image15|
 
-Figura .- Fases de captura de datos
-
-La captura de datos del dispositivo SensorTag se puede estructurar en 3 bloques principales, reflejados en la Figura 14.
-
-En la fase de **SCAN**, basta con utilizar el API de BLE de Android. En este ejemplo en concreto se ha desarrollado la aplicación para que sea soportada desde la versión KitKat de Android hasta las actuales. Para el escaneo se utiliza la llamada del sistema onLeScan, que se ejecuta cada vez que una nueva MAC de un dispositivo BLE ha sido detectada por el smartphone. En esta aplicación en concreto, simplemente se filtra la dirección del SensorTag y se lanza un Runnable para conectar con el dispositivo (Figura 15).
+En la fase de **SCAN**, basta con utilizar el API de BLE de Android. En este ejemplo en concreto se ha desarrollado la aplicación para que sea soportada desde la versión KitKat de Android hasta las actuales. Para el escaneo se utiliza la llamada del sistema onLeScan, que se ejecuta cada vez que una nueva MAC de un dispositivo BLE ha sido detectada por el smartphone. En esta aplicación en concreto, simplemente se filtra la dirección del SensorTag y se lanza un Runnable para conectar con el dispositivo:
 
 |image16|
-
-Figura .- Escaneo BLE de direcciones MAC
 
 Para iniciar/pausar el escáner basta con llamar a las funciones startLeScan/stopLeScan, mostradas en la figura, pasándoles la referencia del callback de escaneo definido anteriormente.
 
 |image17|
 
-Figura .- Inicio y parada de escaneo
-
 Una vez se establece la conexión con el equipo, se pasa a la fase de **ENABLE**, donde hay que activar los sensores que se deseen monitorizar, siguiendo las directrices de la wiki de SensorTag.
 
 El servidor GATT del SensorTag presenta un servicio para cada sensor de los que monta, y que a su vez constan de 3 características principales:
 
--  Configuración: Sirve para encender/apagar el sensor
+-  Configuración: Sirve para encender/apagar el sensor.
 
--  Datos: Característica donde se almacena el valor capturado por el sensor
+-  Datos: Característica donde se almacena el valor capturado por el sensor.
 
 -  Periodo: Característica que almacena el valor de la resolución de lectura del sensor.
 
 Si se desea recibir notificaciones cuando varíen los datos de la característica de datos, habrá que activarlas siguiendo las indicaciones, y la aplicación recibirá un callback con el nuevo valor.
 
-En esta demostración se utilizan los sensores de temperatura a través de IR (con capacidad de leer temperatura ambiente, y temperatura de un objeto a corta distancia) y el de movimiento (con capacidad de leer datos de acelerómetro, giróscopo y magnetómetro). En la Figura 17, se presenta un extracto de la información necesaria para interactuar con el sensor. En la fase de **ENABLE**, habría que escribir ‘0x01’ en la característica de configuración del equipo, mientras que en la fase **FETCH**, se puede o bien leer directamente la característica de datos, o activar las notificaciones periódicas (usado en el proyecto).
+En esta demostración se utilizan los sensores de temperatura a través de IR (con capacidad de leer temperatura ambiente, y temperatura de un objeto a corta distancia) y el de movimiento (con capacidad de leer datos de acelerómetro, giróscopo y magnetómetro). En la siguiente figura se presenta un extracto de la información necesaria para interactuar con el sensor. En la fase de **ENABLE**, habría que escribir ‘0x01’ en la característica de configuración del equipo, mientras que en la fase **FETCH**, se puede o bien leer directamente la característica de datos, o activar las notificaciones periódicas (usado en el proyecto).
 
 |image18|
 
-Figura .- Tabla de valores para interactuar con el servicio de temperatura IR en SensorTag
-
-Con los datos de sensores obtenidos, bastará con encapsularlos en base a la ontología creada, por ejemplo conformando un String como el de la Figura 18. En este ejemplo en concreto, se reporta también el código IMEI del dispositivo móvil a modo de indicador, y se añade la localización por GPS del smartphone para geo-localizar las medidas.
+Con los datos de sensores obtenidos, bastará con encapsularlos en base a la ontología creada, por ejemplo conformando un String como el de la siguiente figura. En este ejemplo en concreto, se reporta también el código IMEI del dispositivo móvil a modo de indicador, y se añade la localización por GPS del smartphone para geo-localizar las medidas.
 
 |image19|
 
 Figura .- Ejemplo de construcción de trama en Android
+
+
 
 Visualizando los datos
 ----------------------
@@ -196,11 +190,9 @@ El uso de estas dos capacidades de Sofia2 será lo que describamos en este apart
 Composición de un Dashboard
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sofia2 tiene la capacidad de configurar gadgets y dashboards sobre la información disponible. Para ello accederemos al menú de Visualización, submenú de Gadgets tal y como aparece en la Figura 19.
+Sofia2 tiene la capacidad de configurar gadgets y dashboards sobre la información disponible. Para ello accederemos al menú de Visualización, submenú de Gadgets:
 
 |image20|
-
-Figura .- Menú de creación de Gadgets en Sofia2
 
 Para nuestro ejemplo, crearemos un par de gadgets de valor simple, para visualizar los datos de temperatura del sensor, y un par de gadgets de columna, para visualizar los ejes x, y y z del giroscopio y el acelerómetro de los sensores de nuestro SensorTag.
 
@@ -208,13 +200,12 @@ Para cualquiera de los dos casos, lo primero que tenemos que hacer es dar un nom
 
 |image21|
 
-Figura .- Selección de ThinKP a representar
+Una vez seleccionado el ThinKP, tendremos dos opciones para obtener los datos:
 
-Una vez seleccionado el ThinKP (Figura 20), tendremos dos opciones para obtener los datos:
-
--  Obtener los datos en directo: Esto es, el gadget se mantendrá suscrito a la ontología, actualizando el valor representado en el mismo momento en que un nuevo valor de ésta entra en el repositorio (Figura 21).
+-  Obtener los datos en directo: Esto es, el gadget se mantendrá suscrito a la ontología, actualizando el valor representado en el mismo momento en que un nuevo valor de ésta entra en el repositorio.
 
 -  Obtener datos por query: Definiremos un intervalo de tiempo para el refresco del gadget, transcurrido el cual se lanzará la consulta que definamos contra la base de datos en tiempo real o bien contra la base de datos histórica.
+
 
     En el caso de los valores simples, elegiremos la segunda opción, lanzando cada 20 segundos la siguiente query a la base BDTR (que nos devuelve el último registro insertado en la ontología):
 
