@@ -156,6 +156,8 @@ El primer paso es leer los datos de películas y ratings, y para eso primero hay
 |image15|
     
 
+Nota: Si realizamos el taller desde Sofia2.com/console cambiaremos ‘sofia2-analytic:8020’ por ‘localhost:8020’
+
 Estructurar los datos
 ^^^^^^^^^^^^^^^^^^^^^
 
