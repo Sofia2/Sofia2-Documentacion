@@ -397,4 +397,4 @@ De manera análoga, añade el Gagdet de Pie que has creado en los pasos anterior
 .. |image21| image:: ./media/image181.png
 .. |image22| image:: ./media/image182.png
 .. |image23| image:: ./media/image183.png
-.. |image24| image:: ./media/image184.png
+.. |image24| image:: ./media/image208.png
