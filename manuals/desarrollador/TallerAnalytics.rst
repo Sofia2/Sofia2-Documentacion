@@ -34,10 +34,7 @@ Los datos ya están descargados en la máquina de Sofia2. Dependiendo del entorn
 
 Si no estuvieran en la máquina, hay que descargarlos para este taller.
 
-Primero, es necesario crear un Origen de los datos. Como los ficheros ya residen en la máquina de Sofia2, el componente que se necesita es Directory. 	Pulsa sobre el componente y aparecerá en el espacio de   trabajo. Verás que salen alertas de errores. No te preocupes, al crear el componente vacío, los parámetros de configuración obligatorios están vacíos.  Eso es justamente lo 	que hay que hacer en el siguiente paso. 
-
-Pulsa sobre el componente y accederás a su configuración. Para el origen de directorio local, los parámetros de configuración obligatorios son:
-
+Primero, es necesario crear un Origen de los datos. Como los ficheros ya residen en la máquina de Sofia2, el componente que se necesita es Directory. 	Pulsa sobre el componente y aparecerá en el espacio de   trabajo. 
 
 |image3|
 
@@ -47,7 +44,7 @@ Pulsa sobre el componente y accederás a su configuración. Para el origen de di
 
 **Files → Data Format:** Representa el formato de los datos de entrada. Hay diferentes opciones, pero la que se necesita en este ejemplo es Text.
 
-**Files → Files Directory:** Es el directorio de entrada, donde residen los ficheros a leer. En nuestro caso, esta ruta es /datadrive/ftp/movielens.
+**Files → Files Directory:** Es el directorio de entrada, donde residen los ficheros a leer. En nuestro caso, esta ruta es /datadrive/ftp/movielens. (Si trabajas desde Sofia2.com/console la ruta es /datadrive/movielens).
 
 **Files → Name Pattern:** Es la expresión regular con la que buscará los ficheros a cargar dentro del directorio configurado en el parámetro anterior.
 
@@ -56,7 +53,9 @@ Nos interesa leer un solo fichero, por lo que hay que asignar a este campo en mo
 Dependiendo del formato de entrada elegido, se activa la pestaña correspondiente en la ventana de configuración. Verás que en este caso, la pestaña activa es Text. Solo tiene un parámetro que es Max Line *Length* que tiene un valor por defecto que no vamos a modificar. 
 
 
-Ya está configurado el origen. Para empezar, es muy recomendable echar un vistazo a los datos que se van a leer. Para ello, podemos configurar un destino “Dummy” y previsualizar la información. Para esto, accede a los componentes destino y elige “Trash”. Como antes, al pulsar sobre el icono, aparece el componente en el espacio de trabajo. Une origen y destino, y ya casi está preparado este flujo. Como observarás, todavía hay errores de configuración. Esto es porque en la configuración general hay que definir la gestión de registros erróneos. Pulsa en cualquier sitio que no sea un componente dentro del espacio de trabajo. La ventana inferior mostrará la configuración general, y verás que la alerta aparece en la pestaña “Error Records”.
+Ya está configurado el origen. Para empezar, es muy recomendable echar un vistazo a los datos que se van a leer. Para ello, podemos configurar un destino “Dummy” y previsualizar la información. Para esto, accede a los componentes destino y elige “Trash”. Como antes, al pulsar sobre el icono, aparece el componente en el espacio de trabajo. Une origen y destino, y ya casi está preparado este flujo. 
+
+Como observarás, todavía hay errores de configuración. Esto es porque en la configuración general hay que definir la gestión de registros erróneos. Pulsa en cualquier sitio que no sea un componente dentro del espacio de trabajo. La ventana inferior mostrará la configuración general, y verás que la alerta aparece en la pestaña “Error Records”.
 
 |image4|
 
