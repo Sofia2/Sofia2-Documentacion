@@ -142,7 +142,7 @@ En esta demostración se enviarán los datos de sensores hacia la plataforma, ut
 
 Con esto se obtendría un conector con Sofia2, a través del cual se pueden introducir datos en la ontología asociada siendo en este caso demoDispositivos_RTFrame.
 
-En cuanto a la toma de datos, en esta demostración se conecta el smartphone con el dispositivo SensorTag a través de BLE (Bluetooth Low Energy). Las características de los servicios disponibles para esta placa en concreto se pueden encontrar en la web asociada de Texas Instruments (`*http://processors.wiki.ti.com/index.php/CC2650\_SensorTag\_User's\_Guide* <http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User's_Guide>`__).
+En cuanto a la toma de datos, en esta demostración se conecta el smartphone con el dispositivo SensorTag a través de BLE (Bluetooth Low Energy). Las características de los servicios disponibles para esta placa en concreto se pueden encontrar en la (`web <http://processors.wiki.ti.com/index.php/CC2650_SensorTag_User's_Guide>`__) asociada de Texas Instruments.
 
 |image15|
 
