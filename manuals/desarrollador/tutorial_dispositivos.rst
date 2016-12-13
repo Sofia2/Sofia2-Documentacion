@@ -292,47 +292,46 @@ Para más detalle sobre la composición de un sinóptico se pueden visitar los s
 
 `Vídeo Demostrador Editor SVG <https://www.youtube.com/watch?v=IYbPyUu9DFc>`__
 
+
+
 Jugando con los datos
 ---------------------
 
 Continuando en la línea del tutorial, si en los apartados anteriores veíamos simplemente como representarlos, tal cual o bajo alguna transformación, de diversas maneras según el uso del dato, en este apartado vamos a configurar una regla, que se ejecutará por cada dato recibido, y vamos a configurar un API para ofrecer una interfaz de acceso a los datos de una manera controlada.
+
 
 Configurando reglas en tiempo real
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 En el contexto de nuestra prueba, que consiste en recibir datos de los sensores configurados en un beacon, vamos a controlar que uno de los valores no excede de un valor, y en caso de que esto ocurra, mandaremos un SMS al teléfono del administrador.
 
-Para ello, vamos crear una regla de ontología, que se ejecutará por cada dato que se inserte en nuestra ontología ***demoDispositivos\_RTFrame.** Esta opción la podemos encontrar en el menú **Reglas,** submenú **Wizard de Creación de Reglas (***\ Figura 36\ ***)***
+Para ello, vamos crear una regla de ontología, que se ejecutará por cada dato que se inserte en nuestra ontología **demoDispositivos_RTFrame** Esta opción la podemos encontrar en el menú **Reglas** submenú **Wizard de Creación de Reglas**
 
 |image38|
 
-Figura .- Menú de creación de Scripts
+Una vez seleccionados los campos de nombre, timeout (valor obligatorio), Tipo de regla (Ontología), ontología a la que queremos asociar la ejecución del código (en nuestro caso, demoDispositivos_RTFrame), y lenguaje (en nuestro ejemplo seleccionaremos groovy), podemos comenzar a introducir el código.
 
-Una vez seleccionados los campos de nombre, timeout (valor obligatorio), Tipo de regla (Ontología), ontología a la que queremos asociar la ejecución del código (en nuestro caso, demoDispositivos\_RTFrame), y lenguaje (en nuestro ejemplo seleccionaremos groovy), podemos comenzar a introducir el código.
-
-Para facilitar la estructura del código, localizaremos la condición de la regla en la sección **IF**, que en caso de devolver un **true,** continuará ejecutando la sección escrita en la pestaña **THEN,** y en caso opuesto, ejecutará la sección codificada en la pestaña **ELSE.** La pestaña **ERROR** contendrá el código para la gestión de los errores de ejecución del script.
+Para facilitar la estructura del código, localizaremos la condición de la regla en la sección **IF**, que en caso de devolver un **true** continuará ejecutando la sección escrita en la pestaña **THEN** y en caso opuesto, ejecutará la sección codificada en la pestaña **ELSE**. La pestaña **ERROR** contendrá el código para la gestión de los errores de ejecución del script.
 
 |image39|
 
-Figura .- Ejemplo de Script utilizado en este tutorial
+En nuestro caso, codificaremos las secciones **IF** y **THEN**
 
-En nuestro caso, codificaremos las secciones **IF** y **THEN.** (Figura 37)
+**En la sección IF** (podéis ver el código en la imagen anterior), se importan las librerías a utilizar, se declaran las variables de instancia de nuestro ThinKP, y su token, cargamos la ontología en la variable ontologyJson, y evaluamos el valor de humedad (si es superior a 30, la evaluación devolverá un true, y el script continuará ejecutando el código de la pestaña THEN)
 
-**En la sección IF** (podéis ver el código en la imagen anterior), se importan las librerías a utilizar, se declaran las variables de instancia de nuestro ThinKp, y su token, cargamos la ontología en la variable ontologyJson, y evaluamos el valor de humedad (si es superior a 30, la evaluación devolverá un true, y el script continuará ejecutando el código de la pestaña THEN)
-
-**En la sección THEN** Figura 38utilizaremos un proveedor de SMS para enviar un mensaje indicando la alerta del dispositivo. A través de una conexión httpGET
+**En la sección THEN** utilizaremos un proveedor de SMS para enviar un mensaje indicando la alerta del dispositivo. A través de una conexión httpGET
 
 |image40|
-
-Figura .- Sección THEN del script
 
 Así de simple. Una vez guardado y activado el script, éste se ejecutará por cada dato insertado o modificado en la ontología.
 
 Si vas a jugar con scripting en Sofia2, te interesará saber los siguientes **trucos:**
 
+
 -  Con el cursor en la sección de edición de scripts, pulsa F11 para conseguir que se amplíe a toda la pantalla y así tendrás más espacio para escribir.
 
--  Para verificar si la ejecución del script ha sido correcta, o detalles de cualquier error de ejecución, puedes ir al menú **Herramientas,** submenú **visualización de estado de procesos,** y verás toda la información necesaria para poner en marcha tu script.
+-  Para verificar si la ejecución del script ha sido correcta, o detalles de cualquier error de ejecución, puedes ir al menú **Herramientas** submenú **visualización de estado de procesos** y verás toda la información necesaria para poner en marcha tu script.
+
 
 Publicando APIs de acceso a los datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
