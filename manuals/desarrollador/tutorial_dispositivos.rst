@@ -288,9 +288,9 @@ Para este caso se creará un script que lo que haga sea insertar una instancia e
 
 Para más detalle sobre la composición de un sinóptico se pueden visitar los siguientes enlaces:
 
-`*https://about.sofia2.com/2016/03/29/version-inicial-del-modulo-sofia2-scada/* <https://about.sofia2.com/2016/03/29/version-inicial-del-modulo-sofia2-scada/>`__
+`Versión inicial del Módulo Sofia2-SCADA <https://about.sofia2.com/2016/03/29/version-inicial-del-modulo-sofia2-scada/>`__
 
-`*https://www.youtube.com/watch?v=IYbPyUu9DFc* <https://www.youtube.com/watch?v=IYbPyUu9DFc>`__
+`Vídeo Demostrador Editor SVG <https://www.youtube.com/watch?v=IYbPyUu9DFc>`__
 
 Jugando con los datos
 ---------------------
