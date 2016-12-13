@@ -342,29 +342,30 @@ Para crear un conjunto de operaciones sobre la ontología *demoDispositivos_RTFr
 
 |image41|
 
-Por defecto, el formulario propone la configuración de un `API externa <https://about.sofia2.com/2014/09/08/nueva-version-api-manager-registro-apis-externas/>`__. En nuestro ejemplo, desmarcaremos esta opción, para poder seleccionar la ontología *demoDispositivos\_RTFrame* en el combo, y esta acción nos propondrá un nombre para el API (*demoDispositivos\_RTFramees,* que podremos actualizar a lo que prefiramos)
+Por defecto, el formulario propone la configuración de un `API externa <https://about.sofia2.com/2014/09/08/nueva-version-api-manager-registro-apis-externas/>`__. En nuestro ejemplo, desmarcaremos esta opción, para poder seleccionar la ontología *demoDispositivos_RTFrame* en el combo, y esta acción nos propondrá un nombre para el API (*demoDispositivos_RTFramees* que podremos actualizar a lo que prefiramos)
 
-Para habilitar cada una de las operaciones disponibles (GET, POST, PUT, DELETE…), solo tendremos que seleccionarlas en el listado, y añadirle una descripción. En nuestro caso, haremos un ejemplo sencillo de la operación CUSTOM QUERY (Figura 40)
+Para habilitar cada una de las operaciones disponibles (GET, POST, PUT, DELETE…), solo tendremos que seleccionarlas en el listado, y añadirle una descripción. En nuestro caso, haremos un ejemplo sencillo de la operación CUSTOM QUERY
 
 |image42|
 
-Figura .- Definición de la operación Custom query
-
 Donde la invocación al método ‘ultimoDato’, lanzará la query:
 
-db.demoDispositivos\_RTFrame.find().sort({\\'demoDispositivos\_RTFrame.date\\':1}).sort({\\'contextData.timestamp\\':-1})
+**db.demoDispositivos\_RTFrame.find().sort({\\'demoDispositivos\_RTFrame.date\\':1}).sort({\\'contextData.timestamp\\':-1})**
+
 
 Devolviendo el último dato insertado en la ontología.
 
 Para información más detallada de todas las posibilidades del API Manager en Sofia2, os recomentamos que visitéis los siguientes post del Blog:
 
--  `*https://about.sofia2.com/2015/11/12/nuevo-ciclo-de-vida-en-api-manager/* <https://about.sofia2.com/2015/11/12/nuevo-ciclo-de-vida-en-api-manager/>`__
+-  `Nuevo ciclo de vida en API Manager <https://about.sofia2.com/2015/11/12/nuevo-ciclo-de-vida-en-api-manager/>`__
 
--  `*https://about.sofia2.com/2015/06/29/api-manager-metodos-custom-query/* <https://about.sofia2.com/2015/06/29/api-manager-metodos-custom-query/>`__
+-  `API Manager: Metodos Custom Query <https://about.sofia2.com/2015/06/29/api-manager-metodos-custom-query/>`__
 
--  `*https://about.sofia2.com/2015/11/20/control-throtling-en-api-manager/* <https://about.sofia2.com/2015/11/20/control-throtling-en-api-manager/>`__
+-  `Control Throtling en API Manager <https://about.sofia2.com/2015/11/20/control-throtling-en-api-manager/>`__
 
--  `*https://about.sofia2.com/2015/11/25/api-manager-clonado-de-apis/* <https://about.sofia2.com/2015/11/25/api-manager-clonado-de-apis/>`__
+-  `API Manager: Clonado de APIs <https://about.sofia2.com/2015/11/25/api-manager-clonado-de-apis/>`__
+
+
 
 Gestión de dispositivos en Sofia2
 ---------------------------------
