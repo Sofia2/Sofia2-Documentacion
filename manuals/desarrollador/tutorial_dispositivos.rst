@@ -17,7 +17,7 @@ Introducción
 
 ` *Primeros pasos: Creando un usuario y definiendo la ontología.* 5 <#primeros-pasos-creando-un-usuario-y-definiendo-la-ontología.>`__
 
-`*2.1* *Creando un usuario.* <#creando-un-usuario.>`__
+`*2.1* *Creando un usuario.* <#creando-un-usuario>`__
 
 `*2.2* *Definición de la ontología a utilizar* 5 <#definición-de-la-ontología-a-utilizar>`__
 
