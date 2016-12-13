@@ -33,26 +33,23 @@ Todas estas capacidades quedarán englobadas en un proyecto sobre Sofia2. A modo
 Por último, para finalizar el tutorial, explicaremos las capacidades de la plataforma que nos permitirá gestionar los dispositivos conectados y su estado.
 
 
-Primeros pasos: Creando un usuario y definiendo la ontología.
-=============================================================
+Primeros pasos: Creando un usuario y definiendo la ontología
+------------------------------------------------------------
 
-Creando un usuario.
--------------------
+Creando un usuario
+^^^^^^^^^^^^^^^^^^
 
-Este tutorial se realizará sobre la  `instancia de Sofia2 <http://sofia2.com/console>`__ . El primer paso será generar una cuenta de usuario exclusiva para este proyecto. Tras la creación el usuario tendrá privilegios de ROL\_USUARIO (Figura 3), y necesitará solicitar los privilegios de ROL\_COLABORADOR (Figura 4), para poder acceder a todas las capacidades que se pretenden desarrollar en este escenario.
-
-`Movielens <https://movielens.org/>`__
+Este tutorial se realizará sobre la  `instancia de Sofia2 <http://sofia2.com/console>`__ . El primer paso será generar una cuenta de usuario exclusiva para este proyecto. Tras la creación, el usuario tendrá privilegios de ROL USUARIO 
 
 |image4|
 
-Figura .- Creación de nueva cuenta de usuario
+y necesitará solicitar los privilegios de ROL COLABORADOR para poder acceder a todas las capacidades que se pretenden desarrollar en este escenario.
 
 |image5|
 
-Figura .- Paso a ROL\_COLABORADOR
 
 Definición de la ontología a utilizar
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Para el escenario de esta demostración se creará una sola ontología con el objetivo de recoger las distintas magnitudes obtenidas tanto del dispositivo SensorTag como del Smartphone.
 
