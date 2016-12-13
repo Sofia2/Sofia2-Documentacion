@@ -13,7 +13,7 @@ Gestión de dispositivos en Sofia2
 \ **Índice**
 ------------
 
-`*1* *Introducción* 3 <#introducción>`__
+Introducción
 
 `*2* *Primeros pasos: Creando un usuario y definiendo la ontología.* 5 <#primeros-pasos-creando-un-usuario-y-definiendo-la-ontología.>`__
 
