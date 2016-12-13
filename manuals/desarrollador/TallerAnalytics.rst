@@ -30,9 +30,14 @@ Al crear el pipeline accede directamente al espacio de trabajo en el que crearem
 Definir Componente Origen
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Los datos ya están descargados en la máquina de Sofia2. Concretamente, la ruta es “/datadrive/ftp/movielens”. En este directorio deberían existir dos ficheros: *movies.dat* y *ratings.dat*. Para este pipeline nos interesan los datos de las películas.
+Los datos ya están descargados en la máquina de Sofia2. Dependiendo del entorno está en una ruta u otra. Para sofia2.com la ruta es “/datadrive/movielens” mientras que para sofia2-analytic la ruta “/datadrive/ftp/movielens”. En este directorio deberían existir dos ficheros: movies.dat y ratings.dat. Para este pipeline nos interesan los datos de las películas.
 
-Primero, es necesario crear un Origen de los datos. Como los ficheros ya residen en la máquina de Sofia2, el componente que se necesita es Directory. Pulsa sobre el componente y aparecerá en el espacio de trabajo. 
+Si no estuvieran en la máquina, hay que descargarlos para este taller.
+
+Primero, es necesario crear un Origen de los datos. Como los ficheros ya residen en la máquina de Sofia2, el componente que se necesita es Directory. 	Pulsa sobre el componente y aparecerá en el espacio de   trabajo. Verás que salen alertas de errores. No te preocupes, al crear el componente vacío, los parámetros de configuración obligatorios están vacíos.  Eso es justamente lo 	que hay que hacer en el siguiente paso. 
+
+Pulsa sobre el componente y accederás a su configuración. Para el origen de directorio local, los parámetros de configuración obligatorios son:
+
 
 |image3|
 
