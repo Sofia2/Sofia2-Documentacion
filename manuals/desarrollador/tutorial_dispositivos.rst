@@ -213,102 +213,78 @@ En el caso de los valores simples, elegiremos la segunda opción, lanzando cada 
 
 |image22|
 
-Con los datos seleccionados en nuestro gadget, solo necesitaremos seleccionar cuál de los campos de la instancia de ontología recuperada queremos representar, asignarle un nombre en la gráfica y opcionalmente una transformación del dato recuperado de la ontología, tal y como se muestra en la Figura 22.
+Con los datos seleccionados en nuestro gadget, solo necesitaremos seleccionar cuál de los campos de la instancia de ontología recuperada queremos representar, asignarle un nombre en la gráfica y opcionalmente una transformación del dato recuperado de la ontología:
 
 |image23|
 
-Figura .- Selección/Definición de magnitudes a representar
-
-Con todos estos pasos, queda seleccionar un token de seguridad de los disponibles en el ThinKP y guardar el gadget creado (Figura 23).
+Con todos estos pasos, queda seleccionar un token de seguridad de los disponibles en el ThinKP y guardar el gadget creado.
 
 |image24|
 
-Figura .- Token de seguridad
+Ya con el conjunto de gadgets creados, podremos componer nuestro dashboard de una manera sencilla, accediendo al menú de visualización, submenú dashboards.
 
-Ya con el conjunto de gadgets creados, podremos componer nuestro dashboard de una manera sencilla, accediendo al menú de visualización, submenú dashboards,
-
-Primero configuraremos el estilo general, icono, tipo de menú y crearemos una primera página, como se muestra en la Figura 24
+Primero configuraremos el estilo general, icono, tipo de menú y crearemos una primera página.
 
 |image25|
 
-Figura .- Creación de página de Dashboard
-
-Accediendo a la nueva página recién creada del dashboard, podremos añadir los gadgets creados, y arrastrarlos al área donde queramos que se visualice. Nuestro dashboard para este tutorial es el que aparece en la Figura 25.
+Accediendo a la nueva página recién creada del dashboard, podremos añadir los gadgets creados, y arrastrarlos al área donde queramos que se visualice. Nuestro dashboard para este tutorial es el siguiente:
 
 |image26|
 
-Figura .- Aspecto final de Dashboard
+
 
 Composición de Sinóptico
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sofia2 contiene un módulo Scada que permite la creación y configuración de sinópticos. Para nuestro ejemplo, se creará un sinóptico sencillo que permite visualizar la actualización de datos en tiempo real.
 
-Para comenzar, se deberá acceder al menú de Visualización y al submenú Sinópticos Sofia2 (Figura 26)
+Para comenzar, se deberá acceder al menú de Visualización y al submenú Sinópticos Sofia2.
 
 |image27|
 
-Figura .- Menú de Sinópticos Sofia2
+A continuación, teniendo en cuenta los atributos de la ontología creada que se quieren mostrar en el sinóptico, se definirán los tags asociados de la siguiente forma:
 
-A continuación, teniendo en cuenta los atributos de la ontología creada que se quieren mostrar en el sinóptico, se definirán los tags asociados (Figura 27) de la siguiente forma:
-
--  En el apartado ***Mis tags***, se seleccionará ***Crear Tag***.
+-  En el apartado **Mis tags**, se seleccionará **Crear Tag**.
 
 -  Se añadirá el nombre o identificación que se quiera dar al tag.
 
--  Se seleccionará el tipo que tomará el tag. En este caso todos los atributos serán de tipo ***Number***.
+-  Se seleccionará el tipo que tomará el tag. En este caso todos los atributos serán de tipo **Number**.
 
 |image28|
 
-Figura .- Wizard de creación de Tags
-
 |image29|
 
-Figura .- Visualización de Tags
+Tras concluir esta definición de tags, se volverá a la pantalla de Visualización de sinópticos y en el apartado Mis sinópticos se seleccionará Crear sinóptico.
 
-Una vez definidos, los tags aparecerán como en el ejemplo de la Figura 28. Tras concluir esta definición de tags, se volverá a la pantalla de Visualización de sinópticos y en el apartado Mis sinópticos se seleccionará Crear sinóptico.
-
-Para añadir imágenes o archivos svg se deberá acceder al menú y seleccionar Importar archivo svg tal y como se ve en la Figura 29
+Para añadir imágenes o archivos svg se deberá acceder al menú y seleccionar Importar archivo svg.
 
 |image30|
 
-Figura .- Importación de imágenes para sinóptico
-
-Para añadir texto y etiquetas para los valores de los atributos, se deberá ir al menú lateral izquierdo y se seleccionará la opción de Insertar texto, insertando uno a uno todos los elementos de texto que se deseen (Figura 30).
+Para añadir texto y etiquetas para los valores de los atributos, se deberá ir al menú lateral izquierdo y se seleccionará la opción de Insertar texto, insertando uno a uno todos los elementos de texto que se deseen.
 
 |image31|
 
-Figura .- Edición de mensajes de texto en sinópticos
-
-A continuación se añadirán las etiquetas para la visualización de los atributos de la ontología que se quieren mostrar. Para cada una se creará un elemento de texto con un asterisco, y después se seleccionará en el menú superior la clase de tag que se quiere mostrar, para este ejemplo todos serán de clase label (Figura 31)
+A continuación se añadirán las etiquetas para la visualización de los atributos de la ontología que se quieren mostrar. Para cada una se creará un elemento de texto con un asterisco, y después se seleccionará en el menú superior la clase de tag que se quiere mostrar, para este ejemplo todos serán de clase label.
 
 |image32|
 
-Figura .- Adición de etiquetas
+Una vez seleccionada la clase se seleccionará el botón de **tag properties** para asignar el tag que va a asociar a ese elemento
 
-Una vez seleccionada la clase se seleccionará el botón de ***tag properties*** para asignar el tag que va a asociar a ese elemento (Figura 32)
+|image33|
 
-|image33|\ |image34|
+|image34|
 
-Figura .- Asignación de tags
-
-Para cada elemento de texto de tipo ***label***, se deberá seleccionar el ***tag*** asociado, temperature, acceIX,.. De tal forma que el sinóptico creado se visualizará como en la Figura 33
+Para cada elemento de texto de tipo **label**, se deberá seleccionar el **tag** asociado, temperature, acceIX,..
 
 |image35|
 
-Figura .- Aspecto final de sinóptico
-
-El módulo Scada contiene una ontología (TagMeasures\_demoDispositivos), un Thinkp (KpScada\_demoDispositivos) y un script (ScadaScript\_demoDispositivos) asociados a los sinópticos. Estos elementos son los que permiten la visualización de los datos en tiempo real (Figura 34).
+El módulo Scada contiene una ontología (TagMeasures_demoDispositivos), un Thinkp (KpScada_demoDispositivos) y un script (ScadaScript_demoDispositivos) asociados a los sinópticos. Estos elementos son los que permiten la visualización de los datos en tiempo real.
 
 |image36|
 
-Figura .- Sinóptico mostrando datos en tiempo real
-
-Para este caso se creará un script (Figura 35 que lo que haga sea insertar una instancia en la ontología TagMeasures\_demoDispositivos cada vez que se inserte en la ontología demoDispositivos\_RTFrame. Para la generación del script se deberán tener en cuenta únicamente los campos tagId (que se corresponderá con la identificación del tag) y measure (que se corresponderá con el valor que toma el tag) de la ontología TagMeasures\_demoDispositivos. De tal forma que por cada atributo que se quiera mostrar, se insertará una instancia en la ontología del sinóptico.
+Para este caso se creará un script que lo que haga sea insertar una instancia en la ontología TagMeasures_demoDispositivos cada vez que se inserte en la ontología demoDispositivos_RTFrame. Para la generación del script se deberán tener en cuenta únicamente los campos tagId (que se corresponderá con la identificación del tag) y measure (que se corresponderá con el valor que toma el tag) de la ontología TagMeasures_demoDispositivos. De tal forma que por cada atributo que se quiera mostrar, se insertará una instancia en la ontología del sinóptico.
 
 |image37|
-
-Figura .- Ejemplo del script utilizado
 
 Para más detalle sobre la composición de un sinóptico se pueden visitar los siguientes enlaces:
 
