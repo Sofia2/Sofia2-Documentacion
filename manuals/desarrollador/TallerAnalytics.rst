@@ -328,7 +328,7 @@ Si todo es correcto, debajo de este bloque debería aparecer una previsualizaci�
 Vamos a por el segundo Gagdet. Ve al menú de creación de Gadgets y elige en el catálogo el tipo “Pie”. De nuevo tenemos que rellenar una serie de atributos:
 
 -	**Nombre:** recomendador_pie_tunombre
--	**KP:** el mismo KP que para la tabla
+-	**KP:** el mismo ThinKP que para la tabla
 
 -	**Obtener datos por query:**
  *	**Base de datos:** BDH
@@ -338,6 +338,18 @@ Vamos a por el segundo Gagdet. Ve al menú de creación de Gadgets y elige en el
 -	**Consulta**
  *	**Ontología:** elige la ontología que hayas creado para este taller
  *	**Consulta:** select Genre, count(distinct Movie) as num from nombre_ontologia group by Genre
+ 
+ |image35|
+ 
+ 
+ Como en la tabla, tenemos que rellenar las medidas:
+ 
+-	**Categoría:** Genre
+-	**Valor:** num
+
+Una vez añadidas las medidas, aparecerá una previsualización del gráfico:
+
+ 
 
 
 
