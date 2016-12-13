@@ -9,42 +9,8 @@ Gestión de dispositivos en Sofia2
 =================================
 
 
-
-\ **Índice**
+Introducción
 ------------
-
-Introducción
-
-` *Primeros pasos: Creando un usuario y definiendo la ontología.* 5 <#primeros-pasos-creando-un-usuario-y-definiendo-la-ontología.>`__
-
-`** *Creando un usuario.* <#creando-un-usuario>`__
-
-`*2.2* *Definición de la ontología a utilizar* 5 <#definición-de-la-ontología-a-utilizar>`__
-
-`*3* *Conectando el dispositivo:* 8 <#conectando-el-dispositivo>`__
-
-`*3.1* *Creación del ThinKP asociado* 8 <#creación-del-thinkp-asociado>`__
-
-`*3.2* *Uso de la instancia del ThinKP en dispositivos IoT* 9 <#uso-de-la-instancia-del-thinkp-en-dispositivos-iot>`__
-
-`*4* *Visualizando los datos* 13 <#visualizando-los-datos>`__
-
-`*4.1* *Composición de un Dashboard* 13 <#composición-de-un-dashboard>`__
-
-`*4.2* *Composición de Sinóptico* 16 <#composición-de-sinóptico>`__
-
-`*5* *Jugando con los datos* 20 <#jugando-con-los-datos>`__
-
-`*5.1* *Configurando reglas en tiempo real* 20 <#configurando-reglas-en-tiempo-real>`__
-
-`*5.2* *Publicando APIs de acceso a los datos* 22 <#publicando-apis-de-acceso-a-los-datos>`__
-
-`*6* *Gestión de dispositivos en Sofia2:* 24 <#gestión-de-dispositivos-en-sofia2>`__
-
-`*6.1* *Lo que viene en la próxima versión* 29 <#lo-que-viene-en-la-próxima-versión>`__
-
-Introducción
-============
 
 Este tutorial pretende servir como una referencia paso a paso para la evaluación de la gestión de dispositivos IoT por la plataforma Sofia2 Smart IoT Platform.
 
