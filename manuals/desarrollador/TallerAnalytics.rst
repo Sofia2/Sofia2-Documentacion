@@ -331,13 +331,13 @@ Vamos a por el segundo Gagdet. Ve al menú de creación de Gadgets y elige en el
 -	**KP:** el mismo KP que para la tabla
 
 -	**Obtener datos por query:**
-*	**Base de datos:** BDH
-*	**Máximos valores a representar:** 100
-*	**Obtener datos cada (segundos):** 0
+ *	**Base de datos:** BDH
+ *	**Máximos valores a representar:** 100
+ *	**Obtener datos cada (segundos):** 0
 
 -	**Consulta**
-*	**Ontología:** elige la ontología que hayas creado para este taller
-*	**Consulta:** select Genre, count(distinct Movie) as num from nombre_ontologia group by Genre
+ *	**Ontología:** elige la ontología que hayas creado para este taller
+ *	**Consulta:** select Genre, count(distinct Movie) as num from nombre_ontologia group by Genre
 
 
 
