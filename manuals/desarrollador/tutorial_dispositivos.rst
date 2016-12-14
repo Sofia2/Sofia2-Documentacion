@@ -404,23 +404,20 @@ Desde el menú ThinKPs SOFIA2, submenú **'Mis ThinKPs'** podremos gestionar el 
 
 |image44|
 
-Con esta configuración, podremos comunicar nuestras “things” con la plataforma, siguiendo el protocolo SSAP
+Con esta configuración, podremos comunicar nuestras “things” con la plataforma, siguiendo el protocolo SSAP.
 
 |image45|
 
-Figura .- Mensajes SSAP
-
-Para ello, Sofia2 provee una serie de APIs de desarrollo (disponibles en nuestra web), de tal manera que esta comunicación se pueda implementar tanto en distintos lenguajes de programación, como en distintos protocolos de comunicación (MQTT, rest, websockets…) (Figura 44)
+Para ello, Sofia2 provee una serie de APIs de desarrollo (disponibles en nuestra web), de tal manera que esta comunicación se pueda implementar tanto en distintos lenguajes de programación, como en distintos protocolos de comunicación (MQTT, rest, websockets…)
 
 |image46|
 
-Figura .- Elenco de APIs de ThinKPs, multi-plataforma y multi-lenguaje
-
 Una vez puesto en marcha nuestro proyecto, podremos controlar la actividad de nuestras conexiones desde varios puntos de vista:
+
 
 **KPs Activos**
 
-Desde el menú ThinKP Sofia2, submenú ‘\ ***ThinKPs conectados’*** (Figura 45) podremos visualizar las conexiones activas, junto con sus datos (identificación, sessionKey y fecha de activación)
+Desde el menú ThinKP Sofia2, submenú ‘\ **ThinKPs conectados’** (Figura 45) podremos visualizar las conexiones activas, junto con sus datos (identificación, sessionKey y fecha de activación)
 
 |image47|
 
