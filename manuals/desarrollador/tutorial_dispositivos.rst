@@ -176,7 +176,6 @@ Con los datos de sensores obtenidos, bastará con encapsularlos en base a la ont
 
 |image19|
 
-Figura .- Ejemplo de construcción de trama en Android
 
 
 
