@@ -476,41 +476,36 @@ En cualquier caso, y siguiendo nuestro espíritu de mejora continua, estamos pre
 |image51|
 
 
-**Tipo de ThinKPs:** Para la gestión de lo que ahora se presenta como assets. Podremos buscar y gestionar toda esta información relacionándola con los thinKPs.Figura 50
+**Tipo de ThinKPs:** Para la gestión de lo que ahora se presenta como assets. Podremos buscar y gestionar toda esta información relacionándola con los thinKPs.
 
 |image52|
 
 
-**Logs:** La plataforma recibirá todas las trazas que se consideren relevantes desde cada uno de los dispositivos, permitiendo tener un único punto centralizado de control de logs de todos los thinKPs integrados, con distintos criterios de búsqueda. (Figura 51)
+**Logs:** La plataforma recibirá todas las trazas que se consideren relevantes desde cada uno de los dispositivos, permitiendo tener un único punto centralizado de control de logs de todos los thinKPs integrados, con distintos criterios de búsqueda.
 
 |image53|
 
 
-**Error y estado:** Igualmente, tendremos un único punto desde el que controlar y buscar todos los mensajes de error identificados en los dispositivos. Figura 52
+**Error y estado:** Igualmente, tendremos un único punto desde el que controlar y buscar todos los mensajes de error identificados en los dispositivos.
 
 |image54|
 
 
-Igualmente para el estado de cada ThinKP conectada. (Figura 53)
+Igualmente para el estado de cada ThinKP conectada.
 
 |image55|
 
 
-**Lanzar acciones:** Por último, podremos lanzar acciones sobre uno o varios dispositivos a la vez (búsqueda y multiselección), tales como actualizar el estado del dispositivo o hacer un reinicio en remoto. (Figura 54)
+**Lanzar acciones:** Por último, podremos lanzar acciones sobre uno o varios dispositivos a la vez (búsqueda y multiselección), tales como actualizar el estado del dispositivo o hacer un reinicio en remoto.
 
 |image56|
 
 
-|image57|
 
 
 
-.. |image0| image:: ./media/image1.png
-   :width: 1.96491in
-   :height: 0.90571in
-.. |image1| image:: ./media/image2.jpg
-   :width: 8.40207in
-   :height: 7.60674in
+
+
 .. |image2| image:: ./media/image3.emf
    :width: 6.69236in
    :height: 2.13959in
@@ -676,6 +671,4 @@ Igualmente para el estado de cada ThinKP conectada. (Figura 53)
 .. |image56| image:: ./media/image57.png
    :width: 6.35417in
    :height: 3.57292in
-.. |image57| image:: ./media/image58.jpg
-   :width: 3.96492in
-   :height: 0.88611in
+
