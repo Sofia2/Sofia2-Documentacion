@@ -446,9 +446,8 @@ A todas estas capacidades, y como funcionalidad adicional, podemos añadir la ge
 
 |image50|
 
-
-
 En resumen, Sofia2 cuenta con un completo conjunto de funcionalidades para dar cobertura a las necesidades de gestión de los dispositivos conectados, tanto para controlar su actividad como para asegurar su correcta configuración.
+
 
 Lo que viene en la próxima versión
 ----------------------------------
@@ -464,6 +463,7 @@ En cualquier caso, y siguiendo nuestro espíritu de mejora continua, estamos pre
    -  Location
 
    -  Status
+   
 
 -  Comunicación y actuación directas desde la plataforma con cualquiera de los thinKP conectados, para obtener información y efectuar operaciones remotas.
 
@@ -475,39 +475,35 @@ En cualquier caso, y siguiendo nuestro espíritu de mejora continua, estamos pre
 
 |image51|
 
-Figura .- Draft de gestión de ThinKP
 
 **Tipo de ThinKPs:** Para la gestión de lo que ahora se presenta como assets. Podremos buscar y gestionar toda esta información relacionándola con los thinKPs.Figura 50
 
 |image52|
 
-Figura .- Asociación por categorías
 
 **Logs:** La plataforma recibirá todas las trazas que se consideren relevantes desde cada uno de los dispositivos, permitiendo tener un único punto centralizado de control de logs de todos los thinKPs integrados, con distintos criterios de búsqueda. (Figura 51)
 
 |image53|
 
-Figura .- Ventana de Logs
 
 **Error y estado:** Igualmente, tendremos un único punto desde el que controlar y buscar todos los mensajes de error identificados en los dispositivos. Figura 52
 
 |image54|
 
-Figura .- Ventana de monitorización de errores
 
 Igualmente para el estado de cada ThinKP conectada. (Figura 53)
 
 |image55|
 
-Figura .- Ventana de estado actual
 
 **Lanzar acciones:** Por último, podremos lanzar acciones sobre uno o varios dispositivos a la vez (búsqueda y multiselección), tales como actualizar el estado del dispositivo o hacer un reinicio en remoto. (Figura 54)
 
 |image56|
 
-Figura .- Ventana de acción remota
 
 |image57|
+
+
 
 .. |image0| image:: ./media/image1.png
    :width: 1.96491in
