@@ -506,10 +506,10 @@ Igualmente para el estado de cada ThinKP conectada.
 
 
 
-.. |image2| image:: ./media/image003.emf
+.. |image2| image:: ./media/image003.png
    :width: 6.69236in
    :height: 2.13959in
-.. |image3| image:: ./media/image4.png
+.. |image3| image:: ./media/image004.png
    :width: 5.93194in
    :height: 5.51528in
 .. |image4| image:: ./media/image5.png
