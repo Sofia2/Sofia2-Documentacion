@@ -396,17 +396,15 @@ Antes de entrar en materia, un breve repaso de los conceptos que manejamos en So
 
    -  Una Thing al ponerse en ejecución crea una **instathing** (Instancia de KP), asociado a una Thing pueden crearse varias Instancias.
 
-   -  Todas las comunicaciones con Sofia2 están securizadas, En el caso de las comunicaciones desde una instathing a la plataforma, tendremos un **token** de autenticación que garantizará que la thing conectada está registrada y autorizada para hacer la operación.
+   -  Todas las comunicaciones con Sofia2 están securizadas. En el caso de las comunicaciones desde una instathing a la plataforma, tendremos un **token** de autenticación que garantizará que la thing conectada está registrada y autorizada para hacer la operación.
 
 -  **Asset (Think Type):** Un Asset me permite definir las características estáticas de una Thing. Puede usarse para definir tipos de dispositivos (p. e. farolas en una ciudad o motores en una planta) o hacer una gestión de activos.
 
-Desde el menú ThinKPs SOFIA2, submenú ***‘Mis ThinKPs’*** podremos gestionar el alta, modificación y eliminación de los ThinKPs, sus tokens y las instancias de cada uno de ellos (Figura 42)
+Desde el menú ThinKPs SOFIA2, submenú **'Mis ThinKPs'** podremos gestionar el alta, modificación y eliminación de los ThinKPs, sus tokens y las instancias de cada uno de ellos.
 
 |image44|
 
-Figura .- Concepto de ThinKP y gestión de los mismos
-
-Con esta configuración, podremos comunicar nuestras “things” con la plataforma, siguiendo el protocolo SSAP (Figura 43)
+Con esta configuración, podremos comunicar nuestras “things” con la plataforma, siguiendo el protocolo SSAP
 
 |image45|
 
