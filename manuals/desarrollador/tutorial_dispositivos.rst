@@ -417,23 +417,21 @@ Una vez puesto en marcha nuestro proyecto, podremos controlar la actividad de nu
 
 **KPs Activos**
 
-Desde el menú ThinKP Sofia2, submenú ‘\ **ThinKPs conectados’** (Figura 45) podremos visualizar las conexiones activas, junto con sus datos (identificación, sessionKey y fecha de activación)
+Desde el menú ThinKP Sofia2, submenú **'ThinKPs conectados'** podremos visualizar las conexiones activas, junto con sus datos (identificación, sessionKey y fecha de activación)
 
 |image47|
 
-Figura .- Menú ThinKPs conectados
 
 **Gestión de conexiones**
 
-Por otra parte, desde el menú de Administración, submenú ‘\ ***Gestión de Conexiones***\ ’, podremos visualizar las conexiones tanto desde el punto de vista físico como lógico, pudiendo hacer búsquedas, y cerrar conexiones o incluso bloquear clientes específicos, tal y como se muestra en la Figura 46.
+Por otra parte, desde el menú de Administración, submenú **'Gestión de Conexiones'**, podremos visualizar las conexiones tanto desde el punto de vista físico como lógico, pudiendo hacer búsquedas, y cerrar conexiones o incluso bloquear clientes específicos, tal y como se muestra en la siguiente figura.
 
 |image48|
 
-Figura .- Gestor de conexiones
 
 **Gestión de Configuraciones SW**
 
-Además, podremos controlar las versiones de los clientes desplegados en nuestros things, y su configuración, mediante la gestión de configuraciones, donde podremos asociar SW y parámetros de configuración a nuestros ThinKPs o a instancias de ThinKPs. (Figura 47)
+Además, podremos controlar las versiones de los clientes desplegados en nuestros things, y su configuración, mediante la gestión de configuraciones, donde podremos asociar SW y parámetros de configuración a nuestros ThinKPs o a instancias de ThinKPs.
 
 De esta manera, si queremos actualizar la versión del SW con la que se conectan nuestros things, actualizaremos la configuración de SW asignada, y la próxima vez que el dispositivo compruebe la versión de SW, se le informará que hay una nueva versión, pudiendo lanzar la descarga y actualización en cliente de manera automática.
 
@@ -441,15 +439,14 @@ Esta funcionalidad es muy útil en escenarios en que tenemos cientos de disposit
 
 |image49|
 
-Figura .- Gestor/Configurador de versiones de SW
 
 **Gestión de assets**
 
-A todas estas capacidades, y como funcionalidad adicional, podemos añadir la gestión de los assets (los elementos del mundo real conectados a través de nuestros ThinKPs), con funcionalidades como la geolocalización de cada uno de ellos, categorización y gestión de sus propiedades (Figura 48).
+A todas estas capacidades, y como funcionalidad adicional, podemos añadir la gestión de los assets (los elementos del mundo real conectados a través de nuestros ThinKPs), con funcionalidades como la geolocalización de cada uno de ellos, categorización y gestión de sus propiedades.
 
 |image50|
 
-Figura .- Gestión de assets
+
 
 En resumen, Sofia2 cuenta con un completo conjunto de funcionalidades para dar cobertura a las necesidades de gestión de los dispositivos conectados, tanto para controlar su actividad como para asegurar su correcta configuración.
 
