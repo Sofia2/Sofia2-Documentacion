@@ -512,163 +512,163 @@ Igualmente para el estado de cada ThinKP conectada.
 .. |image3| image:: ./media/image004.png
    :width: 5.93194in
    :height: 5.51528in
-.. |image4| image:: ./media/image5.png
+.. |image4| image:: ./media/image005.png
    :width: 4.29167in
    :height: 2.34517in
-.. |image5| image:: ./media/image6.png
+.. |image5| image:: ./media/image006.png
    :width: 6.68750in
    :height: 2.01042in
-.. |image6| image:: ./media/image7.png
+.. |image6| image:: ./media/image007.png
    :width: 2.90625in
    :height: 2.04867in
-.. |image7| image:: ./media/image8.png
+.. |image7| image:: ./media/image008.png
    :width: 6.57255in
    :height: 4.87310in
-.. |image8| image:: ./media/image9.png
+.. |image8| image:: ./media/image009.png
    :width: 2.91823in
    :height: 3.75925in
-.. |image9| image:: ./media/image10.png
+.. |image9| image:: ./media/image0010.png
    :width: 2.80208in
    :height: 2.30208in
-.. |image10| image:: ./media/image11.png
+.. |image10| image:: ./media/image0011.png
    :width: 1.45833in
    :height: 0.52083in
-.. |image11| image:: ./media/image12.png
+.. |image11| image:: ./media/image0012.png
    :width: 6.68750in
    :height: 2.64583in
-.. |image12| image:: ./media/image13.png
+.. |image12| image:: ./media/image0013.png
    :width: 6.68750in
    :height: 4.18750in
-.. |image13| image:: ./media/image14.png
+.. |image13| image:: ./media/image0014.png
    :width: 6.58333in
    :height: 0.73958in
-.. |image14| image:: ./media/image15.png
+.. |image14| image:: ./media/image0015.png
    :width: 6.68750in
    :height: 3.71875in
-.. |image15| image:: ./media/image16.emf
+.. |image15| image:: ./media/image0016.emf
    :width: 4.18750in
    :height: 2.70997in
-.. |image16| image:: ./media/image17.png
+.. |image16| image:: ./media/image0017.png
    :width: 6.68750in
    :height: 2.07292in
-.. |image17| image:: ./media/image18.png
+.. |image17| image:: ./media/image0018.png
    :width: 4.48958in
    :height: 3.45833in
-.. |image18| image:: ./media/image19.png
+.. |image18| image:: ./media/image0019.png
    :width: 6.68750in
    :height: 1.76042in
-.. |image19| image:: ./media/image20.png
+.. |image19| image:: ./media/image0020.png
    :width: 6.68750in
    :height: 3.07292in
-.. |image20| image:: ./media/image21.tmp
+.. |image20| image:: ./media/image0021.tmp
    :width: 5.29167in
    :height: 3.12099in
-.. |image21| image:: ./media/image22.png
+.. |image21| image:: ./media/image0022.png
    :width: 3.47917in
    :height: 0.75000in
-.. |image22| image:: ./media/image23.png
+.. |image22| image:: ./media/image0023.png
    :width: 5.61458in
    :height: 1.63174in
-.. |image23| image:: ./media/image24.png
+.. |image23| image:: ./media/image0024.png
    :width: 4.88542in
    :height: 1.46709in
-.. |image24| image:: ./media/image25.png
+.. |image24| image:: ./media/image0025.png
    :width: 4.09463in
    :height: 1.34375in
-.. |image25| image:: ./media/image26.png
+.. |image25| image:: ./media/image0026.png
    :width: 4.23958in
    :height: 2.51045in
-.. |image26| image:: ./media/image27.png
+.. |image26| image:: ./media/image0027.png
    :width: 6.07292in
    :height: 2.77083in
-.. |image27| image:: ./media/image28.png
+.. |image27| image:: ./media/image0028.png
    :width: 5.76042in
    :height: 2.35417in
-.. |image28| image:: ./media/image29.png
+.. |image28| image:: ./media/image0029.png
    :width: 5.29167in
    :height: 1.97940in
-.. |image29| image:: ./media/image30.png
+.. |image29| image:: ./media/image0030.png
    :width: 5.43750in
    :height: 2.11798in
-.. |image30| image:: ./media/image31.png
+.. |image30| image:: ./media/image0031.png
    :width: 4.32292in
    :height: 2.85417in
-.. |image31| image:: ./media/image32.png
+.. |image31| image:: ./media/image0032.png
    :width: 4.35417in
    :height: 2.81250in
-.. |image32| image:: ./media/image33.png
+.. |image32| image:: ./media/image0033.png
    :width: 4.32292in
    :height: 0.68750in
-.. |image33| image:: ./media/image34.png
+.. |image33| image:: ./media/image0034.png
    :width: 4.29167in
    :height: 0.38542in
-.. |image34| image:: ./media/image35.png
+.. |image34| image:: ./media/image0035.png
    :width: 1.48958in
    :height: 1.39583in
-.. |image35| image:: ./media/image36.png
+.. |image35| image:: ./media/image0036.png
    :width: 4.39583in
    :height: 2.03125in
-.. |image36| image:: ./media/image37.png
+.. |image36| image:: ./media/image0037.png
    :width: 4.35417in
    :height: 2.07292in
-.. |image37| image:: ./media/image38.png
+.. |image37| image:: ./media/image0038.png
    :width: 5.91667in
    :height: 2.73958in
-.. |image38| image:: ./media/image39.png
+.. |image38| image:: ./media/image0039.png
    :width: 5.84375in
    :height: 3.20634in
-.. |image39| image:: ./media/image40.png
+.. |image39| image:: ./media/image0040.png
    :width: 6.64583in
    :height: 2.87218in
-.. |image40| image:: ./media/image41.png
+.. |image40| image:: ./media/image0041.png
    :width: 6.64583in
    :height: 2.83063in
-.. |image41| image:: ./media/image42.png
+.. |image41| image:: ./media/image0042.png
    :width: 5.80208in
    :height: 2.43077in
-.. |image42| image:: ./media/image43.png
+.. |image42| image:: ./media/image0043.png
    :width: 4.43750in
    :height: 3.13538in
-.. |image43| image:: ./media/image44.jpeg
+.. |image43| image:: ./media/image0044.jpeg
    :width: 3.97917in
    :height: 3.01042in
-.. |image44| image:: ./media/image45.png
+.. |image44| image:: ./media/image0045.png
    :width: 6.69236in
    :height: 3.04336in
-.. |image45| image:: ./media/image46.png
+.. |image45| image:: ./media/image0046.png
    :width: 4.51042in
    :height: 1.56250in
-.. |image46| image:: ./media/image47.jpeg
+.. |image46| image:: ./media/image0047.jpeg
    :width: 4.04167in
    :height: 2.48958in
-.. |image47| image:: ./media/image48.jpeg
+.. |image47| image:: ./media/image0048.jpeg
    :width: 5.90625in
    :height: 2.31250in
-.. |image48| image:: ./media/image49.jpeg
+.. |image48| image:: ./media/image0049.jpeg
    :width: 4.52083in
    :height: 4.37500in
-.. |image49| image:: ./media/image50.png
+.. |image49| image:: ./media/image0050.png
    :width: 3.95833in
    :height: 5.78125in
-.. |image50| image:: ./media/image51.jpeg
+.. |image50| image:: ./media/image0051.jpeg
    :width: 4.97917in
    :height: 2.27083in
-.. |image51| image:: ./media/image52.png
+.. |image51| image:: ./media/image0052.png
    :width: 5.73958in
    :height: 3.00000in
-.. |image52| image:: ./media/image53.png
+.. |image52| image:: ./media/image0053.png
    :width: 5.84375in
    :height: 3.04167in
-.. |image53| image:: ./media/image54.png
+.. |image53| image:: ./media/image0054.png
    :width: 6.00000in
    :height: 3.14583in
-.. |image54| image:: ./media/image55.png
+.. |image54| image:: ./media/image0055.png
    :width: 6.00000in
    :height: 3.14583in
-.. |image55| image:: ./media/image56.png
+.. |image55| image:: ./media/image0056.png
    :width: 6.35417in
    :height: 3.32292in
-.. |image56| image:: ./media/image57.png
+.. |image56| image:: ./media/image0057.png
    :width: 6.35417in
    :height: 3.57292in
 
