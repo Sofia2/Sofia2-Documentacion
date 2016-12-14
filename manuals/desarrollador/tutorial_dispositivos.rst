@@ -370,11 +370,9 @@ Para información más detallada de todas las posibilidades del API Manager en S
 Gestión de dispositivos en Sofia2
 ---------------------------------
 
-La gestión de los dispositivos conectados es una de las 10 tecnologías más relevantes en el ámbito IoT para los próximos años, según la estimación de Gartner (Figura 41)
+La gestión de los dispositivos conectados es una de las 10 tecnologías más relevantes en el ámbito IoT para los próximos años, según la estimación de Gartner
 
 |image43|
-
-Figura .- IoT Device Management como tecnología relevante en el mundo IoT
 
 En este apartado, y a modo de compendio de todas las capacidades presentadas anteriormente, se encarga de presentar las capacidades actuales y futuras de gestión de dispositivos por parte de Sofia2.
 
