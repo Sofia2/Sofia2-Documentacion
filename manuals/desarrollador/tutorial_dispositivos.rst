@@ -506,7 +506,7 @@ Igualmente para el estado de cada ThinKP conectada.
 
 
 
-.. |image2| image:: ./media/image3.emf
+.. |image2| image:: ./media/image003.emf
    :width: 6.69236in
    :height: 2.13959in
 .. |image3| image:: ./media/image4.png
