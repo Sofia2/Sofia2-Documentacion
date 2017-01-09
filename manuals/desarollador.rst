@@ -31,6 +31,11 @@ Si quieres desarrollar tu APP para interactuar con la plataforma Sofia2 las sigu
   ./desarrollador/TallerAnalytics
 
 
+.. toctree::
+   :caption: Tutorial Dispositivos
+  ./desarrollador/tutorial_dispositivos
+
+
 
 APIS y librerías Sofia2
 -----------------------
