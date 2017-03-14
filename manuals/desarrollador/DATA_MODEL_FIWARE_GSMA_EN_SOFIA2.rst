@@ -35,7 +35,7 @@ que define estas entidades:
 | AgriSoil              | Machine               | VehicleFault          |                        |
 +-----------------------+-----------------------+-----------------------+------------------------+
 
-Por otro lado en la iniciativa FIWARE se han inspirado en el Data Model GSMA para crear los \ `**FIWARE Data Models** <https://www.fiware.org/data-models>`__, donde además se han seleccionado un conjunto de Entidades sobre estas de GSMA:
+Por otro lado en la iniciativa FIWARE se han inspirado en el Data Model GSMA para crear los \ `FIWARE Data Models <https://www.fiware.org/data-models>`__, donde además se han seleccionado un conjunto de Entidades sobre estas de GSMA:
 
 -  **Alarms** Events related to risk or warning conditions which require action taking.
 
