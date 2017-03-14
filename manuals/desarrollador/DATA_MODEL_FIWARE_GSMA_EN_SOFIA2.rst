@@ -144,31 +144,7 @@ Podemos ver la referencia completa de la especificación JSON aquí: `http://jso
 
 
 
-**{**
-
-**"$schema":** **"**\ http://json-schema.org/draft-04/schema#\ **",**
-
-**"title":** **"**\ Product\ **",**
-
-**"description":** **"**\ A product from Acme's catalog\ **",**
-
-**"type":** **"**\ object\ **",**
-
-**"properties":** **{**
-
-*…*
-
-*…*
-
-*…*
-
-*…*
-
-**},**
-
-**"required":** **["**\ id\ **",** **"**\ name\ **",** **"**\ price\ **"]**
-
-**}**
+|image7|
 
 
 
@@ -197,9 +173,13 @@ Los atributos más utilizados en un esquema JSON son:
 
 -  **“$ref”**: Define una URI de un esquema que contienen la completa representación para esa propiedad.
 
+
+
 Para ampliar la información sobre cómo funcionan los JSON-Schema podemos consultar el documento `**Modelado de Ontologías** <http://sofia2.com/docs/SOFIA2-Definicion%20de%20Ontologias%20en%20SOFIA2.pdf>`__
 
+
 Veamos a continuación el esquema que siguen algunas de las plantillas existentes en Sofia2 que soportan el modelo GSMA:
+
 
 GSMA-Air Quality Observed
 -------------------------
