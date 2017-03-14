@@ -153,8 +153,7 @@ Los atributos más utilizados en un esquema JSON son:
 
 
 
--  **“$schema”**: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 
-`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__
+-  **“$schema”**: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 (`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__)
 
 -  **“title”**: indicar un título con el que identificar el esquema.
 
