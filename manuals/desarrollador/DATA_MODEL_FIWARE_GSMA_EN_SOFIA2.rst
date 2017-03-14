@@ -140,7 +140,9 @@ Y como inválido este por no tener el atributo price:
 Atributos de un esquema JSON
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Podemos ver la referencia completa de la especificación JSON aquí: `**http://json-schema.org/latest/json-schema-core.html** <http://json-schema.org/latest/json-schema-core.html>`__
+Podemos ver la referencia completa de la especificación JSON aquí: `http://json-schema.org/latest/json-schema-core.html <http://json-schema.org/latest/json-schema-core.html>`__
+
+
 
 **{**
 
@@ -168,7 +170,12 @@ Podemos ver la referencia completa de la especificación JSON aquí: `**http://j
 
 **}**
 
-Los atributos más utilizados en un esquema JON son:
+
+
+
+Los atributos más utilizados en un esquema JSON son:
+
+
 
 -  ***“$schema”***: Nos permite indicar la versión del Schema JSON que queremos usar: 0.4 o 0.3, SOFIA2 se apoya en la versión 0.4 (*`http://json-schema.org/draft-04/schema# <http://json-schema.org/draft-04/schema>`__)*.
 
