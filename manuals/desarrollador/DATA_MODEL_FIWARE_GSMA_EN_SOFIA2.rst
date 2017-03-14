@@ -65,7 +65,7 @@ Por otro lado en la iniciativa FIWARE se han inspirado en el Data Model GSMA par
 
 
 
-Entidades SOFIA2
+Entidades Sofia2
 ----------------
 
 
@@ -76,34 +76,31 @@ La Plataforma sofia2 gestiona dos tipos de entidades:
 -  **Ontologías**. Los assets generan información y dicha información se modela por medio de ontologías (JSON) en la Plataforma.
 
 
-(Recomendamos al respecto leer el \ `**documento Gobierno de Ontologías** <http://sofia2.com/docs/SOFIA2-Gobierno%20Ontologias.pdf>`__ o el \ `**conjunto de posts al respecto** <https://about.sofia2.com/?s=gobierno%20de%20ontolog%C3%ADas>`__).
+(Recomendamos al respecto leer el \ `documento Gobierno de Ontologías <http://sofia2.com/docs/SOFIA2-Gobierno%20Ontologias.pdf>`__ o el \ `conjunto de posts al respecto <https://about.sofia2.com/?s=gobierno%20de%20ontolog%C3%ADas>`__).
 
 
 Los Data Models GSMA y FIWARE se definen en JSON por lo que \ **su representación como Ontología Sofia2 es inmediata**. Para ello, haremos uso de las plantillas predefinidas que soportan los anteriores modelos.
 
 
 
-PLANTILLAS (MODELO GSMA/FIWARE)
+Plantillas (Modelo GSMA/FIWARE)
 -------------------------------
 
 
-En Sofia2 se soportan las entidades GSMA vía Plantillas (una plantilla sirve para crear
-
-ontologías partiendo de una definición):
+En Sofia2 se soportan las entidades GSMA vía Plantillas (una plantilla sirve para crear ontologías partiendo de una definición):
 
 
 |image3|
 
-|image4|\ |image5|
 
-|image6|
-
-|image7|
 
 Esquemas JSON (JSON-SChema)
 ---------------------------
 
-Para la definición de Plantillas se utiliza una simplificación del estándar de datos AMON (`**http://amee.github.io/AMON/** <http://amee.github.io/AMON/>`__ ). Estas, se basan en el formato JSON-Schema, el cual ofrece un contrato para definir los datos requeridos para una aplicación dada y la forma de interactuar con él. Los tipos de datos que encontraremos en un JSON-Schema son:
+
+
+Para la definición de Plantillas se utiliza una simplificación del estándar de datos AMON (`http://amee.github.io/AMON/ <http://amee.github.io/AMON/>`__ ). Estas, se basan en el formato JSON-Schema, el cual ofrece un contrato para definir los datos requeridos para una aplicación dada y la forma de interactuar con él. Los tipos de datos que encontraremos en un JSON-Schema son:
+
 
 -  string : Cadena de texto
 
@@ -119,7 +116,9 @@ Para la definición de Plantillas se utiliza una simplificación del estándar d
 
 -  boolean: Valores true o false
 
+
 Para hacernos una idea veamos un ejemplo de un esquema JSON sencillo:
+
 
 **{**
 
@@ -190,6 +189,8 @@ Y como inválido este por no tener el atributo price:
 "tags"**:** **["**\ home\ **",** **"**\ green\ **"]**
 
 **}**
+
+
 
 Atributos de un esquema JSON
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
