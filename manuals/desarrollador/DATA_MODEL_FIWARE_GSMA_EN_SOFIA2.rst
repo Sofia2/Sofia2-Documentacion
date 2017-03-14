@@ -6,7 +6,7 @@
 DATA MODEL FIWARE/GSMA EN SOFIA2
 ================================
 
-INTRODUCCIÓN
+Introducción
 ------------
 
 La asociación GSMA (asociación de operadores móviles) está trabajando en un \ **IoT Big Data Harmonised Data Model,**
