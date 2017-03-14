@@ -37,9 +37,9 @@ que define estas entidades:
 
 Por otro lado en la iniciativa FIWARE se han inspirado en el Data Model GSMA para crear los \ `FIWARE Data Models <https://www.fiware.org/data-models>`__, donde además se han seleccionado un conjunto de Entidades sobre estas de GSMA:
 
--  **Alarms** Events related to risk or warning conditions which require action taking.
+-  **Alarms**. Events related to risk or warning conditions which require action taking.
 
--  **Parks & Gardens** Data models intended to make an efficient, effective and sustainable management of green areas.
+-  **Parks & Gardens**. Data models intended to make an efficient, effective and sustainable management of green areas.
 
 -  **Environment** Enable to monitor air quality and other environmental conditions for a healthier living.
 
