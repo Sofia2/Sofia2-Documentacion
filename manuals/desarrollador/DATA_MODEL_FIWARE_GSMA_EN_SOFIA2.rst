@@ -17,7 +17,7 @@ que define estas entidades:
 
 +-----------------------+-----------------------+-----------------------+------------------------+
 | AgriCrop              | AirQualityObserved    | MachineModel          | VehicleType            |
-+=======================+=======================+=======================+========================+
++-----------------------+-----------------------+-----------------------+------------------------+
 | AgriGreenHouse        | Building              | MachineOperation      | WaterQualityObserved   |
 +-----------------------+-----------------------+-----------------------+------------------------+
 | AgriParcel            | BuildingOperation     | PointOfInterest       | WeatherForecast        |
