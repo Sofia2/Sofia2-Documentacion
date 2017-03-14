@@ -1,58 +1,13 @@
-+------------------------------------+----+----+
-| |image0|                           |
-|                                    |
-| Data Model FIWARE/GSMA en Sofia2   |
-+------------------------------------+----+----+
-|                                    |
-+------------------------------------+----+----+
-|                                    |
-+------------------------------------+----+----+
-| Marzo 2017                         |
-+------------------------------------+----+----+
-|                                    |
-+------------------------------------+----+----+
-| |image1|                           |    |    |
-+------------------------------------+----+----+
+.. figure::  ./../../images/logo_sofia2_grande.png
+ :align:   center
 
-INDICE
-======
 
-`**1** **INDICE** 2 <#indice>`__
 
-`**2** **INTRODUCCION** 3 <#introduccion>`__
+DATA MODEL FIWARE/GSMA EN SOFIA2
+================================
 
-**3 `ENTIDADES SOFIA2 <#entidades-sofia2>`__ ……………….......………………..……………………………………………………..……………... 5**
-
-**4 `plantillas (MODELO GSMA/FIWARE) <#plantillas-modelo-gsmafiware>`__ …………………………….………….…………………...….… 6**
-
-4.1 `Esquemas JSON (JSON-Schema) <#esquemas-json-json-schema>`__ **…..……………………………….……………………………..………** 7
-
-4.2 `GSMA-Air Quality Observed <#gsma-air-quality-observed>`__ ……………………………………..………………………………. 10
-
-`4.3 <#consulta-de-los-datos-de-la-ontología-creada-modelo-gsmafiware>`__ `GSMA-Air Quality Station <#gsma-air-quality-station>`__ ………………………………………………………………………… 14
-
-4.4 `GSMA-Device <#gsma-device>`__ ………………………………………………………………………….…………… 17
-
-4.5 `GSMA-Key Performance Indicator <#gsma-key-performance-indicator>`__ ……………………………………………..……………….. 19
-
-4.6 `GSMA-Parking Access <#gsma-parking-access>`__ ………………………………………………………………..………...... 23
-
-4.7 `GSMA-Streetlight <#gsma-streetlight>`__ ………………………………………………………………………………...… 25
-
-4.8 `GSMA-Weather Observed <#gsma-weather-observed>`__ ……………………………………………………………….……..… 27
-
-4.9 `GSMA-Weather Station <#gsma-weather-station>`__ …………………………………………………………………….…...… 31
-
-**5 `HANDS ON <#hands-on>`__ …………………………….………………………………………………………………………………… 34 **
-
-`5.1 CREACIÓN DE ONTOLOGÍAS (MODELO GSMA/FIWARE) **……………………..…………….** <#creación-de-ontologías-modelo-gsmafiware>`__ 34
-
-`5.2 CONSULTA DE LOS DATOS DE LA ONTOLOGÍA CREADA (MODELO GSMA/FIWARE) <#consulta-de-los-datos-de-la-ontología-creada-modelo-gsmafiware>`__ . 40
-
-`5.3. PUBLICAR ONTOLOGÍA COMO API RESTFUL <#publicar-ontología-como-api-restful>`__ **……………………………………………......**\ 42
-
-INTRODUCCION
-============
+INTRODUCCIÓN
+------------
 
 La asociación GSMA (asociación de operadores móviles) está trabajando en un \ **IoT Big Data Harmonised Data Model,**
 
