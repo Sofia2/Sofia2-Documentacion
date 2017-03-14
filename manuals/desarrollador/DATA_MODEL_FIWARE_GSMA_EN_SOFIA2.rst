@@ -35,34 +35,39 @@ que define estas entidades:
 | AgriSoil              | Machine               | VehicleFault          |                        |
 +-----------------------+-----------------------+-----------------------+------------------------+
 
+
 Por otro lado en la iniciativa FIWARE se han inspirado en el Data Model GSMA para crear los \ `FIWARE Data Models <https://www.fiware.org/data-models>`__, donde además se han seleccionado un conjunto de Entidades sobre estas de GSMA:
+
 
 -  **Alarms**. Events related to risk or warning conditions which require action taking.
 
 -  **Parks & Gardens**. Data models intended to make an efficient, effective and sustainable management of green areas.
 
--  **Environment** Enable to monitor air quality and other environmental conditions for a healthier living.
+-  **Environment**. Enable to monitor air quality and other environmental conditions for a healthier living.
 
--  **Point of Interest** Specific point locations that someone may find useful or interesting. For instance, weather stations, touristic landmarks, etc.
+-  **Point of Interest**. Specific point locations that someone may find useful or interesting. For instance, weather stations, touristic landmarks, etc.
 
--  **Civic Issue tracking** Data models for civic issue tracking interoperable with the de-facto standard Open311.
+-  **Civic Issue tracking**. Data models for civic issue tracking interoperable with the de-facto standard Open311.
 
--  **Street Lighting** Modeling street lights and all their controlling equipment towards energy-efficient and effective urban illuminance.
+-  **Street Lighting**. Modeling street lights and all their controlling equipment towards energy-efficient and effective urban illuminance.
 
--  **Device** IoT devices (sensors, actuators, wearables, etc.) with their characteristics and dynamic status.
+-  **Device**. IoT devices (sensors, actuators, wearables, etc.) with their characteristics and dynamic status.
 
--  **Transportation** Transportation data models for smart mobility and efficient management of municipal services.
+-  **Transportation**. Transportation data models for smart mobility and efficient management of municipal services.
 
--  **Indicators** Key performance indicators intended to measure the success of an organization or of a particular activity in which it engages.
+-  **Indicators**. Key performance indicators intended to measure the success of an organization or of a particular activity in which it engages.
 
--  **Waste** **Management** Enable efficient, recycling friendly, municipal or industrial waste management using containers, litters, etc.
+-  **Waste** **Management**. Enable efficient, recycling friendly, municipal or industrial waste management using containers, litters, etc.
 
--  **Parking** Real time and static parking data (on street and off street) interoperable with the EU standard DATEX II.
+-  **Parking**. Real time and static parking data (on street and off street) interoperable with the EU standard DATEX II.
 
--  **Weather** Weather observed, weather forecasted or warnings about potential extreme weather conditions.
+-  **Weather**. Weather observed, weather forecasted or warnings about potential extreme weather conditions.
 
-ENTIDADES SOFIA2
-================
+
+
+Entidades SOFIA2
+----------------
+
 
 La Plataforma sofia2 gestiona dos tipos de entidades:
 
@@ -70,16 +75,22 @@ La Plataforma sofia2 gestiona dos tipos de entidades:
 
 -  **Ontologías**. Los assets generan información y dicha información se modela por medio de ontologías (JSON) en la Plataforma.
 
+
 (Recomendamos al respecto leer el \ `**documento Gobierno de Ontologías** <http://sofia2.com/docs/SOFIA2-Gobierno%20Ontologias.pdf>`__ o el \ `**conjunto de posts al respecto** <https://about.sofia2.com/?s=gobierno%20de%20ontolog%C3%ADas>`__).
+
 
 Los Data Models GSMA y FIWARE se definen en JSON por lo que \ **su representación como Ontología Sofia2 es inmediata**. Para ello, haremos uso de las plantillas predefinidas que soportan los anteriores modelos.
 
+
+
 PLANTILLAS (MODELO GSMA/FIWARE)
-===============================
+-------------------------------
+
 
 En Sofia2 se soportan las entidades GSMA vía Plantillas (una plantilla sirve para crear
 
 ontologías partiendo de una definición):
+
 
 |image3|
 
