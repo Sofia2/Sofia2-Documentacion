@@ -120,51 +120,12 @@ Para la definición de Plantillas se utiliza una simplificación del estándar d
 Para hacernos una idea veamos un ejemplo de un esquema JSON sencillo:
 
 
-**{**
+|image4|
 
-**"$schema":** **"**\ http://json-schema.org/draft-04/schema#\ **",**
 
-**"title":** **"**\ Product\ **",**
-
-**"description":** **"**\ A product from Acme's catalog\ **",**
-
-**"type":** **"**\ object\ **",**
-
-**"properties":** **{**
-
-*"id"*\ **:** **{**
-
-**"description":** **"**\ The unique identifier for a product\ **",**
-
-**"type":** **"**\ integer\ **"**
-
-**},**
-
-*"name"*\ **:** **{**
-
-**"description":** **"**\ Name of the product\ **",**
-
-**"type":** **"**\ string\ **"**
-
-**},**
-
-*"price"*\ **:** **{**
-
-**"type":** **"**\ number\ **",**
-
-**"minimum":** **0,**
-
-**"exclusiveMinimum":** **true**
-
-**}**
-
-**},**
-
-**"required":** **["**\ id\ **",** **"**\ name\ **",** **"**\ price\ **"]**
-
-**}**
 
 Que validaría como válidos JSONs como este:
+
 
 **{**
 
