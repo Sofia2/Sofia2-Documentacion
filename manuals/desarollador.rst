@@ -36,6 +36,12 @@ Si quieres desarrollar tu APP para interactuar con la plataforma Sofia2 las sigu
   ./desarrollador/tutorial_dispositivos
 
 
+.. toctree::
+   :caption: Tutorial Dispositivos
+  ./desarrollador/DATA_MODEL_FIWARE_GSMA_EN_SOFIA2
+  
+
+
 
 APIS y librerías Sofia2
 -----------------------
