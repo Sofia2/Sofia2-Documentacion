@@ -1867,19 +1867,19 @@ curl -v –H "-X-SOFIA2-APIKey:<my\_token>" "`http://sofia2.com/sib-api/api/v1/g
 
 
 
-.. |image2| image:: ./media/image5.jpeg
+.. |image2| image:: ./media/image225.jpeg
    :width: 3.27083in
    :height: 2.42783in
-.. |image3| image:: ./media/image6.png
+.. |image3| image:: ./media/image226.png
    :width: 6.88125in
    :height: 1.07014in
-.. |image4| image:: ./media/image7.png
+.. |image4| image:: ./media/image227.png
    :width: 6.89059in
    :height: 3.20870in
-.. |image5| image:: ./media/image8.png
+.. |image5| image:: ./media/image228.png
    :width: 6.87292in
    :height: 0.34028in
-.. |image6| image:: ./media/image6.png
+.. |image6| image:: ./media/image229.png
    :width: 6.89531in
    :height: 3.18473in
 .. |image7| image:: ./media/image9.png
