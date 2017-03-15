@@ -1723,7 +1723,9 @@ Puedo hacer esto desde el simulador de datos para simular instancias de la ontol
 
 Selecciono
 
-|image23| en la tabla:
+|image23| 
+
+en la tabla:
 
 |image24|
 
