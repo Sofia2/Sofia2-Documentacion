@@ -1676,9 +1676,9 @@ HANDS ON
 5.1. CREACIÓN DE ONTOLOGÍAS (MODELO GSMA/FIWARE)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A continuación veremos cómo Sofia2 permite trabajar con estas entidades. Pongamos el ejemplo de la entidad \ **WeatherObserved (**\ This entity contains a harmonised description of the weather at a particular location and time. This entity is primarily associated with the vertical segments of the environment and agriculture but is applicable to many different applications):
+A continuación veremos cómo Sofia2 permite trabajar con estas entidades. Pongamos el ejemplo de la entidad \ **WeatherObserved **\ :
 
-`**Su aspecto es este:** <http://fiware-datamodels.readthedocs.io/en/latest/Weather/WeatherObserved/doc/spec/index.html>`__
+`Su aspecto es este: <http://fiware-datamodels.readthedocs.io/en/latest/Weather/WeatherObserved/doc/spec/index.html>`__
 
 |image16|
 
