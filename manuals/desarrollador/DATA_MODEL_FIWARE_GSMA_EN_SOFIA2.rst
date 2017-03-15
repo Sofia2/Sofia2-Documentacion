@@ -428,7 +428,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 |image8|
 
 
-`**Ver en FIWARE-DATAMODELS** <http://fiware-datamodels.readthedocs.io/en/latest/Environment/AirQualityObserved/doc/spec/index.html>`__
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/Environment/AirQualityObserved/doc/spec/index.html>`__
 
 
 GSMA-Air Quality Station
@@ -437,6 +437,7 @@ GSMA-Air Quality Station
 Con esta plantilla caracterizaremos un punto de interés: Una Estación de Calidad del Aire.
 
 El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
+
 
 {
 
@@ -574,18 +575,30 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 }
 
+
+
 **Ejemplo de Uso:**
+
 
 |image9|
 
-`**Ver en FIWARE-DATAMODELS** <http://fiware-datamodels.readthedocs.io/en/latest/PointOfInterest/AirQualityStation/doc/spec/index.html>`__
+
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/PointOfInterest/AirQualityStation/doc/spec/index.html>`__
+
+
+
 
 GSMA-Device
 ^^^^^^^^^^^
 
+
+
 Con esta plantilla caracterizaremos un Device (Dispositivo). Una Estación de Calidad del Aire. Un dispositivo es un objeto tangible que contiene alguna lógica y es productor y/o consumidor de datos. Siempre se supone que un dispositivo es capaz de comunicarse electrónicamente a través de una red.
 
 El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
+
+
+
 
 {
 
@@ -735,11 +748,17 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 }
 
+
+
 **Ejemplo de Uso:**
+
 
 |image10|
 
-**Ver en FIWARE-DATAMODELS**
+
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/Device/Device/doc/spec/index.html>`__
+
+
 
 GSMA-Key Performance Indicator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
