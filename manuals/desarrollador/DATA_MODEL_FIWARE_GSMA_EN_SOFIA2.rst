@@ -188,6 +188,8 @@ Con esta plantilla caracterizaremos la observación de las condiciones de calida
 
 El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
+
+
 {
 
 "$schema": "http://json-schema.org/draft-04/schema#",
@@ -418,11 +420,16 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 }
 
+
+
 **Ejemplo de Uso:**
+
 
 |image8|
 
+
 `**Ver en FIWARE-DATAMODELS** <http://fiware-datamodels.readthedocs.io/en/latest/Environment/AirQualityObserved/doc/spec/index.html>`__
+
 
 GSMA-Air Quality Station
 ^^^^^^^^^^^^^^^^^^^^^^^^
