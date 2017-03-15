@@ -1808,7 +1808,7 @@ Esta información ya es accesible a través del SIB de Sofia2, a través de cual
 
 También puedo publicar esta Ontología como un API RESTFul para acceder a ella en una url de tipo:
 
-`**http://sofia2.com/sib-api/api/v1/gsma\_weatherobserved\_ontologyes** <http://sofia2.com/sib-api/api/v1/gsma_weatherobserved_ontologyes>`__
+`http://sofia2.com/sib-api/api/v1/gsma\_weatherobserved\_ontologyes <http://sofia2.com/sib-api/api/v1/gsma_weatherobserved_ontologyes>`__
 
 Para eso iré a \ **API Manager>APIs> Crear API:**
 
