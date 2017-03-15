@@ -95,7 +95,7 @@ En Sofia2 se soportan las entidades GSMA vía Plantillas (una plantilla sirve pa
 
 
 Esquemas JSON (JSON-SChema)
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 
@@ -182,7 +182,7 @@ Veamos a continuación el esquema que siguen algunas de las plantillas existente
 
 
 GSMA-Air Quality Observed
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos la observación de las condiciones de calidad del aire en un determinado lugar y tiempo.
 
@@ -425,7 +425,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 `**Ver en FIWARE-DATAMODELS** <http://fiware-datamodels.readthedocs.io/en/latest/Environment/AirQualityObserved/doc/spec/index.html>`__
 
 GSMA-Air Quality Station
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos un punto de interés: Una Estación de Calidad del Aire.
 
@@ -574,7 +574,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 `**Ver en FIWARE-DATAMODELS** <http://fiware-datamodels.readthedocs.io/en/latest/PointOfInterest/AirQualityStation/doc/spec/index.html>`__
 
 GSMA-Device
------------
+^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos un Device (Dispositivo). Una Estación de Calidad del Aire. Un dispositivo es un objeto tangible que contiene alguna lógica y es productor y/o consumidor de datos. Siempre se supone que un dispositivo es capaz de comunicarse electrónicamente a través de una red.
 
@@ -735,7 +735,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 **Ver en FIWARE-DATAMODELS**
 
 GSMA-Key Performance Indicator
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos un Key Performance Indicator (KPI), o lo que es lo mismo, un Indicador Clave de Rendimiento, un tipo de medición del desempeño. Los KPIs evalúan el éxito de una organización o de una actividad particular en la que se involucra.
 
@@ -972,7 +972,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 **Ver en FIWARE-DATAMODELS**
 
 GSMA-Parking Access
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos un punto de acceso a un parking, normalmente un parking fuera de la calle.
 
@@ -1101,7 +1101,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 **Ver en FIWARE-DATAMODELS**
 
 GSMA-Streetlight
-----------------
+^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos un punto de iluminación urbano.
 
@@ -1266,7 +1266,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 **Ver en FIWARE-DATAMODELS**
 
 GSMA-Weather Observed
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos la observación de las condiciones climáticas en un lugar y tiempo determinados.
 
@@ -1479,7 +1479,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 **Ver en FIWARE-DATAMODELS**
 
 GSMA-Weather Station
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 Con esta plantilla caracterizaremos el punto de interés: Estación meteorológica.
 
@@ -1628,10 +1628,10 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 **Ver en FIWARE-DATAMODELS**
 
 HANDS ON
-========
+--------
 
 5.1. CREACIÓN DE ONTOLOGÍAS (MODELO GSMA/FIWARE)
-------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A continuación veremos cómo Sofia2 permite trabajar con estas entidades. Pongamos el ejemplo de la entidad \ **WeatherObserved (**\ This entity contains a harmonised description of the weather at a particular location and time. This entity is primarily associated with the vertical segments of the environment and agriculture but is applicable to many different applications):
 
@@ -1738,7 +1738,7 @@ Si voy al comienzo de la pantalla veré que ya se ha insertado:
 |image29|
 
 5.2. CONSULTA DE LOS DATOS DE LA ONTOLOGÍA CREADA (MODELO GSMA/FIWARE)
-----------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Una vez cargado este dato ya podré consultarlo desde los mecanismos de Sofia2:
 
@@ -1757,7 +1757,7 @@ Que me devuelve los datos de la instancia insertada (además de los datos de Con
 Esta información ya es accesible a través del SIB de Sofia2, a través de cualquiera de las APIs que ofrece.
 
 5.3. PUBLICAR ONTOLOGÍA COMO API RESTFUL
-----------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 También puedo publicar esta Ontología como un API RESTFul para acceder a ella en una url de tipo:
 
