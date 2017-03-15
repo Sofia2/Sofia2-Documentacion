@@ -1682,7 +1682,7 @@ A continuación veremos cómo Sofia2 permite trabajar con estas entidades. Ponga
 
 |image16|
 
-1. Comenzaremos por acceder al Panel de Control de Sofia2. Para ello podremos crear un usuario o acceder desde \ `**aquí** <https://sofia2.com/console/login>`__.
+1. Comenzaremos por acceder al Panel de Control de Sofia2. Para ello podremos crear un usuario o acceder desde \ `aquí <https://sofia2.com/console/login>`__.
 
 |image17|
 
@@ -1690,7 +1690,11 @@ Una vez hecho el LOGIN, si nuestro rol es USUARIO,
 
 |image18|
 
-deberé solicitar el para poder crear Ontologías.
+deberé solicitar el 
+
+|image42|
+
+para poder crear Ontologías.
 
 2. Una vez mi usuario tiene rol COLABORADOR podré crear la Ontología que representa la Entidad WeatherObserved.
 
