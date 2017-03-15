@@ -991,11 +991,15 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 }
 
+
 **Ejemplo de Uso:**
+
 
 |image11|
 
-**Ver en FIWARE-DATAMODELS**
+
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/KeyPerformanceIndicator/doc/spec/index.html>`__
+
 
 GSMA-Parking Access
 ^^^^^^^^^^^^^^^^^^^
@@ -1124,10 +1128,12 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 |image12|
 
-**Ver en FIWARE-DATAMODELS**
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/Parking/ParkingAccess/doc/spec/index.html>`__
+
 
 GSMA-Streetlight
 ^^^^^^^^^^^^^^^^
+
 
 Con esta plantilla caracterizaremos un punto de iluminación urbano.
 
@@ -1285,18 +1291,24 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 }
 
+
 **Ejemplo de Uso:**
+
 
 |image13|
 
-**Ver en FIWARE-DATAMODELS**
+
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/StreetLighting/Streetlight/doc/spec/index.html>`__
+
 
 GSMA-Weather Observed
 ^^^^^^^^^^^^^^^^^^^^^
 
+
 Con esta plantilla caracterizaremos la observación de las condiciones climáticas en un lugar y tiempo determinados.
 
 El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
+
 
 {
 
@@ -1502,14 +1514,17 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 |image14|
 
-**Ver en FIWARE-DATAMODELS**
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/Weather/WeatherObserved/doc/spec/index.html>`__
+
 
 GSMA-Weather Station
 ^^^^^^^^^^^^^^^^^^^^
 
+
 Con esta plantilla caracterizaremos el punto de interés: Estación meteorológica.
 
 El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
+
 
 {
 
@@ -1651,7 +1666,9 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 |image15|
 
-**Ver en FIWARE-DATAMODELS**
+`Ver en FIWARE-DATAMODELS <http://fiware-datamodels.readthedocs.io/en/latest/PointOfInterest/WeatherStation/doc/spec/index.html>`__
+
+
 
 HANDS ON
 --------
