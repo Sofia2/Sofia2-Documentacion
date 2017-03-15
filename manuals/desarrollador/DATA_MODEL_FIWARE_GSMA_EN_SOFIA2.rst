@@ -1726,7 +1726,7 @@ Selecciono \ |image23| en la tabla:
 
 |image24|
 
-Si me fijo en el ejemplo que ponía antes: \ `**http://fiware-datamodels.readthedocs.io/en/latest/Weather/WeatherObserved/doc/spec/index.html** <http://fiware-datamodels.readthedocs.io/en/latest/Weather/WeatherObserved/doc/spec/index.html>`__
+Si me fijo en el ejemplo que ponía antes: \ `WeatherObserved <http://fiware-datamodels.readthedocs.io/en/latest/Weather/WeatherObserved/doc/spec/index.html>`__
 
 {
 
