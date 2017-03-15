@@ -1860,7 +1860,7 @@ Al invocarlo veo esto:
 
 Esta misma invocación se puede realizar vía curl con una invocación de este estilo (escapamos el $por %24):
 
-curl -v –H "-X-SOFIA2-APIKey:<my\_token>" "`**http://sofia2.com/sib-api/api/v1/gsma\_weatherobserved\_ontologyes/getByStationName?%24stationName=Valladolid** <http://sofia2.com/sib-api/api/v1/gsma_weatherobserved_ontologyes/getByStationName?%24stationName=Valladolid>`__"
+curl -v –H "-X-SOFIA2-APIKey:<my\_token>" "`http://sofia2.com/sib-api/api/v1/gsma\_weatherobserved\_ontologyes/getByStationName?%24stationName=Valladolid <http://sofia2.com/sib-api/api/v1/gsma_weatherobserved_ontologyes/getByStationName?%24stationName=Valladolid>`__"
 
 |image41|
 
