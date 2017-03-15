@@ -1719,9 +1719,9 @@ Con esto ya tengo creada mi Ontología conforme el Modelo Data Model GSMA.
 
 **3. **\ Lo siguiente que haré será cargar unos datos para poder hacer consultas.
 
-Puedo hacer esto desde el simulador de datos para simular instancias de la ontología, pero también puedo acceder a la gestión CRUD para crear datos desde un formulario. Desde \ **Ontologías>Gestión CRUD de Instancias:**
+Puedo hacer esto desde el simulador de datos para simular instancias de la ontología, pero también puedo acceder a la gestión CRUD para crear datos desde un formulario. Desde  **Ontologías>Gestión CRUD de Instancias:**
 
-Selecciono  |image23| en la tabla:
+Selecciono |image23| en la tabla:
 
 |image24|
 
