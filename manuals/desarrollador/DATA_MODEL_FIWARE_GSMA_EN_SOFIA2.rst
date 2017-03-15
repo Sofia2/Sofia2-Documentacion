@@ -1824,7 +1824,7 @@ POST para INSERT, PUT para UPDATE y CUSTOM QUERY
 
 En la CUSTOM QUERY quiero poder sacar los datos para una estación, por tanto la consulta es como esta:
 
-“select \* from GSMA\_WeatherObserved\_Ontology where stationName=’Valladolid’ “
+**select \* from GSMA\_WeatherObserved\_Ontology where stationName=’Valladolid’ **
 
 En el UI debe registrarse así:
 
