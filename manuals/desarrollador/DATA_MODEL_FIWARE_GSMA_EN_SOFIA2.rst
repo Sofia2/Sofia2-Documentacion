@@ -1684,15 +1684,14 @@ A continuación veremos cómo Sofia2 permite trabajar con estas entidades. Ponga
 
 1. Comenzaremos por acceder al Panel de Control de Sofia2. Para ello podremos crear un usuario o acceder desde \ `aquí <https://sofia2.com/console/login>`__.
 
-|image17|
+
 
 Una vez hecho el LOGIN, si nuestro rol es USUARIO,
-
-|image18|
+|image17|
 
 deberé solicitar el 
 
-|image42|
+|image18|
 
 para poder crear Ontologías.
 
