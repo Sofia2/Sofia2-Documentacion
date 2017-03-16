@@ -1,7 +1,7 @@
 .. figure::  ./../../images/logo_sofia2_grande.png
  :align:   center
 
-
+|image42|
 
 DATA MODEL FIWARE/GSMA EN SOFIA2
 ================================
@@ -1988,5 +1988,8 @@ curl -v –H "-X-SOFIA2-APIKey:<my\_token>" "`http://sofia2.com/sib-api/api/v1/g
    :width: 6.87500in
    :height: 1.17708in
 .. |image41| image:: ./media/image263.png
+   :width: 6.58721in
+   :height: 2.14583in
+.. |image42| image:: ./media/image267.png
    :width: 6.58721in
    :height: 2.14583in
