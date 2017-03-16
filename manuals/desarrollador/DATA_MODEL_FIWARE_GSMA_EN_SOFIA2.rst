@@ -1,7 +1,7 @@
 .. figure::  ./../../images/logo_sofia2_grande.png
  :align:   center
 
-|image42|
+
 
 DATA MODEL FIWARE/GSMA EN SOFIA2
 ================================
@@ -420,6 +420,9 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 }
 
+
+
+|image42|
 
 
 **Ejemplo de Uso:**
