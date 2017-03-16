@@ -1673,7 +1673,7 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 HANDS ON
 --------
 
-5.1. CREACIÓN DE ONTOLOGÍAS (MODELO GSMA/FIWARE)
+5.1. Creación de Ontologías (Modelo GSMA/FIWARE)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A continuación veremos cómo Sofia2 permite trabajar con estas entidades. Pongamos el ejemplo de la entidad \ **WeatherObserved **\ :
@@ -1787,7 +1787,7 @@ Si voy al comienzo de la pantalla veré que ya se ha insertado:
 
 |image29|
 
-5.2. CONSULTA DE LOS DATOS DE LA ONTOLOGÍA CREADA (MODELO GSMA/FIWARE)
+5.2. Consulta de los datos de la Ontología creada (Modelo GSMA/FIWARE)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Una vez cargado este dato ya podré consultarlo desde los mecanismos de Sofia2:
@@ -1806,7 +1806,7 @@ Que me devuelve los datos de la instancia insertada (además de los datos de Con
 
 Esta información ya es accesible a través del SIB de Sofia2, a través de cualquiera de las APIs que ofrece.
 
-5.3. PUBLICAR ONTOLOGÍA COMO API RESTFUL
+5.3. Publicar Ontología como API RESTFUL
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 También puedo publicar esta Ontología como un API RESTFul para acceder a ella en una url de tipo:
