@@ -422,8 +422,6 @@ El JSON-Schema que seguiremos para definir el modelo de datos es el siguiente:
 
 
 
-|image42|
-
 
 **Ejemplo de Uso:**
 
