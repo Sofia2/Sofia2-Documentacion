@@ -71,7 +71,7 @@ Al finalizar este paso, habremos dado de alta en Sofia2 una ontología, caracter
 
 -  Definición en Base de datos histórica del soporte de almacenamiento de datos históricos para la ontología. En una instalación de referencia (Con Hive sobre Hadoop como BDH) esto se materializa en una tabla Hive llamada **LecturaTermostato¸** que será donde se almacenen los datos cuando su ventana de tiempo real finalice.
 
--  Definición de permisos sobre la ontología. En este caso solo tiene permiso el propietario, ya que fue declarada como privada. No obstante, desde el menú de ontologías, el propietario puede dar permisos (Lectura, Escritura o Total) a usuarios concretos, o a grupos de usuarios con los que tenga proyectos comunes `Post concepto de grupo/ <https://about.sofia2.com/2016/09/07/concepto-de-grupo/>`__.
+-  Definición de permisos sobre la ontología. En este caso solo tiene permiso el propietario, ya que fue declarada como privada. No obstante, desde el menú de ontologías, el propietario puede dar permisos (Lectura, Escritura o Total) a usuarios concretos, o a grupos de usuarios con los que tenga proyectos comunes. `Concepto de grupo <https://about.sofia2.com/2016/09/07/concepto-de-grupo/>`__.
 
 Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 
@@ -84,13 +84,13 @@ Conecta tu dispositivo
 
 |image11|
 
-    La conexión de dispositivos es el modo de conectar la plataforma al mundo físico. Hay que tener en cuenta que por “\ **dispositivo**\ ” se entiende **cualquier aplicación o sistema**, que independientemente de su tamaño (Desde un simple sensor, hasta un sistema empresarial) es capaz de enviar/consumir información con la plataforma a través del Gateway IoT de Sofia2.
+La conexión de dispositivos es el modo de conectar la plataforma al mundo físico. Hay que tener en cuenta que por “\ **dispositivo**\ ” se entiende **cualquier aplicación o sistema**, que independientemente de su tamaño (Desde un simple sensor, hasta un sistema empresarial) es capaz de enviar/consumir información con la plataforma a través del Gateway IoT de Sofia2.
 
 |image12|
 
-    Como nota, cabe destacar que este **no es único modo para cargar datos en Sofia2** ni de conectar otros sistemas. En función del tipo de necesidad existen otras **alternativas**: **Api Manager, Ficheros Excel, Tablas Hive, Fuentes Open Data, Escuchas activas a Apis de Internet, e incluso plugins** de interconexión a medida.
+Como nota, cabe destacar que este **no es único modo para cargar datos en Sofia2** ni de conectar otros sistemas. En función del tipo de necesidad existen otras **alternativas**: **Api Manager, Ficheros Excel, Tablas Hive, Fuentes Open Data, Escuchas activas a Apis de Internet, e incluso plugins** de interconexión a medida.
 
-    La conexión de un dispositivo a la plataforma consta de dos pasos:
+La conexión de un dispositivo a la plataforma consta de dos pasos:
 
 -  **Alta del dispositivo en la plataforma**
 
@@ -99,37 +99,37 @@ Conecta tu dispositivo
 Alta del dispositivo en la plataforma:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Consiste en el registro en Sofia2 de una nueva aplicación, que utilizará la plataforma como backend. Permite que cuando la aplicación haga una solicitud para enviar/consultar datos con la plataforma, está la identifique, verifique sus credenciales así como si tiene permiso de acceso a la información solicitada.
+Consiste en el registro en Sofia2 de una nueva aplicación, que utilizará la plataforma como backend. Permite que cuando la aplicación haga una solicitud para enviar/consultar datos con la plataforma, está la identifique, verifique sus credenciales así como si tiene permiso de acceso a la información solicitada.
 
-    En Sofia2, una aplicación se conoce como **ThinKP,** de manera que para dar de alta el dispositivo es necesario registrar un nuevo ThinKP. Para ello, en el menú de la consola de administración **THINKPS SOFIA2 > Mis ThinKPs**
+En Sofia2, una aplicación se conoce como **ThinKP,** de manera que para dar de alta el dispositivo es necesario registrar un nuevo ThinKP. Para ello, en el menú de la consola de administración **THINKPS SOFIA2 > Mis ThinKPs**
 
 |image13|
 
-    Y seleccionar **Nuevo ThinKP:**
+Y seleccionar **Nuevo ThinKP:**
 
 |image14|
 
-    Dar un nombre y descripción al **ThinKP** así como seleccionar las **ontologías** que va a utilizar y pulsar **Crear.** Finalizado este proceso ya tendremos la aplicación dada de alta en Sofia2.
+Dar un nombre y descripción al **ThinKP** así como seleccionar las **ontologías** que va a utilizar y pulsar **Crear.** Finalizado este proceso ya tendremos la aplicación dada de alta en Sofia2.
 
-    En nuestro caso daremos de alta un ThinKP llamado **AppTermostato**, que representará a los termostatos físicos que conectaremos a la plataforma.
+En nuestro caso daremos de alta un ThinKP llamado **AppTermostato**, que representará a los termostatos físicos que conectaremos a la plataforma.
 
 |image15|
 
                
 
-    Y por defecto se habrá creado un **token de autenticación** que podemos consultar en la pestaña **Mis Tokens**
+Y por defecto se habrá creado un **token de autenticación** que podemos consultar en la pestaña **Mis Tokens**
 
 |image16|
 
-    Este token de autenticación se utilizará por los dispositivos y aplicaciones para **autenticarse** en la plataforma Sofia2 y de este modo establecer una conexión con la misma para enviar/consultar información.
+Este token de autenticación se utilizará por los dispositivos y aplicaciones para **autenticarse** en la plataforma Sofia2 y de este modo establecer una conexión con la misma para enviar/consultar información.
 
-    Un ThinKP puede tener **tantos tokens activos como sea necesario**. La gestión de Tokens se hace desde la consola de administración en la pestaña **Mis Tokens** pudiendo generar nuevos tokens e invalidar otros ya existentes.
+Un ThinKP puede tener **tantos tokens activos como sea necesario**. La gestión de Tokens se hace desde la consola de administración en la pestaña **Mis Tokens** pudiendo generar nuevos tokens e invalidar otros ya existentes.
 
-    En esta sección cabe destacar también la pestaña **Mis Instancias**  en este caso vacía ya que todavía no hemos conectado ninguna aplicación física a la plataforma:
+En esta sección cabe destacar también la pestaña **Mis Instancias**  en este caso vacía ya que todavía no hemos conectado ninguna aplicación física a la plataforma:
 
 |image17|
 
-    Una **Instancia de un ThinKP** representa a **una aplicación en ejecución**, de manera que **un ThinKP lógico** (en nuestro caso AppTermostato) **puede tener varias Instancias en ejecución** (Por ejemplo TermostatoDormitorio, TermostatoSalón, TermostatoCocina…) de manera que no es necesario registrar todas las instancias de forma individual en la plataforma, sino que cada instancia, al iniciar conexión indicará de que instancia en concreto se trata.
+Una **Instancia de un ThinKP** representa a **una aplicación en ejecución**, de manera que **un ThinKP lógico** (en nuestro caso AppTermostato) **puede tener varias Instancias en ejecución** (Por ejemplo TermostatoDormitorio, TermostatoSalón, TermostatoCocina…) de manera que no es necesario registrar todas las instancias de forma individual en la plataforma, sino que cada instancia, al iniciar conexión indicará de que instancia en concreto se trata.
 
 Conexión física del dispositivo a través de cualquiera de los gateways IoT: 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -152,9 +152,9 @@ Antes de pasar a desarrollar la aplicación, introduciremos el **Protocolo SSAP*
 
 |image18|
 
-    **SSAP** un protocolo lógico, basado en formato JSON, que define un conjunto de mensajes para que las aplicaciones puedan comunicarse con el IoT Broker de Sofia2. Es independiente del protocolo de transporte físico (MQTT, Ajax/Push, Websocket, REST…), es decir, los mensajes SSAP se encapsulan por el protocolo físico elegido.
+**SSAP** un protocolo lógico, basado en formato JSON, que define un conjunto de mensajes para que las aplicaciones puedan comunicarse con el IoT Broker de Sofia2. Es independiente del protocolo de transporte físico (MQTT, Ajax/Push, Websocket, REST…), es decir, los mensajes SSAP se encapsulan por el protocolo físico elegido.
 
-    Permite:
+Permite:
 
 -  Abrir/Cerrar sesión con el SIB.
 
@@ -164,7 +164,7 @@ Antes de pasar a desarrollar la aplicación, introduciremos el **Protocolo SSAP*
 
 -  Suscribirse/Desuscribirse a eventos.
 
-    Para más información sobre el protocolo SAAP, consultar el blog de Sofia2
+Para más información sobre el protocolo SAAP, consultar el blog de Sofia2
 
 -  `*https://about.sofia2.com/2014/04/14/conociendo-el-protocolo-de-interoperabilidad-de-sofia2-ssap/* <https://about.sofia2.com/2014/04/14/conociendo-el-protocolo-de-interoperabilidad-de-sofia2-ssap/>`__
 
@@ -174,9 +174,9 @@ Antes de pasar a desarrollar la aplicación, introduciremos el **Protocolo SSAP*
 
 -  `*https://about.sofia2.com/2014/04/27/conociendo-las-apis-de-sofia-2-api-restful/* <https://about.sofia2.com/2014/04/27/conociendo-las-apis-de-sofia-2-api-restful/>`__
 
-    Lo siguiente es pasar a desarrollar la aplicación que se ejecutará en el dispositivo y que a través del protocolo SSAP, enviará/consultará información al IoT Broker de Sofia2.
+Lo siguiente es pasar a desarrollar la aplicación que se ejecutará en el dispositivo y que a través del protocolo SSAP, enviará/consultará información al IoT Broker de Sofia2.
 
-    Para desarrollar una aplicación abstrayéndose de las complejidades de los protocolos físicos de conexión, así como simplificar el tratamiento de mensajes SSAP, Sofia2 pone a disposición de los desarrolladores un ejemplo de KP Java que se puede descargar a través de la consola de administración, para ello seleccionamos **Vistra Tradicional** en la pantalla principal:
+Para desarrollar una aplicación abstrayéndose de las complejidades de los protocolos físicos de conexión, así como simplificar el tratamiento de mensajes SSAP, Sofia2 pone a disposición de los desarrolladores un ejemplo de KP Java que se puede descargar a través de la consola de administración, para ello seleccionamos **Vistra Tradicional** en la pantalla principal:
 
 |image19|
 
@@ -220,7 +220,7 @@ Por último seleccionamos **Crear Simulador** para crearlo o directamente **Empe
 
 **Resumen:**
 
-    Al finalizar este paso, habremos registrado y conectado a Sofia2 una aplicación (ThinKP), que podría ejecutarse en un dispositivo para enviar datos:
+Al finalizar este paso, habremos registrado y conectado a Sofia2 una aplicación (ThinKP), que podría ejecutarse en un dispositivo para enviar datos:
 
 -  **Alta** en Sofia2 del **ThinKP** **AppTermostato**, y consulta del token generado automáticamente.
 
@@ -230,7 +230,7 @@ Por último seleccionamos **Crear Simulador** para crearlo o directamente **Empe
 
     Además, como alternativa, habremos creado un simulador de datos, que generará datos aleatorios para insertar en la ontología **LecturaTermostato.**
 
-    Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
+Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 
 |image28|
 
@@ -240,9 +240,9 @@ Verifica el funcionamiento
 |image29|
 ---------
 
-    La consola de administración de Sofia2, ofrece diferentes alternativas para comprobar cómo está funcionando nuestro dispositivo.
+La consola de administración de Sofia2, ofrece diferentes alternativas para comprobar cómo está funcionando nuestro dispositivo.
 
-    Podemos consultar las instancias registradas en **Mis ThinKPs > AppTermostato** y abriendo la pestaña **Mis Instancias.** Comprobamos que ahora si aparece la instancia que hemos conectado en la ejecución del Test:
+Podemos consultar las instancias registradas en **Mis ThinKPs > AppTermostato** y abriendo la pestaña **Mis Instancias.** Comprobamos que ahora si aparece la instancia que hemos conectado en la ejecución del Test:
 
 |image30|
 
@@ -263,90 +263,90 @@ Crear aplicaciones
 
 |image34|
 
-    Una vez que existen datos en la plataforma y a medida que los dispositivos u otras aplicaciones se conectan con Sofia2 es posible crear aplicaciones que interoperen entre sí y exploten la información existente.
+Una vez que existen datos en la plataforma y a medida que los dispositivos u otras aplicaciones se conectan con Sofia2 es posible crear aplicaciones que interoperen entre sí y exploten la información existente.
 
 Crea tu dashboard visualmente
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |image35|
 
-    Los **dashboards** nos permiten visualizar gráficamente la información almacenada por los dispositivos u otras aplicaciones en Sofia2.
+Los **dashboards** nos permiten visualizar gráficamente la información almacenada por los dispositivos u otras aplicaciones en Sofia2.
 
-    Para desarrollar un dashboard primero tenemos que crear los **gadgets** que lo van a formar, ya que un **dashboard es un conjunto de gadgets** unificados en una misma pantalla.
+Para desarrollar un dashboard primero tenemos que crear los **gadgets** que lo van a formar, ya que un **dashboard es un conjunto de gadgets** unificados en una misma pantalla.
 
-    En la consola de administración de Sofia2 existen diferentes alternativas para crear un gadget. En este caso utilizaremos el **Wizard**, que nos permite crear un gadget de forma guiada. Para ello, entramos en la consola de administración y seleccionamos **Visualización > Mis Gadgets**
+En la consola de administración de Sofia2 existen diferentes alternativas para crear un gadget. En este caso utilizaremos el **Wizard**, que nos permite crear un gadget de forma guiada. Para ello, entramos en la consola de administración y seleccionamos **Visualización > Mis Gadgets**
 
 |image36|
 
-    Y seleccionamos **Crear Gadget:**
+Y seleccionamos **Crear Gadget:**
 
 |image37|
 
-    Lo primero es darle **nombre** al gadget, es conveniente que el nombre del gadget guarde relación con el tipo de información que se quiere mostrar, en nuestro caso vamos a representar la temperatura.
+Lo primero es darle **nombre** al gadget, es conveniente que el nombre del gadget guarde relación con el tipo de información que se quiere mostrar, en nuestro caso vamos a representar la temperatura.
 
-    El siguiente paso es seleccionar la **ontología** de la cual vamos a **extraer el campo** que queremos **representar**:
+El siguiente paso es seleccionar la **ontología** de la cual vamos a **extraer el campo** que queremos **representar**:
 
 |image38|
 
-    Seleccionamos el **tipo de gadget** (tipo de componente HTML) y el campo de la ontología que queremos representar en el gadget. En este caso, crearemos un gadget que mostrará el atributo temperatura en un componente de tipo **Gauge**:
+Seleccionamos el **tipo de gadget** (tipo de componente HTML) y el campo de la ontología que queremos representar en el gadget. En este caso, crearemos un gadget que mostrará el atributo temperatura en un componente de tipo **Gauge**:
 
 |image39|
 
-    A continuación se elige el tipo de conexión. Los gadget componentes son dinámicos, una vez se asocian a un atributo de una ontología, cada vez que un dispositivo u otro sistema inserta una nueva instancia de la ontología, el componente se actualiza con el nuevo valor del atributo en dicha instancia. Para ello existen dos modos de conexión para acceder al valor del atributo:
+A continuación se elige el tipo de conexión. Los gadget componentes son dinámicos, una vez se asocian a un atributo de una ontología, cada vez que un dispositivo u otro sistema inserta una nueva instancia de la ontología, el componente se actualiza con el nuevo valor del atributo en dicha instancia. Para ello existen dos modos de conexión para acceder al valor del atributo:
 
 -  **Streaming**: Es un modo de suscripción en el que se obtener los datos en tiempo real en el momento que cambian.
 
 -  **Query**: Es un modo de consulta periódica en el que se lanza periódicamente una query y se actualiza el valor de componente con el resultado.
 
-    En este caso vamos a seleccionar la opción **Query**:
+En este caso vamos a seleccionar la opción **Query**:
 
 |image40|
 
-    A continuación seleccionamos la base de datos sobre la cual se va a ejecutar la query. En este caso utilizaremos la **Base de Datos de Tiempo Real**, además configuramos el periodo de ejecución de la consulta.
+A continuación seleccionamos la base de datos sobre la cual se va a ejecutar la query. En este caso utilizaremos la **Base de Datos de Tiempo Real**, además configuramos el periodo de ejecución de la consulta.
 
 |image41|
 
-    Por último introducimos la query correspondiente. Al tratarse del modo de conexión “query” deberemos volver a seleccionar el campo de la ontología que se va a representar, así como el tipo de gadget (Gauge)
+Por último introducimos la query correspondiente. Al tratarse del modo de conexión “query” deberemos volver a seleccionar el campo de la ontología que se va a representar, así como el tipo de gadget (Gauge)
 
 |image42|
 
-    Una vez configurado el gadget, se mostrará en la parte inferior de la página un ejemplo de cómo quedaría nuestro gauge, para comprobar que es lo que estábamos buscando, y si es así, lo **guardamos**:
+Una vez configurado el gadget, se mostrará en la parte inferior de la página un ejemplo de cómo quedaría nuestro gauge, para comprobar que es lo que estábamos buscando, y si es así, lo **guardamos**:
 
     |image43|
 
-    Repetir los pasos para crear el gadget para representar la humedad, en este caso vamos a seleccionar un gadget tipo **área**:
+Repetir los pasos para crear el gadget para representar la humedad, en este caso vamos a seleccionar un gadget tipo **área**:
 
     |image44|
 
-    Una vez hemos creado nuestros gadgets, pasamos a crear el **dashboard**, para ello seleccionamos la opción de menú **Visualización > Mis Dashboards** de la consola de administración y pulsamos **Crear Dashboard.**
+Una vez hemos creado nuestros gadgets, pasamos a crear el **dashboard**, para ello seleccionamos la opción de menú **Visualización > Mis Dashboards** de la consola de administración y pulsamos **Crear Dashboard.**
 
 |image45|
 
-    La herramienta de creación de dashboards de la plataforma Sofia2 permite seleccionar estilos predefinidos (Default Theme, Blue Green Theme…) o puedes personalizar tu dashboard (Custom Style). Vamos a seleccionar el estilo **Dask Blue Theme** y le asignamos el nombre **LecturaTermostato**:
+La herramienta de creación de dashboards de la plataforma Sofia2 permite seleccionar estilos predefinidos (Default Theme, Blue Green Theme…) o puedes personalizar tu dashboard (Custom Style). Vamos a seleccionar el estilo **Dask Blue Theme** y le asignamos el nombre **LecturaTermostato**:
 
 |image46|
 
-    A continuación creamos una nueva página del dashboard pulsando en **Nueva Página**. Nos aparecerá el dashboard en blanco por lo que ahora añadiremos los gadgets creados anteriormente. Pulsamos el símbolo **+** que aparece en la esquina superior izquierda. Se mostrará un listado con los gadgets creados hasta el momento, seleccionaremos los que queremos representar:
+A continuación creamos una nueva página del dashboard pulsando en **Nueva Página**. Nos aparecerá el dashboard en blanco por lo que ahora añadiremos los gadgets creados anteriormente. Pulsamos el símbolo **+** que aparece en la esquina superior izquierda. Se mostrará un listado con los gadgets creados hasta el momento, seleccionaremos los que queremos representar:
 
 |image47|
 
-    Una vez añadidos los gadgets, podemos situarlos donde prefiramos dentro de la página, cuando el dashboard presente el formato deseado sólo tenemos que pulsar en **Guardar** y ya tendremos guardado nuestro dashboard.
+Una vez añadidos los gadgets, podemos situarlos donde prefiramos dentro de la página, cuando el dashboard presente el formato deseado sólo tenemos que pulsar en **Guardar** y ya tendremos guardado nuestro dashboard.
 
 |image48|
 
-    Desde la consola de administración si accedemos a ** Visualización > Mis Dashboards** veremos nuestro dashboard, si pinchamos en el primer botón de la columna **Opciones**, obtendremos una URL en la cual se podrá ver el dashboard.
+Desde la consola de administración si accedemos a ** Visualización > Mis Dashboards** veremos nuestro dashboard, si pinchamos en el primer botón de la columna **Opciones**, obtendremos una URL en la cual se podrá ver el dashboard.
 
 |image49|
 
-    **Resumen: **
+**Resumen:**
 
-    Al finalizar este paso, habremos construido un **dashboard** que mostrará gráficamente mediante **dos gadgets** los datos enviados por nuestro dispositivo:
+Al finalizar este paso, habremos construido un **dashboard** que mostrará gráficamente mediante **dos gadgets** los datos enviados por nuestro dispositivo:
 
 -  Alta de Gadgets asociándolos a los datos recuperados de una query que se ejecuta periódicamente
 
 -  Desarrollo de dashboard que integra los Gadgets
 
-    Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
+Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 
 |image50|
 
@@ -365,11 +365,11 @@ La plataforma Sofia2 permite crear reglas que se ejecuten en respuesta a la rece
 
 -  
 
-    Pulsamos **Siguiente** e introducimos el nombre que identificará la regla, un timeout para finalizar su ejecución en caso de que se alargue indefinidamente y seleccionamos la ontología, en respuesta a cuyas entradas queremos que se ejecute la regla:
+Pulsamos **Siguiente** e introducimos el nombre que identificará la regla, un timeout para finalizar su ejecución en caso de que se alargue indefinidamente y seleccionamos la ontología, en respuesta a cuyas entradas queremos que se ejecute la regla:
 
 |image54|
 
-    Por último programamos nuestra regla, en este caso se va a evaluar el dato temperatura de la ontología y en el caso de que la temperatura supere un determinado umbral se enviará un correo de alerta, para ello en la pestaña **If** programaremos la condición para que se dispare la regla o no:
+Por último programamos nuestra regla, en este caso se va a evaluar el dato temperatura de la ontología y en el caso de que la temperatura supere un determinado umbral se enviará un correo de alerta, para ello en la pestaña **If** programaremos la condición para que se dispare la regla o no:
 
 |image55|
 
@@ -377,29 +377,29 @@ Mientras que en la pestaña **Then** programaremos la acción a realizar una vez
 
 |image56|
 
-    Una vez guardada y activada la regla cada vez que llegue un evento a la ontología se comprobará el parámetro temperatura y se lanzará o no la regla.
+Una vez guardada y activada la regla cada vez que llegue un evento a la ontología se comprobará el parámetro temperatura y se lanzará o no la regla.
 
-    En Sofia2 tenemos otras herramientas más visuales para la creación de este tipo de reglas, cómo es **Node-RED**. Node-RED es un motor de flujos con enfoque IoT que permite definir gráficamente flujos de servicios, a través de protocolos estándares como REST, MQTT, Websocket… además de ofrecer integración con APIs de terceros, tales como Twitter, Facebook, Yahoo!...
+En Sofia2 tenemos otras herramientas más visuales para la creación de este tipo de reglas, cómo es **Node-RED**. Node-RED es un motor de flujos con enfoque IoT que permite definir gráficamente flujos de servicios, a través de protocolos estándares como REST, MQTT, Websocket… además de ofrecer integración con APIs de terceros, tales como Twitter, Facebook, Yahoo!...
 
-    En primer lugar, para poder acceder a la herramienta Node-RED integrada en Sofia2 es necesario crearse un dominio, sólo se puede crear un dominio a la hora de crear un proyecto y únicamente podrá haber un dominio por proyecto, es en este dominio donde se arrancará una instancia de Node-RED en la cual podremos empezar a crear nuestros flujos. Si accedemos a **PROYECTOS > Mis Proyectos**:
+En primer lugar, para poder acceder a la herramienta Node-RED integrada en Sofia2 es necesario crearse un dominio, sólo se puede crear un dominio a la hora de crear un proyecto y únicamente podrá haber un dominio por proyecto, es en este dominio donde se arrancará una instancia de Node-RED en la cual podremos empezar a crear nuestros flujos. Si accedemos a **PROYECTOS > Mis Proyectos**:
 
     |image57|
 
-    Y seleccionamos **Crear Proyecto** accedemos a la siguiente pantalla:
+Y seleccionamos **Crear Proyecto** accedemos a la siguiente pantalla:
 
     |image58|
 
     |image59|\ En primer lugar hay que nombrar al proyecto, veremos que el campo identificador se rellena automáticamente. Una vez nombrado el proyecto nos vamos a **MOTOR DE FLUJOS** dónde marcaremos que queremos que se cree un dominio asociado a este proyecto.
 
-    Una vez creado el proyecto junto con su dominio, nos vamos a **REGLAS > Mis Flujos**
+Una vez creado el proyecto junto con su dominio, nos vamos a **REGLAS > Mis Flujos**
 
     |image60|
 
     |image61|\ Dónde veremos que aparece una lista con nuestros dominios disponibles:
 
-    Como se puede observar el dominio se encuentra parado, procedemos a arrancarlo seleccionando el *play* que se encuentra en la columna **Opciones**. Al estar trabajando con rol Colaborador nos saldrá un mensaje de aviso de que nuestro dominio se va a arrancar en modo demo, esto quiere decir que pasado un tiempo determinado el dominio se parará sólo dando la posibilidad al usuario de poder volver a arrancarlo.
+Como se puede observar el dominio se encuentra parado, procedemos a arrancarlo seleccionando el *play* que se encuentra en la columna **Opciones**. Al estar trabajando con rol Colaborador nos saldrá un mensaje de aviso de que nuestro dominio se va a arrancar en modo demo, esto quiere decir que pasado un tiempo determinado el dominio se parará sólo dando la posibilidad al usuario de poder volver a arrancarlo.
 
-    Una vez arrancado el dominio, es decir una vez levantada la instancia Node-RED, podremos acceder al editor visual, para ello seleccionamos el dominio en el cual queremos trabajar:\ |image62|
+Una vez arrancado el dominio, es decir una vez levantada la instancia Node-RED, podremos acceder al editor visual, para ello seleccionamos el dominio en el cual queremos trabajar:\ |image62|
 
     |image63|\ Y seleccionamos en **Ver Flujos**:
 
@@ -415,27 +415,27 @@ Mientras que en la pestaña **Then** programaremos la acción a realizar una vez
 
     - **KP instance**: Instancia del ThinKP.
 
-    Lo siguiente es extraer el dato temperatura que se acaba de insertar, para ello arrastramos al editor un nodo **function**, este nodo nos permite tratar los datos programando en javascript, en nuestro caso extraeremos el dato temperatura de la instancia recibida y lo pasaremos al siguiente nodo dentro del payload del mensaje:
+Lo siguiente es extraer el dato temperatura que se acaba de insertar, para ello arrastramos al editor un nodo **function**, este nodo nos permite tratar los datos programando en javascript, en nuestro caso extraeremos el dato temperatura de la instancia recibida y lo pasaremos al siguiente nodo dentro del payload del mensaje:
 
 |image65|
 
-    Ahora tenemos que evaluar si el dato temperatura supera el umbral definido, para ello utilizaremos el nodo **switch**:
+Ahora tenemos que evaluar si el dato temperatura supera el umbral definido, para ello utilizaremos el nodo **switch**:
 
     |image66|
 
-    Por último, en el caso de que se supere dicho umbral se mandará un correo electrónico a través del nodo **e-mail**:
+Por último, en el caso de que se supere dicho umbral se mandará un correo electrónico a través del nodo **e-mail**:
 
     |image67|
 
     |image68|\ Una vez montado el flujo lo desplegamos seleccionando la opción **Deploy** situada en la parte superior derecha del editor. Visualmente el flujo quedaría de la siguiente manera:
 
-    Dicho flujo se desencadenará cada vez que se realice una inserción en la ontología **LecturaTermostato** desde el ThinKP correspondiente.
+Dicho flujo se desencadenará cada vez que se realice una inserción en la ontología **LecturaTermostato** desde el ThinKP correspondiente.
 
-    **Resumen:**
+**Resumen:**
 
-    En este apartado se ha creado una regla en la plataforma de dos formas distintas, desde el motor de Scripting y desde el Motor de Flujos, que se ejecutará cuando se reciba desde el dispositivo información hacia una ontología. Esto permite evaluar la información en el momento que se procesa en Sofia2 y disparar acciones programadas en plataforma en respuesta a dichos eventos de entrada.
+En este apartado se ha creado una regla en la plataforma de dos formas distintas, desde el motor de Scripting y desde el Motor de Flujos, que se ejecutará cuando se reciba desde el dispositivo información hacia una ontología. Esto permite evaluar la información en el momento que se procesa en Sofia2 y disparar acciones programadas en plataforma en respuesta a dichos eventos de entrada.
 
-    Visualmente en este apartado hemos interactuado con los siguientes módulos de la plataforma:
+Visualmente en este apartado hemos interactuado con los siguientes módulos de la plataforma:
 
 |image69|
 
@@ -445,31 +445,31 @@ Exponer información con un API REST
 |image70|
 ~~~~~~~~~
 
-    Sofia2 permite publicar nuestras ontologías como APIs REST. Esto es especialmente interesante en la integración con otros sistemas, ya que toda la información, tanto de tiempo real, como histórica, queda disponible para ser consultada y actualizada como si de un recurso HTTP se tratase, manteniendo los mismos principios de autenticación y autorización del resto de la plataforma.
+Sofia2 permite publicar nuestras ontologías como APIs REST. Esto es especialmente interesante en la integración con otros sistemas, ya que toda la información, tanto de tiempo real, como histórica, queda disponible para ser consultada y actualizada como si de un recurso HTTP se tratase, manteniendo los mismos principios de autenticación y autorización del resto de la plataforma.
 
-    Para exponer una ontología como un API REST, accedemos a la opción de menú **API Manager > APIs** de la consola de administración y seleccionamos **Crear API**:
+Para exponer una ontología como un API REST, accedemos a la opción de menú **API Manager > APIs** de la consola de administración y seleccionamos **Crear API**:
 
 |image71|
 
-    Le asignamos el **Nombre** a nuestra API y la marcamos como **Pública**. **Desmarcamos** la opción “\ **API Externa**\ ”, ya que es una opción para invocar a APIs de terceros, y seleccionamos la **ontología que queremos publicar**. Vamos a establecer una cache de 5 minutos para los resultados de las consultas y un límite de 5 consultas al API por minuto.
+Le asignamos el **Nombre** a nuestra API y la marcamos como **Pública**. **Desmarcamos** la opción “\ **API Externa**\ ”, ya que es una opción para invocar a APIs de terceros, y seleccionamos la **ontología que queremos publicar**. Vamos a establecer una cache de 5 minutos para los resultados de las consultas y un límite de 5 consultas al API por minuto.
 
-    Podemos observar como ya se muestra el EndPoint HTTP de acceso a la API que expone nuestra ontología:
+Podemos observar como ya se muestra el EndPoint HTTP de acceso a la API que expone nuestra ontología:
 
 |image72|
 
-    Por último nos aparecen las operaciones que queremos que API REST exponga (e incluso crear operaciones a medida con la opción CUSTOM):
+Por último nos aparecen las operaciones que queremos que API REST exponga (e incluso crear operaciones a medida con la opción CUSTOM):
 
 |image73|
 
-    Crearemos dos operaciones **CUSTOM**, uno por cada tipo de dato que almacenamos, Humedad y Temperatura.
+Crearemos dos operaciones **CUSTOM**, uno por cada tipo de dato que almacenamos, Humedad y Temperatura.
 
 |image74|
 
-    El resultado final será algo parecido a lo siguiente:
+El resultado final será algo parecido a lo siguiente:
 
 |image75|
 
-    Una vez creada la API la pasamos **Publicada** pulsando en el botón Publicar del listado de API.
+Una vez creada la API la pasamos **Publicada** pulsando en el botón Publicar del listado de API.
 
 |image76|
 
@@ -477,31 +477,31 @@ Cada usuario dispone de un **API Key** que lo identifica en la plataforma a efec
 
 |image77|
 
-    Para utilizar un API es necesario suscribirse a él, salvo el propietario, que queda suscrito por defecto. En la pestaña **Mis Suscripciones** podemos consultar todas las APIs a las que tenemos acceso, así como consultar su documentación e invocarlas utilizando un cliente REST integrado en la consola de administración
+Para utilizar un API es necesario suscribirse a él, salvo el propietario, que queda suscrito por defecto. En la pestaña **Mis Suscripciones** podemos consultar todas las APIs a las que tenemos acceso, así como consultar su documentación e invocarlas utilizando un cliente REST integrado en la consola de administración
 
     |image78|
 
-    Pulsando **Test & Doc** accedemos a la documentación y cliente REST del API
+Pulsando **Test & Doc** accedemos a la documentación y cliente REST del API
 
 |image79|
 
-    Al pulsar sobre cada opción nos aparece la meta información del servicio.
+Al pulsar sobre cada opción nos aparece la meta información del servicio.
 
-    Para utilizar el cliente REST del API debemos introducir el Token de usuario del **API Key** en la cabecera **X-SOFIA2-APIKey**
+Para utilizar el cliente REST del API debemos introducir el Token de usuario del **API Key** en la cabecera **X-SOFIA2-APIKey**
 
 |image80|
 
-    Y ejecutando Submit, obtendremos el resultado de la consulta que habíamos definido en la operación Custom anteriormente.
+Y ejecutando Submit, obtendremos el resultado de la consulta que habíamos definido en la operación Custom anteriormente.
 
     |image81|
 
-    En la pestaña **Request Info** podemos ver el URL de invocación de la operación, que será el End Point que se creó cuando generamos el API más la operación.
+En la pestaña **Request Info** podemos ver el URL de invocación de la operación, que será el End Point que se creó cuando generamos el API más la operación.
 
 |image82|
 
-**Resumen: **
+**Resumen:**
 
-    Al finalizar este paso, habremos **publicado un API REST** con dos operaciones Custom, para acceder vía métodos HTTP, a los datos almacenados por nuestro dispositivo.
+Al finalizar este paso, habremos **publicado un API REST** con dos operaciones Custom, para acceder vía métodos HTTP, a los datos almacenados por nuestro dispositivo.
 
 -  Alta del API REST con dos métodos Custom sobre nuestra ontología.
 
@@ -509,7 +509,7 @@ Cada usuario dispone de un **API Key** que lo identifica en la plataforma a efec
 
 -  Invocación a un método del API REST mediante cliente integrado en la plataforma.
 
-    Visualmente en este apartado hemos interactuado con los siguientes módulos de la plataforma:
+Visualmente en este apartado hemos interactuado con los siguientes módulos de la plataforma:
 
 |image83|
 
