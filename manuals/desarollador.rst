@@ -12,7 +12,7 @@ Si quieres desarrollar tu APP para interactuar con la plataforma Sofia2 las sigu
 
 .. toctree::
    :caption: Primeros Pasos Sofia2
-  ./desarrollador/Guia_Primeros_Pasos
+  ./desarrollador/primeros_pasos
   
 
 
