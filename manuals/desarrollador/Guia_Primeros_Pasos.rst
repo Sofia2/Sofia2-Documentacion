@@ -166,17 +166,18 @@ Permite:
 
 Para más información sobre el protocolo SAAP, consultar el blog de Sofia2
 
--  `*https://about.sofia2.com/2014/04/14/conociendo-el-protocolo-de-interoperabilidad-de-sofia2-ssap/* <https://about.sofia2.com/2014/04/14/conociendo-el-protocolo-de-interoperabilidad-de-sofia2-ssap/>`__
 
--  `*https://about.sofia2.com/2014/10/09/mensaje-ssap-bulk/* <https://about.sofia2.com/2014/10/09/mensaje-ssap-bulk/>`__
+-  `Conociendo el protocolo de interoperabilidad de sofia2 ssap <https://about.sofia2.com/2014/04/14/conociendo-el-protocolo-de-interoperabilidad-de-sofia2-ssap/>`__
 
--  `*https://about.sofia2.com/2017/02/21/mejoras-en-protocolo-ssap/* <https://about.sofia2.com/2017/02/21/mejoras-en-protocolo-ssap/>`__
+-  `Mensaje ssap bulk <https://about.sofia2.com/2014/10/09/mensaje-ssap-bulk/>`__
 
--  `*https://about.sofia2.com/2014/04/27/conociendo-las-apis-de-sofia-2-api-restful/* <https://about.sofia2.com/2014/04/27/conociendo-las-apis-de-sofia-2-api-restful/>`__
+-  `Mejoras en protocolo ssap <https://about.sofia2.com/2017/02/21/mejoras-en-protocolo-ssap/>`__
+
+-  `Conociendo las apis de Sofia2 <https://about.sofia2.com/2014/04/27/conociendo-las-apis-de-sofia-2-api-restful/>`__
 
 Lo siguiente es pasar a desarrollar la aplicación que se ejecutará en el dispositivo y que a través del protocolo SSAP, enviará/consultará información al IoT Broker de Sofia2.
 
-Para desarrollar una aplicación abstrayéndose de las complejidades de los protocolos físicos de conexión, así como simplificar el tratamiento de mensajes SSAP, Sofia2 pone a disposición de los desarrolladores un ejemplo de KP Java que se puede descargar a través de la consola de administración, para ello seleccionamos **Vistra Tradicional** en la pantalla principal:
+Para desarrollar una aplicación abstrayéndose de las complejidades de los protocolos físicos de conexión, así como simplificar el tratamiento de mensajes SSAP, Sofia2 pone a disposición de los desarrolladores un ejemplo de KP Java que se puede descargar a través de la consola de administración, para ello seleccionamos **Vista Tradicional** en la pantalla principal:
 
 |image19|
 
