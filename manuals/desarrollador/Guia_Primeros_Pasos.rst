@@ -61,7 +61,7 @@ Y finalmente podemos Generar una Instancia con un dato de ejemplo para el tipo d
 
 |image9|
 
-**Resumen: **
+**Resumen:**
 
 Al finalizar este paso, habremos dado de alta en Sofia2 una ontología, caracterizada por:
 
@@ -218,7 +218,7 @@ Por último seleccionamos **Crear Simulador** para crearlo o directamente **Empe
 
 **Nota:** hay que tener en cuenta que el simulador se ejecuta en el propio navegador del cliente, por lo tanto si se cierra la ventana del navegador se interrumpirá la simulación.
 
-    **Resumen: **
+**Resumen:**
 
     Al finalizar este paso, habremos registrado y conectado a Sofia2 una aplicación (ThinKP), que podría ejecutarse en un dispositivo para enviar datos:
 
