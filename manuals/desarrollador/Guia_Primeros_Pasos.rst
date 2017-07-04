@@ -515,8 +515,8 @@ Cada usuario dispone de un **API Key** que lo identifica en la plataforma a efec
    :width: 8.39623in
    :height: 11.69811in
 .. |image1| image:: ./media/2.png
-   :width: 6.89097in
-   :height: 4.57764in
+   :width: 5.89097in
+   :height: 3.57764in
 .. |image2| image:: ./media/3.png
    :width: 1.62264in
    :height: 1.91021in
