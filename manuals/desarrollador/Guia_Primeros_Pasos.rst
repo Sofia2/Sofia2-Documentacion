@@ -35,29 +35,29 @@ En la consola de administración de Sofia2 existen diferentes alternativas para 
 
 |image3|
 
-    Y a continuación **Creación Paso a Paso:**
+Y a continuación **Creación Paso a Paso:**
 
 |image4|
 
-    Modelaremos una ontología para simular un termostato. Por lo que le daremos un **nombre** y la marcaremos como **Activa**:
+Modelaremos una ontología para simular un termostato. Por lo que le daremos un **nombre** y la marcaremos como **Activa**:
 
 |image5|
 
-    A continuación elegiremos la plantilla a partir de la que modelaremos la ontología. Una plantilla permite crear una ontología con unos atributos por defecto. En función del proyecto es una opción muy interesante, ya que la plantilla contiene una definición base de las ontologías a crear.
+A continuación elegiremos la plantilla a partir de la que modelaremos la ontología. Una plantilla permite crear una ontología con unos atributos por defecto. En función del proyecto es una opción muy interesante, ya que la plantilla contiene una definición base de las ontologías a crear.
 
-    En nuestro caso elegiremos una **plantilla vacía**, para dar de alta nosotros mismos los campos de la ontología:
+En nuestro caso elegiremos una **plantilla vacía**, para dar de alta nosotros mismos los campos de la ontología:
 
 |image6|
 
-    A continuación damos de alta dos propiedades: **temp** y **hum** para representar las medidas de temperatura y humedad enviadas por el termostato. Y además marcamos el campo **additionalProperties** como **false**, para indicar la restricción de que no se admitirán otras propiedades para este tipo de datos:
+A continuación damos de alta dos propiedades: **temp** y **hum** para representar las medidas de temperatura y humedad enviadas por el termostato. Y además marcamos el campo **additionalProperties** como **false**, para indicar la restricción de que no se admitirán otras propiedades para este tipo de datos:
 
 |image7|
 
-    Pulsamos **Generar Esquema** para generar el JSONSchema que define el tipo de datos de la ontología:
+Pulsamos **Generar Esquema** para generar el JSONSchema que define el tipo de datos de la ontología:
 
 |image8|
 
-    Y finalmente podemos Generar una Instancia con un dato de ejemplo para el tipo de datos definido por esta ontología, y darla de alta en la plataforma pulsando **Crear:**
+Y finalmente podemos Generar una Instancia con un dato de ejemplo para el tipo de datos definido por esta ontología, y darla de alta en la plataforma pulsando **Crear:**
 
 |image9|
 
@@ -76,6 +76,8 @@ Al finalizar este paso, habremos dado de alta en Sofia2 una ontología, caracter
 Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 
 |image10|
+
+
 
 Conecta tu dispositivo
 ----------------------
