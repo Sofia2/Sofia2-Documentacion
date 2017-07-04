@@ -71,7 +71,7 @@ Al finalizar este paso, habremos dado de alta en Sofia2 una ontología, caracter
 
 -  Definición en Base de datos histórica del soporte de almacenamiento de datos históricos para la ontología. En una instalación de referencia (Con Hive sobre Hadoop como BDH) esto se materializa en una tabla Hive llamada **LecturaTermostato¸** que será donde se almacenen los datos cuando su ventana de tiempo real finalice.
 
--  Definición de permisos sobre la ontología. En este caso solo tiene permiso el propietario, ya que fue declarada como privada. No obstante, desde el menú de ontologías, el propietario puede dar permisos (Lectura, Escritura o Total) a usuarios concretos, o a grupos de usuarios con los que tenga proyectos comunes (`*https://about.sofia2.com/2016/09/07/concepto-de-grupo/* <https://about.sofia2.com/2016/09/07/concepto-de-grupo/>`__).
+-  Definición de permisos sobre la ontología. En este caso solo tiene permiso el propietario, ya que fue declarada como privada. No obstante, desde el menú de ontologías, el propietario puede dar permisos (Lectura, Escritura o Total) a usuarios concretos, o a grupos de usuarios con los que tenga proyectos comunes `https://about.sofia2.com/2016/09/07/concepto-de-grupo/ <https://about.sofia2.com/2016/09/07/concepto-de-grupo/>`__.
 
 Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 
