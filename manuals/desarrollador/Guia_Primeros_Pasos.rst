@@ -235,7 +235,7 @@ Al finalizar este paso, habremos registrado y conectado a Sofia2 una aplicación
 
 -  **Ejecución** de la **App** para abrir sesión en Sofia2, enviar datos a la ontología **LecturaTermostato**.
 
-    Además, como alternativa, habremos creado un simulador de datos, que generará datos aleatorios para insertar en la ontología **LecturaTermostato.**
+Además, como alternativa, habremos creado un simulador de datos, que generará datos aleatorios para insertar en la ontología **LecturaTermostato.**
 
 Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 
