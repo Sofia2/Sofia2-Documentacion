@@ -181,7 +181,9 @@ Para desarrollar una aplicación abstrayéndose de las complejidades de los prot
 
 |image19|
 
-|image20|\ Se cargará una vista distinta de la página principal de la consola de administración, dónde tendremos que seleccionar la opción **Descargar ejemplo Kp Java**:
+Se cargará una vista distinta de la página principal de la consola de administración, dónde tendremos que seleccionar la opción  **Descargar ejemplo Kp Java**:
+
+|image20|
 
 Automáticamente empezará la descarga de un zip que tendremos que descomprimir y cargar en el Eclipse.
 
@@ -211,9 +213,13 @@ Como se ha destacado anteriormente, existe una opción alternativa no programát
 
 |image25|
 
-|image26|\ Si seleccionamos **Crear Simulador** nos mostrará la siguiente pantalla:
+Si seleccionamos **Crear Simulador** nos mostrará la siguiente pantalla:
 
-|image27|\ Para nuestro caso hemos creado un simulador **numericosCurso** que simula datos numéricos del 5 al 20 con una precisión de 2 decimales y que insertará datos cada 5 segundos. Una vez Añadido el generador al listado seleccionamos la ontología en la cual queremos insertar y asignamos a cada campo de la ontología el generador correspondiente. En nuestro caso utilizaremos el mismo generador para rellenar los campos de temperatura y humedad:
+|image26| 
+
+Para nuestro caso hemos creado un simulador **numericosCurso** que simula datos numéricos del 5 al 20 con una precisión de 2 decimales y que insertará datos cada 5 segundos. Una vez Añadido el generador al listado seleccionamos la ontología en la cual queremos insertar y asignamos a cada campo de la ontología el generador correspondiente. En nuestro caso utilizaremos el mismo generador para rellenar los campos de temperatura y humedad:
+
+|image27|
 
 Por último seleccionamos **Crear Simulador** para crearlo o directamente **Empezar** para empezar a insertar datos simulados en la ontología.
 
@@ -253,7 +259,9 @@ También podemos consultar la información enviada por el dispositivo a las dist
 
 Donde se pueden ejecutar consultas sobre las distintas ontologías, tanto en formato SQL como en formato Nativo de la Base de datos subyacente. En nuestro caso, consultaremos en la BDTR la ontología **LecturaTermostato**, para comprobar que el último dato almacenado es el que hemos introducido desde nuestra App (Test Java del paso anterior):
 
-|image32|\ |image33|
+|image32|
+
+|image33|
 
 **Resumen: **
 
@@ -390,21 +398,30 @@ Y seleccionamos **Crear Proyecto** accedemos a la siguiente pantalla:
 
     |image58|
 
-    |image59|\ En primer lugar hay que nombrar al proyecto, veremos que el campo identificador se rellena automáticamente. Una vez nombrado el proyecto nos vamos a **MOTOR DE FLUJOS** dónde marcaremos que queremos que se cree un dominio asociado a este proyecto.
+En primer lugar hay que nombrar al proyecto, veremos que el campo identificador se rellena automáticamente. Una vez nombrado el proyecto nos vamos a **MOTOR DE FLUJOS** dónde marcaremos que queremos que se cree un dominio asociado a este proyecto.
+
+    |image59|
 
 Una vez creado el proyecto junto con su dominio, nos vamos a **REGLAS > Mis Flujos**
 
     |image60|
 
-    |image61|\ Dónde veremos que aparece una lista con nuestros dominios disponibles:
+Dónde veremos que aparece una lista con nuestros dominios disponibles:
+
+    |image61|
 
 Como se puede observar el dominio se encuentra parado, procedemos a arrancarlo seleccionando el *play* que se encuentra en la columna **Opciones**. Al estar trabajando con rol Colaborador nos saldrá un mensaje de aviso de que nuestro dominio se va a arrancar en modo demo, esto quiere decir que pasado un tiempo determinado el dominio se parará sólo dando la posibilidad al usuario de poder volver a arrancarlo.
 
-Una vez arrancado el dominio, es decir una vez levantada la instancia Node-RED, podremos acceder al editor visual, para ello seleccionamos el dominio en el cual queremos trabajar:\ |image62|
+|image62|
 
-    |image63|\ Y seleccionamos en **Ver Flujos**:
+Una vez arrancado el dominio, es decir una vez levantada la instancia Node-RED, podremos acceder al editor visual, para ello seleccionamos el dominio en el cual queremos trabajar:
+Y seleccionamos en **Ver Flujos**:
 
-    |image64|\ Vamos a construir un flujo que haga exactamente lo mismo que la regla script creada anteriormente. En el Node-RED que está integrado con la plataforma tenemos unos nodos propios para interactuar con la misma, uno de estos nodos en el **ssap-process-request**, este nodo nos permite escuchar eventos de una determinada ontología asociada a un ThinKP y nos proporciona como dato de salida la instancia que se acaba de insertar. Arrastramos el nodo al editor, haciendo doble click sobre el nodo se desplegará un listado de parámetros necesarios para configurar el nodo:
+    |image63| 
+
+Vamos a construir un flujo que haga exactamente lo mismo que la regla script creada anteriormente. En el Node-RED que está integrado con la plataforma tenemos unos nodos propios para interactuar con la misma, uno de estos nodos en el **ssap-process-request**, este nodo nos permite escuchar eventos de una determinada ontología asociada a un ThinKP y nos proporciona como dato de salida la instancia que se acaba de insertar. Arrastramos el nodo al editor, haciendo doble click sobre el nodo se desplegará un listado de parámetros necesarios para configurar el nodo:
+
+    |image64|
 
     - **Message adress**: la dirección del flujo, en este caso es de tipo INPUT
 
@@ -428,7 +445,9 @@ Por último, en el caso de que se supere dicho umbral se mandará un correo elec
 
     |image67|
 
-    |image68|\ Una vez montado el flujo lo desplegamos seleccionando la opción **Deploy** situada en la parte superior derecha del editor. Visualmente el flujo quedaría de la siguiente manera:
+Una vez montado el flujo lo desplegamos seleccionando la opción **Deploy** situada en la parte superior derecha del editor. Visualmente el flujo quedaría de la siguiente manera:
+
+    |image68|
 
 Dicho flujo se desencadenará cada vez que se realice una inserción en la ontología **LecturaTermostato** desde el ThinKP correspondiente.
 
