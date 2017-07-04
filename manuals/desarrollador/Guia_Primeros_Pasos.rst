@@ -19,6 +19,7 @@ Modela los datos:
 
 |image2|
 
+
     La plataforma Sofia2 funciona en torno a los datos enviados por los dispositivos o aplicaciones conectados. Cualquier evento, medida, comando... se gestiona en la plataforma como un dato, que es almacenado, puede ser consultado y además puede desencadenar ciertas acciones (notificaciones, ejecución de reglas/flujos…).
 
     Por lo que cada tipo de datos utilizados por un dispositivo o aplicación, se debe modelar y dar de alta en la plataforma la correspondiente entidad, denomina Ontología. Una Ontología tiene los siguientes propósitos:
