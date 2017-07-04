@@ -31,7 +31,7 @@ Por lo que cada tipo de datos utilizados por un dispositivo o aplicación, se de
 
 -  Definir las reglas de seguridad en el acceso a la información contenida en la ontología.
 
-    En la consola de administración de Sofia2 existen diferentes alternativas para crear una ontología. En este caso utilizaremos la opción de **Crear ontología paso a paso**. Para ello, entramos en la consola de administración y seleccionamos **Ontologías > Crear Ontología**
+En la consola de administración de Sofia2 existen diferentes alternativas para crear una ontología. En este caso utilizaremos la opción de **Crear ontología paso a paso**. Para ello, entramos en la consola de administración y seleccionamos **Ontologías > Crear Ontología**
 
 |image3|
 
@@ -514,10 +514,10 @@ Cada usuario dispone de un **API Key** que lo identifica en la plataforma a efec
 .. |image0| image:: ./media/image1.jpg
    :width: 8.39623in
    :height: 11.69811in
-.. |image1| image:: ./media/image2.png
+.. |image1| image:: ./media/2.png
    :width: 6.89097in
    :height: 4.57764in
-.. |image2| image:: ./media/image3.png
+.. |image2| image:: ./media/3.png
    :width: 1.62264in
    :height: 1.91021in
 .. |image3| image:: ./media/image5.png
