@@ -515,27 +515,27 @@ Cada usuario dispone de un **API Key** que lo identifica en la plataforma a efec
    :width: 8.39623in
    :height: 11.69811in
 .. |image1| image:: ./media/2.png
-   :width: 4.89097in
-   :height: 2.57764in
+   :width: 6.89097in
+   :height: 4.57764in
 .. |image2| image:: ./media/3.png
    :width: 1.62264in
    :height: 1.91021in
-.. |image3| image:: ./media/image5.png
+.. |image3| image:: ./media/5.png
    :width: 7.26415in
    :height: 1.89679in
-.. |image4| image:: ./media/image6.png
+.. |image4| image:: ./media/6.png
    :width: 6.03774in
    :height: 3.77233in
-.. |image5| image:: ./media/image7.png
+.. |image5| image:: ./media/7.png
    :width: 7.81132in
    :height: 3.90566in
-.. |image6| image:: ./media/image8.png
+.. |image6| image:: ./media/8.png
    :width: 7.66938in
    :height: 5.57547in
-.. |image7| image:: ./media/image9.png
+.. |image7| image:: ./media/9.png
    :width: 7.65094in
    :height: 4.52327in
-.. |image8| image:: ./media/image10.png
+.. |image8| image:: ./media/10.png
    :width: 7.60503in
    :height: 5.27796in
 .. |image9| image:: ./media/image11.png
