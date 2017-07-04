@@ -263,7 +263,7 @@ Donde se pueden ejecutar consultas sobre las distintas ontologías, tanto en for
 
 |image33|
 
-**Resumen: **
+**Resumen:**
 
 Al finalizar este paso, habremos consultado que nuestro dispositivo está correctamente conectado a Sofia2 y enviando información, así como que podemos lanzar consultas a las Bases de datos para verificar que los datos enviados son correctos.
 
