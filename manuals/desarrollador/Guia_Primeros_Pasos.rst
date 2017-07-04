@@ -1,41 +1,16 @@
-|image0|
+.. figure::  ./../../images/logo_sofia2_grande.png
+ :align:   center
+ 
 
-    Sofia2
+Primeros Pasos con Sofia2
+=========================
 
-Primeros Pasos con Sofia2 IoT Platform
-
-Mayo de 2017
-
-Índice
-
-`*1* *Paso a Paso con Sofia2* 3 <#paso-a-paso-con-sofia2>`__
-
-`*1.1* *Modela los datos:* 4 <#modela-los-datos>`__
-
-`*1.2* *Conecta tu dispositivo* 10 <#conecta-tu-dispositivo>`__
-
-`*1.2.1* *Alta del dispositivo en la plataforma:* 10 <#alta-del-dispositivo-en-la-plataforma>`__
-
-`*1.2.2* *Conexión física del dispositivo a través de cualquiera de los gateways IoT:* 13 <#conexión-física-del-dispositivo-a-través-de-cualquiera-de-los-gateways-iot>`__
-
-`*1.3* *Verifica el funcionamiento* 20 <#verifica-el-funcionamiento>`__
-
-`*1.4* *Crear aplicaciones* 23 <#crear-aplicaciones>`__
-
-`*1.4.1* *Crea tu dashboard visualmente* 23 <#crea-tu-dashboard-visualmente>`__
-
-`*1.4.2* *Crear reglas de forma guiada* 31 <#crear-reglas-de-forma-guiada>`__
-
-`*1.4.3* *Exponer información con un API REST* 42 <#exponer-información-con-un-api-rest>`__
-
-Paso a Paso con Sofia2
-======================
 
 El siguiente flujo muestra los principales pasos a seguir para trabajar con el flujo IoT en Sofia2
 
 |image1|
 
-A continuación se vamos a describir cada paso sobre la plataforma Sofia2, mediante un sencillo ejemplo con un termostato de temperatura y humedad.
+A continuación vamos a describir cada paso sobre la plataforma Sofia2, mediante un sencillo ejemplo con un termostato de temperatura y humedad.
 
 **Nota:** Hay que tener en cuenta que lo que vamos a describir es un flujo IoT sencillo sobre Sofia2. En función del tipo de proyecto, algunos pasos pueden omitirse. Además, esta guía cubre un subconjunto de la funcionalidad de Sofia2, y no se describen todas las herramientas proporcionadas por la plataforma, por lo que solo tiene que ser tenida en cuenta como una primera toma de contacto con Sofia2, para descubrir y afianzar conceptos, de manera que posteriormente sea más fácil profundizar en la totalidad de capacidades de Sofia2.
 
