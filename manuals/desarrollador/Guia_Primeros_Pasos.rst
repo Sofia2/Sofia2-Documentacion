@@ -78,7 +78,6 @@ Gráficamente hemos intervenido en los siguientes componentes de la plataforma:
 |image10|
 
 
-
 Conecta tu dispositivo
 ----------------------
 
