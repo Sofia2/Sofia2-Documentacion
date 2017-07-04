@@ -368,11 +368,9 @@ La plataforma Sofia2 permite crear reglas que se ejecuten en respuesta a la rece
 
 |image52|
 
--  Accederemos a un wizard dónde en primer lugar debemos seleccionar el tipo de regla que queremos generar, seleccionaremos **Generar regla script Ontología**. Se trata de una regla que se ejecuta cada vez que en la plataforma se recibe una instancia de una determinada ontología.
+Accederemos a un wizard dónde en primer lugar debemos seleccionar el tipo de regla que queremos generar, seleccionaremos **Generar regla script Ontología**. Se trata de una regla que se ejecuta cada vez que en la plataforma se recibe una instancia de una determinada ontología.
 
    |image53|
-
--  
 
 Pulsamos **Siguiente** e introducimos el nombre que identificará la regla, un timeout para finalizar su ejecución en caso de que se alargue indefinidamente y seleccionamos la ontología, en respuesta a cuyas entradas queremos que se ejecute la regla:
 
