@@ -9,7 +9,6 @@ Se recomienda previamente leer la documentación Básica para adquirir los conce
 Si quieres desarrollar tu APP para interactuar con la plataforma Sofia2 las siguientes Guías para desarrolladores te serán de gran utilidad.
 
 
-
 .. toctree::
    :caption: Primeros Pasos Sofia2
   ./desarrollador/primeros_pasos
